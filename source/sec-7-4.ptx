@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Properties of Logarithms</title>
+
+<activity><title>Three Properties</title>
+
+<task><p>Complete the statements of the three properties.</p>
+<p>If <m>x,~y \gt 0</m>,</p>
+<p><ol>
+  <li><p><m>\log_b (xy) = </m></p></li>
+  <li><p><m>\log_b \left(\dfrac{x}{y} \right) = </m></p></li>
+  <li><p><m>\log_b (x^m) = </m></p></li>
+</ol></p></task>
+
+<task><p>Verify that the properties are true for these examples by calculating the logs:</p>
+<p>Property (1):</p>
+    <p><md><mrow>~~~~\log_2 32 = \log_2 (4 \cdot 8) \amp = \log_2 4 + \log_2 8 ~~~~~~~~~~ \text{because} ~2^5 = 2^2 \cdot 2^3)</mrow>
+      <mrow><fillin/> \amp = <fillin/> + <fillin/></mrow></md></p>
+<p>Property (2):</p>
+    <p><md><mrow>~~~~\log_2 8 = \log_2 \left(\dfrac{16}{2} \right)\amp  = \log_2 16 - \log_2 2 ~~~~~~~~~~ \text{because} ~2^3 = \dfrac{2^4}{2^1}</mrow>
+    <mrow><fillin/> \amp = <fillin/> - <fillin/></mrow></md></p>
+<p>Property (3):</p>
+    <p><md><mrow>~~~~\log_2 64 = \log_2 (4^3) \amp = 3\log_2 4 ~~~~~~~~~~  \text{because} ~(2^2)^3 = 2^6</mrow>
+    <mrow><fillin/> \amp = <fillin/> \times <fillin/></mrow></md></p></task>
+
+<task><p>Given that <m>\log_b 2 = 0.6931,~ \log_b 3 = 1.0986,~</m> and <m>\log_b 5 = 1.6094~</m>,  use the properties to simplify each expression.</p>
+<p><ol>
+  <li><p><m>\log_b 3x</m></p></li>
+  <li><p><m>\log_b \dfrac{5}{x}</m></p></li>
+  <li><p><m>\log_b 8</m></p></li>
+  <li><p><m>\log_b \sqrt{5x}</m></p></li>
+</ol></p></task>
+
+<task><p>Caution! Be careful when using the properties of logarithms. Which expressions in each group are equivalent (if any)?</p>
+<p><ol>
+  <li><p><m>\log \dfrac{x}{25}~~~~~~~~\dfrac{\log x}{\log 25}~~~~~~~~\log x - \log 25~~~~~~~~\log (x-25)</m></p></li>
+  <li><p><m>\log (25x)~~~~~~~~\log 25 + \log x~~~~~~~~\log (x+25)~~~~~~~~\log x \log 25</m></p></li>
+  <li><p><m>\log (x^2)~~~~~~~~(\log x)^2~~~~~~~~2 \log x~~~~~~~~\log 2x</m></p></li>
+</ol></p></task>
+</activity>
+
+<activity><title>Solving Exponential Equations</title>
+ <introduction><p> Now we can solve exponential equations to any base, by using the third log property.</p></introduction>
+
+<task><p>Follow the steps to solve the equation  <m>~~3^x = 25</m></p>   
+
+  <p>Take the log base 10 of both sides.</p>
+
+  <p>Apply the third log property.</p>
+
+  <p>Divide both sides by  <m>\log 3</m>.</p>
+
+  <p>Use a calculator to obtain an approximation to 4 decimal places.</p></task>
+
+<task><p>Solve <m>~12 \cdot 5^{1.5x} = 85</m></p></task>
+
+<task><p>Starting in 1998, the demand for electricity in Ireland grew at a rate of 5.8% per year. In 1998, 20,500 gigawatts were used.  
+  Write a formula for electricity demand in Ireland as a function of time.</p>
+
+<p>When did demand reach 30,000 gigawatts?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>True or False:</p>
+   <p><ol cols="2"> 
+  <li><p><m>\log (x+y) = \log x + \log y</m></p></li>
+  <li><p><m>\log (x-y) = \log x - \log y</m></p></li>
+  <li><p><m>\log (xy) = \log x \cdot \log y</m></p></li>
+  <li><p><m>\log \left(\dfrac{x}{y}\right) = \dfrac{\log x}{\log y}</m></p></li></ol></p></li> 
+<li><p>How can we use common logarithms to solve exponential equations with any base?</p></li>
+<li><p>Where should you put parentheses when computing <m>\dfrac{\log 8}{\log 3}</m> on your calculator?</p></li>
+<li><p>How can you combine the sum of two logs (of the same base) into one logarithm?</p></li>
+</ol></p></subsection>
+
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to logarithms:</p>
+<p><ul>
+<li><p>Use the properties of logarithms to simplify expressions</p></li>
+<li><p>Avoid mistakes using the properties of logarithms.</p></li>    
+<li><p>Solve exponential equations using base 10 logarithms</p></li>    
+ </ul></p></subsection> 
+
+</section>

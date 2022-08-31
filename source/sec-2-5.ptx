@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Inequalities</title>
+
+<activity><title> Graphing an Inequality</title>
+<introduction><p>Graph the solutions to each inequality. Should the boundary line be solid or dashed?</p></introduction>
+
+<task><sidebyside widths="40% 50%"><p><m>y - 3x \lt 6</m></p>
+  <image source="act-2-5-2.png"></image></sidebyside></task>
+
+<task><sidebyside widths="40% 50%"><p><m>y \gt \dfrac{-3}{2} x</m></p>
+  <image source="act-2-5-2.png"></image></sidebyside></task>
+</activity>
+
+<activity><title>Systems of Inequalities</title>
+<introduction><p>A system of inequalities is a set of two or more inequalities that must be satisfied simultaneously. The solutions of a system are ordered pairs that make each inequality in the system true. Thus, the graph of the solutions is the intersection, or overlap, of the graphs for each inequality in the system.</p>
+<p>To graph the solution set, graph each inequality separately, one at a time. Shade each solution region lightly (or use different colors) so that you can see their intersection.</p></introduction> 
+
+<task><sidebyside widths="50% 50%"><p>Graph each inequality in the system:
+  <md><mrow>5x + 4y \lt 40</mrow>
+      <mrow>-3x + 4y \lt 12</mrow>
+      <mrow>x \lt 6,~ y \gt 2</mrow></md></p><image source="act-2-5-2.png"></image></sidebyside>
+  <sidebyside widths="45% 45%"><stack><p>Inequality 1: <m>~~5x + 4y \lt 40</m></p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>y</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular><p> Test Point:</p></stack>
+  <stack><p>Inequality 2: <m>~~-3x + 4y \lt 12</m></p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>y</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular><p> Test Point:</p></stack></sidebyside>
+<sidebyside widths="45% 45%"><stack><p>Inequality 3: <m>~~x \lt 6</m></p>
+          <p>Remember that <m>x=6</m> is a vertical line. Which side should you shade?</p>
+    </stack>
+  <stack><p>Inequality 4: <m>~~y \gt 2</m></p>
+          <p>Remember that <m>y=2</m> is a horizontal line. Which side should you shade?</p>
+    </stack></sidebyside></task>
+<task><p>Outline the intersection of the four solution sets. Draw dots at the vertices, or corners, of the intersection region. (There are four vertices.)</p></task>
+</activity>
+
+<activity><title>Finding the Vertices</title>
+
+<task><p>Use a system of equations to find the coordinates of each of the vertices of the solution set above.</p>  
+
+<p>Intersection of Line 1 and Line 2:</p>
+
+
+<p>Intersection of Line 1 and Line 3:</p>
+
+
+<p>Intersection of Line 2 and Line 4:</p>
+
+
+<p>Intersection of Line 3 and Line 4:</p></task>
+
+<task><sidebyside><p>Graph the solutions to the system of inequalities, and find the vertices of the solution set.
+  <md><mrow>2y-x \lt 2</mrow>
+      <mrow>x+y \le 4</mrow></md></p>
+      <image source="act-2-5-2.png"></image></sidebyside></task>
+
+<task><sidebyside><p>Graph the solutions to the system of inequalities, and find the vertices of the solution set.
+  <md><mrow>2y+3x \ge 6</mrow>
+      <mrow>2y+x \le 10</mrow>
+      <mrow>x \ge 0,~~y \ge 0</mrow></md></p>
+      <image source="act-2-5-2.png"></image></sidebyside>
+  <p>How do the last two inequalities affect the solution set?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>What is the difference between the graph of an equation in two variables and an inequality in two variables?</p></li>
+<li><p>When is it wrong to use <m>(0,0)</m> as a test point?  What should you do instead?</p></li>
+<li><p>What does it mean to shade the intersection of two regions?</p></li>
+<li><p>What portion of the Cartesian plane is described by the inequalities <m>x \gt 0</m> and <m>y \gt 0</m>?</p></li></ol>
+</p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to linear inequalities:</p>
+<p><ul>
+
+<li><p>Graph the solution set for an inequality in two variables</p></li>    
+<li><p>Graph the solution set for a system of inequalities</p></li>
+<li><p>Find the vertices of the solution set</p></li>
+</ul></p></subsection>    
+
+</section>

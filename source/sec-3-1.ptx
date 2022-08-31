@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Extraction of Roots</title>
+  
+<activity><title>Volume</title>
+<introduction><p>You are designing a new coffee maker. The coffee filter must be 8.4 centimeters tall and shaped like a cone. The volume of the filter will therefore depend on how wide the opening is (the radius of the cone).</p></introduction>
+
+<task><p>Write a formula for the filter's volume <m>V</m> in terms of its widest radius <m>r</m> (at the top of the filter). (Hint: Look up the formula for the volume of a cone.)</p>
+<p>Simplify your formula by multiplying the constants together.</p></task>
+
+<task><p>Complete the table of values. Round the volumes to one decimal place.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>r</m> (cm)</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell></row>
+                <row><cell><m>V</m> (cm<m>^3</m>)</cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+    </tabular></task>
+
+  <task><p>Look at the table of values. If you double the radius of the filter, by what factor does the volume increase?</p></task>
+  <task><p>Write and solve an equation to answer the question: If the volume of the filter is 302.4 cubic centimeters, what is its radius?</p></task>
+  <task><p>Use technology to graph the volume equation. (Use the table of values to help you choose a window.) Sketch your graph on paper, including scales on the axes). Label the coordinates of the point on the graph that corresponds to the filter in part (d).</p></task>
+</activity>
+
+<activity><title>Compound Interest</title>
+<introduction><p>Cyril would like to invest $5000 for two years in a money market account that pays interest compounded annually.</p>
+</introduction>
+
+<task><p>Write a formula for the balance, <m>B</m>, of Cyril's account after two years in terms of the interest rate, <m>r</m>.</p></task>
+
+<task><p>Complete the table showing Cyril's account balance after two years for various interest rates.</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>r</m> (cm)</cell>
+                    <cell><m>0.02</m></cell>
+                    <cell><m>0.04</m></cell>
+                    <cell><m>0.06</m></cell>
+                    <cell><m>0.08</m></cell></row>
+                <row><cell><m>B</m> (cm<m>^3</m>)</cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+    </tabular></task>
+<task><p>If Cyril would like to have $6250 in two years, what interest rate must the account pay?</p></task>
+<task><p>Use technology to graph the formula for Cyril's account balance. (Use the table of values to help you choose a window.) Sketch your graph on paper, including scales on the axes). Label the coordinates of the point on the graph that corresponds to the filter in part (c).</p></task>
+</activity>
+
+<activity><title>Extraction of Roots</title>
+
+<task><p>Solve each equation by extraction of roots. <ol>
+  <li><p><m>(x+3)^2=4</m></p></li>
+  <li><p><m>(3x+1)^2=25</m></p></li></ol></p></task>
+
+<task><p>Solve. Give your answers two ways: (i) exact values and (ii) approximations rounded to thousandths.<ol>
+  <li><p><m>6(x-3)^2=30</m></p></li>
+  <li><p><m>520+60(2+x)^2=1000</m></p></li></ol></p></task>
+
+<task><p>Solve each formula for the requested variable.<ol>
+  <li><p><m>V=\frac{1}{3}\pi r^2 h~~</m> for <m>r</m></p></li>
+  <li><p><m>d=h-\frac{1}{2}gt^2~~</m> for <m>t</m></p></li></ol></p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Sketch a graph that illustrates why a quadratic equation can have two solutions.</p></li>
+<li><p>In part (d) of Activity 1, what technique did you use to solve the equation?</p></li>
+<li><p>Explain how you found the solution to part (c) of Activity 2, being careful to list all the steps you used.</p></li>
+<li><p>Explain how to deal with the fractions in Problem (c) of Activity 3.</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to quadratic models:
+<ul>
+<li><p>Recognize a quadratic equation and its parameters</p></li>
+<li><p>Graph a parabola by plotting points</p></li>
+<li><p>Solve a quadratic equation by extraction of roots</p></li>
+<li><p>Use formulas that involve quadratic terms</p></li>
+</ul></p></subsection>
+
+</section>

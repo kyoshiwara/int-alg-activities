@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithmic Scales</title>
+
+<activity><title>Weights of Animals</title>
+<task><p>The table shows the mass, or weights, of different animals. Try to plot all these values on a number line.  Why is that difficult?</p>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell>Shrew</cell>
+                    <cell>Cat</cell>
+                    <cell>Wolf</cell>
+                    <cell>Horse</cell>
+                    <cell>Elephant</cell>
+                    <cell>Whale</cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.004</cell>
+                    <cell>4</cell>
+                    <cell>80</cell>
+                    <cell>300</cell>
+                    <cell>5400</cell>
+                    <cell>70,000</cell></row>
+    </tabular></task>
+  <task><p>Instead, take the log of each animal's weight, then plot those values:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell>Shrew</cell>
+                    <cell>Cat</cell>
+                    <cell>Wolf</cell>
+                    <cell>Horse</cell>
+                    <cell>Elephant</cell>
+                    <cell>Whale</cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.004</cell>
+                    <cell>4</cell>
+                    <cell>80</cell>
+                    <cell>300</cell>
+                    <cell>5400</cell>
+                    <cell>70,000</cell></row>
+                <row><cell>Log (Mass)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular>
+
+    <p>Number line: </p>
+    <p>This type of graph is called a log scale. </p></task>
+
+  <task><p>Consider another table of weights for some hypothetical animals.</p>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Animal</cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell>
+                    <cell><m>\hphantom{0}</m></cell></row>
+                <row><cell>Mass (kg)</cell>
+                    <cell>0.6</cell>
+                    <cell>6</cell>
+                    <cell>60</cell>
+                    <cell>600</cell></row>
+                <row><cell>Log (Mass)</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular>
+    <p>What do you notice about the weights of these four animals?</p>
+    <p>What do you notice about the logs of their weights?</p>
+    <p>Multiplying by a factor of 10 on a normal scale results in  <fillin/>  on a log scale.</p></task>
+  </activity>
+
+<activity><title>Richter Scale</title>
+ <introduction><p>On April 30, 1986, an earthquake in Mexico City measured 7.0 on the Richter scale. On September 21 a second earthquake, measuring 8.1, hit Mexico City. How many times stronger was the September quake than the one in April?</p></introduction>
+
+ <task><p> Let <m>A_1</m> denote the amplitude of the April quake, with <m>M_1 = 7.0</m>.</p> 
+  <p>Let <m>A_2</m> denote the amplitude of the September quake, with <m>M_2 = 8.1</m></p> 
+
+  <p>Use the formula <m>M = \log_{10} \left(\dfrac{A}{A_0}\right)</m> to calculate <m>A_1</m> and <m>A_2</m> (in terms of <m>A_0</m> :</p>
+
+   <p>Solve for <m>A_1</m>:  <m>~~~ M_1 = \log_{10} \left(\dfrac{A_1}{A_0}\right)</m></p>
+   <p>Solve for <m>A_2</m>:  <m>~~~ M_2 = \log_{10} \left(\dfrac{A_2}{A_0}\right)</m></p></task>
+
+   <task><p>Finally, compute the ratio <m>~\dfrac{A_2}{A_1}~</m> and answer the question in the problem.</p></task>
+ </activity>
+
+ <subsection><title>Check Your Understanding</title>
+ <p><ol>
+<li><p>How does a log scale differ from a linear scale?</p></li>
+<li><p>What happens to the log of a number when you multiply the number by 10?</p></li>
+<li><p>Why are log scales useful for displaying data?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to logarithms:</p>
+<p><ul>
+<li><p>Plot and read values on a logarithmic scale</p></li>    
+<li><p>Solve problems involving log scales such as pH, decibels, and the Richter scale</p></li>
+</ul></p></subsection>  
+
+</section>

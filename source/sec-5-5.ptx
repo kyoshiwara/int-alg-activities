@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inverse Variation</title>
+
+<activity><title>Inverse Variation</title>
+<task><p>Complete the statements about inverse variation.</p>
+  <p><ul>  
+  <li><p>The formula for inverse variation is <fillin/> .</p></li>                          
+  <li><p>An inverse variation is an example of a  <fillin/> function.</p></li>
+  <li><p>The graph of an inverse variation has a  <fillin/> at <m>x=0</m> .</p></li>
+  <li><p>If <m>y</m> varies inversely with <m>x</m>, so that <m>y=\dfrac{k}{x}</m>, what is true about the product of the variables?</p></li></ul></p></task>
+</activity>
+
+<activity><title>Wrapping Paper</title>
+<introduction><p>The marketing department for a paper company is testing wrapping paper rolls in various dimensions to see which shape consumers prefer. All the rolls contain the same amount of wrapping paper.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Width (feet)</cell>
+                    <cell>2</cell>
+                    <cell>2.5</cell>
+                    <cell>3</cell></row>
+                <row><cell>Length (feet)</cell>
+                    <cell>12</cell>
+                    <cell>9.6</cell>
+                    <cell>8</cell></row>
+                <row><cell>Length <m>\cdot</m> Feet</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+    </tabular></introduction>
+<task><p>Compute the product of the length and width for each roll of wrapping paper. What is the constant of inverse proportionality?</p></task>
+<task><p>Express the length, <m>L</m> of the paper as a function of the width, <m>w</m> of the roll.</p></task> 
+<task><p>Sketch a graph of the function. Which basic graph does your answer resemble?</p>
+      <image source="act-5-5-1.png" width="35%"></image></task>
+</activity>
+
+<activity><title>Ocean Temperature</title>
+<introduction><p>The thermocline is a layer of ocean water where the temperature changes rapidly. The table shows the temperature of the water as a function of depth in the thermocline. What is the ocean temperature at a depth of 500 meters?</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Depth (m)</cell>
+                    <cell>200</cell>
+                    <cell>400</cell>
+                    <cell>1000</cell></row>
+                <row><cell>Temperature (<m>\degree</m>C)</cell>
+                    <cell>20</cell>
+                    <cell>10</cell>
+                    <cell>4</cell></row>
+    </tabular></introduction>      
+<task><p>How do you know from the table that this is an inverse variation?</p></task>
+<task><p>Find a formula for <m>T</m>, temperature, in terms of <m>D</m>, depth.</p></task>  
+<task><p>What is the ocean temperature at a depth of 500 meters?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>How can you recognize direct variation from a graph?</p></li>     
+<li><p>What should you compute to see if <m>w</m> varies inversely with <m>p</m>?</p></li>
+<li><p>Is every decreasing function an inverse variation?  Explain.</p></li>
+<li><p>In Activity 3, what happens to <m>T</m> when you double <m>D</m>?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to functions:</p>
+<p><ul>
+<li><p>Recognize inverse variation from a table of values</p></li>
+<li><p>Find the constant of variation and write an equation for the function</p></li> 
+<li><p>Sketch the graph of an inverse variation</p></li> 
+</ul></p></subsection>
+
+</section>

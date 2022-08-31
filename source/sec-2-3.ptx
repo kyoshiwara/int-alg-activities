@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebraic Solution of Systems</title>
+
+
+<activity><title>Interest Problems</title>
+<introduction><p>Carmella has $1200 invested in two stocks; one earns 8% per year and the other earns 12% per year. The income from the 8% stock is $3 more than the income from the 12% stock. How much did she invest in each stock?</p></introduction>
+
+<task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
+      <p><m>\hphantom{0000} x</m>:</p>
+      <p><m>\hphantom{0000} y</m>:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Principal</cell>
+                    <cell>Interest Rate</cell>
+                    <cell>Interest</cell></row>
+                <row><cell>First Stock</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Second Stock</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+                <row><cell>Total</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular></task>
+
+<task><p>Write one equation about the amount Carmella invested.</p></task>
+<task><p>Write a second equation about Carmella's annual interest.</p></task>
+<task><p>Solve the system and answer the question in the problem.</p></task>
+</activity>
+
+<activity><title>Mixture Problems</title>
+<introduction><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?</p></introduction>
+
+<task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
+      <p><m>\hphantom{0000} x</m>:</p>
+      <p><m>\hphantom{0000} y</m>:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Liters</cell>
+                    <cell>% Acid</cell>
+                    <cell>Amount of Acid</cell></row>
+                <row><cell>First Solution</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Second Solution</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+                <row><cell>Mixture</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular></task>
+
+<task><p>Write one equation about the amount of solution Amal needs.</p></task>
+<task><p>Write a second equation about the amount of acid in the solutions.</p></task>
+<task><p>Solve the system and answer the question in the problem.</p></task>
+</activity>
+
+<activity><title>Motion Problems</title>
+<introduction><p>Because of prevailing winds a flight from Detroit to Denver, a distance of 1120 miles, takes 4 hours on Econoflite, while the return trip takes 3.5 hours.  What were the speed of the airplane and the speed of the wind?</p></introduction>
+
+<task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
+      <p><m>\hphantom{0000} x</m>:</p>
+      <p><m>\hphantom{0000} y</m>:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>Rate</cell>
+                    <cell>Time</cell>
+                    <cell>Distance</cell></row>
+                <row><cell>Detroit to Denver</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Denver to Detroit</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular></task>
+
+<task><p>Write one equation about the trip from Detroit to Denver.</p></task>
+<task><p>Write a second equation about the return trip.</p></task>
+<task><p>Solve the system and answer the question in the problem.</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>For the interest problem in Activity 1, we wrote one equation about <fillin/> and a second equation about <fillin/>.</p></li>
+<li><p>For the mixture problem in Activity 2, we wrote one equation about <fillin/> and a second equation about <fillin/>.</p></li>
+<li><p>If you are traveling upstream in a river, how does the current affect your speed?</p></li>
+<li><p>Which of the three types of problems, interest, mixture, or motion, is the easiest?</p></li></ol>
+</p></subsection>
+
+<subsection><title>Wrap Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to linear models: <ul>
+
+<li><p>Solve systems using substitution.</p></li>
+<li><p>Solve systems using elimination.</p></li>
+<li><p>Model and solve applied problems with a system of equations.</p></li></ul></p>
+</subsection> 
+
+</section>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Logarithmic Functions</title>
+
+<activity><title>Inverse Functions</title>
+<introduction><p>For each of the functions shown below,</p>
+<p><ol>
+  <li><p>Complete the table of values, then make a table of values for the inverse function.</p></li>  
+  <li><p>Sketch the inverse on the same graph as the function.</p></li>  
+  <li><p>For which of these functions is the inverse also a function?</p></li>
+</ol></p></introduction>
+
+<task><p><m>y=x^2</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-1.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+
+<task><p><m>y=x^3</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-2.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+
+<task><p><m>y=\sqrt{x}</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-3.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>6</m></cell>
+                    <cell><m>9</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+
+<task><p><m>y=\sqrt[3]{x}</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-4.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-8</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>8</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+
+<task><p><m>y=\dfrac{1}{x}</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-5.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+
+<task><p><m>y=\dfrac{1}{x^2}</m></p>
+<sidebyside widths="45% 50%"><image source="act-10-1-6.png"></image>  
+    <stack><p>Table for function:</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <p>Table for inverse function:</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></stack></sidebyside></task>
+  </activity>
+
+<activity><title>Making a Choice</title>
+<introduction><p>Hick's Law says that the time, <m>T</m>, required for a person to make a choice from a list or menu of <m>n</m> items is proportional to <m>\log_2 {n+1}</m>. A classic study measured the amount of time shoppers took to choose a flavor of jam from a display of 6 flavors and from a display of 24 flavors. Hick's Law is used by restaurants and web-designers in making menus, and by survey companies in designing multiple-choice questionaires.</p></introduction>
+
+<task><p>Graciela is choosing an AirBnB for her next vacation. If there are <m>n</m> choices available, it will take her <m>T</m> minutes to make her choice, where
+      <me>T=5 \log_2 {n+1}</me> 
+Complete the table and make a graph.</p>
+<sidebyside widths="40% 55%">
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>n</m></cell>
+                    <cell>3</cell>
+                    <cell>7</cell>
+                    <cell>15</cell>
+                    <cell>31</cell></row>
+                <row><cell><m>T</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <image source="act-10-1-7.png"></image></sidebyside></task>
+<task><p>If Graciela has 30 minutes to spend choosing an AirBnB, how many can she consider?</p></task>
+</activity>
+
+<activity><title>A Log Function</title>
+<introduction><p>In this Activity we compare the graphs of <m>~y=\sqrt{x}~</m>  and <m>~y=\log_2{x}~</m>.</p></introduction>  
+
+<task><p>Use your calculator to complete the table. Use the formula <m>~\log_2{x} = \dfrac{\log{x}}{\log{2}}</m> when needed to evaluate 
+ <m>\log_2{x}</m>. Round values to tenths.</p>
+
+<sidebyside widths="40% 50%">
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\sqrt{x}</m></cell>
+                    <cell><m>\log_2{x}</m></cell></row>
+                <row>
+                    <cell>0</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>1</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>2</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>4</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>6</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>8</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>12</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>16</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>20</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>32</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <image source="act-10-1-8.png"></image></sidebyside></task>
+<task><p>Plot both functions on the grid.</p></task>
+<task><p>At which two points do the graphs intersect?</p>
+  <p>Which graph has larger function values in the long run?</p></task> 
+</activity>
+
+<activity><title>Logarithmic Equations</title>
+<task><p>What is a log equation?</p></task>  
+
+<task><p>Follow the steps to solve the equation <m>~\log_2 {(3x-1)} = 5</m></p>
+  <p>Convert to exponential form.</p>
+  <p>Solve the new equation.</p>
+  <p>Check the solution.</p></task>
+<task><p> To solve more complicated log equations, we first use the log properties to combine any expressions 
+containing logs into a single logarithm.</p>
+<p>Follow the steps to solve <m>~~\log_4 {(x+8)} + \log_4 {(x+2)} = 2</m></p>
+  <p>Use log properties to write the left side as a single log.</p> 
+  <p>Convert the equation to exponential form.</p>
+  <p>Solve the new equation.</p>
+  <p>Don't forget to check for extraneous solutions!</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>If you double the number of choices under Hick's Law in Activity 1, approximately how much more time will you need to make your choice?</p></li>
+<li><p>Suppose you don't have a calculator handy.  How can you estimate the value of <m>\log_2 {50}</m>?</p></li>
+<li><p>How do we check for extraneous solutions when solving a logarithmic equation?</p></li>
+<li><p>How might you use the properties of logarithms when solving a logarithmic equation?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to logarithmic functions:</p>
+<p><ul>
+<li><p>Use a graph of <m>f</m> to find values of <m>f^{-1}</m></p></li>
+<li><p>Evaluate logarithmic functions</p></li>
+<li><p>Graph logarithmic functions</p></li>
+<li><p>Solve logarithmic equations</p></li>
+</ul></p></subsection>
+
+</section>

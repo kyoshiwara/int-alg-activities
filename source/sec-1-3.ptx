@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intercepts</title>
+
+<activity><title>Interpreting the Intercepts</title>
+    <p>Copper is the third most widely used metal, behind iron and aluminum. In 2007 the US Geological Survey estimated that there are 490 million tons of usable copper reserves left in the world. The global consumption of copper in 2007 was 17.8 million tons.</p>
+    <task><p>Supposing that we continue to consume copper at the same annual rate, write an equation for the amount of copper, <m>C</m>, in millions of tons, remaining <m>t</m> years after 2007.</p></task>
+    <task><p>Complete the table of values.</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Year</cell>
+                    <cell>2010</cell>
+                    <cell>2015</cell>
+                    <cell>2020</cell></row>
+                <row><cell><m>t~</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>C~</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></task>
+    <task><p>Graph the equation.</p>
+          <image source="act-1-3-1.png" width="40%"></image></task>
+    <task><p>Use algebra to find the coordinates of each intercept of the graph.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t~</m></cell>
+                    <cell><m>C~</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular></task>
+    <task><p>Explain what the intercepts tell us about the problem.</p>
+
+          <p>The <m>C</m>-intercept is  <fillin/>  .  It tells us:</p>
+
+          <p>The <m>t</m>-intercept is  <fillin/>  .  It tells us:</p></task></activity>
+
+  <activity><title>General Form for a Linear Equation</title>
+    <p>The owner of a gas station has $19,200 to spend on unleaded gas this month. Regular unleaded costs him $2.40 per gallon, and premium unleaded costs $3.20 per gallon.</p>
+    <task><p>Write algebraic expressions to answer the questions:</p>
+          <p>How much do <m>x</m> gallons of regular cost?</p>  
+          <p>How much do <m>y</m> gallons of premium cost?</p></task>
+    <task><p>Write an equation that relates the amount of regular unleaded gasoline, <m>x</m>,the owner can buy and the amount of premium unleaded, <m>y</m>.</p></task>
+    <task><p>Find the intercepts and use the intercept method to sketch the graph.</p>
+          <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x~</m></cell>
+                    <cell><m>y~</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular>
+      <image source="act-1-3-2.png" width="40%"></image></task>
+    <task><p>Explain what the intercepts tell us about the amount of gasoline.</p>
+        <p>The <m>x</m>-intercept is  <fillin/>  .  It tells us:</p>
+
+        <p>The <m>y</m>-intercept is  <fillin/>  .  It tells us:</p></task>
+
+    <task><p>If the gas station owner would like to buy 5000 gallons of regular gasoline, how many gallons of premium can he buy?  Label this point on the graph.</p></task>
+    <task><p>What is the meaning of the point <m>(2000, 4500)</m> on the graph?</p></task></activity>
+
+  <subsection><title>Check Your Understanding</title><ol>
+    <li><p>In Activity 1, how did you use algebra to find the intercepts of the graph?</p></li>
+    <li><p>In Activity 1, which intercept gives the starting value of <m>C</m></p></li>
+    <li><p>The equation you wrote in Activity 2 was different in form from the equation you wrote in Activity 1. How?</p></li>
+    <li><p>In Activity 2, what did the variables <m>x</m> and <m>y</m> represent?</p></li></ol></subsection> 
+
+  <subsection><title>Wrap-Up</title>
+  <p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
+  <p><ul>
+    <li><p>Interpret the intercepts of the graph of a linear model.</p></li>
+    <li><p>Write a model in general linear form, <m>Ax+By=C</m>.</p></li> 
+    <li><p>Find the intercepts of the graph of a linear equation.</p></li>
+    <li><p>Graph a line by the intercept method.</p></li>
+    <li><p>Solve a linear equation for <m>y</m> in terms of <m>x</m>.</p></li></ul></p></subsection>
+
+
+
+</section>

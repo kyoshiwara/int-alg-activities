@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rational Exponents</title>
+
+<activity><title>Kepler's Law</title>
+<introduction><p>Kepler's law gives a relation between the period <m>p</m> of a planet's revolution and its average distance <m>a</m> from the sun:
+  <me>p^2=Ka^3</me>
+where <m>K=1.243 \times 10^{-6}</m>, <m>p</m> is in millions of miles, and <m>a</m> is in years.</p></introduction>
+
+<task><p>Solve Kepler's law for <m>a</m> in terms of <m>p</m>.  Write your equation in two ways:  using a fractional exponent, and using a radical.</p></task>
+
+<task><p>Complete the table for the four inner planets. Give the values of <m>a</m> in millions of miles.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Planet</cell>
+                    <cell>Mercury</cell>
+                    <cell>Venus</cell>
+                    <cell>Earth</cell>
+                    <cell>Mars</cell></row>
+                <row><cell><m>p</m> (years)</cell>
+                    <cell>0.241</cell>
+                    <cell>0.615</cell>
+                    <cell>1.000</cell>
+                    <cell>1.881</cell></row>
+                <row><cell><m>a</m> (<m>10^6</m> miles)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+    </tabular></task>
+
+<task><p>Graph <m>a</m> as a function of <m>p</m>.</p>
+    <image source="act-6-3-1.png" width="50%"></image></task>
+
+<task><p>The planet Neptune is <m>4.497 \times 10^3</m> million miles from the sun. Find its period of revolution.</p></task>
+</activity>
+
+<activity><title>Vampire Bats</title>
+<introduction><p>Small animals like bats cannot survive for long without eating. The weight <m>W</m> of a typical vampire bat decreases over time until its next meal, according to the function   
+    <me>W = f(h) = 130.25 \times 10^{-0.126}</me>
+where <m>h</m> is the number of hours since the bat's most recent meal.</p></introduction>
+
+<task><p>Complete the table showing the bat's weight after fasting for <m>h</m> hours.</p>  
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>h</m> (hours)</cell>
+                    <cell>5</cell>
+                    <cell>10</cell>
+                    <cell>20</cell>
+                    <cell>40</cell>
+                    <cell>50</cell>
+                    <cell>70</cell></row>
+                <row><cell><m>W</m> (grams)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+    </tabular></task>
+<task><p>Graph the equation.</p>
+      <image source="act-6-3-2.png" width="50%"></image></task>
+
+<task><p>A bat can survive for 60 hours without food. What is the bat's weight at the point of starvation? Locate this point on the graph.
+</p></task>
+<task><p>When the bat's weight has dropped to 90 grams, how long has it been without food? How long can it survive before its next meal?
+</p></task> 
+<task><p>Complete the table with the number of hours since eating at various weights, and label the corresponding points on the graph. Round to the nearest hour.</p> 
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Weight (grams)</cell>
+                    <cell>97.5</cell>
+                    <cell>92.5</cell>
+                    <cell>85</cell>
+                    <cell>80</cell></row>
+                <row><cell>Hours since Eating</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+                <row><cell>Point on Graph</cell>
+                    <cell>A</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>D</cell></row>
+    </tabular></task>
+
+<task><p>Compute the slope, including units, from point A to point B, and from point C to point D.</p>
+
+<p><m>~~~~~~~~~~~~~~~~~~~m_{AB} = </m></p> 
+<p><m>~~~~~~~~~~~~~~~~~~~m_{CD} = </m></p></task>
+
+<task><p>Vampire bats sometimes donate blood (through regurgitation) to other bats that are close to starvation. Suppose a bat at point A on the curve donates 5 grams of blood to a bat at point D. How many hours of life does the recipient gain from the 5 grams of food? How many hours of life does the donor give up?</p></task>
+</activity>
+
+<activity><title>Laws of Exponents</title>
+<task><p>Simplify by using the laws of exponents. Write your answers using radicals.</p>
+<p><ol cols="2">
+  <li><p><m>x^{3/4}x^{5/4}</m></p></li>
+  <li><p><m>\left(x^{3/2}\right)^{5/2}</m></p></li>
+  <li><p><m>\dfrac{z^{1/3}}{z^{2/3}}</m></p></li>
+  <li><p><m>\dfrac{w^{1/5}w^{-3/5}}{w^{-4/5}}</m></p></li>
+</ol></p></task>
+
+<task><p>Simplify by using the laws of exponents. Write your answers using radicals.</p>
+<p><ol cols="2">
+  <li><p><m>b^{1/3}b^{2/5}</m></p></li>
+  <li><p><m>\dfrac{a^{5/4}}{a^{-4/3}}</m></p></li>
+  <li><p><m>\left(-3c^{4/3}\right)^{-2}</m></p></li>
+  <li><p><m>\dfrac{\left(a^{3/2}b^{-1/4}\right)^{1/3}}{a^{3/8}}</m></p></li>
+</ol></p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>What does the notation <m>a^{0.6}</m>  mean?</p></li>
+<li><p>Explain how to evaluate the function <m>f(x)=x^{-3/4}</m> for <m>x=625</m>, without using a calculator.</p></li>
+<li><p>Explain why <m>~x\sqrt{x} = x^{1.5}</m>.</p></li>
+<li><p>Suppose <m>M=9 \times 10^{14}</m>.  Explain why <m>\sqrt{M} = 3 \times 10^7</m>.</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<p><ul>
+<li><p>Evaluate powers with rational exponents</p></li>    
+<li><p>Convert between radical and exponential notation</p></li>    
+<li><p>Graph and analyze power functions with rational exponents</p></li>   
+<li><p>Solve equations involving rational exponents</p></li>     
+<li><p>Simplify expressions using the laws of exponents</p></li>
+</ul></p></subsection>    
+
+</section>

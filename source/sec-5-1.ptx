@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <activity><title>Epidemics</title>
+    <introduction><p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early sixteenth century Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma's empire.</p>
+  
+  <p>Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (on Day 1), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p></introduction>
+
+  <task><sidebyside><stack><p>At the start of the second day (Day 2), how many people are still healthy?</p>    
+    <p>How many fall ill during Day 2?</p>  
+    <p>What is the total number of people infected at the end of Day 2?</p>    
+    <p>How many people are still healthy at the end of Day 2?</p>
+  <p>Record your answers in the table.</p></stack>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Day</cell>
+                    <cell><line>New</line> <line>Patients</line></cell>
+                    <cell><line>Total</line> <line>Infected</line></cell>
+                    <cell><line>Number</line> <line>Healthy</line></cell></row>
+                <row><cell>1</cell>
+                    <cell>40</cell>
+                    <cell>40</cell>
+                    <cell>4960</cell></row>
+                <row><cell>2</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>3</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>4</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>5</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>6</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>7</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>8</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>9</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>10</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></sidebyside></task>
+
+  <task><p>Fill in the rest of the table for ten days. Round off decimal results to the nearest whole number.</p></task>
+  
+  <task><p>Use the third column of the table to plot the total number of infected residents, <m>I</m>, against time, <m>t</m>. Connect your data points with a smooth curve.</p>
+    <image source="act-5-1-1.png" width="50%"></image></task>
+  
+  <task><p>Do the values of  approach some largest value? Draw a dotted horizontal line at that value of <m>I</m>. Will the values of <m>I</m> ever exceed that value? Why or why not?</p></task>
+  
+  <task><p>What is the first day on which at least 50% of the population is infected?</p></task>
+  
+  <task><p>Look back at the table. What is happening to the number of new infected residents each day as time goes on? How is this phenomenon reflected in the graph? How would your graph look if the number of new patients every day were a constant?</p></task>
+  
+  <task><p>Summarize your work: In your own words, describe how the number of residents infected with cholera changes with time.  Include a description of your graph.  Is <m>I</m> a function of <m>t</m>?  Why or why not?</p></task>
+</activity>
+
+<activity><title>Function Notation</title>
+<introduction><p>Data indicate that U.S. women are delaying having children longer than their counterparts 50 years ago. The table shows <m>P=f(t)</m>, the percent of 20-24 year old women in year <m>t</m> who had not yet had children.</p> 
+
+<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Year, <m>t</m></cell>
+                    <cell>1960</cell>
+                    <cell>1965</cell>
+                    <cell>1970</cell>
+                    <cell>1975</cell>
+                    <cell>1980</cell>
+                    <cell>1985</cell>
+                    <cell>1990</cell>
+                    <cell>1995</cell>
+                    <cell>2000</cell></row>
+                <row><cell>% of Women, <m>P</m></cell>
+                    <cell>47.5</cell>
+                    <cell>51.4</cell>
+                    <cell>47.0</cell>
+                    <cell>62.5</cell>
+                    <cell>66.2</cell>
+                    <cell>67.7</cell>
+                    <cell>68.3</cell>
+                    <cell>65.5</cell>
+                    <cell>66.0</cell></row>
+    </tabular></introduction>
+
+    <task><p>How does the table support the assumption that <m>P</m> is a function of<m>t</m>? Does this assumption make sense for the context of the problem?</p></task>
+
+  <task><p>Evaluate <m>f(1985)</m> and explain what it means.</p></task>
+
+  <task><p>Estimate a solution to the equation <m>f(t)=68</m> and explain what it means.</p></task>
+
+  <task><p>In 1997, 64.9% of 20-24 year old women had not yet had children. Write an equation with function notation that states this fact.</p></task>
+</activity>
+
+<activity><title>Functions and Graphs</title>
+<introduction><p>The table shows data obtained while heating a solid sample of stearic acid, a waxy solid used in making candles, soap, and some plastics.  Heat was applied at a constant rate throughout the experiment. </p>
+
+<tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Time (min)</cell>
+                    <cell>0</cell>
+                    <cell>0.5</cell>
+                    <cell>1</cell>
+                    <cell>1.5</cell>
+                    <cell>2</cell>
+                    <cell>2.5</cell>
+                    <cell>3</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>6</cell>
+                    <cell>7</cell>
+                    <cell>8</cell>
+                    <cell>8.5</cell>
+                    <cell>9</cell>
+                    <cell>9.5</cell>
+                    <cell>10</cell></row>
+                <row><cell>Temp (<m>\degree</m>C)</cell>
+                    <cell>19</cell>
+                    <cell>29</cell>
+                    <cell>40</cell>
+                    <cell>48</cell>
+                    <cell>53</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>55</cell>
+                    <cell>64</cell>
+                    <cell>70</cell>
+                    <cell>73</cell>
+                    <cell>74</cell></row>
+    </tabular></introduction>
+
+    <task><p>Plot the data with time on the horizontal axis and temperature on the vertical axis. Is temperature a function of time?  Why or why not?</p>
+      <image source="act-5-1-2.png" width="40%"></image></task>
+
+  <task><p>Choose variables and use function notation to state that temperature is a function of time.  Label the axes on your graph.</p></task>
+  <task><p>Is temperature a linear function of time?  Why or why not?  Describe the temperature as a function of time.</p></task>
+  
+  <task><p>Energy (in the form of heat) is required to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid.  By analyzing the graph, what do you think is the melting point of stearic acid?  How long did it take the sample to melt?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In Activity 1, what is the input variable, and what is the output variable?</p></li>                            
+<li><p>In Activity 2, can you find a formula for <m>P</m> in terms of <m>t</m>? Does this mean that <m>P</m> is not a function of <m>t</m>?  Why or why not?</p></li>
+<li><p>In Activity 3, is time a function of temperature?  Why or why not?</p></li>
+<li><p>In Activity 3, how can you estimate the temperature of the sample at times not listed in the table?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+  <p>In this Lesson, we worked on the following skills and goals related to functions:</p>
+  <p><ul>
+<li><p>Recognizing functions</p></li>
+<li><p>Evaluating functions defined by tables, graphs, or equations</p></li> 
+<li><p>Using function notation</p></li>
+</ul></p></subsection>
+
+</section>

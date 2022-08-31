@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Equations of Lines</title>
+
+<activity><title>Slope-Intercept Form</title>
+
+<introduction><p>In England, oven cooking temperatures are often given as Gas Marks rather than degrees Fahrenheit. The table shows the equivalent oven temperatures for various Gas Marks.
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Gas Mark</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>7</cell>
+                    <cell>9</cell></row>
+                <row><cell>Degrees</cell>
+                    <cell>325</cell>
+                    <cell>375</cell>
+                    <cell>425</cell>
+                    <cell>475</cell></row>
+    </tabular></p></introduction>
+
+<task><p>Plot the data and draw a line through the data points.</p></task>
+<task><sidebyside widths="50% 40%"><stack><p>Calculate the slope of your line.</p>  
+
+  <p>Estimate the <m>y</m>-intercept from the graph.</p></stack>
+<image source="act-1-5-1.png" ></image></sidebyside></task>
+
+<task><p>Write an equation that gives the temperature, <m>T</m>, in degrees Fahrenheit, in terms of the Gas Mark, <m>G</m>.</p></task>
+</activity>
+
+<activity><title>Working with Formulas</title>
+
+<task><p>We now have several new formulas to work with. Solve each formula for the indicated variable:</p>
+
+  <p><m>m=\dfrac{\Delta y}{\Delta x} \hphantom{00000000000000} \Delta y =</m></p>
+
+  <p><m>\Delta y = y_2 - y_1 \hphantom{00000000000}  y_2 = </m></p>
+
+  <p><m>\Delta x = x_2 - x_1 \hphantom{00000000000}  x_2 = </m></p>
+
+  <p><m>m = \dfrac{y_2-y_1}{x_2-x_1}  \hphantom{00000000000}  y_2-y_1 = </m></p></task>
+
+  <task><p>Suppose you are studying the graph of a line, <m>y=mx+b</m>. Explain the difference between what the statements <m>x=2</m> and <m>\Delta x = 2</m> mean.</p></task>
+</activity>
+
+<activity><title>Finding a Linear Model</title>
+<introduction><p>Sea water does not freeze at exactly 32 <m>\degree</m> F because of its salinity. The temperature at which water freezes depends on its dissolved mineral content. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water. Here are some data for the freezing temperature of water.
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Salinity, ppt <m>S</m></cell>
+                    <cell>8</cell>
+                    <cell>12</cell>
+                    <cell>20</cell></row>
+                <row><cell>Freezing Temperature, <m>\degree</m> F, <m>T</m></cell>
+                    <cell>31.552</cell>
+                    <cell>31.328</cell>
+                    <cell>30.88</cell></row>
+    </tabular></p></introduction>
+
+<task><p>Do these data points describe a linear model?  Why or why not?</p></task>
+
+<task><p>Use the point-slope formula to find a linear equation for freezing temperature, <m>T</m>, in terms of salinity, <m>S</m>.</p>
+      <p><ul>
+    <li><p>Step 1:  Find the slope</p></li> 
+    <li><p>Step 2:  Use the point-slope formula</p></li></ul></p></task> 
+
+<task><p>What is the salinity of water that freezes at 32<m>\degree</m> F?</p></task>
+<task><p>Sea water has an average salinity of 35 ppt.  What is the freezing point of sea water?</p></task>
+<task><p>The conversion formula from Celsius to Fahrenheit is <m>F=\dfrac{9}{5} C + 32</m>. What is the freezing point of sea water in degrees Celsius?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title><ol>
+<li><p>Which formula did you use to find the equation of the line in Activity 1?</p></li>
+<li><p>If you graph the data in Activity 3, which variable goes on the vertical axis?</p></li>
+<li><p>When you calculate a slope using data, how do you know which variable goes in the numerator of the slope ratio?</p></li>
+<li><p>Which two formulas do you need to find the equation of a line that goes through two given points?</p></li>
+</ol></subsection>
+
+<subsection><title>Wrap-Up</title>
+
+<p>In this Lesson, we worked on the following skills and goals related to linear models:</p><ul>
+
+<li><p>Identify the slope and <m>y</m>-intercept from the equation for a line</p></li>
+<li><p>Interpret the slope and <m>y</m>-intercept in context</p></li>
+<li><p>Use the coordinate formula to calculate slope</p></li>
+<li><p>Use the point-slope formula to find an equation for a line</p></li>
+<li><p>Find a linear model from two data points</p></li></ul></subsection>
+
+</section>

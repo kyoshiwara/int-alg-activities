@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Working with Radicals</title>
+
+<activity><title>Simplifying Radicals</title>
+<introduction><p>We use the product and quotient rules for radicals to simplify radicals. To "simplify" a radical does not mean to find a decimal approximation using a calculator! The simplified expression is an exact equivalent for the original radical, not an approximation. For example,
+  <md><mrow>\sqrt{12} = \sqrt{4 \cdot 3} = \sqrt{4}~ \sqrt{3} = 2\sqrt{3}</mrow>
+    <mrow>\sqrt[3]{40} = \sqrt[3]{8 \cdot 5} = \sqrt[3]{8}~ \sqrt[3]{5} = 2\sqrt[3]{5}</mrow></md>
+You can use your calculator to verify that the simplified expression has the same decimal approximation as the original radical.</p>
+</introduction>
+
+<task><p>Simplify the radicals. Look for a perfect square or a perfect cube that divides evenly into the radicand.</p>
+  <p><ol cols="2">
+    <li><p><m>\sqrt{45}</m></p></li>
+    <li><p><m>\sqrt{200}</m></p></li>
+    <li><p><m>\sqrt{48}</m></p></li>
+    <li><p><m>\sqrt[3]{81}</m></p></li>
+    <li><p><m>\sqrt[3]{72}</m></p></li>
+    <li><p><m>\sqrt[3]{250}</m></p></li>
+  </ol></p></task>
+
+  <task><p>Fill in the blanks.</p>
+    <p><ol>
+      <li><p><m>\sqrt{x^6} = </m> <fillin/> because (<fillin/>)<m>^2 = x^6</m></p></li>
+      <li><p><m>\sqrt[3]{x^{15}} = </m> <fillin/> because (<fillin/>)<m>^3 = x^{15}</m></p></li> 
+      <li><p><m>\sqrt[4]{x^{12}} = </m> <fillin/> because (<fillin/>)<m>^4 = x^{12}</m></p></li>
+    </ol></p></task>
+
+<task><p>Simplify the radicals.</p>
+  <p><ol cols="2">
+    <li><p><m>\sqrt{81x^8}</m></p></li>
+    <li><p><m>\sqrt{16x^{16}}</m></p></li>
+    <li><p><m>\sqrt[3]{8x^9}</m></p></li>
+    <li><p><m>\sqrt[4]{x^{20}}</m></p></li>
+    <li><p><m>\sqrt{\dfrac{9a^8}{16b^4}}</m></p></li>
+    <li><p><m>\sqrt[3]{\dfrac{-27y^9}{125z^6}}</m></p></li>
+  </ol></p></task>
+
+  <task><p>To simplify the square root of an odd power of <m>x</m>, we factor off <m>x</m>. For example,
+    <me>\sqrt{x^{13}} = \sqrt{x^{12} \cdot x} = \sqrt{x^{12}} \cdot \sqrt{x} = x^6 \sqrt{x}</me>
+  Similarly, for cube roots, we factor out a power whose exponent is a multiple of 3.
+    <me>\sqrt[3]{x^8} = \sqrt[3]{x^6 \cdot x^2} = \sqrt[3]{x^6} \cdot \sqrt[3]{x^2} = x^2 \sqrt[3]{x^2}</me></p>
+    <p><ol cols="2">
+    <li><p><m>\sqrt{12t^5}</m></p></li>
+    <li><p><m>\sqrt{27w^9}</m></p></li>
+    <li><p><m>\sqrt{80a^5 b^4}</m></p></li>
+    <li><p><m>\sqrt{72b^{16}c^{15}}</m></p></li>
+    <li><p><m>\sqrt[3]{32 m^{11}}</m></p></li>
+    <li><p><m>\sqrt[3]{64 w^4 z^2}</m></p></li>
+    <li><p><m>\sqrt[3]{81 a^{12} b^8}</m></p></li>
+    <li><p><m>\sqrt[3]{40x^{14} y^9}</m></p></li>
+  </ol></p></task>
+</activity>
+
+<activity><title>Operations on Radicals</title>
+<introduction><p>We can combine the radicands in products or quotients of radicals as long as both radicals have the same index, but we cannot combine radicands in sums or differences. You can check that:
+  <md><mrow> \sqrt{12}~\sqrt{3} = \sqrt{36}~~~~~~~~\amp \text{and}~~~~~~~~ \dfrac{\sqrt{12}}{\sqrt{3}} = \sqrt{4}</mrow>
+      <mrow> \text{but}~~\sqrt{12}+\sqrt{3} \not= \sqrt{15}~~~~~~~~\amp \text{and}~~~~~~~~ \sqrt{12}-\sqrt{3} \not= \sqrt{9}</mrow></md>
+  </p></introduction>
+
+  <task><p>Simplify the following products and quotients.</p>
+    <p><ol cols="2">
+      <li><p><m>\sqrt[3]{4x^2}~\sqrt[3]{16x}</m></p></li>
+      <li><p><m>\sqrt[4]{2m^3}~\sqrt[4]{8m}</m></p></li>
+      <li><p><m>\dfrac{\sqrt{18xy^3}}{\sqrt{2y}}</m></p></li>
+      <li><p><m>\dfrac{\sqrt[3]{200a^8}}{\sqrt[3]{5a^2}}</m></p></li>
+  </ol></p></task>
+
+  <task><p>True or false?</p>
+    <p><ol cols="2">
+      <li><p><m>\sqrt{7} + \sqrt{7} = \sqrt{14}~</m>?</p></li>
+      <li><p><m>\sqrt{7} + \sqrt{7} = 2\sqrt{7}~</m>?</p></li>
+      <li><p><m>\sqrt{7} - \sqrt{5} = \sqrt{2}~</m>?</p></li>
+      <li><p><m>6\sqrt{5} - 4\sqrt{5} = 2\sqrt{5}~</m>?</p></li>
+    </ol></p></task>
+
+  <task><p>Simplify and combine like terms.</p>
+    <p><ol cols="2">
+      <li><p><m>5\sqrt{6} - 2\sqrt{6} + 6\sqrt{2}~</m></p></li>
+      <li><p><m>8\sqrt[3]{a^2} - 5\sqrt[3]{a} - 5\sqrt[3]{a^2}~</m></p></li>
+      <li><p><m>2\sqrt{75} + 3\sqrt{48} </m></p></li>
+      <li><p><m>\sqrt[3]{81} + \sqrt[3]{24} - 3\sqrt[3]{3}~</m></p></li>
+    </ol></p></task>
+
+  <task><p>Simplify the products. Use the distributive law when appropriate.</p>
+      <p><ol cols="2">
+      <li><p><m>(3\sqrt{2})(2\sqrt{5})</m></p></li>
+      <li><p><m>(3\sqrt{5})(2\sqrt{5})</m></p></li>
+      <li><p><m>(2\sqrt{15})(3\sqrt{6}) </m></p></li>
+      <li><p><m>5(2\sqrt{3} - \sqrt{5})</m></p></li>
+      <li><p><m>4\sqrt{2}(4\sqrt{3} + 2\sqrt{6})</m></p></li>
+      <li><p><m>(3\sqrt{x} - \sqrt{5})(2\sqrt{x} + 3\sqrt{5})</m></p></li>
+    </ol></p></task>
+  </activity>
+
+<activity><title>Rationalizing the Denominator</title>
+
+<task><p>Simplify by rattionalizing the denominator.</p>
+  <p><ol cols="2">
+      <li><p><m>\dfrac{10}{\sqrt{5}} </m></p></li>
+      <li><p><m>\dfrac{6}{\sqrt{12}}</m></p></li>
+      <li><p><m>\sqrt{\dfrac{27x}{20}}</m></p></li>
+      <li><p><m>\dfrac{6\sqrt{2}}{3\sqrt{v}}</m></p></li>
+    </ol></p></task>
+
+<task><p>Multiply each binomial by its conjugate.</p>
+  <p><ol>
+      <li><p><m>(3 + \sqrt{7})(3 - \sqrt{7})</m></p></li>
+      <li><p><m>(\sqrt{6} - \sqrt{3})(\sqrt{6} + \sqrt{3})</m></p></li>
+    </ol></p>
+  <p>Do you see a short-cut for the product? Hint: What is the product <m>(a+b)(a-b)~</m>?</p></task> 
+
+<task><p>Use a conjugate to rationalize the denominator.</p>
+  <p><ol cols="2">
+      <li><p><m>\dfrac{\sqrt{3}}{\sqrt{3} - \sqrt{2}} </m></p></li>
+      <li><p><m>\dfrac{y}{\sqrt{5}-y}</m></p></li>
+      <li><p><m>\dfrac{\sqrt{6} - 3}{2 - \sqrt{6}}</m></p></li>
+      <li><p><m>\dfrac{\sqrt{x} + \sqrt{y}}{\sqrt{x} - \sqrt{y}}</m></p></li>
+    </ol></p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Explain the difference between simplifying a radical and evaluating a radical.</p></li>
+<li><p>Explain how to simplify a cube root.  List the cubes of the first six whole numbers.</p></li>
+<li><p>Compare the rules for adding radicals and multiplying radicals.  Illustrate by computing <m>~4\sqrt[3]{2x^2} + 3\sqrt[3]{2x^2}~</m>    and <m>~4\sqrt[3]{2x^2} \cdot 3\sqrt[3]{2x^2}~</m>.</p></li>
+<li><p>Explain why we use a conjugate to rationalize a binomial denominator.</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<p><ul>
+<li><p>Simplifying radicals</p></li>    
+<li><p>Adding or subtracting like radicals</p></li>  
+<li><p>Simplifying products or quotients of radicals</p></li>   
+<li><p>Rationalizing the denominator</p></li>
+</ul></p>
+</subsection>     
+
+</section>

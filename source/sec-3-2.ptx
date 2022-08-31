@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Intercepts, Solutions, and Factors</title>
+
+  <activity><title>A Typical Quadratic Graph</title>
+  <task><p>Verify that <m>y=(2x-7)(x+1)</m> is a quadratic equation.  (Hint:  Expand the right side.)</p></task>
+  <task><p>Graph <m>y=(2x-7)(x+1)</m> with technology.  If you are using a graphing calculator, use the friendly window  
+      <md><mrow>\text{Xmin} = -9.4,~~~\text{Xmax} = 9.4</mrow>
+          <mrow>\text{Ymin} = -10,~~~\text{Ymax} = 10</mrow></md>
+    Sketch the graph on the grid.</p>
+    <image source="act-3-2-1.png" width="40%"></image></task>
+
+    <task><p>Use the Trace feature to locate the <m>x</m>-intercepts of the graph.</p></task>
+    <task><p>Solve the equation
+          <me>(2x-7)(x+1)=0</me></p></task>
+    <task><p>Explain how your answers to parts (c) and part (d) are related.</p></task>
+  </activity>
+
+  <activity><title>X-Intercepts</title>
+  <task><sidebyside widths="45% 45%"><p>Graph the three equations below in the standard 
+    window, and sketch the graphs on the grid at right. What do you notice about the <m>x</m>-intercepts?
+    <ol>
+      <li><p><m>y=x^2-2x+15</m></p></li>
+      <li><p><m>y=3(x^2-2x+15)</m></p></li>
+      <li><p><m>y=0.2(x^2-2x+15)</m></p></li></ol></p>
+    <image source="act-2-2-2.png"></image></sidebyside>
+
+    <p>Multiplying a quadratic expression by a constant does not change the <m>x</m>-intercepts of the graph.</p> </task>
+
+  <task><p>Solve by factoring  <m>~~20x^2-40x-700 = 0</m>.</p></task>
+
+  <task><p>Graph <m>~~y=0.1(x^2+9x-360)~~</m> on your calculator, using the ZInteger setting.</p></task>  
+  <task><p>Locate the <m>x</m>-intercepts of the graph.</p></task>  
+  <task><p>Use the <m>x</m>-intercepts to write the quadratic expression in factored form. (Do not try to factor the expression!)</p></task>
+</activity>
+
+<subsection><title>A Quadratic Model</title>
+<p>A rancher has 360 yards of fence to enclose a rectangular pasture. If she uses a riverbank to border one side of the pasture, she can enclose 16,000 square yards of land. What will the dimensions of the pasture be then?</p>  
+<p>We'll solve this problem in three different ways. First, make a sketch of the pasture and the river.</p>
+
+<activity><title>Method 1: Using a Table</title>
+<introduction><p>Notice that you only have 360 yards of fence. So if you decide how wide the pasture is going to be, the length of the pasture is determined. See the table for two examples.</p></introduction>
+
+<task><p>Use the perimeter of the pasture, 360 yards, to write a formula for the length of the pasture in terms of its width. (Be careful:  remember that one side of the pasture does not need any fence!)</p>  
+  <p>Length = </p></task>
+
+<task><p>Make a table that shows the areas of pastures of various widths.</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Width</cell>
+                    <cell>Length</cell>
+                    <cell>Area</cell></row>
+                <row><cell>10</cell>
+                    <cell>340</cell>
+                    <cell>3400</cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+                <row><cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell>
+                    <cell><m>\hphantom{000000}</m></cell></row>
+    </tabular></task>
+<task><p>Continue the table until you find the pasture whose area is 16,000 square yards.</p>
+      <p>Dimensions of pasture:</p></task>
+</activity>
+
+<activity><title>Method 2: Using a Graph</title>
+<introduction><p>On your sketch of the pasture in part (1), label the width of the pasture as <m>x</m>.</p></introduction>
+
+<task><p>Write an expression for the length of the pasture if its width is <m>x</m>. (Hint: How did you compute the length of the pasture in Method 1?</p>
+    <p> Length = </p></task>
+<task><p>Write an expression for the area <m>A</m> of the pasture if its width is <m>x</m>.</p> 
+    <p>Area = </p></task>                                                
+<task><sidebyside widths="45% 50%"><p>Graph the equation for <m>A</m> on your calculator, using the window
+      <md><mrow>\text{Xmin} = 0,~~~\amp \text{Xmax} = 188</mrow>
+          <mrow>\text{Ymin} =0,~~~\amp \text{Ymax} = 17,000</mrow></md>
+Then copy the graph onto the grid.</p> 
+        <image source="act-3-2-2.png"></image></sidebyside></task>
+<task><p>Use the TRACE feature to find the pasture of area 16,000 square yards. Label the correct point on your graph.</p>
+      <p>Dimensions of pasture:</p></task>
+</activity>
+
+<activity><title>Method 3: Using an Equation</title>
+
+<task><p>Refer to steps (a) and (b) of Method 2, and write an equation for the area <m>A</m> of the pasture in terms of its width <m>x</m>.</p>
+    <p>Area = </p></task>
+<task><p>Substitute <m>A = 16,000</m> and solve your equation algebraically.</p>
+  <p>Dimensions of pasture:</p></task>
+<task><p>Which of the three methods do you prefer?  Why?</p></task></activity>
+</subsection>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Delbert says that the solutions of the equation <m>4(x-2)(x+1)=0</m> are <m>x=4,~x=2</m> and <m>x=-1</m>.  Do you agree?  Why or why not?</p></li>
+<li><p>If the perimeter of a rectangle is 56 inches, and its width is <m>w</m> inches, write an expression for its length.</p></li>
+<li><p>How can you use a graph to factor a quadratic expression?</p></li>
+<li><p>In Method 2 of the Quadratic Model, what did the two variables on the graph represent? What happened to the second variable as you increased the first variable?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to quadratic models:</p>
+<p><ul>
+<li><p>Solve quadratic equations by factoring</p></li>
+<li><p>Find a quadratic equation with given solutions</p></li> 
+<li><p>Find the <m>x</m>-intercepts of a parabola</p></li>
+<li><p>Solve problems involving perimeter and area or the Pythagorean theorem</p></li>
+</ul></p></subsection>
+
+
+</section>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Growth and Decay</title>
+
+<activity><title>Population Growth</title>
+<introduction><p>In a laboratory experiment, researchers establish a colony of 100 bacteria and monitor its growth. The colony triples in population every day.</p></introduction>
+
+<task><p>Complete the table showing the population, <m>P(t)</m>, of bacteria <m>t</m> days later.</p>
+  <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>P(0)=100</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>P(1)=100 \cdot 3 = \hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>P(2)=[100 \cdot 3] \cdot 3 =\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>P(3) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>P(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>P(5) = \hphantom{00000}</m></cell></row>
+            </tabular> </task>
+  <task><p>Plot the data points from the table and connect them with a smooth curve.</p>
+            <image source="act-7-1-1.png" width="50%"></image></task>
+
+<task><p>Write a function that gives the population of the colony at any time, <m>t</m>, in days.</p></task>  
+
+<task><p>Graph your function from part (c) using technology. (Use the table to help you choose an appropriate window.)</p></task>
+
+<task><p>Evaluate your function to find the number of bacteria present after 8 days. </p>
+  <p>How many bacteria are present after 36 hours?</p></task> 
+</activity>
+
+<activity><title>Bees</title>
+<introduction><p>A beekeeper starts a new hive with 20 insects. The population can increase in size by a factor of 1.8 every month.</p></introduction>
+<task><p>Write a formula for the population of bees, <m>B(t)</m>, after <m>t</m> months.</p></task>
+<task><p> How many bees will there be after 4 months?</p>  
+    <p> After 6 weeks?</p></task>
+<task><p>Graph your function using technology, then sketch the graph on the grid.</p>
+          <image source="act-7-1-2.png" width="40%"></image></task>
+</activity>
+
+<activity><title>Percent Increase</title>
+<introduction><p>Imagine that you take a job that pays $1000 a month, and every year you'll get a 5% raise. You would like a formula that allows you to compute your salary, <m>S(t)</m>, after <m>t</m> years.</p></introduction>
+
+<task><p>Compute your new salary after working for one year:
+    <me>S(1) = \blert{\text{old salary + raise}} = 1000 + 0.05(1000) = ~~~~~~~~~~~~~~~~~~~~~~~~</me></p>
+    <p>Compute your salary after working for two years:
+      <me>S(2) = \blert{S(1) + \text{raise}} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p>
+    <p>There is a faster way to compute each year's new salary. We'll factor out 1000 from the calculation for <m>S(1)</m>: 
+      <me>S(1) = 1000 + 0.05(1000) = 1000(1+0.05) = \blert{1000(1.05)} = 1050</me></p>
+    <p>We can compute your new salary each year by multiplying the old salary by <m>1.05</m>. Verify that this works to compute <m>S(2)</m>:
+        <me>S(2) = 1050(1.05) = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
+<task><p>Continue the pattern: To compute your new salary every year, multiply your old salary by <m>1.05</m>. (Round to the nearest penny.)</p>
+<tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>S(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>S(0)=1000</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>S(1)=1000(1.05) = 1050</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>S(2)=1050(1.05) = 1000(1.05)^2 = \hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>S(3) = S(2)(1.05) = 1000(1.05)^3 =\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>S(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>S(5) = \hphantom{00000}</m></cell></row>
+            </tabular> </task>
+<task><p>The table shows that <m>S(t)</m> follows exponential growth. What is its growth factor?</p>
+    <p>Write a formula for your salary <m>S(t)</m> after <m>t</m> years.</p></task>
+</activity>
+
+<activity><title>Cost of College</title>
+<introduction><p>In 1998, the average annual cost of a public college was $10,069, and costs were climbing by 6% per year.</p></introduction>
+<task><p>Write a formula for <m>C(t)</m>, the cost of one year of college <m>t</m> years after 1998.</p></task>
+<task><p>How much did a year of college cost in 2020?</p></task>
+<task><p>Complete the table and sketch a graph of <m>C(t)</m>.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>5</cell>
+                    <cell>10</cell>
+                    <cell>15</cell>
+                    <cell>20</cell>
+                    <cell>25</cell></row>
+                <row><cell><m>C(t)</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <image source="act-7-1-3.png" width="45%"></image></task>
+  </activity>
+
+  <activity><title>Exponential Decay</title>
+<introduction><p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals) the population declined to approximately 0.90 of its earlier figure.</p></introduction>
+<task><p>Complete the table showing the population, <m>P(t)</m>, of the town <m>t</m> decades after 1940.</p>
+    <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P(t)</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>P(0)=5000</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>P(1)=5000 \cdot 0.90 = \hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>P(2)=[5000 \cdot 0.90] \cdot 0.90 =\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>P(3) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>P(4) = \hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>P(5) = \hphantom{00000}</m></cell></row>
+            </tabular> </task>
+<task><p>Plot the data points and connect them with a smooth curve.</p>
+      <image source="act-7-1-4.png" width="45%"></image></task>
+<task><p>Write a function that gives the population of the town at any time <m>t</m> in decades after 1940.</p></task>  
+<task><p>Graph your function from part (c) using technology.  (Use the table to choose an appropriate window.)</p></task> 
+<task><p>Evaluate your function to find the population of the town in 1990.</p>
+    <p>What was the population in 2005?</p></task>
+</activity> 
+
+<activity><title>Growth and Decay Laws</title>
+<introduction><p>Write a growth or decay law to describe each population, and complete the table of values.</p></introduction>
+<task><p>A herd of 1000 deer grew by 4% per year.</p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+  <task><p>A herd of 1000 deer grew by 40% per year.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+  <task><p>A herd of 1000 deer decreased to 40% of its previous population every year.</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+  <task><p>A herd of 1000 deer decreased by 40% each year. </p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>1</cell>
+                    <cell>2</cell>
+                    <cell>3</cell>
+                    <cell>5</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+  </activity>
+
+<activity><title>Comparing Linear and Exponential Decrease</title>
+  <introduction><p>In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></introduction>
+  <task><p>If the population declined linearly after 1992, what was its annual rate of decrease?</p></task>
+  <task><p> Write a formula for <m>L(t)</m>, the number of otters <m>t</m> years after 1992 under linear decline.</p></task>
+  <task><p>If the population declined exponentially after 1992, a formula for the number of otters  years after 1992 is <m>E(t) = 20,000 b^t</m>.  Use the population in 2000 to write an equation and solve for <m>b</m>.</p></task>
+  <task><p>What was the annual decay factor for exponential decline in the otter population?  What was its annual percent decrease?</p></task>
+  <task><p>Predict the number of sea otters in 2010 under each assumption, linear or exponential decline.</p></task>
+  <task><p>Graph both functions,<m>L(t)</m> and <m>E(t)</m>, on the same grid.</p>  
+        <image source="act-7-1-5.png" width="50%"></image></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In Activity 1, how can you tell from the table of values that the bacteria population is increasing exponentially?</p></li>
+<li><p>In Activity 4, what is the annual growth factor in the cost of a year of college?</p></li>
+<li><p>In Activity 5, what was the decay factor for the town's population each decade? What was the percent decrease in population?</p></li>
+<li><p>If the population of the town in Activity 5 decreased by 500 in the first decade, did it also decrease by 500 in the second decade?  Why or why not?</p></li>
+</ol></p>
+</subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to exponential growth and decay:</p>
+<p><ul>
+<li><p>Calculate percent increase or decrease</p></li>    
+<li><p>Write a formula for exponential growth or decay</p></li>    
+<li><p>Evaluate an exponential growth or decay function</p></li>    
+<li><p>Find the growth factor or initial value</p></li>    
+<li><p>Solve for percent increase or decrease</p></li>   
+<li><p>Compare linear and exponential growth</p></li>
+</ul></p>
+</subsection>   
+  
+</section>

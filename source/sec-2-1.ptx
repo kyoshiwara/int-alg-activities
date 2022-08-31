@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Regression</title>
+
+<activity><title>Line of Best Fit</title>
+<introduction><p>The scatterplot shows the area, <m>A</m>, of the Amazon rain forest remaining, in thousands of square kilometers, <m>t</m> years after 1980.</p>
+  <sidebyside widths="30% 60%">
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>A</m></cell></row>
+
+               <row><cell>6</cell>
+                    <cell>3745</cell></row>
+
+               <row><cell>8</cell>
+                    <cell>3734</cell></row>
+
+                <row><cell>10</cell>
+                    <cell>3692</cell></row>
+
+                <row><cell>12</cell>
+                    <cell>3667</cell></row>
+
+                <row><cell>14</cell>
+                    <cell>3667</cell></row>
+
+                <row><cell>16</cell>
+                    <cell>3590</cell></row>
+
+                <row><cell>18</cell>
+                    <cell>3560</cell></row>
+
+                <row><cell>20</cell>
+                    <cell>3524</cell></row>
+
+               <row><cell>22</cell>
+                    <cell>3485</cell></row>
+
+                <row><cell>24</cell>
+                    <cell>3432</cell></row>
+
+                <row><cell>26</cell>
+                    <cell>3400</cell></row> 
+            </tabular>
+            <image source="act-2-1-1.png" ></image></sidebyside></introduction>
+
+  <task><p>Use a straightedge to draw a line of best fit for the data.</p></task>
+  <task><p>Choose two points on the regression line. (Do not choose data points; choose points on your line.)</p>
+  
+      <p>Points:</p></task>
+
+<task><p>Use the point-slope formula to find the equation of your regression line.</p></task>
+
+<task><p>Use your regression equation to predict when the rain forest will be completely destroyed.</p></task>
+
+<task><p>Comment on your results:  What factors might affect your prediction?</p></task>
+</activity>
+
+<activity><title>Interpolation and Extrapolation</title>
+<introduction><p>It has been proposed that unemployment is higher in communities where a large percentage of workers own their own homes.  The data show the percent of owner-occupied housing and the unemployment rate in several European nations. We will calculate a regression line to model the data.</p>
+    <sidebyside widths="45% 55%">
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Country</cell>
+                    <cell><line>Home</line><line>Owners %</line></cell>
+                    <cell><line>Unemp.</line><line>Rate %</line></cell></row>
+                <row><cell>Austria</cell>
+                    <cell>54</cell>
+                    <cell>5</cell></row>
+                <row><cell>Belgium</cell>
+                    <cell>65</cell>
+                    <cell>12</cell></row>
+                <row><cell>Denmark</cell>
+                    <cell>65</cell>
+                    <cell>6</cell></row>
+                <row><cell>Finland</cell>
+                    <cell>78</cell>
+                    <cell>13</cell></row>
+                <row><cell>France</cell>
+                    <cell>56</cell>
+                    <cell>11</cell></row>
+                <row><cell>Great Britain</cell>
+                    <cell>65</cell>
+                    <cell>6</cell></row>
+                <row><cell>Ireland</cell>
+                    <cell>76</cell>
+                    <cell>10</cell></row>
+                <row><cell>Italy</cell>
+                    <cell>68</cell>
+                    <cell>12</cell></row>
+                <row><cell>Netherlands</cell>
+                    <cell>45</cell>
+                    <cell>4</cell></row>
+                <row><cell>Spain</cell>
+                    <cell>80</cell>
+                    <cell>18</cell></row>
+                <row><cell>Sweden</cell>
+                    <cell>56</cell>
+                    <cell>6</cell></row>
+                <row><cell>Switzerland</cell>
+                    <cell>28</cell>
+                    <cell>3</cell></row>
+                <row><cell>West Germany</cell>
+                    <cell>42</cell>
+                    <cell>7</cell></row>
+            </tabular>
+      <image source="act-2-1-2.png" width="60%"></image>
+          </sidebyside></introduction>
+
+<task><p>Use a straightedge to draw a line of best fit for the scatterplot.</p></task>
+<task><p>Use technology to find the equation of the least-squares regression line. Round the coefficients to two decimal places.</p></task>
+<task><p>Evaluate the least-squares formula for 40% home ownership and for 70% home ownership.
+  (Note:  Do not change the percents to decimals!)</p></task>
+
+<task><p>Use the values from part (c) to graph the least-squares regression line on the scatterplot, and compare to your line of best fit.</p></task>
+<task><p>What is the slope of the least-squares regression line?  What is its meaning for this situation?</p></task>
+<task><p>What is the vertical intercept of the least-squares regression line?  What is its meaning for this situation?</p></task>
+<task><p>What unemployment rate does the model predict for a society with 100% home ownership?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title><ol>
+<li><p>Should you adjust a line of best fit so that it passes through two of the data points?  Why or why not?</p></li>
+<li><p>In Activity 1, why don't we use data points to find the equation of the line of best fit?</p></li>
+<li><p>In Activity 2, how did your line of best fit compare to the least-squares regression line?</p></li>
+<li><p>In which part(s) of Activity 2 did you use interpolation, and in which part(s) did you use extrapolation?</p></li></ol> 
+</subsection>
+
+<subsection><title>Wrap-Up</title>
+
+<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
+<p><ul>
+
+<li><p>Sketch a line of best fit for a scatterplot</p></li>
+<li><p>Find an equation for a line of best fit</p></li>
+<li><p>Make estimates using interpolation and extrapolation</p></li>
+<li><p>Use technology for least-squares regression</p></li></ul></p>
+</subsection>
+
+</section>

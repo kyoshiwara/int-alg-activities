@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Gaussian Reduction</title>
+
+<activity><title>Triangular Systems</title>
+<task><p>Use back-substitution to solve the system.
+    <md><mrow>3x + y - 2x \amp = 10</mrow>
+        <mrow>2y + 3x \amp = 4</mrow>
+        <mrow>6x \amp = -24</mrow></md></p>
+
+  <p>Solution:</p></task>
+</activity>
+
+<activity><title>Gaussian Elimination</title>
+<task><p>Follow the steps given in your textbook to solve the system.
+    <md><mrow>\text{(1)}~~~~~~x - 2y + 4z \amp = -3</mrow>
+        <mrow>\text{(2)}~~~~~~3x + y - 2z \amp = 12</mrow>
+        <mrow>\text{(3)}~~~~~~2x + y - 3z \amp = 11</mrow></md></p>
+    <p><ol>
+      <li><p>There are no fractions in the equations, so we go on to Step 2.</p></li>
+      <li><p>Eliminate <m>x</m> from Equations (1) and (2). Call your new equation (A).</p></li>
+      <li><p>Eliminate <m>x</m> from Equations (1) and (3). Call your new equation (B).</p></li>
+      <li><p>Form a 2x2 system from Equations (A) and (B). Eliminate <m>x</m> from that system.</p>
+            <p>(Hint:  Divide Equation (A) by 7 first.)</p></li>
+      <li><p>Form a triangular system, and solve that system by back-substitution.</p>
+            <p>Solution:</p></li></ol></p></task>
+
+<task><p>Solve the system below. Begin by clearing the fractions from each equation.
+      <md><mrow>\text{(1)}~~~~~~x + 2y + \frac{1}{2} z \amp = 0</mrow>
+          <mrow> \text{(2)}~~~~~~x + \frac{3}{5} y - \frac{2}{5} z \amp = \frac{1}{5}</mrow>
+          <mrow>\text{(3)}~~~~~~4x - 7y - 7z \amp = 6</mrow></md></p></task>
+</activity>
+
+<activity><title>Making the Smart Choice</title>
+<task><p>Sometimes a wise choice of steps can shorten the process. Consider the system below.
+      <md><mrow>\text{(1)}~~~~~~\amp 3y + z = 3</mrow>
+          <mrow>\text{(2)}~~~~~~\amp -2x + 3y = 7</mrow>
+          <mrow>\text{(3)}~~~~~~\amp 3x + 2z = -6</mrow></md></p>
+    <p>Notice that there is no <m>x</m>-term in Equation (1), so it can serve as Equation (A), and Step 2 is done.
+    What is the smart choice for Step 3?</p></task>
+<task><p>Now finish the solution.</p></task>
+</activity>
+
+<activity><title>An Application</title>
+ <introduction><p> A manufacturer of office supplies makes three types of file cabinet:  two-drawer, four-drawer, and horizontal.  The manufacturing process is divided into three phases: assembly, painting, and finishing.</p>
+ <p><ul>  
+    <li><p>A two-drawer cabinet requires 3 hours to assemble, 1 hour to paint, and 1 hour to finish.</p></li>
+    <li><p>The four-drawer model takes 5 hours to assemble, 90 minutes to paint, and 2 hours to finish.</p></li>
+    <li><p>The horizontal cabinet takes 4 hours to assemble, 1 hour to paint, and 3 hours to finish.</p></li></ul></p>
+<p>The manufacturer employs enough workers for 500 hours of assembly time, 150 hours of painting, and 230 hours of finishing per week.  How many of each type of file cabinet should he make in order to use all the hours available?</p></introduction>
+
+<task><p>Represent the number of each model of file cabinet by a different variable, for example:</p>
+      <p>Number of two-drawer cabinets:<m>\hphantom{00} x</m></p>     
+      <p>Number of four-drawer cabinets:<m>\hphantom{00} y</m></p>      
+      <p>Number of horizontal cabinets: <m>\hphantom{00} z</m></p> </task>
+
+<task><p>Organize the time constraints into a table.  (Convert all times to hours.)</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>2-Drawer</cell>
+                    <cell>4-Drawer</cell>
+                    <cell>Horizontal</cell>
+                    <cell>Total Available</cell></row>
+                <row><cell>Assembly</cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>Painting</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+                <row><cell>Finishing</cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell></row>
+    </tabular></task>
+<task><p>Write  three equations describing the time constraints in each of the three manufacturing phases. For example, the assembly phase requires 3 hours for the two-drawer cabinets, 3 hours for the four-drawer cabinets, and 4 hours for the horizontal cabinets, and the sum of these times should be the time available, 500 hours.</p>
+
+    <p>(Assembly time)  (1)</p>
+    <p>(Painting time)  (2)</p>
+    <p>(Finishing time) (3)</p></task>
+
+<task><p>Solve the system.  Follow the steps suggested below.<ol>
+<li><p>Clear the fractions from the second equation.</p></li>
+
+<li><p>Subtract Equation (1) from 3 times Equation (3) to obtain a new Equation (4).</p></li>
+
+<li><p>Subtract Equation (2) from twice Equation (3) to obtain a new Equation (5).</p></li>
+
+<li><p>Equation (4) and (5) form a 2x2 system in <m>y</m> and <m>z</m>. Subtract Equation (5) from Equation (4) to obtain a new Equation (6).</p></li>
+
+<li><p>Form a triangular system with equations (3), (4), and (6). Use back-substitution to complete the solution.</p></li></ol></p></task> 
+
+<task><p>You should find the following solution: The manufacturer should make 60 two-drawer cabinets, 40 four-drawer cabinets, and 30 horizontal cabinets.</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>What is a triangular system?</p></li>
+<li><p>In Gaussian elimination, after you eliminate one of the variables from a pair of equations, what should you do next?</p></li>
+<li><p>What should you do if one of the original equations has only two variables?</p></li>
+<li><p>What is the difference between an inconsistent system and a dependent system?</p></li></ol></p>
+</subsection>
+
+<subsection><title>Wrep Up</title>
+
+<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
+<p><ul>
+<li><p>Use back-substitution to solve a triangular system</p></li>
+<li><p>Use Gaussian elimination to solve a 3x3 linear system</p></li> 
+<li><p>Model a problem with three linear equations in three unknowns</p></li></ul></p>
+</subsection>
+
+</section>

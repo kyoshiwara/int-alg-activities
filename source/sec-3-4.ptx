@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-3-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Completing the Square</title>
+
+<activity><title>Squares of Binomials</title>
+<task><p>Write a formula for the square of a binomial:
+        <me>(x+p)^2 = </me>
+Notice that the constant term of the trinomial is  <fillin/> , and the coefficient of the linear term (or <m>x</m>-term) is <fillin/>.</p></task>
+
+  <task><p> Now we'll reverse the process. Add a constant to the expression that will turn it into a perfect square:
+
+    <me>x^2-16x+<fillin/> = (x <fillin/>)^2</me>                                
+
+    (Do you see how to find the constant?  Here's what you do:)</p>
+      <p>First find <m>p:~~~~~~~~~~~~~2p=-16</m>, so  <m>p=\frac{1}{2}(-16)=</m></p>
+      <p>Then find <m>p^2:~~~~~~~~~~~~p^2=</m></p>    
+
+  <p>We can turn any quadratic expression into a perfect square by adding the correct constant. This process is called <term>completing the square</term>.</p></task>
+
+<task><p>Complete the square and write the result as the square of a binomial.<ol>
+    <li><p><m>x^2 + 18x + <fillin/> = </m></p></li>
+    <li><p><m>x^2 - 14x + <fillin/> = </m></p></li></ol></p></task>
+<task><p>For parts these problems, do not use a calculator!  Work with fractions.<ol>
+    <li><p><m>x^2 + 3x + <fillin/> = </m></p></li>
+    <li><p><m>x^2 - \dfrac{5}{2}x + <fillin/> = </m></p></li></ol></p></task>
+</activity>
+
+<activity><title>A Geometric Viewpoint</title>
+  <introduction><p>We can visualize completing the square using rectangles.</p></introduction>
+<task><p>Study the diagrams that illustrate completing the square for <m>x^2+10x</m>.</p>
+  <sidebyside widths="40% 40%">
+    <p>Step 1  Represent <m>x^2+10x</m> as a rectangle.
+      <image source="act-3-4-1.png" width="40%"></image></p>
+    <p>Step 2 Take <m>\frac{1}{2}</m> of the linear term, and rearrange the pieces.
+        <image source="act-3-4-3.png" width="40%"></image></p></sidebyside>
+  <sidebyside widths="40% 40%">
+    <p>Step 3  What is the missing piece?
+      <image source="act-3-4-1.png" width="40%"></image></p>
+    <p>Step 4 <m>~x^2+10x+25 = (x+5)^2</m>
+        <image source="act-3-4-4.png" width="40%"></image></p></sidebyside></task>
+
+<task><p>Draw a similar set of diagrams to illustrate completing the square for <m>x^2+16x</m>.</p></task>
+</activity> 
+
+<activity><title>Solving Quadratic Equations by Completing the Square</title>
+<introduction><p>We use the technique of completing the square to solve quadratic equations.  There are two parts to this method:
+<ol>
+<li><p>Create a perfect square</p></li>
+<li><p>Use extraction of roots</p></li></ol></p></introduction>
+
+<task><p>Follow the steps to solve <m>~~x^2-6x-16=0</m></p>.
+
+  <p>Move the constant term to the other side of the equation:
+          <me>x^2-6x~~~~~~~~~~~~~~~~~=16</me></p>
+  <p>Complete the square on the left side:   
+        <me>p=\frac{1}{2}(-6)=<fillin/>~~~~\text{and}~~~~~p^2=(-3)^2=<fillin/></me></p>              
+  <p>Add 9 to both sides of the equation:
+        <me>x^2-6x+\alert{9} = 16+\alert{9}</me></p>
+  <p>Write the left side as the square of a binomial: 
+        <me>(<fillin/>)^2 = 25</me></p>                  
+  <p>Use extraction of roots to find the solutions: take the square root of both sides.                   
+        <md><mrow>x-3 \amp = <fillin/>~~~~\text{or}~~~~ x-3 = <fillin/></mrow>
+            <mrow>  x \amp = <fillin/>~~~~\text{or}~~~~~~~~~~~ x = <fillin/></mrow></md></p>                                   
+  <p>The solutions are <fillin/> and <fillin/>.</p>
+</task>
+
+<task><sidebyside widths="50% 40%"><p>Graph the parabola <m>y=x^2-6x-16</m>  with technology, and copy the graph onto the grid.  What are the <m>x</m>-intercepts of the graph?</p>
+    <image source="act-3-4-5.png"></image></sidebyside></task>
+
+<task><p>Solve <m>~~x^2-8x-4=0~~</m> by completing the square. (This equation cannot be solved by factoring!)</p>
+
+  <p>Move the constant term to the right side:</p>
+  <p>Complete the square on the left side:  
+        <me>p=\frac{1}{2}(-8)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></me></p>                                            
+  <p>Add <m>p^2</m> to both sides:</p>
+  <p>Write the left side as the square of a binomial, and simplify the right side:</p>
+  <p>Extract roots to obtain two solutions: </p>
+  <p>Use a calculator to find decimal approximations for each solution. Round to thousandths:</p>
+</task>
+</activity>
+
+<activity><title>The Lead Coefficient</title>
+<introduction><p>Our method for completing the square only works if the coefficient of <m>x^2</m> is 1. If the lead coefficient is not 1, we must divide each term of the equation by the lead coefficient.</p></introduction>
+
+<task><p>Solve <m>~~4x^2-12x-1=0~~</m> by completing the square.</p>
+
+  <p>Divide each term by 4:</p>
+  <p>Move the constant term to the right side:</p>
+  <p>Complete the square on the left side:  
+        <me>p=\frac{1}{2}(-3)=<fillin/>~~~~\text{and}~~~~~p^2=<fillin/></me></p>                                            
+  <p>Add <m>p^2</m> to both sides:</p>
+  <p>Write the left side as the square of a binomial, and simplify the right side:</p>
+  <p>Extract roots to obtain two solutions: </p>
+  <p>Use a calculator to find decimal approximations for each solution. Round to thousandths:</p>
+</task>
+
+<task><sidebyside widths="50% 35%"><p>Graph the parabola <m>y=4x^2-12x-1</m> in the standard window, and copy the graph onto the grid.  What are the <m>x</m>-intercepts of the graph?</p>
+    <image source="act-3-4-6.png"></image></sidebyside></task>
+
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Name three algebraic methods for solving a quadratic equation.</p></li>
+<li><p>Give an example of a quadratic trinomial that is the square of a binomial.</p></li>
+<li><p>In Activity 3, what were the two parts named for solving an equation by completing the square?</p></li>
+<li><p>What is wrong with the following solution?
+        <md><mrow>2x^2-8x+3 \amp = 0</mrow>
+            <mrow>2x^2-8x+16 \amp = -3 + 16</mrow>
+            <mrow>(2x-4)^2 \amp = 13</mrow>
+            <mrow>x \amp = \dfrac{4 \pm \sqrt{13}}{2}</mrow></md></p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to quadratic models:</p>
+<p><ul>
+  <li><p>Add a constant to <m>x^2+bx</m> to create a perfect square</p></li>
+  <li><p>Solve quadratic equations by completing the square</p></li>
+</ul></p></subsection>
+
+</section>

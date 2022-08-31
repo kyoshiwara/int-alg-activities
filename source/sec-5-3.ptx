@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-5-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some Basic Graphs</title>
+
+<activity><title>Some Powers and Roots</title>
+
+<task><p>Complete the table of values for the two functions 
+    <me>f(x)=x^2~~~\text{and}~~~g(x)=x^3</me></p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=x^2</m></cell>
+                    <cell><m>g(x)=x^3</m></cell></row>
+                <row><cell><m>-3</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></task>
+  <task><p>Graph both functions on the grid. Pay particular attention to the curvature of the graphs near the origin.</p>
+      <image source="act-5-3-1.png" width="40%"></image></task>
+
+  <task><p>Complete the tables for the functions 
+      <me>f(x)=\sqrt{x}~~~\text{and}~~~g(x)=\sqrt[3]{x}</me>      
+    (Round your answers to two decimal places.)</p> 
+    <sidebyside>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=\sqrt{x}</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>7</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>9</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> 
+
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>g(x)=\sqrt[3]{x}</m></cell></row>                
+                <row><cell><m>-8</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>8</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></sidebyside></task> 
+
+  <task><p>Graph each function on the grid.</p>
+
+    <image source="act-5-3-2.png" width="50%"></image>
+
+    <image source="act-5-3-3.png" width="70%"></image></task>
+  </activity>
+
+<activity><title>Asymptotes</title>
+
+<task><p>Complete the table for the functions 
+    <me>f(x)=\dfrac{1}{x}~~~\text{and}~~~g(x)=\dfrac{1}{x^2}</me>       
+What is true about the <m>y</m>-values at <m>x=0</m> ?</p>
+  
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=\dfrac{1}{x}</m></cell>
+                    <cell><m>g(x)=\dfrac{1}{x^2}</m></cell></row>
+                <row><cell><m>-4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-3</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></task>
+
+  <task><p>Plot the points from the table and connect them with smooth curves.</p>
+    <sidebyside widths="40% 40%"><image source="act-5-3-4.png"></image>
+                <image source="act-5-3-5.png"></image></sidebyside></task>
+
+  <task><p>As <m>x</m> increases through larger and larger values, what happens to the values of <m>y = \dfrac{1}{x}</m> ?</p>
+    <p>What happens to <m>y</m> as <m>x</m> decreases through larger and larger negative values (that is, for <m>x=-5,~-6,~-7</m> ...)?</p> 
+    <p>Will the graph of <m>y = \dfrac{1}{x}</m> ever touch the <m>x</m>-axis? Why or why not?</p>
+    <p>Repeat your ansers for the graph of <m>y = \dfrac{1}{x^2}</m>.</p></task>
+
+  <task><p> Next we'll examine the graphs near <m>x=0</m>. Evaluate <m>f(x)=\dfrac{1}{x}</m> for several <m>x</m>-values close to zero and complete the table below. What happens to the values of <m>y=\dfrac{1}{x}</m> as <m>x</m> approaches zero?</p>
+  <sidebyside>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=\dfrac{1}{x}</m></cell></row>                
+                <row><cell><m>-2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.01</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.001</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> 
+
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=\dfrac{1}{x}</m></cell></row>                
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.01</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.001</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> </sidebyside></task>
+
+  <task><p>Extend your graph to reflect your answer. Will the graph ever touch the <m>y</m>-axis? Why or why not?</p></task>
+
+  <task><p>Repeat parts (d) and (e) for the graph of <m>g(x)=\dfrac{1}{x^2}</m>.</p> 
+      <sidebyside>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>g(x)=\dfrac{1}{x^2}</m></cell></row>                
+                <row><cell><m>-2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.01</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.001</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> 
+
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>g(x)=\dfrac{1}{x^2}</m></cell></row>                
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.01</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.001</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular> </sidebyside></task>
+
+  <task><p>State the intervals on which each graph is increasing. Write a few sentences comparing the two graphs.</p></task>
+</activity>
+
+<activity><title>Absolute Value</title>
+
+<task><p>Complete the table of values for the two functions  
+    <me>f(x)=x~~~\text{and}~~~g(x)=\abs{x}</me></p>
+
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=x</m></cell>
+                    <cell><m>g(x)=\abs{x}</m></cell></row>
+                <row><cell><m>-4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>\frac{1}{2}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></task>
+
+  <task><p>Graph both functions on the grid.</p>
+      <image source="act-5-3-6.png" width="50%"></image></task>
+
+  <task><p>State the intervals on which each graph is increasing. Write a few sentences comparing the two graphs.</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In Activity 1, describe the differences between the graphs of <m>y=x^2</m> and <m>y=x^3</m>.</p></li>     
+<li><p>What connection do you see between the graphs of <m>y=x^2</m> and <m>y=\sqrt{x}</m>, and between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m> ?</p></li>
+<li><p>Explain how we use asymptotes to help us sketch a graph.</p></li>
+<li><p>Which of the functions in this Lesson are undefined at <m>x=0</m> ?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to functions:</p>
+<p><ul>
+<li><p>Evaluate cube roots and absolute values</p></li>
+<li><p>Graph eight basic functions</p></li> 
+<li><p>Use horizontal and vertical asymptotes for graphing </p></li>
+</ul></p></subsection>
+
+</section>

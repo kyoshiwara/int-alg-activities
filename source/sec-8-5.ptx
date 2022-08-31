@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Equations with Algebraic Fractions</title>
+
+<activity><title>Proportions</title>
+<task><p>What is a proportion?</p>  
+
+  <p>To clear the fractions from a proportion, we <fillin/> .</p></task>
+
+<task><p>Clear the denominators from the proportion:  <m>~\dfrac{-3}{4} = \dfrac{y-7}{y+14}</m>
+
+  <md><mrow><fillin/> \cdot \dfrac{-3}{4} \amp = \dfrac{y-7}{y+14} \cdot <fillin/></mrow>
+      <mrow>               \amp =                     </mrow></md></p></task>
+
+<task><p>What is the name of the short-cut for clearing the denominators?</p>
+
+<p>This short-cut works only for solving proportions -- do not try to use it on any other equations, or any other fraction problems!</p></task>
+
+<task><p>Solve  <m>~~\dfrac{3}{r} = \dfrac{20}{r-10}</m></p></task>
+
+<task><p>The Wildlife Commission tags 30 Canada Geese at one of its migratory feeding grounds. When the geese return, the commission captures 45 geese, of which  four are tagged. What is the commission's estimate of the number of geese that use the feeding ground?</p>
+
+<p>Follow the steps:</p>
+
+<p>Choose a variable:  what is the unknown quantity?</p>
+<p>Set up a proportion:  write two ratios, one for the entire population of geese, and one for the captured geese.</p>
+  <p><m>~~~~\dfrac{\text{tagged geese}}{\text{total geese}}:~~<fillin characters="8"/> = <fillin characters="8"/></m></p>
+  <p><m>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\text{(all geese)} ~~~~~~~~~~~~~~~\text{(captured geese)}</m></p>
+<p>Solve the proportion and answer the question in a sentence.</p></task>
+</activity>
+
+<activity><title>Graphical Solution</title>
+<introduction><p>A florist finds that she will sell <m>\dfrac{300}{x}</m>  dozen roses per week if she charges <m>x</m> dollars for a dozen. Her suppliers will sell her <m>5x-55</m> dozen roses if she sells them at <m>x</m> dollars per dozen.</p></introduction>
+
+<task><p>Graph the demand function, <m>~D(x) = \dfrac{300}{x}</m>, and the supply function, <m>~S(x) = 5x-55</m>, for <m>0 \le x \le 30</m>.</p>
+<p>Make a sketch of your graph, and label the axes.</p>
+
+<p>At what equilibrium price, <m>x</m>, will the florist sell all the roses she purchases?</p></task>
+
+<task><p> Write and solve an equation to verify the equilibrium price.</p></task>
+</activity>
+
+<activity><title>Equations with Fractions</title>
+<task><p>If an equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the <fillin/> of the fractions.</p></task>
+
+<task><p>Follow the steps to solve:  <m>~~ \dfrac{2}{x+1} + \dfrac{1}{3x+3} = \dfrac{1}{6}</m></p>
+<p>Find the LCD. First factor each denominator.</p>
+  <p><m>~~~x+1 = </m></p>
+  <p><m>~~~3x+3 = </m></p>
+  <p><m>~~~6 = </m></p>
+  <p><m>~~~LCD = </m></p>
+<p>Multiply each term of the equation by the LCD. If you write each denominator in its factored form, it will be easier to simplify the terms:
+  <me>\blert{\dfrac{6(x+1)}{1}} \cdot \dfrac{2}{x+1} + \dfrac{1}{3(x+1)} \cdot \blert{\dfrac{6(x+1)}{1}} = \dfrac{1}{6} \cdot \blert{\dfrac{6(x+1)}{1}}</me></p>
+<p>Simplify by reducing each term.</p>
+<p>Solve.</p></task>
+</activity>
+
+<activity><title>Extraneous Solutions</title>
+<task><p>An apparent solution is extraneous if it causes one or more of the denominators in the equation to be <fillin/> .</p></task>
+
+<task><p>Consider the equation  <m>~~ \dfrac{1}{x-1} + \dfrac{2}{x+1} = \dfrac{x-3}{x^2-1}</m></p>
+<p>Which values of  cause one or more of the denominators to be zero?</p></task>
+
+<task><p>Follow the steps to solve  <m>~~ \dfrac{1}{x-1} + \dfrac{2}{x+1} = \dfrac{x-3}{x^2-1}</m></p>
+  <p>Find the LCD. First factor each denominator.</p>
+  <p><m>~~~x-1 = </m></p>
+  <p><m>~~~x+1 = </m></p>
+  <p><m>~~~x^2-1 = </m></p>
+  <p><m>~~~LCD = </m></p>
+<p>Multiply each term of the equation by the LCD. If you write each denominator in its factored form, it will be easier to simplify the terms:
+    <me>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{x-1} + \dfrac{2}{x+1} \cdot \blert{\dfrac{<fillin/>}{1}}= \dfrac{x-3}{x^2-1} \cdot \blert{\dfrac{<fillin/>}{1}}</me></p>
+<p>Simplify by reducing each term:</p>
+
+<p>Solve:</p>
+
+<p>Check:  Are any of the solutions extraneous?</p></task>
+</activity>
+
+<activity><title>Solving Formulas</title>
+<task><p>  Follow the steps to solve  <m>~~\dfrac{1}{R} = \dfrac{1}{A} +\dfrac{1}{B} ~~ </m> for <m>B</m>.</p>
+
+<p>Find the LCD of all the fractions in the equation.    <m>LCD = </m></p>
+<p>Multiply each term by the LCD:    
+    <me>~~\blert{\dfrac{<fillin/>}{1}} \cdot  \dfrac{1}{R} = \dfrac{1}{A} \cdot \blert{\dfrac{<fillin/>}{1}} +\dfrac{1}{B} \cdot \blert{\dfrac{<fillin/>}{1}}</me></p>    
+<p>Simplify. </p>  
+<p>Get all terms with <m>B</m> on one side.</p>
+<p>Now here is the new part:  If you have two terms containing the variable (<m>B</m> in this case), you should factor out the variable:</p>
+<p>Finally, solve for <m>B</m>:</p></task>
+</activity>  
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>What is the first step in solving an equation that includes algebraic fractions?</p></li>
+<li><p>If the equation also contains terms without fractions, should you multiply those terms by the LCD?</p></li>
+<li><p>What are extraneous solutions, and when might they arise?</p></li>
+<li><p>If you are solving a formula and two or more terms contain the variable you are solving for, what should you do?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
+<p><ul>
+<li><p>Solve equations involving algebraic fractions</p></li>    
+<li><p>Check for extraneous solutions</p></li>
+<li><p>Solve formulas involving algebraic fractions </p></li>
+</ul></p></subsection>  
+
+</section>

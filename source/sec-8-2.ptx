@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebraic Fractions</title>
+
+<activity><title>Reducing Fractions</title>
+<task><p>To reduce an algebraic fraction:</p>
+<p><ol>
+  <li><p><fillin/> the numerator and denominator.</p></li>
+  <li><p>Divide the numerator and denominator by any <fillin/> .</p></li>
+</ol></p></task>
+
+<task><p>Reduce the fraction. Numerator and denominator are monomials, so no factoring needed.</p>
+  <p><m>~~~~\dfrac{-12rs^2t}{-6rst^2}</m></p></task>
+
+<task><p>Reduce. Factor numerator and denominator before canceling!</p>
+  <p><ol>
+  <li><p><m>\dfrac{5y^2-20}{2y-4} </m></p></li>
+  <li><p><m>\dfrac{6x^2-x-1}{2x^2+9x-5}</m></p></li>
+  </ol></p></task> 
+  
+<task><p>Reduce. Use the formulas for factoring sums and differences of cubes.</p>
+<p><m>~~~~\dfrac{8z^3-1}{4z^2-1}</m></p></task>
+
+<task><p>Reduce. Look for negatives of binomials.</p>
+  <p><ol>
+  <li><p><m>\dfrac{2a^2-ab}{b^2-2ab}</m></p></li>
+  <li><p><m>\dfrac{-4b^2-2b}{4b^3-b}</m></p></li>
+</ol></p></task>
+</activity>
+  
+<activity><title>Equivalent Fractions</title>
+<introduction><p>Which expressions are equivalent to the given fraction?</p></introduction>
+
+<task><p><m>\dfrac{3}{5}</m></p>
+  <p><ol cols="4">
+    <li><p><m>\dfrac{3x}{5x}</m></p></li>
+    <li><p><m>\dfrac{3-x}{5-x}</m></p></li>
+    <li><p><m>\dfrac{30+x}{x+50}</m></p></li>
+    <li><p><m>\dfrac{30x}{50x}</m></p></li>   
+  </ol></p></task>
+
+  <task><p><m>\dfrac{v-1}{v+1}</m></p>
+  <p><ol cols="4">
+    <li><p><m>-1</m></p></li>
+    <li><p><m>\dfrac{1-v}{1+v}</m></p></li>
+    <li><p><m>-\dfrac{1-v}{v+1}</m></p></li>
+    <li><p><m>\dfrac{v+1}{v-1}</m></p></li>   
+  </ol></p></task>
+
+  <task><p><m>\dfrac{2w-6}{w}</m></p>
+  <p><ol cols="4">
+    <li><p><m>-4</m></p></li>
+    <li><p><m>\dfrac{6-2w}{-w}</m></p></li>
+    <li><p><m>2-\dfrac{6}{w}</m></p></li>
+    <li><p><m>-\dfrac{2w+6}{w}</m></p></li>   
+  </ol></p></task>
+
+ <task><p><m>\dfrac{3a+2}{3a-2}</m></p>
+  <p><ol cols="4">
+    <li><p><m>\dfrac{3a-2}{3a+2}</m></p></li>
+    <li><p><m>\dfrac{3a-2}{2-3a}</m></p></li>
+    <li><p><m>-1</m></p></li>
+    <li><p><m>\dfrac{2a+3}{2a-3}</m></p></li>   
+  </ol></p></task> 
+  </activity>
+
+<activity><title>Horizontal Asymptote</title>
+<introduction><p>Envirogreen Technology, Inc. decides to produce a new type of water filter for home use.They spend $5000 for startup costs, and each filter costs $50 to produce.</p></introduction>
+<task><p>To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters.</p>  
+<p>Compute the total cost of producing <m>x</m> filters:
+  <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
+      <mrow>  \amp = </mrow></md></p>
+<p>Divide the total cost by the number of filters produced.
+  <me>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </me></p></task>
+
+<task><p>Sketch a graph of the average cost, <m>A</m>.</p>
+  <sidebyside widths="30% 70%">
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>A</m></cell></row>                
+                <row><cell><m>50</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>100</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>200</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>400</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>500</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1000</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1250</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2000</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>
+        <image source="act-8-2-1.png" width="50%"></image></sidebyside>
+  <p>Use the graph and the table to help you answer the questions.</p></task>
+
+<task><p>Approximately how many filters should Envirogreen produce for the average cost to be $75?</p></task>
+
+<task><p>What happens to the average cost per filter as <m>x</m> increases?</p>
+
+<p>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</p></task>
+
+<task><p>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? Use the formula:</p>  
+<p>Profit = Revenue - Cost.</p></task>
+</activity>
+
+<activity><title>Vertical Asymptote</title>
+ <introduction><p> The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></introduction>
+
+ <task><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></task>
+
+<task><p> Complete the table showing the travel time for various current speeds.</p> 
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>v</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>4</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>16</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>24</m></cell>
+                    <cell><m>28</m></cell>
+                    <cell><m>32</m></cell>
+                    <cell><m>36</m></cell></row>
+                <row><cell><m>t</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>                        
+  <p>What happens to the travel time as the current speed increases?</p></task>
+
+<task><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Sketch the graph and label scales on the axes.</p></task>
+
+<task><p>Use your graph to estimate the speed of the current if the tuna's travel time was 20 hours.  Show your method on the graph.</p></task>
+
+<task><p>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote mean in the context of the problem?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>What is the most important thing to remember about reducing fractions?</p></li>
+<li><p>Explain why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
+<li><p>In Activity 3, why does the average cost per filter never decrease below $50?</p></li>
+<li><p>What would negative values of <m>v</m> mean in Activity 4?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
+<p><ul>
+<li><p>Reduce fractions</p></li>    
+<li><p>Use rational functions as models</p></li>    
+<li><p>Interpret horizontal and vertical asymptotes</p></li>
+</ul></p></subsection>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>

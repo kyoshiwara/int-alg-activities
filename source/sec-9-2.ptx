@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-9-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Distance and Midpoint Formulas</title>
+
+<activity><title>Distance Between Two Points</title>
+<task><p>Plot the points <m>(-5,3)</m> and <m>(3,-9)</m>, and draw the line segment joining them.</p>
+    <image source="act-2-2-2.png" width="50%"></image></task>
+<task><p>Draw horizontal and vertical line segments to make a right triangle. What are the coordinates at the vertex of the right angle?</p></task>
+<task><p>Find the length of each leg of the right triangle. We'll call those lengths <m>a</m> and <m>b</m>. (Do you see how to calculate <m>a</m> and <m>b</m> from the coordinates of the given points?)</p>
+    <p><m>~~~~~a=</m></p>
+    <p><m>~~~~~b=</m></p></task>
+ <task><p>Use the Pythagorean theorem to calculate the length of the hypotenuse. This is the distance between <m>(-5,3)</m> and <m>(3,-9)</m>.</p></task>
+</activity>
+
+<activity><title>The Distance Formula</title>
+ <task><p> Now we'll do the same thing in general. Plot any two points of your choice and label their coordinates <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>. Draw the line segment joining them.</p>
+  <image source="act-2-2-2.png" width="50%"></image></task>
+<task><p>Draw horizontal and vertical line segments to make a right triangle. What are the coordinates at the vertex of the right angle?</p></task>
+<task><p>Find an expression for the length of each leg of the right triangle, in terms of the coordinates of the points. We'll call those lengths <m>a</m> and <m>b</m>.</p>
+    <p><m>~~~~~a=</m></p>
+    <p><m>~~~~~b=</m></p></task>
+ <task><p>Use the Pythagorean theorem to write a expression for the length of the hypotenuse. This is the distance between <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>.</p></task>
+</activity>
+
+<activity><title>The Midpoint Formula</title>
+<task><p>Plot the points <m>(-5,3)</m> and <m>(3,-9)</m>, and draw the line segment joining them.</p>
+    <image source="act-2-2-2.png" width="50%"></image></task>
+<task><p>Draw horizontal and vertical line segments to make a right triangle.</p></task>  
+<task><p>Now start at <m>(-5,3)</m> and move half the horizontal distance and half the vertical distance to <m>(3,-9)</m>. What are the coordinates of the new point?</p></task>
+<task><p>The new point is called the midpoint of the segment joining <m>(-5,3)</m> and <m>(3,-9)</m>. It is half-way between <m>(-5,3)</m> and <m>(3,-9)</m>.</p>
+<p>How can we find a formula for calculating the coordinates of the midpoint? When we calculate the average of two numbers, we find a number that is half-way between them. For example, if your test scores are 70 and 90, your test average is
+<me>\text{average} = \dfrac{70+90}{2} = \dfrac{160}{2} = 80</me></p></task>
+<task><p>For the two points <m>(-5,3)</m> and <m>(3,-9)</m>, calculate the average of their <m>x</m>-coordinates and the average of their <m>x</m>-coordinates.
+  <md><mrow>\overline{x} = \dfrac{x_1 + x_2}{2} = </mrow>
+      <mrow>\overline{y} = \dfrac{y_1 + y_2}{2} = </mrow></md>                                               
+You should get the same point you found above.</p></task>
+</activity>
+
+<activity><title>Using the Formulas</title>
+<task><p>Complete the rules for the distance and midpoint formulas.</p>
+  <p>The distance between two points <m>P_1 (x_1, y_1)</m> and <m>P_2 (x_2, y_2)</m> is
+    <me>d = <fillin characters="20"/></me></p>
+  <p>The midpoint of the line segment joining the points <m>P_1 (x_1, y_1)</m> and <m>P_2 (x_2, y_2)</m> is the point <m>M(\overline{x}, \overline{y})</m>,   where
+        <me>\overline{x} =<fillin characters="8"/> ~~\text{and}~~\overline{y} =<fillin characters="8"/></me></p></task>
+<task><p>Use the formula to find the distance between <m>(-5, 2)</m> and <m>(7, -3)</m>.</p></task>
+<task><p>Use the formula to find the midpoint of the line segment joining <m>(-5, 2)</m> and <m>(7, -3)</m>.</p></task>
+</activity>
+
+<activity><title>Circles</title>
+<introduction><p>A circle is the set of all points in a plane that lie at a given distance, called the radius, from a fixed point called the center.  We can use the distance formula to find an equation for a circle. </p></introduction>
+
+<task><p>The center of a circle is the origin, <m>(0,0)</m>. The distance from the origin to any point <m>(x,y)</m> on the circle is <m>r</m>.</p>
+<p><ol>
+  <li><p>Use the distance formula to write and equation about the circle.</p></li>
+  <li><p>Square both sides of your equation and simplify, to obtain the equation for a circle of radius <m>r</m> centered at the origin.</p></li>
+</ol></p></task>
+
+<task><p><ol>
+  <li><p>Use the distance formula to write a formula for the circle whose radius is <m>r</m> and whose center is <m>(h,k)</m>.</p></li>
+  <li><p>Square both sides to obtain a formula for a circle:</p>
+      <p>The standard form for the equation for a circle of radius <m>r</m> centered at the point <m>(h,k)</m> is
+          <me><fillin characters="12"/>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
+  </ol></p></task>
+  <task><p>Write an equation for the circle with center at <m>(4,-3)</m> with radius <m>2\sqrt{6}</m>.</p></task>
+</activity>
+
+<activity><title>Standard Form</title>
+<introduction><p>The standard form for a circle is useful because we can see the center and the radius right in the equation, so we can graph the circle. </p></introduction>
+<task><p>State the center and radius of the circle  <m>~(x+3)^2 + (y+2)^2 = 16</m>.</p></task>
+<task><p>Graph the circle on the grid.</p>
+      <image source="act-2-2-2.png" width="40%"></image></task>
+<task><p>Expand the left side of the equation, and write it in general quadratic form:
+    <me>ax^2 + bxy + cy^2 + dx + ey + f = 0</me></p></task> 
+<task><p>To convert an equation to standard form we complete the square. Follow the steps to convert the equation
+  <me>x^2 + y^2 - 14x + 4y = -25</me>
+  to standard form.</p>
+  <p>Collect the <m>x</m>-terms together and the <m>y</m>-terms together.</p>
+
+  <p>Complete the square for <m>x</m> and <m>y</m>.</p>   
+
+  <p>Write each expression as a perfect square and simplify the right side</p>
+
+  <p>The circle has center <fillin/>  and radius  <fillin/> .</p></task>
+
+  <task><p>Write the equation for the circle in standard form:
+    <me>x^2 + y^2 - 10x - 6y - 24 = 0</me></p></task>
+  </activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>State the Pythagorean theorem, then solve for <m>c</m>.  Compare this equation with the distance formula; how are they similar?</p></li>
+<li><p>In the midpoint formula, why do we add the coordinates of the two points, instead of subtracting them, as we do in the distance formula?</p></li> 
+<li><p>What fact about circles does the equation of a circle state?</p></li>
+<li><p>What algebraic technique do we use to write the equation of a circle in standard form?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<p><ul>
+<li><p>Find the distance between two points </p></li>   
+<li><p>Find the midpoint of a line segment</p></li>   
+<li><p>Graph a circle</p></li>   
+<li><p>Find the equation for a circle</p></li>     
+<li><p>Use completing the square to write the equation of a circle in standard form</p></li>
+</ul></p></subsection>    
+
+</section>

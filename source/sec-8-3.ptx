@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Operations on Algebraic Fractions</title>
+
+<activity><title>Multiplying and Dividing Fractions</title>
+
+<task><p>To multiply algebraic fractions:</p>
+<p><ol>
+  <li><p><fillin/> each numerator and denominator</p></li>
+  <li><p>Divide out any factors that appear in <fillin/> .</p></li>
+  <li><p> </p></li>
+  </ol></p></task>
+
+<task><p>Multiply  <m>~~\dfrac{3y}{4xy-xy^2} \cdot \dfrac{2x-3y}{12x}</m></p></task>
+
+<task><p>Multiply  <m>~~\dfrac{9x^2-25}{2x-2} \cdot \dfrac{x^2-1}{6x-10}</m></p></task>
+
+<task><p>Multiply  <m>~~\dfrac{3x^2-7x-6}{2x^2-x-1} \cdot \dfrac{2x^2-9x-5}{3x^2-13x-10}</m></p></task>
+
+<task><p>To divide algebraic fractions:</p>
+<p><ol>
+<p><li>Take the <fillin/> of the second fraction.</li></p>
+<p><li> <fillin/>  each numerator and denominator.</li></p>
+<p><li>Divide out any factors that appear in <fillin/> .</li></p>                                     .
+<p><li></li></p>
+</ol></p></task>
+
+<task><p>Divide  <m>~~ \dfrac{a^2+2a-15}{a^2+3a-10} \div \dfrac{a^2-9}{a^2+9a-14}</m></p></task>
+
+<task><p>Divide  <m>~~ \dfrac{8x^3-y^3}{x+y} \div \dfrac{2x-y}{x^2-y^2}</m></p></task>
+</activity>
+
+<activity><title>Adding and Subtracting Fractions</title>
+
+<task><p>What are like fractions?</p>  
+
+<p>To add or subtract like fractions, we <fillin/> their numerators and <fillin/> the denominator.</p></task>
+
+<task><p>Add   <m>~~~~\dfrac{2}{a-3b} - \dfrac{b-2}{a-3b} + \dfrac{b}{a-3b}</m></p></task>
+
+<task><p>To add or subtract unlike fractions, we must first find <fillin/>.</p>
+
+  <p>Fill in the steps to add or subtract unlike fractions:</p>
+    <p><ol>
+      <li><p></p></li>
+      <li><p></p></li>
+      <li><p></p></li>
+      <li><p></p></li>
+  </ol></p></task>
+
+  <task><p>Follow the steps to add: <m>~~ \dfrac{x-2}{4x} + \dfrac{2x-3}{3x}</m></p>     
+      <p><ol>
+  <li><p>The LCD is:   <m>~~~3 \cdot 3 \cdot x = 12x</m></p></li>
+  <li><p>Find the building factor for each fraction and build:
+      <me>~~ \blert{\dfrac{3}{3}} \cdot \dfrac{x-2}{4x} + \dfrac{2x-3}{3x} \cdot \blert{\dfrac{4}{4}} = \dfrac{<fillin/>}{12x} + \dfrac{<fillin/>}{12x}</me></p></li>
+  <li><p>Combine the numerators: <m>~~~\dfrac{<fillin/>}{12x} = </m></p></li>
+
+  <li><p>Can the answer be reduced?</p></li>
+</ol></p></task>
+
+<task><p>If neither denominator can be factored, the LCD is just their product.</p>
+<p>Follow the steps to subtract:  <m>~~~~\dfrac{2x}{3x+1} - \dfrac{x}{x-2}</m></p>
+  <p><ol>
+    <li><p>The LCD is: </p></li>       
+  <li><p>Find the building factor for each fraction and build:
+    <me>\dfrac{2x}{3x+1} - \dfrac{x}{x-2} = \dfrac{<fillin/>}{(3x+1)(x-2)} - \dfrac{<fillin/>}{(3x+1)(x-2)}</me></p></li>                              
+  <li><p>Combine the numerators: <m>~~~~\dfrac{<fillin/>}{(3x+1)(x-2)} = </m></p></li>
+
+  <li><p>Can the answer be reduced?</p></li>
+</ol></p></task>
+</activity>
+
+<activity><title>Finding the LCD</title>
+<task><p>The LCD must be divisible by each of the given <fillin/> .</p>
+  <p>The first step in finding the LCD is to <fillin/> each denominator.</p></task>
+
+<task><p>Follow the steps to subtract:  <m>~~~~\dfrac{2}{3y+6} - \dfrac{3}{2y+4}</m></p>
+  <p><ol>
+  <li><p>Factor each denominator</p>
+        <p><m>3y+6 = </m></p> 
+        <p><m>2y+4 = </m></p>
+      <p>The LCD is:  <m>~~ 2 \cdot 3 (y + 2)</m></p></li>  
+   <li><p>Find the building factor for each fraction and build:     
+      <me>~~ \blert{\dfrac{2}{2}} \cdot \dfrac{2}{3 (y+2)} - \dfrac{3}{2 (y+2)} \cdot \blert{\dfrac{3}{3}} = \dfrac{<fillin/>}{LCD} - \dfrac{<fillin/>}{LCD}</me></p></li>
+  <li><p>Combine the numerators: <m>~~\dfrac{<fillin/>}{6 (y + 2)}</m></p></li>
+  <li><p>Can the answer be reduced?</p></li>
+</ol></p></task>
+
+<task><p>Follow the steps to subtract:  <m>~~~~\dfrac{x+1}{x^2+2x} - \dfrac{x-1}{x^2-3x}</m></p>
+  <p><ol>
+  <li><p>Factor each denominator</p>
+        <p><m>x^2+2x = </m></p> 
+        <p><m>x^2-3x = </m></p>
+      <p>The LCD is:  </p></li>  
+   <li><p>Find the building factor for each fraction and build:     
+      <me>~~ \blert{\dfrac{?}{?}} \cdot \dfrac{x+1}{x(x+2)} - \dfrac{x-1}{x(x-3)} \cdot \blert{\dfrac{?}{?}} = \dfrac{<fillin/>}{LCD} - \dfrac{<fillin/>}{LCD}</me></p></li>
+  <li><p>Combine the numerators: <m>~~\dfrac{<fillin/>}{x(x+2)(x-3)}</m></p></li>
+  <li><p>Can the answer be reduced?</p></li>
+</ol></p></task>
+</activity>
+
+<activity><title>Application</title>
+<introduction><p>River Queen Tours offers a round-trip excursion on the Mississippi River by paddle wheel, 25 miles each way. The current in the Mississippi is 8 miles per hour.</p></introduction>
+
+<task><p>The speed of the boat in still water is <m>v</m> miles per hour. Fill in the table the first two columns of the table.</p>
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m></m></cell>
+                    <cell><m>D</m></cell>
+                    <cell><m>R</m></cell>
+                    <cell><m>T</m></cell></row>
+                <row><cell>upstream</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>downstream</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular> </task>
+
+<task><p>Express the time required for the downstream journey as a function of the speed of the boat, <m>v</m>, in still water.</p></task>
+
+<task><p>Express the time required for the return trip upstream in terms of <m>v</m>.</p></task>
+<task><p>By adding your answers for parts (b) and (c), write an expression for the total time for the round trip in terms of <m>v</m>.  Then simplify the expression.</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>If you divide 4 cakes into <m>\frac{1}{3}</m>'s, how many pieces will you have?  If you divide 3 cakes into <m>\frac{1}{5}</m>'s, how many pieces will you have? How are these calculations related to the rule for dividing fractions?</p></li>
+<li><p>How would you simplify <m>~~\left(\dfrac{x-3}{3x}\right)^{-2}~</m>?</p></li>
+<li><p>Compute <m>~\dfrac{2a}{a-2b} - \dfrac{4a}{a-2b}~</m> and <m>~\dfrac{2a}{a-2b} \div \dfrac{4a}{a-2b}~</m>. Compare the methods for each computation.</p></li> 
+<li><p>Why do we build fractions when adding or subtracting them?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
+<p><ul>
+<li><p>Multiply and divide algebraic fractions</p></li>    
+<li><p>Add and subtract like fractions</p></li>
+<li><p>Find a lowest common denominator</p></li>  
+<li><p>Add and subtract unlike fractions</p></li>
+</ul></p></subsection>  
+
+</section>

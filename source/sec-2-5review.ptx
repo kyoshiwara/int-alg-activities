@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-2-5review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Inequalities in Two Variables</title>
+
+<activity><title>Solutions of Inequalities in Two Variables</title>
+<introduction><p>How is an inequality in two variables different from an equation? How are the solutions different? How are their graphs different? (Remember that a graph is just a picture of all the solutions.) Compare the two scenarios below.</p></introduction>
+
+<task><p>Ivana owns two hotels that earn annual profits of <m>x</m> and <m>y</m> dollars, respectively. She would like her total annual profit from the two hotels to be (exactly) $10,000. Fill in the table with some possible values for <m>x</m> and <m>y</m>, in thousands of dollars. Note that it is possible for one of the hotels to sustain a loss, or negative profit.</p> 
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+    </tabular></task>
+    <task><p>Plot the ordered pairs from your table on the grid.</p> 
+          <image source="act-2-5-1.png" width="50%"></image></task> 
+    <task><p>Write an equation that describes this problem.</p></task>
+    <task><p>Graph all solutions of the equation on the grid in part (b).</p></task>
+
+<task><p>Now suppose that Ivana would like her profit to be greater than $10,000. List four pairs of values for <m>x</m> and <m>y</m> that achieve this goal.</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell>
+                    <cell><m>\hphantom{0000000000}</m></cell></row>
+    </tabular></task>
+<task><p>Plot the four points on the grid in part (b).</p></task>  
+<task><p>Write an inequality for <m>x</m> and <m>y</m> that describes this situation.</p></task>
+<task><p>Shade in the region that contains all solutions of the inequality.</p></task>
+<task><p>Explain how the graph of the equation in part (c) is different from the graph of the inequality in part (g).</p></task>  
+<task><p>Describe the graph of the inequality. Note that all the solutions of the inequality lie on one side of the line.</p></task> 
+</activity>
+
+<activity><title>Graphing a Linear Inequality</title>
+<introduction><p>Now we'll develop a technique for graphing the solutions of a linear inequality. As an example, we'll consider    
+    <me>3x - y \le -2</me></p></introduction>
+
+<task><p>We begin by graphing the equation <m>3x - y = -2</m>. This line will be the boundary line for our solution set.</p></task> 
+<task><p>Write the equation <m>3x - y = -2</m> in slope-intercept form.</p></task>
+<task><sidebyside widths="40% 50%"><stack>
+  <p>Use the slope-intercept method to graph the line.</p>
+  <p><m>b = </m></p>
+  <p><m>m = \dfrac{\Delta y}{\Delta x} = </m></p></stack>
+    <image source="act-2-5-2.png"></image></sidebyside></task>
+
+  <task><p>Next we'll use a test point to find out where the solutions of the inequality are. We can use any point for a test point, as long as it does not lie on the line! We'll use <m>(1,4)</m>.  Locate this point on your graph.  Use algebra to decide whether <m>(1,4)</m> is a solution of the inequality <m>3x - y \le -2</m>.</p></task>
+  <task><p>Which side of the line includes all the solutions of the inequality? Shade that side of the line. Is the line itself included in the solution set?</p></task>
+  <task><p>Can you suggest an easier test point instead of <m>(1,4)</m>?</p></task>   
+</activity>
+
+
+
+</section>

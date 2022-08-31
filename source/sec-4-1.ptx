@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Quadratic Formula</title>
+
+  <activity><title>A Quadratic Model:  Free-Fall</title>
+  <introduction><p>A skydiver jumps out of an airplane at 11,000 feet.  While she is in free-fall, her altitude in feet <m>t</m> seconds after jumping is given by
+      <me>h=-16t^2-16t+11,000</me></p></introduction>
+  <task><p>Use technology to complete the table of values. (You can use the Table feature of your calculator.)</p>
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell>0</cell>
+                    <cell>5</cell>
+                    <cell>10</cell>
+                    <cell>15</cell>
+                    <cell>20</cell>
+                    <cell>25</cell>
+                    <cell>30</cell></row>
+                <row><cell><m>h</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell>
+                    <cell><m>\hphantom{00000000}</m></cell></row>
+    </tabular></task>
+    <task><p>Graph the equation.</p>
+          <image source="act-4-1-1.png" width="40%"></image></task>  
+  <task><p>Write and solve an equation to answer the question:  If the skydiver must open her parachute at an altitude of 1000 feet, how long can she free-fall?</p></task>
+  <task><P>Locate the corresponding point on your graph.</P></task>
+</activity>
+
+<activity><title>Area and Perimeter</title>
+<introduction><sidebyside widths="55% 40%"><p>A dog trainer has 100 meters of chain link fence.  She wants to enclose a total area of 250 square meters in three pens of equal size, as shown at right. We will find the length and width of each pen.</p>
+<image source="act-4-1-2.png"></image></sidebyside></introduction>
+
+<task><p>Let <m>l</m> and <m>w</m> represent the length and width of each pen. Label the figure.  (How many <m>l</m>'s and <m>w</m>'s do you have?)</p></task>
+<task><p>Write an equation in <m>l</m> and <m>w</m> about the amount of chain link fence. (Hint: Is this an area or a perimeter?)</p></task>
+<task><p>Solve your equation for <m>l</m> in terms of <m>w</m>.</p></task>
+<task><p>Write an equation in terms of <m>l</m> and <m>w</m> for the total area enclosed.</p></task>  
+<task><p>Substitute your expression for <m>l</m> from part (c) into your equation from part (d).</p></task>
+<task><p>Solve your equation from part (d). (There are two solutions!)</p></task>
+<task><p>Find the dimensions of each pen.  Round your answers to hundredths. ("Dimensions" means length and width. There are two different solutions to the problem.)</p></task>
+</activity>
+
+<activity><title>Summary: Solving Quadratic Equations</title>
+<task><p>List four algebraic methods for solving quadratic equations.<ol>
+
+  <li><p></p></li>
+  <li><p></p></li>
+  <li><p></p></li>
+  <li><p></p></li></ol></p></task>
+
+<task><p>Which method(s) work on any quadratic equation?</p></task>
+<task><p>Which method is fastest if one side of the equation is a perfect square?</p></task>
+<task><p>For each equation, name the easiest method for solving, then solve.<ol>
+  <li><p><m>x^2-7=0</m></p></li>
+  <li><p><m>x^2=7x</m></p></li>
+  <li><p><m>x^2-7x=8</m></p></li>
+  <li><p><m>(x-7)^2=8</m></p></li>
+  <li><p><m>x^2=7x-8</m></p></li>
+  <li><p><m>x^2-8x=4</m></p></li></ol></p></task>
+</activity>
+
+<activity><title>Deriving the Quadratic Formula</title>
+
+<task><p>Use completing the square to solve the equation <m>x^2+bx+c=0</m> for <m>x</m> in terms of <m>b</m> and <m>c</m>. Follow the steps below:</p>
+  <p>Move the constant term to the right side</p>
+  <p>Complete the square on the left side.</p>
+  <p>Write the left side as a perfect square; simplify the right side.</p>
+  <p>Extract roots.</p></task>
+
+<task><p>Use completing the square to solve <m>ax^2+bx+c=0</m> for <m>x</m> in terms of <m>a,~b</m>, and <m>c</m>. Follow the steps below:</p>
+  <p>Move the constant term to the right side; divide both sides by the lead coefficient.</p>
+  <p>Complete the square on the left side.</p>
+  <p>Write the left side as a perfect square; simplify the right side.</p>
+  <p>Extract roots.</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In Activity 1c, what value did you substitute for <m>c</m>?  Why?  When is <m>h=11,000</m>?</p></li>
+<li><p>In Activity 2, did you solve an equation about area or about perimeter to find the values of <m>w</m>?  How did you use the other quantity in your solution?</p></li>
+<li><p>In Activity 2f, you found two solutions to the equation.  Are these values the dimensions of each pen?</p></li>
+<li><p>In Activity 4, what was different about the procedure in part (a) from the procedure in part (b)?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to quadratic models:</p>
+<p><ul>
+<li><p>Use the quadratic formula to solve quadratic equations</p></li>
+<li><p>Solve quadratic equations for one variable in terms of the others</p></li>
+<li><p>Solve problems arising from quadratic models</p></li>
+</ul></p></subsection>
+
+</section>

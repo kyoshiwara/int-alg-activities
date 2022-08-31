@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-8-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Polynomial Functions</title>
+
+<activity><title>Polynomials</title>
+<task><p>Write the definition of a polynomial function.</p></task>  
+ 
+ <task><p>Give an example of a trinomial of degree four whose lead coefficient is <m>~-5</m>.</p></task>
+
+  
+<task><p>Multiply  <m>~(3x-2)(4x^2+x-2)</m></p></task>
+
+<task><p>Multiply  <m>~(2a^2-3a+1)(3a^2+2a-1)</m></p></task>
+
+<task><p> Find the indicated terms of the product. (Do not compute the entire product!)
+  <me>(2-x+3x^2)(3+2x-x^2+2x^4)</me></p>
+
+  <p>Constant term:</p>
+
+  <p>Linear term:</p>
+
+  <p>Quadratic term:</p></task>
+</activity>
+
+<activity><title>Cubic Polynomials</title>
+
+<task><p>Expand <m>(x+2)^3</m> by multiplying out <m>(x+2)(x+2)(x+2)</m>.</p></task> 
+
+<task><p>Complete the formulas for cubes of binomials:</p>
+
+  <p><m>(a+b)^3 = </m></p>
+
+  <p><m>(a-b)^3 = </m></p></task>
+
+<task><p>Use the formula to expand <m>(x+2)^3</m>. Compare the result to your answer above.</p></task>       
+
+<task><p>Use the formula to expand <m>(2-5\sqrt{t})^3</m>.</p></task>
+
+ <task><p>Multiply  <m>(a+b)(a^2-ab+b^2)</m></p>  
+
+      <p>Multiply  <m>(a-b)(a^2+ab+b^2)</m></p>
+
+    <p>Hmmm.......    Interesting.</p></task>
+
+<task><p>Write the formulas for factoring the sum or difference of two cubes.</p>   
+
+    <p><m>a^3+b^3 = </m></p> 
+
+    <p><m>a^3-b^3 = </m></p>
+
+<p>Memorize these two formulas!</p></task>  
+
+<task><p>Factor <m>~x^3-8y^3</m></p>    
+
+  <p>Factor  <m>~125x^3y^3 + 27</m></p></task>
+</activity>
+
+<activity><title>Volume of a Box</title>
+<introduction><p> A paper company plans to make boxes without tops from sheets of cardboard 8 inches wide and 12 inches long. They will cut out four squares of side <m>x</m> inches from the corners of the sheet and fold up the edges.</p></introduction> 
+<task><p> Write expressions in terms of  for the length, width, and height of the resulting box.</p>
+    <p>Length:</p>
+    <p>Width:</p>
+    <p>Height:</p></task>                                                                     
+
+<task><p>Write a formula for the volume <m>V</m> of the box as a function of <m>x</m>.</p></task>
+
+<task><p>Use technology to graph your function for <m>-5 \le x \le 10</m>.</p></task>
+
+<task><p>What are the largest and smallest reasonable values for <m>x</m> in this situation? Explain your answer.</p></task>
+
+<task><p>Use your answer to part (d) to graph the function in a suitable window. Make a sketch of your graph, and label the scales on the axes.</p></task>
+
+<task><p>Use your graph to find the value of <m>x</m> that will yield a box with maximum possible volume.</p>  
+  <p>Label the corresponding point on your graph.</p>
+  <p>What is the maximum possible volume?</p>
+  <p>What are the dimensions of the box with the largest possible volume?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In part (e) of Activity 1, how many terms of the product are quadratic?  How many of the terms are cubic?</p></li>
+<li><p>Explain the difference between the expressions <m>(a+b)^3</m> and <m>a^3+b^3</m>.</p></li>
+<li><p>Compare the formulas for expanding <m>(a-b)^2</m> and <m>(a-b)^3</m>.</p></li>
+<li><p>In Activity 3, why is the polynomial for the volume of the box cubic?  What are the units of volume in this application?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to polynomials:</p>
+<p><ul>
+<li><p>Compute products of polynomials</p></li>    
+<li><p>Compute cubes of binomials</p></li>    
+<li><p>Factor the sum or difference of cubes</p></li>  
+<li><p>Use polynomials as models</p></li>
+</ul></p>
+</subsection>
+
+</section>

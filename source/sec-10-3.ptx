@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-10-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Natural Base</title>
+
+<activity><title>Base <m>e</m></title>
+<task><p>Recall that <m>e</m> is an irrational number approximately equal to 2.7. Use your calculator to help you complete the table. Round values to tenths.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>f(x)=2^x</m></cell>
+                    <cell><m>g(x) = e^x</m></cell>
+                    <cell><m>h(x) = 3^x</m></cell></row>
+                <row><cell><m>-1.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>-0.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>0.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>1.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>2.5</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>3.0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+
+<task><p>Plot points from the table to sketch all three graphs on the grid below.</p>
+      <image source="act-10-3-1.png" width = "60%"></image></task>
+<task><p>On the same grid, graph <m>~y = \log_2 {x},~y = \ln {x},~</m> and <m>~y = \log_3 {x}</m>.</p></task>
+</activity>
+
+<activity><title>Changing the Base</title>
+<introduction><p>It is useful to express any exponential function with base <m>e</m>. This is easy to do.</p></introduction>  
+<task><p>Which law of exponents tells us that <m>~(e^k)^t = e^{kt}~</m>?</p></task>
+<task><p>Follow the steps to write <m>P = 25(\alert{10})^t</m> as <m>P = 25 (\alert{e^k})^t</m></p> 
+  <p>We need to replace <m>10</m> by <m>e^k</m>. Solve the equation <m>~10 = e^k~</m> for <m>k</m>. Round your answer to tenths.</p>
+  <p>Substitute your value for <m>k</m> into the formula for <m>P</m>.</p>
+  <p>Check that the two formulas for <m>P</m> give the same outputs for <m>x = 1,~x=2,~</m> and <m>x=3</m>.</p></task>
+<task><p>Rewrite each exponential function with base <m>e</m>:</p>
+  <p><ol cols="2">
+    <li><p><m>H=12(1.05)^t</m></p></li>
+    <li><p><m>N=80(0.16)^t</m></p></li>
+  </ol></p></task>
+</activity>
+   
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Why would you expect the graph of <m>y = \ln {x}</m>  to lie between the graphs of <m>y = \log_2 {x}</m> and <m>y = \log_3 {x}</m>?</p></li>
+<li><p>What does "ln" stand for in the function <m>y = \ln {x}</m> ?</p></li>
+<li><p>Give decimal approximations for the constants <m>\pi</m> and <m>e</m>.</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to the natural base:</p>
+<p><ul>
+<li><p>Graph exponential functions </p></li>   
+<li><p>Solve exponential equations</p></li>
+<li><p>Convert exponential functions to base <m>e</m></p></li>
+</ul></p></subsection>
+
+</section>

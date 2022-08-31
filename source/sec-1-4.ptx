@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Slope</title>
+
+<activity><title>Calculating Rate of Change</title>
+
+<introduction><p>The graph shows how the thickness of a typical land-based glacier has changed over 43 years.
+    <image source="act-1-4-1.png" width="75%"></image></p></introduction>
+
+  <task><p>What was the total change, <m>\Delta H</m>, in thickness from 1960 to 2003?</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Year, <m>t</m></cell>
+                    <cell>Thickness, <m>H</m></cell></row>
+                <row><cell>1960</cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>2003</cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular>
+            <p><m>~~~~~~~~~~~~~~~\Delta H =</m></p>
+    <p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
+    <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
+
+<task><sidebyside widths="50% 40%"><stack><p>The graph appears to be almost linear from 1992 to 2002.  Read the graph to complete the table.
+       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Year, <m>t</m></cell>
+                    <cell>Thickness, <m>H</m></cell></row>
+                <row><cell>1992</cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell>2002</cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></p></stack>
+            <image source="act-1-4-2.png" width="75%"></image></sidebyside></task>
+
+<task><p>Calculate the slope of the graph from 1992 to 2002.  Include units in your answer.</p></task>
+
+<task><p>What does the slope tell us about glaciers?</p></task>
+</activity>
+
+<activity><title>Slope and Linear Models</title>
+<introduction><p>The taxi fare in three different cities is described below.  In each city, you pay an initial charge when you get into the taxi, and then your fare is based on the distance you travel.  Each city uses a different distance unit to compute the fare.
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>City</cell>
+                    <cell>Initial Charge</cell>
+                    <cell>Distance Unit</cell>
+                    <cell>Charge per Unit</cell></row>
+                <row><cell>Boston</cell>
+                    <cell><m>1.45</m></cell>
+                    <cell><m>\frac{1}{8}</m> mile</cell>
+                    <cell><m>0.30</m></cell></row>
+                <row><cell>Honolulu</cell>
+                    <cell><m>2.25</m></cell>
+                    <cell><m>\frac{1}{4}</m> mile</cell>
+                    <cell><m>0.75</m></cell></row>
+                <row><cell>New York</cell>
+                    <cell><m>2.50</m></cell>
+                    <cell><m>\frac{1}{5}</m> mile</cell>
+                    <cell><m>0.40</m></cell></row>
+            </tabular></p></introduction>
+  <task><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest mileage rate?</p></task>
+  <task><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></task>
+  <task><p>In which city do taxis charge the lowest fare for a 5 mile ride?</p></task>  
+  <task><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (b).)</p></task>
+  <task><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
+      <image source="act-1-4-3.png" width="75%"></image></sidebyside></task>
+</activity>
+
+<activity><title>Interpreting Slope as a Rate</title>
+<introduction><p>The table shows the amount of salt that can be dissolved in a beaker of water at different temperatures.
+  <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell>Temperature, <m>\degree</m>C, <m>T</m></cell>
+                    <cell>10</cell>
+                    <cell>12</cell>
+                    <cell>15</cell>
+                    <cell>21</cell>
+                    <cell>25</cell>
+                    <cell>40</cell>
+                    <cell>52</cell></row>
+                <row><cell>Salt, (g), <m>S</m></cell>
+                    <cell>33</cell>
+                    <cell>34</cell>
+                    <cell>35.5</cell>
+                    <cell>38.5</cell>
+                    <cell>40.5</cell>
+                    <cell>48</cell>
+                    <cell>54</cell></row>
+            </tabular></p></introduction>
+
+<task><p>Which variable is the input, and which is the output?</p>
+            <p><m>\hphantom{00000}</m>input: <m>\hphantom{00000000000}</m>              output:  <m>\hphantom{00000}</m></p>                               
+
+  <p>If you plot the data, which variable goes on the horizontal axis, and which on the vertical?</p>
+            <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>        vertical:  <m>\hphantom{00000}</m></p></task>
+
+<task><p>Will the points lie on a straight line?  Why or why not?</p></task>
+<task><p>Calculate the slope, and interpret it as a rate of change.  Include units in your answer.</p></task>
+<task><p>Use the slope to answer the question:  If you increase the temperature °C from the current temperature, how much more salt will dissolve?</p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title><ol>
+<li><p>What mathematical concept did you study in Activity 1?</p></li>
+<li><p>What two numbers did you need to write each linear model in part (b) of Activity 2?</p></li>
+<li><p>What algebraic technique did you use in part (d) of Activity 2?</p></li>  
+<li><p>Describe one new skill or idea you learned from Activity 3.</p></li></ol>
+</subsection> 
+
+<subsection><title>Wrap-Up</title>
+
+<p>In this Lesson, we worked on the following skills and goals:</p><ul>
+
+<li><p>Use ratios and rates for comparison.</p></li> 
+<li><p>Compute and interpret a rate of change.</p></li>
+<li><p>Interpret slope as a rate of change.</p></li>
+<li><p>Illustrate slope on a graph.</p></li>
+<li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
+<li><p>Recognize a linear relationship by its constant rate of change.</p></li>
+<li><p>Write a linear model using slope and initial value.</p></li></ul>
+</subsection>
+
+</section>

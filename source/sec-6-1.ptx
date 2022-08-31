@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Integer Exponents</title>
+
+<activity><title>Power Functions</title>
+
+<task><p>State the values of <m>k</m> and <m>p</m> for the two examples below.</p>
+  <p><ol>
+    <li><p><m>V=f(r) = \frac{4}{3} \pi r^3,~~</m>  the volume of a sphere as a function of its radius</p></li>
+    <li><p><m>L=f(T)= 0.8125 T^2,~~</m> the length of a pendulum as a function of its period</p></li>
+  </ol></p></task>
+
+  <task><p>Write each expression as a power function using negative exponents.  State the values of <m>k</m> and <m>p</m>.</p>
+    <p><ol>
+      <li><p><m>h(s)=\dfrac{9}{s^3}</m></p></li>
+      <li><p><m>f(v)=\dfrac{3}{8v^6}</m></p></li>
+      <li><p><m>g(t)=\dfrac{1}{(5t)^4}</m></p></li>
+    </ol></p></task>
+</activity>
+
+<activity><title>The Trebuchet</title>
+<introduction><p>In the middle ages in Europe, castles were used as defensive strongholds. An attacking force would build a huge catapult called a trebuchet to hurl rocks and scrap metal inside the castle walls. The engineers could adjust its range by varying the mass (or weight) of the missiles. The mass, <m>m</m>, of the projectile is inversely proportional to the square of the distance, <m>d</m>, to the target.</p></introduction>
+
+<task><p>Use a negative exponent to write a formula for <m>m</m> as a function of <m>d</m>, <m>m=f(d)</m>.</p></task>
+
+<task><p>The engineers test the trebuchet with a 30-pound lead ball, which lands 948 yards away. Find the constant of proportionality, and rewrite your formula for <m>m</m>. (Round your value of <m>k</m> to the nearest million.)</p></task>
+
+<task><p>Graph  <m>m=f(d)</m>.</p>
+  <image source="act-6-1-1.png" width="50%"></image></task>
+
+<task><p>The trebuchet is 500 yards from the courtyard within the castle. What size missile will hit the target?</p></task>
+
+<task><p>The largest missile the trebuchet can handle is 300 pounds. If the attackers would like to hurl a 300-pound rock at the castle, how close must they bring their trebuchet?</p></task>
+</activity>
+
+<activity><title>Radar</title>
+<introduction><p>Airplanes use radar to detect the distances to other objects. A radar unit transmits a pulse of energy which bounces off a distant object, and the echo of the pulse returns to the sender.  The power, <m>P</m>, of the returning echo is inversely proportional to the fourth power of the distance, <m>d</m>, to the object.</p></introduction> 
+
+<task><p>A radar operator receives an echo of <m>5 \times 10^{-10}</m> watt from an aircraft 2 nautical miles away. Express the power of the echo received in picowatts. (1 picowatt <m>= 10^{-12}</m> watt.)</p></task>
+
+<task><p>Write a function that expresses <m>P</m> in terms of <m>d</m> using negative exponents. Use picowatts for the units of power.</p></task>
+
+<task><p>Complete the table of values for the power of the echo received from objects at various distances.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>d</m> (nautical miles)</cell>
+                    <cell>4</cell>
+                    <cell>5</cell>
+                    <cell>7</cell>
+                    <cell>10</cell></row>
+                <row><cell><m>P</m> (picowatts)</cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>\hphantom{0000000}</m></cell></row>
+    </tabular></task>
+
+<task><p>Sketch a graph of <m>P</m> as a function of <m>d</m>. Use units of picowatts on the vertical axis.</p>
+    <image source="act-6-1-2.png" width="45%"></image></task>
+
+<task><p>Radar units can typically detect signals as low as <m>10^{-13}</m> watt.  How far away is an aircraft whose echo is <m>10^{-13}</m> watt? (Hint: Convert <m>10^{-13}</m> watt to picowatts.)</p></task>
+</activity>
+
+<activity><title>Using the Laws of Exponents</title>
+
+<task><p>Simplify if possible using the first law.</p>
+<p><ol cols="2">
+  <li><p><m>x^6 \cdot x^{-3}</m></p></li>
+  <li><p><m>x^{-6} \cdot x^3</m></p></li>
+  <li><p><m>x^{-6} \cdot x^{-3}</m></p></li>
+  <li><p><m>x^3 + x^{-6}</m></p></li>
+  <li><p><m>x^{-3} - x^{-6}</m></p></li>
+  <li><p><m>x^3 + x^{-3}</m></p></li>
+</ol></p></task>
+
+<task><p>Simplify if possible using the second law.</p>
+<p><ol cols="2">
+  <li><p><m>\dfrac{x^6}{x^3}</m></p></li>
+  <li><p><m>\dfrac{x^{-6}}{x^3}</m></p></li>
+  <li><p><m>\dfrac{x^6}{x^{-3}}</m></p></li>
+  <li><p><m>\dfrac{x^{-6}}{x^{-3}}</m></p></li>
+  <li><p><m>\dfrac{x^3}{x^{-6}}</m></p></li>
+  <li><p><m>\dfrac{x^{-3}}{x^{-6}}</m></p></li>
+</ol></p></task>
+
+<task><p>Simplify if possible using the third law.</p>
+<p><ol cols="2">
+  <li><p><m>(x^6)^{-3}</m></p></li>
+  <li><p><m>(x^{-6})^3</m></p></li>
+  <li><p><m>(x^{-6})^{-3}</m></p></li>
+  <li><p><m>(-x)^{-3}</m></p></li>
+  <li><p><m>(-x)^{-6}</m></p></li>
+  <li><p><m>(-x^3)^{-6}</m></p></li>
+</ol></p></task>
+
+<task><p>Simplify if possible using the fourth and fifth laws.</p>
+<p><ol cols="2">
+  <li><p><m>(2x)^{-3}</m></p></li>
+  <li><p><m>(\dfrac{2}{x})^{-3}</m></p></li>
+  <li><p><m>(2x^4)^{-3}</m></p></li>
+  <li><p><m>(2x^{-4})^3</m></p></li>
+  <li><p><m>(2x^{-4})^{-3}</m></p></li>
+  <li><p><m>(-2x^{-4})^{-3}</m></p></li>
+  <li><p><m>\left(\dfrac{2}{x^{-4}}\right)^3</m></p></li>
+  <li><p><m>\left(\dfrac{2}{x^{-4}}\right)^{-3}</m></p></li>
+</ol></p></task>
+
+<task><p>Which of the following statements are true for all non-zero values of <m>a</m> and <m>b</m>?  (You may want to try out some specific values of <m>a</m> and <m>b</m> before you decide!)</p>
+<p><ol cols="2">
+  <li><p><m>\dfrac{1}{a} + \dfrac{1}{b} = \dfrac{1}{a+b}~</m>?</p></li>
+  <li><p><m>a^{-1} + b^{-1} = (a+b)^{-1}~</m>?</p></li>
+  <li><p><m>a^2 + b^2 = (a+b)^2~</m>?</p></li>
+  <li><p><m>a^{-2} + b^{-2} = (a+b)^{-2}~</m>?</p></li>
+  <li><p><m>\dfrac{1}{a^{-1}} + \dfrac{1}{b^{-1}} = a + b~</m>?</p></li>
+  <li><p><m>\dfrac{1}{a^{-1} + b^{-1}} = a + b~</m>?</p></li>
+</ol></p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Explain the difference between each pair of expressions.</p>
+    <p><ol>
+      <li><p><m>-2^3</m> and <m>2^{-3}</m></p></li>
+      <li><p><m>-x^4</m> and <m>x^{-4}</m></p></li>
+      <li><p><m>-2^n</m> and <m>2^{-n}</m></p></li></ol></p></li>
+<li><p>Write a power function for "<m>y</m> varies inversely with the cube of <m>x</m>."</p></li>
+<li><p>How do you convert a value in watts to picowatts?</p></li>
+<li><p>Explain how to decide which law of exponents to use when simplifying an expression.</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<p><ul>
+<li><p>Evaluate negative exponents</p></li>    
+<li><p>Write a formula for a power function</p></li>    
+<li><p>Graph and analyze power functions</p></li>    
+<li><p>Solve equations involving negative exponents</p></li>     
+<li><p>Simplify expressions using the laws of exponents</p></li>
+</ul></p></subsection>    
+
+</section>

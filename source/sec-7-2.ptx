@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Functions</title>
+
+<activity><title>A New Kind of Function</title>
+<introduction><p>The functions that describe exponential growth and decay are called exponential functions:
+    <me>f(x) = a \cdot b^x,~~b \gt 0,~~ b \not= 1</me></p></introduction>
+
+  <task><p>Make a table of values and graph <m>f(x) = \frac{1}{2} (2^x)</m></p>
+     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell></row>
+                <row><cell><m>f(x)</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <image source="act-7-2-1.png" width="35%"></image>
+  <p>What is the <m>y</m>-intercept of the graph?</p>
+  <p>What is the <m>x</m>-intercept?</p>
+  <p>Give the equations of any asymptotes.</p></task>
+
+  <task><p>Make a table of values and graph <m>f(x) = 4(\frac{1}{2})^x </m></p>
+     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>-3</m></cell>
+                    <cell><m>-2</m></cell>
+                    <cell><m>-1</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>3</m></cell></row>
+                <row><cell><m>f(x)</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular>
+    <image source="act-7-2-1.png" width="35%"></image>
+  <p>What is the <m>y</m>-intercept of the graph?</p>
+  <p>What is the <m>x</m>-intercept?</p>
+  <p>Give the equations of any asymptotes.</p></task>
+
+<task><p>What does the value of <m>a</m> tell you about the graph?</p>
+ <p>What does the value of <m>b</m> tell you about the graph?</p></task>
+
+ <task><p>Find the <m>y</m>-intercept of each exponential function and decide whether the graph is increasing or decreasing.</p>
+ <p><ol cols="2">
+    <li><p><m>M(x) = 1.5(0.05)^x</m></p></li>
+    <li><p><m>N(x) = 0.05(1.05)^x</m></p></li>
+    <li><p><m>P(x) = \left(\dfrac{5}{8}\right)^x</m></p></li>
+    <li><p><m>Q(x) = \left(\dfrac{4}{3}\right)^x</m></p></li>
+  </ol></p></task>
+
+<task><p>Decide whether each function is an exponential function, a power function, or neither.</p>
+<p><ol cols="2">
+    <li><p><m>R(w) = 5(5)^{w-1}</m></p></li>
+    <li><p><m>Q(w) = 2^w - w^2</m></p></li>
+    <li><p><m>M(z) = 0.2z^{1.3}</m></p></li>
+    <li><p><m>N(z) = z^{-3}</m></p></li>
+  </ol></p></task>
+</activity>
+
+<activity><title>Solving Exponential Equations</title>
+<task><p>What is an exponential equation?</p></task>  
+<task><p>One way to solve exponential equations is to write both sides of the equation as powers with the same <fillin/>.  If two equivalent powers have the same base, then their <fillin/> must be equal also.</p></task>
+<task><p>We'll solve the equation  <m>~~3^{x-1} = 27^{1/2}~~</m> by writing each side as a power of base 3.</p>
+
+  <p>Write 27 as a power of base 3:</p>      
+  <p>Use the laws of exponents to simplify the right side:</p> 
+  <p>Equate the exponents:</p>
+  <p>Solve for <m>x</m>:</p></task>
+
+<task><p>Follow the steps to solve <m>~~2^{3x-1} = \dfrac{\sqrt{2}}{16}</m></p>
+
+  <p>Write <m>\sqrt{2}</m> and <m>16</m> as powers of base 2: </p>    
+  <p>Use the laws of exponents to simplify the right side:</p> 
+  <p>Equate the exponents:</p>
+  <p>Solve for <m>x</m>:</p></task>
+</activity>
+
+<activity><title>Cows</title>
+<introduction><p>An outbreak of ungulate fever can sweep through the livestock in a region so that the number of animals affected triples every 4 days.</p></introduction>  
+<task><p>A rancher discovers four cases of ungulate fever among his herd. Write a function for the number of sick cows <m>P(t)</m> on day <m>t</m>.</p></task>
+<task><p> Use technology to graph the function on the interval <m>0 \le t \le 20</m>. Make a sketch of your graph, and label the scales on the axes.</p></task>
+<task><p>If the rancher does not act quickly, how long will it be until 324 cows are sick? Write and solve an equation to find your answer, and label the appropriate point on your graph.</p></task>
+</activity>
+
+<activity><title>Using Tables and Graphs</title>
+<task><p>Use technology to graph <m>~y=2^{x+3}~</m> for <m>-5 \le x \le 1</m>.</p>
+  <p>Use your graph to solve the equation <m>~2^{x+3} = 5</m>. Round your answer to the nearest hundredth.</p></task>
+
+<task><p>The graph of <m>~g(x) = P_0 b^x~</m> is shown in the figure. Read the value of <m>P_0</m> from the graph.</p>
+    <image source="act-7-2-2.png" width="40%"></image></task>
+<task><p>Make a short table of values for the function by reading values from the graph.</p>  
+      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>1</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>g(x)</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+    </tabular></task>
+<task><p>Does your table confirm that the function is exponential?  How do you know?</p></task>
+<task><p>Use your table to calculate the growth factor, <m>b</m>.</p></task>
+<task><p>Write a formula for <m>~g(x)</m>.</p></task>
+
+<task><p>Which of the following tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.</p>
+<p><ol cols="4">
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>y</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>6</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>3</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>12</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>24</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>48</m></cell></row>
+            </tabular></li>
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t</m></cell>
+                    <cell><m>P</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>6</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>7</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>10</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>15</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>22</m></cell></row>
+            </tabular></li>
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>N</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>2</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>6</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>34</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>110</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>258</m></cell></row>
+            </tabular></li>
+  <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>p</m></cell>
+                    <cell><m>R</m></cell></row>                
+                <row><cell><m>0</m></cell>
+                    <cell><m>405</m></cell></row>
+                <row><cell><m>1</m></cell>
+                    <cell><m>135</m></cell></row>
+                <row><cell><m>2</m></cell>
+                    <cell><m>45</m></cell></row>
+                <row><cell><m>3</m></cell>
+                    <cell><m>13</m></cell></row>
+                <row><cell><m>4</m></cell>
+                    <cell><m>5</m></cell></row>
+            </tabular></li></ol></p></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>Use the order of operations to explain why <m>F(x) = 2(3^x)</m> and <m>G(x) = 6^x</m> are different. Confirm by evaluating <m>F(4)</m> and <m>G(4)</m>.</p></li>
+<li><p>How is the graph of <m>f(x) = \frac{1}{2}(2^x)</m> different from the graph of <m>g(x) = 2^x</m>?</p></li>
+<li><p>What is the difference between the formula for a power function and the formula for an exponential function?</p></li>
+<li><p>How can you recognize an exponential function from a table of values?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to exponential functions:</p>
+<p><ul>
+<li><p>Graph exponential functions</p></li>    
+<li><p>Distinguish exponential functions from power functions and other functions</p></li>    
+<li><p>Solve exponential equations with the same base</p></li>   
+<li><p>Solve exponential equations graphically</p></li>
+<li><p>Find a formula for an exponential function from a table or a graph</p></li>
+</ul></p></subsection>   
+
+</section>

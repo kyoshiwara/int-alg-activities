@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-9-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Conic Sections: Ellipses</title>
+
+<activity><title>Central Ellipses</title>
+<task><p>Consider the equation  <m>~~\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1</m></p>
+  <p>Complete the table of values and plot the points.</p>
+    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>x</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\pm 1</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+                <row><cell><m>y</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\pm 1</m></cell></row>
+    </tabular>
+<p>Draw a smooth curve through the points to make an ellipse.</p>
+    <image source="act-9-3-1.png" width="35%"></image></task>
+
+<task><p>Complete the statement:</p>
+  <p>The standard form for the equation of an ellipse centered at the origin is
+      <me><fillin characters="16"/></me></p></task>
+
+<task><p>Sketch a central ellipse. Label the major axis, minor axis, vertices, and covertices.</p></task>
+
+<task><p>Follow the steps to graph the ellipse   <m>~~3x^2 + 4y^2 = 36</m></p> 
+  <p>Divide both sides of the equation by  36 and simplify to get the standard form.</p>
+  <p>Identify the values of <m>a</m> and <m>b</m>. (Use your calculator to approximate if necessary.)</p>
+      <p><m>~~~~~~a=</m></p>
+      <p><m>~~~~~~b=</m></p>  
+  <p>Plot the vertices and covertices.</p>  
+  <p>Sketch the ellipse through those points.</p>
+      <image source="act-9-3-1.png" width="35%"></image></task>
+  </activity>
+
+<activity><title>Translated Ellipses</title>
+<task><p>Complete the statement:</p>
+<p>The standard form for an ellipse centered at <m>(h,k)</m> is
+      <me><fillin characters="16"/></me></p></task>
+<task><p>Follow the steps to graph  <m>~~\dfrac{(x-2)^2}{4} + \dfrac{(y-5)^2}{25} = 1</m></p>
+<p>Identify the center and the values of <m>a</m> and <m>b</m>.</p>
+      <p><m>~~~~~~(h,k) = </m></p>
+      <p><m>~~~~~~a=</m></p>
+      <p><m>~~~~~~b=</m></p>        
+<p>Plot the center.  Use the values of <m>a</m> and <m>b</m> to locate the vertices and covertices.</p>
+<p>Sketch an ellipse through the vertices and covertices.</p>
+    <image source="act-2-2-2.png" width="50%"></image></task>
+</activity>
+
+<activity><title>Writing the Equation for an Ellipse</title>
+<introduction><p>To write the equation of an ellipse, we need to know its center <m>(h,k)</m> and the values of <m>a</m> and <m>b</m>.</p></introduction>
+<task><p>Here is an ellipse.</p>
+      <image source="act-9-3-2.png" width="35%"></image>
+<p>The center of the ellipse is <fillin/>.</p>
+<p>The length of the horizontal axis is <m>2a= <fillin/></m>,  so <m>a=<fillin/></m>.</p>                      
+<p>The length of the vertical axis is <m>2b= <fillin/></m>,  so <m>b=<fillin/></m>.</p>
+<p>The equation of the ellipse is <fillin characters="16"/> </p></task>
+
+<task><p>Follow the steps to find the equation of the ellipse with vertices at <m>(-3,-5)</m> and <m>(9,-5)</m>, and covertices at 
+<m>(3,0)</m> and <m>(3,-10)</m>.</p>
+<p>Plot the given points and sketch the ellipse.</p>
+    <image source="act-2-2-2.png" width="40%"></image>
+<p>Locate the center of the ellipse.</p>
+      <p><m>~~~~~~(h,k) =</m></p>                                   
+<p>Find the values of <m>a</m> and <m>b</m>.</p>
+      <p><m>~~~~~~a=</m></p>
+      <p><m>~~~~~~b=</m></p>                                 
+<p>Write the equation of the ellipse: <fillin characters="16"/> </p></task>
+</activity> 
+
+<activity><title>The General Quadratic Equation</title>
+<introduction><p>The general quadratic equation in two variables is 
+    <me>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</me></p>
+<p>We will only consider quadratic equations in which <m>B=0</m>. The graphs of these equations are conic sections.</p></introduction>
+<task><p>Name the four conic sections:</p>
+  <p><ol>
+    <li><p></p></li>
+    <li><p></p></li>
+    <li><p></p></li>
+    <li><p></p></li>
+  </ol></p>
+<p>If <m>A=C</m>,  the graph is <fillin/>. If <m>A</m> and <m>C</m> have the same sign (either both positive or both negative), the graph is <fillin/> . </p> </task>
+<task><p>We convert an equation in general form to standard form by completing the square. Follow the steps to write the equation below in standard form.
+  <me>6x^2 + 5y^2 -12x + 20y - 4 = 0</me></p>
+  <p>Collect the <m>x</m>-terms together and the <m>y</m>-terms together:
+    <me><fillin characters="16"/> = 4</me></p>                                               
+<p>Factor out the coefficients of <m>x^2</m> and <m>y^2</m>:                
+    <me><fillin characters="16"/> = 4</me></p>
+<p>Complete the square in <m>x</m> and in <m>y</m>. (Be careful! Notice that you have really added <m>6(1) = 6</m> to the <m>x</m>-terms and <m>5(4) = 20</m> to the <m>y</m>-terms on the left side of the equation, so you must add <m>6+20</m> to the right side of the equation as well.)</p>
+<p>Simplify each side.</p>
+<p>Divide both sides by the constant, and simplify.</p></task>
+<task><p>Graph the ellipse on the grid.</p>
+  <image source="act-2-2-2.png" width="40%"></image></task>
+</activity>
+
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+<li><p>In Activity 1, how did you use <m>a</m> and <m>b</m> to graph an ellipse?</p></li>
+<li><p>What does it mean for an ellipse to be translated?</p></li>
+<li><p>In Activity 3, how did you find <m>a</m> and <m>b</m>?</p></li>
+<li><p>What was the Caution in Activity 4?</p></li>
+</ol></p></subsection>
+
+<subsection><title>Wrap-Up</title>
+<p>In this Lesson, we worked on the following skills and goals related to conic sections:</p>
+<p><ul>
+<li><p>Write the equation for an ellipse in standard form </p></li>   
+<li><p>Graph an ellipse</p></li>
+<li><p>Find the equation for an ellipse</p></li>
+</ul></p></subsection>
+
+</section>
