@@ -4,14 +4,13 @@
   <title>Linear Regression</title>
 
 <commentary audience="instructor"><title>Overview</title>
-<p>This Lesson provides a brief introduction to linear regression. We begin by considering data that are "almost" linear and fit a regression line by eye. Explain to students that their answers may differ slightly; nonetheless a line can be a bad fit. Show them how to adjust their line so that the same number of data points lie above the line and below the line. 
+<p>This Lesson provides a brief introduction to linear regression. We begin by considering data that are "almost" linear and fit a regression line by eye. Explain to students that their answers may differ slightly; nonetheless a line can be a bad fit. Show them how to adjust their line so that the same number of data points lie above the line and below the line.</p> 
 
 <p>You will also need to emphasize that the line of best fit need not pass through any of the data points, and that to find the equation of the regression line, they must use points on the line, not data points. One goal of this lesson is for students to practice using the point-slope formula to find the equation for a line through two points.</p>
     
 <p>Activity 2 demonstrates least-squares regression with technology. Put students in groups so that they can help each other with the keystrokes. It is probably not a good idea to require students to memorize the steps in this process; allow them to use a copy of the instructions when they use technology for regression.</p> 
 
 <p>The scatterplots in Example 3 (literacy and birth rate) and Homework Problem 3 (Miss America BMI's) are more complex; students should not be required to find regression equations for data sets of this size. However, they should be asked to read and interpret information from the graph.</p></commentary>
-
 
 <activity><title>Line of Best Fit</title>
 
@@ -62,9 +61,6 @@
         <commentary audience="instructor"><title>Note</title>
         <p>Use a clear plastic ruler to draw a line of best fit.</p></commentary> 
  
-
-
-  
   <task><p>Choose two points on the regression line. (Do not choose data points; choose points on your line.)</p>
 
             <commentary audience="instructor"><title>Note</title>

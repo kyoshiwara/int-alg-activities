@@ -117,7 +117,7 @@
 <p>Divide both sides by the constant, and simplify.</p></task>
 
             <commentary audience="instructor"><title>Note</title>
-            Working through a couple of examples of completing the square is usually enough to make students feel comfortable with the steps. They will have trouble converting an expression such as <m>\dfrac{4(x-2)^2}{9}</m> to <m>\dfrac{(x-2)^2}{(\frac{3}{2})^2}</m>.</commentary></activity>
+            Working through a couple of examples of completing the square is usually enough to make students feel comfortable with the steps. They will have trouble converting an expression such as <m>\dfrac{4(x-2)^2}{9}</m> to <m>\dfrac{(x-2)^2}{(\frac{3}{2})^2}</m>.</commentary>
 
 <task><p>Graph the ellipse on the grid.</p>
   <image source="act-2-2-2.png" width="40%"></image></task>

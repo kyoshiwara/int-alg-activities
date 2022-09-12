@@ -87,7 +87,7 @@
     <task><p>If the gas station owner would like to buy 5000 gallons of regular gasoline, how many gallons of premium can he buy?  Label this point on the graph.</p></task>
 
             <commentary audience="instructor"><title>Note</title>
-            <p>Some students will not know what to do with the 5000.
+            <p>Some students will not know what to do with the 5000.</p></commentary>
 
     <task><p>What is the meaning of the point <m>(2000, 4500)</m> on the graph?</p></task></activity>
 
@@ -104,7 +104,7 @@
     <li><p>Write a model in general linear form, <m>Ax+By=C</m>.</p></li> 
     <li><p>Find the intercepts of the graph of a linear equation.</p></li>
     <li><p>Graph a line by the intercept method.</p></li>
-    <li><p>Solve a linear equation for <m>y</m> in terms of <m>x</m>.</p></li></ul></p></subsection>
+    <li><p>Solve a linear equation for <m>y</m> in terms of <m>x</m>.</p></li></ul></p>
 
 <commentary audience="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>

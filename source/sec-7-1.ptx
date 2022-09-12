@@ -257,7 +257,7 @@
 <activity><title>Comparing Linear and Exponential Decrease</title>
 
             <commentary audience="instructor"><title>Note</title>
-            <p>After getting students started (point out that only the populations in 1992 and 2000 are relevant to the problem), you might assign the write-up to hand in.</p>
+            <p>After getting students started (point out that only the populations in 1992 and 2000 are relevant to the problem), you might assign the write-up to hand in.</p></commentary>
 
 <introduction><p>In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></introduction>
   
@@ -302,6 +302,7 @@
 <li><p>Explain why the growth factor for for an exponential function is <m>1+r</m>, where <m>r</m> is given by a percent increase, but the decay factor for a decrease given by percent is <m>1-r</m>.</p></li>
 <li><p>If an exponentially decreasing function decreased by 500 this month, will it decrease by more than 500 or less than 500 next month? Why?</p></li>
 <li><p>If you know only two points on a graph, can you determine whether the graph is linear or exponential? Explain.</p></li>
+</ol></p></commentary>
 </subsection>   
   
 </section>
