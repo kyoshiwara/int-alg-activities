@@ -3,6 +3,10 @@
 <section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Slope</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>This Lesson reviews the notion of slope, which students learned in elementary algebra, but emphasizes the meaning of the slope as a rate of change. Notice that in this Lesson we do not use the coordinate formula for slope, <m>y=\dfrac{y_2-y_1}{x_2-x_1}</m>;  that formula is taken up in Lesson 1.5. All of the slopes in this Lesson can be computed from the definition, <m>m=\dfrac{\Delta y}{\Delta x}</m>. Encourage students to include units in their calculation of <m>\Delta y</m> and <m>\Delta x</m> to help them interpret the slope as a rate.</p>
+<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></commentary>
+
 <activity><title>Calculating Rate of Change</title>
 
 <introduction><p>The graph shows how the thickness of a typical land-based glacier has changed over 43 years.
@@ -19,6 +23,10 @@
                     <cell><m>\hphantom{00000}</m></cell></row>
             </tabular>
             <p><m>~~~~~~~~~~~~~~~\Delta H =</m></p>
+    
+            <commentary audience="instructor"><title>Note</title>
+            <p>Explain the difference between total change and average yearly change.</p></commentary>
+
     <p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
     <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
 
@@ -60,15 +68,29 @@
                     <cell><m>\frac{1}{5}</m> mile</cell>
                     <cell><m>0.40</m></cell></row>
             </tabular></p></introduction>
+  
   <task><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest mileage rate?</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></commentary>
+
   <task><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></task>
-  <task><p>In which city do taxis charge the lowest fare for a 5 mile ride?</p></task>  
+            <commentary audience="instructor"><title>Note</title>
+            <p>Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></commentary>
+
+  <task><p>In which city do taxis charge the lowest fare for a 5 mile ride?</p></task>
+
   <task><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (b).)</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></commentary>
+
   <task><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
       <image source="act-1-4-3.png" width="75%"></image></sidebyside></task>
 </activity>
 
 <activity><title>Interpreting Slope as a Rate</title>
+
 <introduction><p>The table shows the amount of salt that can be dissolved in a beaker of water at different temperatures.
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -91,14 +113,18 @@
             </tabular></p></introduction>
 
 <task><p>Which variable is the input, and which is the output?</p>
-            <p><m>\hphantom{00000}</m>input: <m>\hphantom{00000000000}</m>              output:  <m>\hphantom{00000}</m></p>                               
-
+            <p><m>\hphantom{00000}</m>input: <m>\hphantom{00000000000}</m>    output:  <m>\hphantom{00000}</m></p>                               
   <p>If you plot the data, which variable goes on the horizontal axis, and which on the vertical?</p>
-            <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>        vertical:  <m>\hphantom{00000}</m></p></task>
+            <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>   vertical:  <m>\hphantom{00000}</m></p></task>
 
-<task><p>Will the points lie on a straight line?  Why or why not?</p></task>
-<task><p>Calculate the slope, and interpret it as a rate of change.  Include units in your answer.</p></task>
-<task><p>Use the slope to answer the question:  If you increase the temperature °C from the current temperature, how much more salt will dissolve?</p></task>
+<task><p>Will the points lie on a straight line? Why or why not?</p></task>
+
+<task><p>Calculate the slope, and interpret it as a rate of change. Include units in your answer.</p></task>
+
+<task><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p></task>
+
+             <commentary audience="instructor"><title>Note</title>
+             <p>Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></commentary>
 </activity>
 
 <subsection><title>Check Your Understanding</title><ol>
@@ -119,6 +145,14 @@
 <li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
 <li><p>Recognize a linear relationship by its constant rate of change.</p></li>
 <li><p>Write a linear model using slope and initial value.</p></li></ul>
-</subsection>
 
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>What do we use ratios and rates for?</p></li>
+<li><p>Suppose  represents your distance from home, in miles. Compare the meanings of the two statements <m>x=30</m> and <m>\Delta x=30</m>.</p></li>
+<li><p>Explain how slope measures the steepness of an incline.</p></li>
+<li><p>State two useful consequences of the fact that lines have constant slope.</p></li>
+</ol></p></commentary>
+
+</subsection>
 </section>

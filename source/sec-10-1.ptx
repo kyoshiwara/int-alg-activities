@@ -4,6 +4,10 @@
   <title>Logarithmic Functions</title>
 
 <activity><title>Inverse Functions</title>
+
+            <commentary audience="instructor"><title>Overview</title>
+            <p>We provide only a very light introduction to inverse functions, just enough to support the idea of a log function. Note that we do not use the notation <m>f^{-1}(x)</m> for inverse functions. This Activity can serve as a review of the basic functions.</p></commentary>
+
 <introduction><p>For each of the functions shown below,</p>
 <p><ol>
   <li><p>Complete the table of values, then make a table of values for the inverse function.</p></li>  
@@ -244,6 +248,10 @@
 <task><p>Graciela is choosing an AirBnB for her next vacation. If there are <m>n</m> choices available, it will take her <m>T</m> minutes to make her choice, where
       <me>T=5 \log_2 {n+1}</me> 
 Complete the table and make a graph.</p>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Although <m>n=0</m> does not make sense for the application, point out that we can add that point to complete the graph.</p></commentary>
+
 <sidebyside widths="40% 55%">
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -263,7 +271,11 @@ Complete the table and make a graph.</p>
 </activity>
 
 <activity><title>A Log Function</title>
-<introduction><p>In this Activity we compare the graphs of <m>~y=\sqrt{x}~</m>  and <m>~y=\log_2{x}~</m>.</p></introduction>  
+
+<introduction><p>In this Activity we compare the graphs of <m>~y=\sqrt{x}~</m>  and <m>~y=\log_2{x}~</m>.</p></introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>The goal of this Activity is to demonstrate that logarithmic functions grow very slowly, just as exponential functions grow rapidly.</p></commentary>  
 
 <task><p>Use your calculator to complete the table. Use the formula <m>~\log_2{x} = \dfrac{\log{x}}{\log{2}}</m> when needed to evaluate 
  <m>\log_2{x}</m>. Round values to tenths.</p>
@@ -307,31 +319,42 @@ Complete the table and make a graph.</p>
                     <cell><m>\hphantom{00000}</m></cell></row>
     </tabular>
     <image source="act-10-1-8.png"></image></sidebyside></task>
+
 <task><p>Plot both functions on the grid.</p></task>
+
 <task><p>At which two points do the graphs intersect?</p>
   <p>Which graph has larger function values in the long run?</p></task> 
 </activity>
 
 <activity><title>Logarithmic Equations</title>
-<task><p>What is a log equation?</p></task>  
+
+<task><p>What is a log equation?</p></task> 
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>We solve simple log equations by converting to exponential form. You may need to review the equivalence with some numerical examples.</p></commentary>
 
 <task><p>Follow the steps to solve the equation <m>~\log_2 {(3x-1)} = 5</m></p>
-  <p>Convert to exponential form.</p>
-  <p>Solve the new equation.</p>
-  <p>Check the solution.</p></task>
+  <p><m>\blert{\text{Convert to exponential form.}}</m></p>
+  <p><m>\blert{\text{Solve the new equation.}}</m></p>
+  <p><m>\blert{\text{Check the solution.}}</m></p></task>
+
 <task><p> To solve more complicated log equations, we first use the log properties to combine any expressions 
 containing logs into a single logarithm.</p>
+
+           <commentary audience="instructor"><title>Note</title>
+           <p>Stress that the first step is to combine the logs into one log, using the log properties.</p></commentary> 
+
 <p>Follow the steps to solve <m>~~\log_4 {(x+8)} + \log_4 {(x+2)} = 2</m></p>
-  <p>Use log properties to write the left side as a single log.</p> 
-  <p>Convert the equation to exponential form.</p>
-  <p>Solve the new equation.</p>
-  <p>Don't forget to check for extraneous solutions!</p></task>
+  <p><m>\blert{\text{Use log properties to write the left side as a single log.}}</m></p> 
+  <p><m>\blert{\text{Convert the equation to exponential form.}}</m></p>
+  <p><m>\blert{\text{Solve the new equation.}}</m></p>
+  <p><m>\blert{\text{Don't forget to check for extraneous solutions!}}</m></p></task>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
 <li><p>If you double the number of choices under Hick's Law in Activity 1, approximately how much more time will you need to make your choice?</p></li>
-<li><p>Suppose you don't have a calculator handy.  How can you estimate the value of <m>\log_2 {50}</m>?</p></li>
+<li><p>Suppose you don't have a calculator handy. How can you estimate the value of <m>\log_2 {50}</m>?</p></li>
 <li><p>How do we check for extraneous solutions when solving a logarithmic equation?</p></li>
 <li><p>How might you use the properties of logarithms when solving a logarithmic equation?</p></li>
 </ol></p></subsection>
@@ -339,10 +362,20 @@ containing logs into a single logarithm.</p>
 <subsection><title>Wrap-Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to logarithmic functions:</p>
 <p><ul>
-<li><p>Use a graph of <m>f</m> to find values of <m>f^{-1}</m></p></li>
+<li><p>Use a graph of <m>f</m> to find values of its inverse</p></li>
 <li><p>Evaluate logarithmic functions</p></li>
 <li><p>Graph logarithmic functions</p></li>
 <li><p>Solve logarithmic equations</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>If you have a formula for a function, how might you find a formula for its inverse?</p></li>
+<li><p>Do you notice a relationship between the graph of a function and the graph of its inverse?</p></li>
+<li><p>Why does the graph of a log function appear only to the right of the <m>y</m>-axis?</p></li>
+<li><p>Why does the graph of <m>y = \log_b x</m> have an <m>x</m>-intercept at <m>(1,0)</m>?</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 </section>

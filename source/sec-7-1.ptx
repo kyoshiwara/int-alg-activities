@@ -3,7 +3,12 @@
 <section xml:id="sec-7-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Growth and Decay</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we introduce exponential growth and decay. We do not define exponential functions as such until the next Lesson. Here we look at examples of growth and decay by a constant factor or a constant percent rate, and compare exponential with linear growth.</p>
+<p>The Activites in the lesson are designed to introduce the new material, so you may want to begin class with the Activities and summarize after each part, instead of using an introductory lecture.</p></commentary>
+
 <activity><title>Population Growth</title>
+
 <introduction><p>In a laboratory experiment, researchers establish a colony of 100 bacteria and monitor its growth. The colony triples in population every day.</p></introduction>
 
 <task><p>Complete the table showing the population, <m>P(t)</m>, of bacteria <m>t</m> days later.</p>
@@ -27,24 +32,38 @@
   <task><p>Plot the data points from the table and connect them with a smooth curve.</p>
             <image source="act-7-1-1.png" width="50%"></image></task>
 
-<task><p>Write a function that gives the population of the colony at any time, <m>t</m>, in days.</p></task>  
+<task><p>Write a function that gives the population of the colony at any time, <m>t</m>, in days.</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>To help students write a function for the population, show them how the function values in the table are built up with powers of 3, and lead them to see that the exponent on <m>P(t)</m> is <m>t</m>.</p></commentary>
 
 <task><p>Graph your function from part (c) using technology. (Use the table to help you choose an appropriate window.)</p></task>
 
 <task><p>Evaluate your function to find the number of bacteria present after 8 days. </p>
-  <p>How many bacteria are present after 36 hours?</p></task> 
+  <p>How many bacteria are present after 36 hours?</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Show the class how to evaluate exponential expressions on the calculator.</p></commentary>
 </activity>
 
+                <commentary audience="instructor"><title>Note</title>
+                <p>At this point, go over the formula for exponential growth, <m>P(t) = P_0b^t</m>, and point out that we only need to know the initial value and the growth factor to write an equation. Use this observation in the next Activity.</p></commentary>
+
 <activity><title>Bees</title>
+
 <introduction><p>A beekeeper starts a new hive with 20 insects. The population can increase in size by a factor of 1.8 every month.</p></introduction>
+
 <task><p>Write a formula for the population of bees, <m>B(t)</m>, after <m>t</m> months.</p></task>
+
 <task><p> How many bees will there be after 4 months?</p>  
     <p> After 6 weeks?</p></task>
+
 <task><p>Graph your function using technology, then sketch the graph on the grid.</p>
           <image source="act-7-1-2.png" width="40%"></image></task>
 </activity>
 
 <activity><title>Percent Increase</title>
+
 <introduction><p>Imagine that you take a job that pays $1000 a month, and every year you'll get a 5% raise. You would like a formula that allows you to compute your salary, <m>S(t)</m>, after <m>t</m> years.</p></introduction>
 
 <task><p>Compute your new salary after working for one year:
@@ -55,6 +74,10 @@
       <me>S(1) = 1000 + 0.05(1000) = 1000(1+0.05) = \blert{1000(1.05)} = 1050</me></p>
     <p>We can compute your new salary each year by multiplying the old salary by <m>1.05</m>. Verify that this works to compute <m>S(2)</m>:
         <me>S(2) = 1050(1.05) = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students usually have some difficulty grasping the formula for percent increse. You may have to explain several times "where the 1 comes from" in <m>1+r</m>: it gives us back the "old" value, while <m>r</m> produces the increase.</p></commentary>
+
 <task><p>Continue the pattern: To compute your new salary every year, multiply your old salary by <m>1.05</m>. (Round to the nearest penny.)</p>
 <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -73,14 +96,22 @@
                 <row><cell><m>5</m></cell>
                     <cell><m>S(5) = \hphantom{00000}</m></cell></row>
             </tabular> </task>
+
 <task><p>The table shows that <m>S(t)</m> follows exponential growth. What is its growth factor?</p>
     <p>Write a formula for your salary <m>S(t)</m> after <m>t</m> years.</p></task>
 </activity>
 
 <activity><title>Cost of College</title>
+
 <introduction><p>In 1998, the average annual cost of a public college was $10,069, and costs were climbing by 6% per year.</p></introduction>
+
 <task><p>Write a formula for <m>C(t)</m>, the cost of one year of college <m>t</m> years after 1998.</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>If students persist in writing <m>b=0.06</m> instead of <m>b=1.06</m>, you might ask them to create a short table for their version of the formula, and see if it is increasing.</p></commentary>
+
 <task><p>How much did a year of college cost in 2020?</p></task>
+
 <task><p>Complete the table and sketch a graph of <m>C(t)</m>.</p>
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -102,8 +133,10 @@
     <image source="act-7-1-3.png" width="45%"></image></task>
   </activity>
 
-  <activity><title>Exponential Decay</title>
+<activity><title>Exponential Decay</title>
+
 <introduction><p>A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals) the population declined to approximately 0.90 of its earlier figure.</p></introduction>
+
 <task><p>Complete the table showing the population, <m>P(t)</m>, of the town <m>t</m> decades after 1940.</p>
     <tabular top="minor" halign="left" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -122,16 +155,28 @@
                 <row><cell><m>5</m></cell>
                     <cell><m>P(5) = \hphantom{00000}</m></cell></row>
             </tabular> </task>
+
 <task><p>Plot the data points and connect them with a smooth curve.</p>
       <image source="act-7-1-4.png" width="45%"></image></task>
-<task><p>Write a function that gives the population of the town at any time <m>t</m> in decades after 1940.</p></task>  
-<task><p>Graph your function from part (c) using technology.  (Use the table to choose an appropriate window.)</p></task> 
+
+<task><p>Write a function that gives the population of the town at any time <m>t</m> in decades after 1940.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Notice that 0.90 is the value of <m>1-r</m>, not of <m>r</m>. You will need to emphasize the distinction between decreasing to 90% (of the earlier value) and decreasing by 90%. You may want to state several examples with different wordings and different values of <m>r</m> for students to write formulas.</p></commentary>
+
+<task><p>Graph your function from part (c) using technology. (Use the table to choose an appropriate window.)</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Also point out that we don't see musch of a curve to the graph over just 5 decades, but if we change the graphing window to 10 or 15 decades, the exponential shape is more pronounced.</p></commentary>
+
 <task><p>Evaluate your function to find the population of the town in 1990.</p>
     <p>What was the population in 2005?</p></task>
 </activity> 
 
 <activity><title>Growth and Decay Laws</title>
+
 <introduction><p>Write a growth or decay law to describe each population, and complete the table of values.</p></introduction>
+
 <task><p>A herd of 1000 deer grew by 4% per year.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -150,6 +195,7 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></task>
+  
   <task><p>A herd of 1000 deer grew by 40% per year.</p>
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -168,6 +214,7 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></task>
+  
   <task><p>A herd of 1000 deer decreased to 40% of its previous population every year.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -186,6 +233,7 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></task>
+  
   <task><p>A herd of 1000 deer decreased by 40% each year. </p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -207,13 +255,23 @@
   </activity>
 
 <activity><title>Comparing Linear and Exponential Decrease</title>
-  <introduction><p>In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></introduction>
-  <task><p>If the population declined linearly after 1992, what was its annual rate of decrease?</p></task>
-  <task><p> Write a formula for <m>L(t)</m>, the number of otters <m>t</m> years after 1992 under linear decline.</p></task>
-  <task><p>If the population declined exponentially after 1992, a formula for the number of otters  years after 1992 is <m>E(t) = 20,000 b^t</m>.  Use the population in 2000 to write an equation and solve for <m>b</m>.</p></task>
-  <task><p>What was the annual decay factor for exponential decline in the otter population?  What was its annual percent decrease?</p></task>
-  <task><p>Predict the number of sea otters in 2010 under each assumption, linear or exponential decline.</p></task>
-  <task><p>Graph both functions,<m>L(t)</m> and <m>E(t)</m>, on the same grid.</p>  
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>After getting students started (point out that only the populations in 1992 and 2000 are relevant to the problem), you might assign the write-up to hand in.</p>
+
+<introduction><p>In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></introduction>
+  
+<task><p>If the population declined linearly after 1992, what was its annual rate of decrease?</p></task>
+  
+<task><p> Write a formula for <m>L(t)</m>, the number of otters <m>t</m> years after 1992 under linear decline.</p></task>
+  
+<task><p>If the population declined exponentially after 1992, a formula for the number of otters  years after 1992 is <m>E(t) = 20,000 b^t</m>. Use the population in 2000 to write an equation and solve for <m>b</m>.</p></task>
+  
+<task><p>What was the annual decay factor for exponential decline in the otter population? What was its annual percent decrease?</p></task>
+  
+<task><p>Predict the number of sea otters in 2010 under each assumption, linear or exponential decline.</p></task>
+  
+<task><p>Graph both functions,<m>L(t)</m> and <m>E(t)</m>, on the same grid.</p>  
         <image source="act-7-1-5.png" width="50%"></image></task>
 </activity>
 
@@ -236,6 +294,14 @@
 <li><p>Solve for percent increase or decrease</p></li>   
 <li><p>Compare linear and exponential growth</p></li>
 </ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How can you tell from a table of values that a function is increasing or decreasing exponentially?</p></li>
+<li><p>If an exponential function increases by 500 in the first month, will it also increase by 500 in the second month? Why or why not?</p></li>
+<li><p>Explain why the growth factor for for an exponential function is <m>1+r</m>, where <m>r</m> is given by a percent increase, but the decay factor for a decrease given by percent is <m>1-r</m>.</p></li>
+<li><p>If an exponentially decreasing function decreased by 500 this month, will it decrease by more than 500 or less than 500 next month? Why?</p></li>
+<li><p>If you know only two points on a graph, can you determine whether the graph is linear or exponential? Explain.</p></li>
 </subsection>   
   
 </section>

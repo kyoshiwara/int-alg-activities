@@ -3,7 +3,18 @@
 <section xml:id="sec-2-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Regression</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>This Lesson provides a brief introduction to linear regression. We begin by considering data that are "almost" linear and fit a regression line by eye. Explain to students that their answers may differ slightly; nonetheless a line can be a bad fit. Show them how to adjust their line so that the same number of data points lie above the line and below the line. 
+
+<p>You will also need to emphasize that the line of best fit need not pass through any of the data points, and that to find the equation of the regression line, they must use points on the line, not data points. One goal of this lesson is for students to practice using the point-slope formula to find the equation for a line through two points.</p>
+    
+<p>Activity 2 demonstrates least-squares regression with technology. Put students in groups so that they can help each other with the keystrokes. It is probably not a good idea to require students to memorize the steps in this process; allow them to use a copy of the instructions when they use technology for regression.</p> 
+
+<p>The scatterplots in Example 3 (literacy and birth rate) and Homework Problem 3 (Miss America BMI's) are more complex; students should not be required to find regression equations for data sets of this size. However, they should be asked to read and interpret information from the graph.</p></commentary>
+
+
 <activity><title>Line of Best Fit</title>
+
 <introduction><p>The scatterplot shows the area, <m>A</m>, of the Amazon rain forest remaining, in thousands of square kilometers, <m>t</m> years after 1980.</p>
   <sidebyside widths="30% 60%">
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -47,11 +58,24 @@
             <image source="act-2-1-1.png" ></image></sidebyside></introduction>
 
   <task><p>Use a straightedge to draw a line of best fit for the data.</p></task>
+
+        <commentary audience="instructor"><title>Note</title>
+        <p>Use a clear plastic ruler to draw a line of best fit.</p></commentary> 
+ 
+
+
+  
   <task><p>Choose two points on the regression line. (Do not choose data points; choose points on your line.)</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Ask students to choose two points that lie on the regression line but are not data points. Look for points that lie as close as possible to grid lines, so that their coordinates are easy to read.</p></commentary>
   
       <p>Points:</p></task>
 
 <task><p>Use the point-slope formula to find the equation of your regression line.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Work through this task with the students.  Emphasize a two-step process:  find the slope, then apply the point-slope formula.</p></commentary>
 
 <task><p>Use your regression equation to predict when the rain forest will be completely destroyed.</p></task>
 
@@ -59,7 +83,12 @@
 </activity>
 
 <activity><title>Interpolation and Extrapolation</title>
-<introduction><p>It has been proposed that unemployment is higher in communities where a large percentage of workers own their own homes.  The data show the percent of owner-occupied housing and the unemployment rate in several European nations. We will calculate a regression line to model the data.</p>
+
+<introduction><p>It has been proposed that unemployment is higher in communities where a large percentage of workers own their own homes. The data show the percent of owner-occupied housing and the unemployment rate in several European nations. We will calculate a regression line to model the data.</p>
+            
+                <commentary audience="instructor"><title>Note</title>
+                <p>You might enter the data ahead of time, so that you can help students as they enter the data.</p></commentary>
+
     <sidebyside widths="45% 55%">
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -110,13 +139,21 @@
           </sidebyside></introduction>
 
 <task><p>Use a straightedge to draw a line of best fit for the scatterplot.</p></task>
+
 <task><p>Use technology to find the equation of the least-squares regression line. Round the coefficients to two decimal places.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students will probably notice that the regression line appears to pass through only one data point. Emphasize again that it need not pass through any data points.</p></commentary> 
+
 <task><p>Evaluate the least-squares formula for 40% home ownership and for 70% home ownership.
-  (Note:  Do not change the percents to decimals!)</p></task>
+  (Note: Do not change the percents to decimals!)</p></task>
 
 <task><p>Use the values from part (c) to graph the least-squares regression line on the scatterplot, and compare to your line of best fit.</p></task>
-<task><p>What is the slope of the least-squares regression line?  What is its meaning for this situation?</p></task>
-<task><p>What is the vertical intercept of the least-squares regression line?  What is its meaning for this situation?</p></task>
+
+<task><p>What is the slope of the least-squares regression line? What is its meaning for this situation?</p></task>
+
+<task><p>What is the vertical intercept of the least-squares regression line? What is its meaning for this situation?</p></task>
+
 <task><p>What unemployment rate does the model predict for a society with 100% home ownership?</p></task>
 </activity>
 
@@ -136,6 +173,15 @@
 <li><p>Find an equation for a line of best fit</p></li>
 <li><p>Make estimates using interpolation and extrapolation</p></li>
 <li><p>Use technology for least-squares regression</p></li></ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe a strategy for sketching a line of best fit by eye.</p></li>
+<li><p>Should you expect the data points on a scatterplot to satisfy the regression equation? Why or why not?</p></li> 
+<li><p>Explain the difference between interpolation and extrapolation.</p></li>
+<li><p>Describe a way to use technology to find the equation of a line through two points.</p></li>
+</ol></p></commentary>
+
 </subsection>
 
 </section>

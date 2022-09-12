@@ -3,6 +3,10 @@
 <section xml:id="sec-6-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Integer Exponents</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we define negative and zero exponents, revisit the laws of exponents, write numbers in scientific notation, and use power functions in applications.</p>
+<p>Begin class with a brief introduction to negative exponents and how they relate to power functions, leading into Activity 1.</p></commentary>
+ 
 <activity><title>Power Functions</title>
 
 <task><p>State the values of <m>k</m> and <m>p</m> for the two examples below.</p>
@@ -20,11 +24,15 @@
 </activity>
 
 <activity><title>The Trebuchet</title>
+
 <introduction><p>In the middle ages in Europe, castles were used as defensive strongholds. An attacking force would build a huge catapult called a trebuchet to hurl rocks and scrap metal inside the castle walls. The engineers could adjust its range by varying the mass (or weight) of the missiles. The mass, <m>m</m>, of the projectile is inversely proportional to the square of the distance, <m>d</m>, to the target.</p></introduction>
 
 <task><p>Use a negative exponent to write a formula for <m>m</m> as a function of <m>d</m>, <m>m=f(d)</m>.</p></task>
 
 <task><p>The engineers test the trebuchet with a 30-pound lead ball, which lands 948 yards away. Find the constant of proportionality, and rewrite your formula for <m>m</m>. (Round your value of <m>k</m> to the nearest million.)</p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Ask students which basic graph they expect the graph of <m>m=f(d)</m>  to resemble.</p></commentary>
 
 <task><p>Graph  <m>m=f(d)</m>.</p>
   <image source="act-6-1-1.png" width="50%"></image></task>
@@ -32,10 +40,17 @@
 <task><p>The trebuchet is 500 yards from the courtyard within the castle. What size missile will hit the target?</p></task>
 
 <task><p>The largest missile the trebuchet can handle is 300 pounds. If the attackers would like to hurl a 300-pound rock at the castle, how close must they bring their trebuchet?</p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Many students will have difficulty solving for <m>d</m> when <m>d^2</m> appears in the denominator. Dividing both sides of <m>300 = \dfrac{k}{d^2}</m> by <m>k</m> and incorrectly getting <m>d^2</m> on the right side is a common error.</p></commentary>
 </activity>
 
 <activity><title>Radar</title>
+
 <introduction><p>Airplanes use radar to detect the distances to other objects. A radar unit transmits a pulse of energy which bounces off a distant object, and the echo of the pulse returns to the sender.  The power, <m>P</m>, of the returning echo is inversely proportional to the fourth power of the distance, <m>d</m>, to the object.</p></introduction> 
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Use this Activity to discuss changing from one unit of measure to another; in this case, from watts to picowatts.  You should also make sure that students can read scientific notation on their calculators, and stress that "2.8 E -6", for example, is not an acceptable form for an answer.</p></commentary>
 
 <task><p>A radar operator receives an echo of <m>5 \times 10^{-10}</m> watt from an aircraft 2 nautical miles away. Express the power of the echo received in picowatts. (1 picowatt <m>= 10^{-12}</m> watt.)</p></task>
 
@@ -64,6 +79,9 @@
 
 <activity><title>Using the Laws of Exponents</title>
 
+          <commentary audience="instructor"><title>Note</title>
+          <p>Do parts (a)-(d) verbally with the class, stopping to explain any that generate questions.</p></commentary>
+  
 <task><p>Simplify if possible using the first law.</p>
 <p><ol cols="2">
   <li><p><m>x^6 \cdot x^{-3}</m></p></li>
@@ -107,6 +125,10 @@
 </ol></p></task>
 
 <task><p>Which of the following statements are true for all non-zero values of <m>a</m> and <m>b</m>?  (You may want to try out some specific values of <m>a</m> and <m>b</m> before you decide!)</p>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Demonstrate for students how to substitute values for <m>a</m> and <m>b</m>.</p></commentary>
+
 <p><ol cols="2">
   <li><p><m>\dfrac{1}{a} + \dfrac{1}{b} = \dfrac{1}{a+b}~</m>?</p></li>
   <li><p><m>a^{-1} + b^{-1} = (a+b)^{-1}~</m>?</p></li>
@@ -137,6 +159,16 @@
 <li><p>Graph and analyze power functions</p></li>    
 <li><p>Solve equations involving negative exponents</p></li>     
 <li><p>Simplify expressions using the laws of exponents</p></li>
-</ul></p></subsection>    
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>What is an inverse square law? Give an example.</p></li>
+<li><p>Explain why <m>\dfrac{1}{a^{-n}} = a^n</m>, if <m>a \not= 0</m>.</p></li>
+<li><p>How can you tell whether a number should have a positive or a negative exponent in scientific notation? Explain why this is true.</p></li>
+<li><p>Give an example to show why we cannot add or subtract terms with the same variable but different exponents.</p></li>
+</ol></p></commentary>
+
+</subsection>    
 
 </section>

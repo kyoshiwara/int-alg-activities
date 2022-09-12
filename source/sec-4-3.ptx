@@ -3,7 +3,11 @@
 <section xml:id="sec-4-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Curve Fitting</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we use a linear system to fit a parabola through three points and use quadratic regression to fit a model to data. The Activities do not include quadratic regression; if you wish to cover that topic you could use Exercises 4.41 and 4.45 in the text as classroom examples.</p></commentary> 
+
 <activity><title>Using Three Points</title>
+
 <introduction><p>You are driving at 60 miles per hour when you step on the brakes. Find a quadratic formula, <m>d=at^2+bt+c</m>, for the distance in feet that your car has traveled <m>t</m> seconds after braking.</p> 
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -18,13 +22,24 @@
                     <cell><m>210</m></cell>
                     <cell><m>240</m></cell></row>
     </tabular></introduction>
+
 <task><p>Use the first three data points from the table to write three equations.</p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Make sure students understand that the unknowns in this system are <m>a</m>, <m>b</m>, and <m>c</m>.</p></commentary>
+
 <task><p>Simplify the equations, and write a system.</p></task>
+
 <task><p>Solve the system.</p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Point out that the easiest way to solve the system is to eliminate <m>c</m> first.</p></commentary>
+
 <task><p>State the solution to the problem.</p></task>
 </activity>
 
 <activity><title>Finding the Equation of a Parabola</title>
+
 <introduction><p>We now have three forms for the equation of a parabola: <ul>
   <li><p>standard form <m>~~~y=ax^2+bx+c~</m></p></li>
   <li><p>factored form  <m>~~~y=a(x-r_1)(x-r_2)~</m></p></li>
@@ -37,11 +52,14 @@
   <li><p>What are the <m>x</m>-intercepts of the graph of <m>~y=2(x-3)(x+5)~</m>?</p></li>
   <li><p>What is the vertex of the graph of <m>~y=4(x+2)^2-5~</m>?</p></li></ol></p></task>
 
-
 <task><p>How can we find the equation of a parabola?<ul>
   <li><p>If we know the <m>x</m>-intercepts of the parabola, then we use the factored form.</p></li>  
   <li><p>If we know the vertex, we use the vertex form.</p></li> 
-  <li><p>In each case, we must know one other point on the parabola in order to find the value of <m>a</m>.</p></li></ul></p>
+  <li><p>In each case, we must know one other point on the parabola in order to find the value of <m>a</m>.</p></li>
+</ul></p>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Go over the fact that we need two points to find the equation of a line, and three points to find a parabola, unless one of the points happens to be the vertex.</p></commentary>
 
 <p><ol>
     <li><p>Write an equation for a parabola that has <m>x</m>-intercepts at <m>(2,0)</m> and <m>(-3,0)</m>. (There are many possible answers.)</p></li>
@@ -55,14 +73,20 @@
 <task><p>Find an equation for each parabola. Use the vertex form or the factored form of the equation, whichever is more appropriate.</p>
     <sidebyside widths="35% 35%"><image source="act-4-3-1.png" ></image>
       <image source="act-4-3-2.png"></image></sidebyside></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Suggest that students choose points on the graph whose coordinates are easy to read.</p></commentary> 
 </activity>
 
 <activity><title>Curve-Fitting with the Vertex Form</title>
+
 <introduction><sidebyside widths="50% 35%"><p>Francine is designing a synchronized fountain display for a hotel in Las Vegas. For each fountain, water emerges in a parabolic arc from a nozzle three feet above the ground. Francine would like the vertex of the arc to be eight feet high, and two feet horizontally from the nozzle.</p>
 <image source="act-4-3-3.png"></image></sidebyside></introduction>
 
 <task><p>Choose a coordinate system with its origin at the base of the fountain. Label the coordinates of two points on the path of the water.</p></task>
+
 <task><p>Write an equation for the path of the water.</p></task>
+
 <task><p>How far from the base of the nozzle will the stream of water hit the ground?</p></task>
 </activity>
 
@@ -82,7 +106,16 @@
 <li><p>Use Gaussian elimination to fit a parabola to three points</p></li> 
 <li><p>Choose the best method to find the equation for a parabola</p></li>
 <li><p>Find the equation for a parabola, given its graph</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Discuss the three forms for quadratic equations, and when each is useful.</p></li>
+<li><p>Explain how to fit a parabola through three points.</p></li>
+<li><p>How do we choose an appropriate type of equation to fit a data set?</p></li>
+<li><p>If you use the last three points in a collection of data instead of the first three points, will you get the same regression equation? Explain why or why not.</p></li>
+</ol></p></commentary>
+</subsection>
 
 </section>
 

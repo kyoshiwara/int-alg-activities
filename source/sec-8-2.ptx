@@ -3,7 +3,11 @@
 <section xml:id="sec-8-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebraic Fractions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we reduce algebraic fractions and consider some simple examples using rational functions as models. We discuss the meaning of verical and horizontal asymptotes in aplications.</p></commentary>
+
 <activity><title>Reducing Fractions</title>
+
 <task><p>To reduce an algebraic fraction:</p>
 <p><ol>
   <li><p><fillin/> the numerator and denominator.</p></li>
@@ -14,6 +18,10 @@
   <p><m>~~~~\dfrac{-12rs^2t}{-6rst^2}</m></p></task>
 
 <task><p>Reduce. Factor numerator and denominator before canceling!</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>You may be surprised at how feeble are your students' factoring skills. If it is important to you, you might need to provide additional factoring practice.</p></commentary>
+
   <p><ol>
   <li><p><m>\dfrac{5y^2-20}{2y-4} </m></p></li>
   <li><p><m>\dfrac{6x^2-x-1}{2x^2+9x-5}</m></p></li>
@@ -30,6 +38,10 @@
 </activity>
   
 <activity><title>Equivalent Fractions</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Even if you can get students to "factor before they cancel," they will probably still have great difficulty with this Activity. It is a good idea to go over all of these problems in class.</p></commentary>
+
 <introduction><p>Which expressions are equivalent to the given fraction?</p></introduction>
 
 <task><p><m>\dfrac{3}{5}</m></p>
@@ -66,7 +78,12 @@
   </activity>
 
 <activity><title>Horizontal Asymptote</title>
+
 <introduction><p>Envirogreen Technology, Inc. decides to produce a new type of water filter for home use.They spend $5000 for startup costs, and each filter costs $50 to produce.</p></introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Begin be reviewing the notions of revenue, profit, and cost. Make sure your students recognize the difference between price, variable cost, and average cost. Most students grasp the idea of spreading the start-up cost over the number of filters produced.</p></commentary>
+
 <task><p>To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters.</p>  
 <p>Compute the total cost of producing <m>x</m> filters:
   <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
@@ -111,9 +128,13 @@
 </activity>
 
 <activity><title>Vertical Asymptote</title>
- <introduction><p> The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></introduction>
+ 
+<introduction><p> The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></introduction>
 
- <task><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></task>
+<task><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Help students see that the mathematics reflects their common sense.</p></commentary>
 
 <task><p> Complete the table showing the travel time for various current speeds.</p> 
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -164,27 +185,14 @@
 <li><p>Reduce fractions</p></li>    
 <li><p>Use rational functions as models</p></li>    
 <li><p>Interpret horizontal and vertical asymptotes</p></li>
-</ul></p></subsection>  
+</ul></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to reduce an algebraic fraction, and describe some mistakes to avoid.</p></li>
+<li><p>Explain carefully why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
+<li><p>Explain why dividing by <m>\frac{1}{3}</m> gives the same answer as multiplying by 3.</p></li>
+<li><p>Describe the shape of the graph of a rational function near a horizontal asymptote, and near a vertical asymptote.</p></li>
+</ol></p></commentary>
+</subsection>  
 </section>

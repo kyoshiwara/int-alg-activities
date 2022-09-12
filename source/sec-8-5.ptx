@@ -3,8 +3,15 @@
 <section xml:id="sec-8-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Equations with Algebraic Fractions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we solve equations with algebraic fractions both algebraically and graphically, and consider some applications.</p></commentary>
+
 <activity><title>Proportions</title>
-<task><p>What is a proportion?</p>  
+
+<task><p>What is a proportion?</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>We review solving proportions as a special case of multiplying by the LCD.</p></commentary>
 
   <p>To clear the fractions from a proportion, we <fillin/> .</p></task>
 
@@ -21,6 +28,9 @@
 
 <task><p>The Wildlife Commission tags 30 Canada Geese at one of its migratory feeding grounds. When the geese return, the commission captures 45 geese, of which  four are tagged. What is the commission's estimate of the number of geese that use the feeding ground?</p>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>This task illustrates a common method for estimating wildlife populations.</p></commentary>
+
 <p>Follow the steps:</p>
 
 <p>Choose a variable:  what is the unknown quantity?</p>
@@ -31,6 +41,7 @@
 </activity>
 
 <activity><title>Graphical Solution</title>
+
 <introduction><p>A florist finds that she will sell <m>\dfrac{300}{x}</m>  dozen roses per week if she charges <m>x</m> dollars for a dozen. Her suppliers will sell her <m>5x-55</m> dozen roses if she sells them at <m>x</m> dollars per dozen.</p></introduction>
 
 <task><p>Graph the demand function, <m>~D(x) = \dfrac{300}{x}</m>, and the supply function, <m>~S(x) = 5x-55</m>, for <m>0 \le x \le 30</m>.</p>
@@ -38,10 +49,14 @@
 
 <p>At what equilibrium price, <m>x</m>, will the florist sell all the roses she purchases?</p></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>The graphical solution helps students visualize the mathematics, but you will need to help them see how the variables appear in the graph.</p></commentary>
+
 <task><p> Write and solve an equation to verify the equilibrium price.</p></task>
 </activity>
 
 <activity><title>Equations with Fractions</title>
+
 <task><p>If an equation contains more than one fraction, we can clear all the denominators at once by multiplying both sides by the <fillin/> of the fractions.</p></task>
 
 <task><p>Follow the steps to solve:  <m>~~ \dfrac{2}{x+1} + \dfrac{1}{3x+3} = \dfrac{1}{6}</m></p>
@@ -54,9 +69,13 @@
   <me>\blert{\dfrac{6(x+1)}{1}} \cdot \dfrac{2}{x+1} + \dfrac{1}{3(x+1)} \cdot \blert{\dfrac{6(x+1)}{1}} = \dfrac{1}{6} \cdot \blert{\dfrac{6(x+1)}{1}}</me></p>
 <p>Simplify by reducing each term.</p>
 <p>Solve.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Here we use the LCD in yet a different way from the operations in previous lessons. After completing the Activity, spend some time comparing solving equations with simplifying complex fractions and adding unlike fractions.</p></commentary> 
 </activity>
 
 <activity><title>Extraneous Solutions</title>
+
 <task><p>An apparent solution is extraneous if it causes one or more of the denominators in the equation to be <fillin/> .</p></task>
 
 <task><p>Consider the equation  <m>~~ \dfrac{1}{x-1} + \dfrac{2}{x+1} = \dfrac{x-3}{x^2-1}</m></p>
@@ -78,7 +97,11 @@
 </activity>
 
 <activity><title>Solving Formulas</title>
+
 <task><p>  Follow the steps to solve  <m>~~\dfrac{1}{R} = \dfrac{1}{A} +\dfrac{1}{B} ~~ </m> for <m>B</m>.</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Emphasize that we should "get the variable out of the denominator" before we can isolate it. (Students sometimes mistakenly solve for <m>\dfrac{1}{B}</m>, somehow thinking they can ignore the 1 in the numerator.)</p></commentary>
 
 <p>Find the LCD of all the fractions in the equation.    <m>LCD = </m></p>
 <p>Multiply each term by the LCD:    
@@ -103,6 +126,15 @@
 <li><p>Solve equations involving algebraic fractions</p></li>    
 <li><p>Check for extraneous solutions</p></li>
 <li><p>Solve formulas involving algebraic fractions </p></li>
-</ul></p></subsection>  
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>What are extraneous solutions, and when might they occur?</p></li>
+<li><p>If the variable in an equation appears in the denominator of a fraction, what should you do?</p></li>
+<li><p>Explain how "cross-multiplying" is a special case of using an LCD.</p></li>
+<li><p>Explain how to solve an equation graphically.</p></li>
+</ol></p></commentary>
+</subsection>  
 
 </section>

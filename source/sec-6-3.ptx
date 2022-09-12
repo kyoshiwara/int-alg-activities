@@ -3,12 +3,21 @@
 <section xml:id="sec-6-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Rational Exponents</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we extend the study of rational exponents to powers of the form <m>a^{m/n}</m>. We simplify expressions using the laws of exponents, solve equations, and look at models that use power functions with rational exponents.</p>
+    
+<p>Begin class by reviewing the types of exponents we have already studied, and show how the defintion of rational exponents make sense. You may want to practice using the laws of exponents, but do not make the examples unreasonably complicated, or the discussion may devolve into a lesson on adding fractions. It is also useful to solve a few equations that involve rational exponents.</p></commentary>
+
 <activity><title>Kepler's Law</title>
+
 <introduction><p>Kepler's law gives a relation between the period <m>p</m> of a planet's revolution and its average distance <m>a</m> from the sun:
   <me>p^2=Ka^3</me>
 where <m>K=1.243 \times 10^{-6}</m>, <m>p</m> is in millions of miles, and <m>a</m> is in years.</p></introduction>
 
 <task><p>Solve Kepler's law for <m>a</m> in terms of <m>p</m>.  Write your equation in two ways:  using a fractional exponent, and using a radical.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>This task involves working with scientific notation. Show students how to simplify the formula for <m>a</m> with minimal calculator use.</p></commentary>
 
 <task><p>Complete the table for the four inner planets. Give the values of <m>a</m> in millions of miles.</p>
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -34,9 +43,16 @@ where <m>K=1.243 \times 10^{-6}</m>, <m>p</m> is in millions of miles, and <m>a<
     <image source="act-6-3-1.png" width="50%"></image></task>
 
 <task><p>The planet Neptune is <m>4.497 \times 10^3</m> million miles from the sun. Find its period of revolution.</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>You might want to do part (d) in two ways, using the original equation and the answer to part (a).</p></commentary>
 </activity>
 
 <activity><title>Vampire Bats</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Consider assigning this Activity as a project or for extra credit.</p></commentary>
+
 <introduction><p>Small animals like bats cannot survive for long without eating. The weight <m>W</m> of a typical vampire bat decreases over time until its next meal, according to the function   
     <me>W = f(h) = 130.25 \times 10^{-0.126}</me>
 where <m>h</m> is the number of hours since the bat's most recent meal.</p></introduction>
@@ -59,13 +75,14 @@ where <m>h</m> is the number of hours since the bat's most recent meal.</p></int
                     <cell><m>\hphantom{0000000}</m></cell>
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></task>
+
 <task><p>Graph the equation.</p>
       <image source="act-6-3-2.png" width="50%"></image></task>
 
-<task><p>A bat can survive for 60 hours without food. What is the bat's weight at the point of starvation? Locate this point on the graph.
-</p></task>
-<task><p>When the bat's weight has dropped to 90 grams, how long has it been without food? How long can it survive before its next meal?
-</p></task> 
+<task><p>A bat can survive for 60 hours without food. What is the bat's weight at the point of starvation? Locate this point on the graph.</p></task>
+
+<task><p>When the bat's weight has dropped to 90 grams, how long has it been without food? How long can it survive before its next meal?</p></task> 
+
 <task><p>Complete the table with the number of hours since eating at various weights, and label the corresponding points on the graph. Round to the nearest hour.</p> 
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -95,6 +112,7 @@ where <m>h</m> is the number of hours since the bat's most recent meal.</p></int
 </activity>
 
 <activity><title>Laws of Exponents</title>
+
 <task><p>Simplify by using the laws of exponents. Write your answers using radicals.</p>
 <p><ol cols="2">
   <li><p><m>x^{3/4}x^{5/4}</m></p></li>
@@ -128,6 +146,16 @@ where <m>h</m> is the number of hours since the bat's most recent meal.</p></int
 <li><p>Graph and analyze power functions with rational exponents</p></li>   
 <li><p>Solve equations involving rational exponents</p></li>     
 <li><p>Simplify expressions using the laws of exponents</p></li>
-</ul></p></subsection>    
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to compute <m>625^{3/4}</m>  by hand.</p></li>
+<li><p>Explain how to solve <m>x^{0.4} = 18</m>, and why this method works.</p></li>
+<li><p>Explain why <m>x\sqrt{x} = x^{1.5}</m>.</p></li>
+<li><p>Suppose <m>M=8 \times 10^6</m>.  Explain why <m>M^{2/3} = 4 \times 10^4</m>.</p></li>
+</ol></p></commentary>
+
+</subsection>    
 
 </section>

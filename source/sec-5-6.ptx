@@ -3,7 +3,11 @@
 <section xml:id="sec-5-6" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions as Models</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we discuss the shape of a graph, in particular concavity, as it applies to modeling. We also use absolut e value to describe distance, and solve absolute value equations and inequalities.</p></commentary> 
+
 <activity><title>Using the Basic Functions</title>
+
 <introduction><p>Here are some situations that can be modeled by variations of the basic functions.  Match each situation with a function from the list below, and with the appropriate graph.  Write your function with the variables in the description, and answer any questions about the model.
         <md><mrow>y=kx^2 ~~~~~ \amp y=kx^3 ~~~~~ y=k\sqrt{x}</mrow>
             <mrow>y=k\sqrt[3]{x} ~~~~~ \amp y=\dfrac{k}{x} ~~~~~~~ y=\dfrac{k}{x^2}</mrow></md></p>
@@ -42,6 +46,7 @@
 </activity>
 
 <activity><title>Solving Absolute Value Equations</title>
+
 <introduction><p>We'll solve the equation 
              <me>\abs{x-3} = 5</me>
     in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
@@ -50,7 +55,7 @@
       <image source="act-5-6-2.png" width="50%"></image>
 <p>Sketch the horizontal line <m>y=5</m> on your graph.</p></task>
 
-<task><p>Find the points on the graph of <m>y=\abs{x-3}</m> that have <m>y=5</m>. (How many points are there?)  What are the <m>x</m>-coordinates of those two points? These are the solutions,</p></task>
+<task><p>Find the points on the graph of <m>y=\abs{x-3}</m> that have <m>y=5</m>. (How many points are there?) What are the <m>x</m>-coordinates of those two points? These are the solutions,</p></task>
 
 <task><p>Next we'll use a number line to solve the equation. Translate the equation <m>\abs{x-3} = 5</m> into a sentence about distance.</p></task>
 
@@ -58,6 +63,9 @@
       <image source="act-5-6-3.png" width="70%"></image></task>
 
 <task><p>What are the <m>x</m>-coordinates of those two points?</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Point out that when using a graph, the solution appears on the <m>x</m>-axis, and looks the same as the solution obtained on a number line.</p></commentary>
 
 <task><p>Finally, we'll use algebra to sove the equation. Recall the definition of absolute value:</p>
   <md><mrow>\abs{x} = \begin{cases} x \amp \text{if } x\ge 0</mrow>
@@ -70,6 +78,9 @@
 
 <task><p>Thus, the equation <m>\abs{x-3} = 5</m> has two parts: 
         <me>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</me></p>
+
+        <commentary audience="instructor"><title>Note</title>
+        <p>Get students to see that we can replace <m>-(x-3) = 5</m> by <m>x-3=-5</m>. This will be useful when we solve inequalities.</p></commentary>
 
 <p>Solve each equation to get two solutions.</p></task>
 
@@ -84,31 +95,39 @@
 </activity>
 
 <activity><title>Solving Absolute Value Inequalities</title>
+
 <introduction><p>We'll solve the inequality 
              <me>\abs{x-3} \lt 5</me>
     in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
 
 <task><p>Refer to your graph of <m>y=\abs{x-3}</m> in Activity 2, and shade the points on the graph that have <m>y \lt 5</m>.</p></task>  
-<task><p>Now shade the portion of the <m>x</m>-axis that corresponds to those points. (Are the endpoints included in the solution set?)
-  Write your answer with interval notation.</p></task>
+<task><p>Now shade the portion of the <m>x</m>-axis that corresponds to those points. (Are the endpoints included in the solution set?) Write your answer with interval notation.</p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>When choosing the correct intervals on the <m>x</m>-axis, use the same language we used when solving quadratic inequalities: are the correct <m>x</m>-values "between" the boundary points, or "outside" of them?</p></commentary>
 
 <task><p>Now use the graph to solve <m>\abs{x-3} \gt 5</m>. Note that the solution set consists of two intervals.</p></task>  
- <task><p>Write your answer with interval notation.</p></task>
+ 
+<task><p>Write your answer with interval notation.</p></task>
 
- <task><p>Next, we'll use a number line. Translate the inequality <m>\abs{x-3} \lt 5</m> into a sentence about distance.</p></task>
- <task><p>Locate 3 on the number line below, and shade the points closer than 5 units from 3.</p>
+<task><p>Next, we'll use a number line. Translate the inequality <m>\abs{x-3} \lt 5</m> into a sentence about distance.</p></task>
+ 
+<task><p>Locate 3 on the number line below, and shade the points closer than 5 units from 3.</p>
           <image source="act-5-6-3.png" width="70%"></image>
   <p>Write your answer with interval notation.</p></task>
-
-  <task><p>Now use the number line to solve <m>\abs{x-3} \gt 5</m>.</p>
+  
+<task><p>Now use the number line to solve <m>\abs{x-3} \gt 5</m>.</p>
           <image source="act-5-6-3.png" width="70%"></image>
         <p>Shade the points farther than 5 units from 3. Write your answer with interval notation.</p></task>
 
-  <task><p>Finally, we'll solve the inequality <m>\abs{x-3} \lt 5</m> with algebra. This absolute value inequality is equivalent to the compound inequality  <m>-5 \lt x-3 \lt 5</m>. Solve the inequality and verify that you get the same solution as before.</p></task>
+<task><p>Finally, we'll solve the inequality <m>\abs{x-3} \lt 5</m> with algebra. This absolute value inequality is equivalent to the compound inequality  <m>-5 \lt x-3 \lt 5</m>. Solve the inequality and verify that you get the same solution as before.</p></task>
 
-  <task><p>Now we'll solve <m>\abs{x-3} \gt 5</m>.  This absolute value inequality is equivalent to the compound inequality
+<task><p>Now we'll solve <m>\abs{x-3} \gt 5</m>.  This absolute value inequality is equivalent to the compound inequality
         <me>x-3 \gt 5~~~~~~~~~~~~~~~~~\text{or}~~~~~~~~~~~~~~~~~~~~x-3 \lt -5</me>    
   Solve the inequality and verify that you get the same solution as before.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Most students find it difficult to follow an algebraic argument to obtain the conclusions on absolute value inequalities summarized in the box in the text. It is more effective to rely on the graphical interpretation described above.</p></commentary>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
@@ -127,6 +146,17 @@
 <li><p>Use absolute value notation to write statements about distance</p></li>    
 <li><p>Use graphs to solve absolute value equations and inequalities</p></li>    
 <li><p>Solve absolute value equations and inequalities algebraically</p></li>    
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe and compare the graphs of the eight basic functions, including intervals where the graphs are positive or negative, increasing or decreasing, and concave up or down.</p></li>
+<li><p>Explain how solving an absolute value inequality with a graph is similar to solving a quadratic inequality with a graph.</p></li>
+<li><p>Explain the difference between an empirical model and a mechanistic model.</p></li>
+<li><p>How do we use absolute value to describe distance?</p></li>
+</ol></p></commentary>
+
+
+</subsection>
 
 </section>

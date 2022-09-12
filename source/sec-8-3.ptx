@@ -3,7 +3,13 @@
 <section xml:id="sec-8-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Operations on Algebraic Fractions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we consider the arithmetic operations on algebraic fractions. In all of your examples, try to keep the factoring to a reasonable level of difficulty. Getting students to understand how operations on fractions work is more important than practicing factoring unrealistically complicated polynomials.</p></commentary>
+
 <activity><title>Multiplying and Dividing Fractions</title>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Although (or perhaps because) students' understanding of arithmetic fractions is weak, it is a good idea to provide examples involving arithmetic fractions alongside comparable algebraic ones.</p></commentary>
 
 <task><p>To multiply algebraic fractions:</p>
 <p><ol>
@@ -33,6 +39,9 @@
 
 <activity><title>Adding and Subtracting Fractions</title>
 
+          <commentary audience="instructor"><title>Note</title>
+          <p>We develop addition of fractions in the following sequence: like fractions, unlike fractions with monomial denominators, unlike fractions whose LCD is the product of their (unfactorable) denominators, and finally fractions with factorable denominators.</p>
+
 <task><p>What are like fractions?</p>  
 
 <p>To add or subtract like fractions, we <fillin/> their numerators and <fillin/> the denominator.</p></task>
@@ -48,6 +57,9 @@
       <li><p></p></li>
       <li><p></p></li>
   </ol></p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Emphasize to students that, although adding fractions can be longer than they would like, they can think of the process in 3 steps: find the LCD, build each fraction, and combine like fractions.</p></commentary>
 
   <task><p>Follow the steps to add: <m>~~ \dfrac{x-2}{4x} + \dfrac{2x-3}{3x}</m></p>     
       <p><ol>
@@ -72,6 +84,7 @@
 </activity>
 
 <activity><title>Finding the LCD</title>
+
 <task><p>The LCD must be divisible by each of the given <fillin/> .</p>
   <p>The first step in finding the LCD is to <fillin/> each denominator.</p></task>
 
@@ -101,6 +114,7 @@
 </activity>
 
 <activity><title>Application</title>
+
 <introduction><p>River Queen Tours offers a round-trip excursion on the Mississippi River by paddle wheel, 25 miles each way. The current in the Mississippi is 8 miles per hour.</p></introduction>
 
 <task><p>The speed of the boat in still water is <m>v</m> miles per hour. Fill in the table the first two columns of the table.</p>
@@ -123,7 +137,10 @@
 <task><p>Express the time required for the downstream journey as a function of the speed of the boat, <m>v</m>, in still water.</p></task>
 
 <task><p>Express the time required for the return trip upstream in terms of <m>v</m>.</p></task>
-<task><p>By adding your answers for parts (b) and (c), write an expression for the total time for the round trip in terms of <m>v</m>.  Then simplify the expression.</p></task>
+<task><p>By adding your answers for parts (b) and (c), write an expression for the total time for the round trip in terms of <m>v</m>. Then simplify the expression.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>You may need to point out that in this problem we are not asked to solve an equation; the answer is an expression, not a number.</p></commentary>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
@@ -141,6 +158,15 @@
 <li><p>Add and subtract like fractions</p></li>
 <li><p>Find a lowest common denominator</p></li>  
 <li><p>Add and subtract unlike fractions</p></li>
-</ul></p></subsection>  
+</ul></p>
 
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe the procedure for adding unlike fractions. Use an example in your discussion.</p></li>
+<li><p>Compare the procedure for dividing fractions with the procedure for adding fractions. What are the similarities and differences?</p></li>
+<li><p>Explain how to find the LCD for unlike fractions.</p></li>
+<li><p>Why do we factor the numerators and denominators of algebraic fractions before multiplying them?</p></li>
+</ol></p></commentary>
+
+</subsection>  
 </section>

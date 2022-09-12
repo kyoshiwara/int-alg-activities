@@ -3,8 +3,16 @@
 <section xml:id="sec-5-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions</title>
 
-  <activity><title>Epidemics</title>
-    <introduction><p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early sixteenth century Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma's empire.</p>
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we introduce the basic notation and terminology for functions. Students have already seen many examples of functions in their study of linear and quadratic equations, so point out that this lesson is more about a new language than about new ideas.</p>
+
+<p>This might be a good time to review the process of reading the Lesson. Ask students to bring their textbook to class, and go over the reading with them. Point out the sub-heads for each section, and the summary boxes. Go over the Reading Questions and each Exercise with the class. There will probably be some confusion about whether a table represents a function: is it allowed to have two different inputs with the same output?</p>
+
+<p>Then go over Activity 2. You could ask the class to hand in either or both of Activities 1 and 3, perhaps as a group project. Students usually find this material relatively easy after the units on quadratic models.</p></commentary>
+
+<activity><title>Epidemics</title>
+    
+<introduction><p>A contagious disease whose spread is unchecked can devastate a confined population. For example, in the early sixteenth century Spanish troops introduced smallpox into the Aztec population in Central America, and the resulting epidemic contributed significantly to the fall of Montezuma's empire.</p>
   
   <p>Suppose that an outbreak of cholera follows severe flooding in an isolated town of 5000 people. Initially (on Day 1), 40 people are infected. Every day after that, 25% of those still healthy fall ill.</p></introduction>
 
@@ -76,6 +84,10 @@
 </activity>
 
 <activity><title>Function Notation</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>When discussing function notation, emphasize that in the equation <m>y=f(x)</m>, <m>f</m> is not a variable, the parentheses in <m>f(x)</m> do not indicate a product, and <m>f(x)</m> is the output variable, or another name for <m>y</m>.</p></commentary>
+
 <introduction><p>Data indicate that U.S. women are delaying having children longer than their counterparts 50 years ago. The table shows <m>P=f(t)</m>, the percent of 20-24 year old women in year <m>t</m> who had not yet had children.</p> 
 
 <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -102,16 +114,17 @@
                     <cell>66.0</cell></row>
     </tabular></introduction>
 
-    <task><p>How does the table support the assumption that <m>P</m> is a function of<m>t</m>? Does this assumption make sense for the context of the problem?</p></task>
+<task><p>How does the table support the assumption that <m>P</m> is a function of<m>t</m>? Does this assumption make sense for the context of the problem?</p></task>
 
-  <task><p>Evaluate <m>f(1985)</m> and explain what it means.</p></task>
+<task><p>Evaluate <m>f(1985)</m> and explain what it means.</p></task>
 
-  <task><p>Estimate a solution to the equation <m>f(t)=68</m> and explain what it means.</p></task>
+<task><p>Estimate a solution to the equation <m>f(t)=68</m> and explain what it means.</p></task>
 
-  <task><p>In 1997, 64.9% of 20-24 year old women had not yet had children. Write an equation with function notation that states this fact.</p></task>
+<task><p>In 1997, 64.9% of 20-24 year old women had not yet had children. Write an equation with function notation that states this fact.</p></task>
 </activity>
 
 <activity><title>Functions and Graphs</title>
+
 <introduction><p>The table shows data obtained while heating a solid sample of stearic acid, a waxy solid used in making candles, soap, and some plastics.  Heat was applied at a constant rate throughout the experiment. </p>
 
 <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -151,13 +164,14 @@
                     <cell>74</cell></row>
     </tabular></introduction>
 
-    <task><p>Plot the data with time on the horizontal axis and temperature on the vertical axis. Is temperature a function of time?  Why or why not?</p>
+<task><p>Plot the data with time on the horizontal axis and temperature on the vertical axis. Is temperature a function of time?  Why or why not?</p>
       <image source="act-5-1-2.png" width="40%"></image></task>
 
-  <task><p>Choose variables and use function notation to state that temperature is a function of time.  Label the axes on your graph.</p></task>
-  <task><p>Is temperature a linear function of time?  Why or why not?  Describe the temperature as a function of time.</p></task>
+<task><p>Choose variables and use function notation to state that temperature is a function of time.  Label the axes on your graph.</p></task>
   
-  <task><p>Energy (in the form of heat) is required to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid.  By analyzing the graph, what do you think is the melting point of stearic acid?  How long did it take the sample to melt?</p></task>
+<task><p>Is temperature a linear function of time?  Why or why not?  Describe the temperature as a function of time.</p></task>
+  
+<task><p>Energy (in the form of heat) is required to raise the temperature of a substance, and it is also needed to melt a solid substance to a liquid.  By analyzing the graph, what do you think is the melting point of stearic acid?  How long did it take the sample to melt?</p></task>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
@@ -174,6 +188,15 @@
 <li><p>Recognizing functions</p></li>
 <li><p>Evaluating functions defined by tables, graphs, or equations</p></li> 
 <li><p>Using function notation</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How would you know if a table of values does not come from a function?</p></li>
+<li><p>What does it mean to evaluate a function?</p></li>
+<li><p>Do linear equations <m>y=mx+b</m> and quadratic equations <m>y=ax^2+bx+c</m> define functions? Why or why not?</p></li>
+<li><p>Give an example of a function in which two distinct values of the independent variable correspond to the same value of the dependent variable.</p></li>
+</ol></p></commentary>
+</subsection>
 
 </section>

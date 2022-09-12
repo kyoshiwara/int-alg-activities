@@ -3,7 +3,11 @@
 <section xml:id="sec-9-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Nonlinear Systems</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we consider systems in which one or both of the equations is quadratic. The Activities are all applications of such systems, so you may want to start class by considering some simple examples. Or you may want to use the Activites as projects and spend classtime on easier problems.</p></commentary> 
+
 <activity><title>Wildlife Management and Sustainable Yield</title>
+ 
  <introduction><p>The rate of growth of a population depends on its size. Larger populations grow faster than smaller ones.  However, if the population grows too large, its rate of growth will decrease. (Why  does this happen?) Many species of fish are threatened by overfishing. It has become important to monitor their population growth, and to understand how harvesting affects the population.</p></introduction>
 
  <task><p>The annual growth rate, <m>y</m>, of a population of fish is given by
@@ -12,51 +16,87 @@
 <p>Graph <m>y</m> on your calculator, then sketch the graph on the grid.</p>  
       <image source="act-9-5-1.png" width="50%"></image></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>A difficult aspect of this problem for students is that the <m>x</m>-coordinate represents not time, but the size of the population, and the <m>y</m>-coordinate represents not an amount, but a rate of growth.</p></commentary>  
+
 <task><p>Locate the point on the graph with <m>x=2500</m>.  What do the coordinates of this point tell you about the fish population?</p></task>
+
 <task><p>If the biomass is currently 2500 tons, will the population be larger or smaller next year?  By how much?</p></task>  <task><p>What if the biomass is currently 3500 tons?</p></task>
+
 <task><p>What size biomass remains stable, i.e. neither grows nor declines?</p></task>
 </activity>
 
 <activity><title>Harvesting</title>
-<task><p>Suppose fishermen harvest 300 tons of fish each year.  Sketch the graph of the horizontal line <m>H=300</m> on the same axes with your graph of <m>y</m> in Activity 1.</p></task> 
-<task><p>If the biomass is currently 2500 tons and 300 tons are harvested by fishermen, will the population be larger or smaller next year?  By how much?</p></task>  
+
+<task><p>Suppose fishermen harvest 300 tons of fish each year. Sketch the graph of the horizontal line <m>H=300</m> on the same axes with your graph of <m>y</m> in Activity 1.</p></task> 
+
+<task><p>If the biomass is currently 2500 tons and 300 tons are harvested by fishermen, will the population be larger or smaller next year? By how much?</p></task>  
+
+              <commentary audience="instructor"><title>Note</title>
+              <p>Point out that if fisherman harvest  tons of fish annually, the rate of growth is decreased by that amount.</p></commentary>
+
 <task><p>What if the biomass is currently 3500 tons?</p></task>
+
 <task><p>What size of biomass will remain stable (neither increase or decrease) from one year to the next if 300 tons of fish are harvested?  Why?</p></task>
 <task><p>If the biomass ever falls below 1000 tons, what will happen after several years of harvesting 300 tons annually?</p></task>
 </activity>
 
 <activity><title>Whales</title>
+
 <introduction><p>The annual increase in the biomass of a whale population is given in tons by
       <me>w = 0.001x(1000-x)</me>
   where <m>x</m> is the current population in tons, and <m>w</m> is the rate of growth in tons per year.</p></introduction>
-<task><p>Sketch a graph of <m>w</m> on the grid.  What size biomass remains stable?</p>
+
+<task><p>Sketch a graph of <m>w</m> on the grid. What size biomass remains stable?</p>
     <image source="act-9-5-2.png" width="50%" ></image></task>
+
 <task><p>Each year hunters are allowed to harvest a biomass given by <m>H=0.6x</m>. Sketch <m>H</m> on the same graph with <m>w</m>.  What is the stable biomass with hunting?</p></task>
-<task><p>What sizes of population will increase despite hunting?  What sizes will decrease?</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>This Activity is similar to the previous one, except that the harvest equation is not constant, but linearly increasing.</p></commentary>
+
+<task><p>What sizes of population will increase despite hunting? What sizes will decrease?</p></task>
+
 <task><p>What size will the population approach over time? What biomass are hunters allowed to harvest for that size population?</p></task>
 </activity>
 
 <activity><title>Sustainability</title>
+
 <task><p>On the grid below, make another sketch of the graph of <m>w = 0.001x(1000-x)</m>.</p>
       <image source="act-9-5-2.png" width="50%"></image></task>
+
 <task><p>Find a value of <m>k</m> so that the graph of <m>H=kx</m> will pass through the vertex of <m>w = 0.001x(1000-x)</m>.  Sketch <m>H=kx</m> on your graph above.</p></task>
+
 <task><p> For the value of <m>k</m> you found in above, what size will the population approach over time?</p> 
 <p>What biomass are hunters allowed to harvest for that size population?</p></task>
+
 <task><p>Explain why the whaling industry should prefer hunting quotas of <m>H=kx</m> rather than <m>H=0.6x</m> for a long-term strategy, even though <m>0.6x \gt kx</m> for any positive value of <m>x</m>.</p></task>
 </activity>
 
 <activity><title>Global Positioning</title>
- <introduction><p>The Global Positioning System (GPS) uses a collection of satellites in orbit around the earth. Each GPS satellite transmits its position and the current time at regular intervals. A person with a GPS receiver can calculate his or her distance from the satellite by comparing the time of transmission with the time when it receives the signal.  Of course, there are many points at the same distance from the satellite—in fact, the set of all points at a fixed distance from the satellite lie on a sphere centered at the satellite.  That is why there are several satellites: You calculate your position by finding the intersection point of several such spheres centered on different satellites.</p>
+ 
+ <introduction><p>The Global Positioning System (GPS) uses a collection of satellites in orbit around the earth. Each GPS satellite transmits its position and the current time at regular intervals. A person with a GPS receiver can calculate his or her distance from the satellite by comparing the time of transmission with the time when it receives the signal. Of course, there are many points at the same distance from the satellite—in fact, the set of all points at a fixed distance from the satellite lie on a sphere centered at the satellite. That is why there are several satellites: You calculate your position by finding the intersection point of several such spheres centered on different satellites.</p>
+
  <p>We will consider a simplified, two-dimensional model of a GPS system in which the satellites and the receiver all lie in the <m>xy</m>-plane, instead of in three-dimensional space. In this model we'll need data from two GPS satellites. The satellites are orbiting along a circle of radius 100 meters centered at the origin and the transmission signals travel at 5 meters per second.  You are inside that circle, and would like to know your coordinates.</p></introduction>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>In this Activity, we find the intersection of two circles, graphically and algebraically.</p></commentary>
+
  <task><p>A signal from Satellite A arrives 18 seconds after it was transmitted. How far are you from Satellite A?</p></task>
+
 <task><p>The signal says that Satellite A was located at <m>(100,0)</m> at the time of transmission. Use a compass to sketch a graph showing your possible positions relative to Satellite A.</p>   
   <image source="act-9-5-3.png" width="90%"></image></task>
+
 <task><p>Find an equation for the graph you sketched.</p></task>
+
 <task><p>A signal from Satellite B arrives 8.4 seconds after it was transmitted. How far are you from Satellite B?</p></task>
+
 <task><p>The signal says that Satellite B was located at at the time of transmission. Use a compass to sketch a graph showing your possible positions relative to Satellite B.</p></task>
+
 <task><p>Find an equation for the graph you sketched.</p></task>
+
 <task><p>Your position must lie at the intersection point, <m>P</m>, of your two graphs. Estimate the coordinates of your position from the graph. (Remember that you are within the orbit of the satellites.)</p></task>
+
 <task><p>Solve a system of equations to find the coordinates of  <m>P</m>.</p></task>  
 </activity>
 
@@ -74,6 +114,15 @@
 <li><p>Solve 2x2 systems involving one or more quadratic equations</p></li>   
 <li><p>Graph a system and locate the solutions</p></li>
 <li><p>Interpret the coordinates of a point in a model</p></li> 
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How many solutions should you expect for a system of two parabolas of the form <m>y=ax^2 + bx + c</m>?  Illustrate with sketches.</p></li>
+<li><p>How many solutions can there be to a system consisting of a circle and a hyperbola? Illustrate each possibility with a sketch.</p></li>
+<li><p>List the steps you would use to solve a system of the form <m>x^2+y^2 = K,~~ xy=M</m>, where <m>K</m> and <m>M</m> are constants.</p></li>
+<li><p>Explain why <m>(-1,2)</m> is not a solution of the system <m>x^2+y^2=5,~~ xy=2</m>.</p></li>
+</ol></p></commentary>
+</subsection>
 
 </section>

@@ -3,7 +3,11 @@
 <section xml:id="sec-4-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Vertex</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we find the maximum or minimum value for a quadratic model and use the vertex form to find the equation of a parabola. We also put a quadratic equation into vertex form by completing the square.</p></commentary>
+
 <activity><title>Finding the Vertex</title>
+
 <task><p><ol>
     <li><p>How do you know that the graph of <m>y=(x-2)^2-6</m> is a parabola?</p></li>
     <li><p>Does the parabola open up or down?  Why?</p></li>
@@ -23,26 +27,45 @@
     <li><p>Sketch your parabola on the grid.
         <image source="act-2-2-2.png" width="40%"></image></p></li>
     <li><p>Find an equation for another parabola whose vertex is <m>(4,-7)</m> if one point on the graph is <m>(2,9)</m>.</p></li>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Explain that many parabolas have the same vertex, so we need to know one other point to establish the "width" of the graph.</p></commentary>
+
     <li><p>Sketch that parabola on the same grid.</p></li>
   </ol></p></task>
 </activity>
 
 <activity><title>The Vertex Form</title>
+
 <introduction><p>The batter in a softball game hits the ball when it is 4 feet above the ground. The ball reaches the greatest height, 35 feet, directly above the head of the left-fielder, who is 200 feet from home plate.</p></introduction>
 
-<task><sidebyside widths="50% 30%"><p>The path of the ball is shown at right.  Label the <m>y</m>-intercept and the vertex with their coordinates.</p>
+<task><sidebyside widths="50% 30%"><p>The path of the ball is shown at right. Label the <m>y</m>-intercept and the vertex with their coordinates.</p>
   <image source="act-4-2-1.png"></image></sidebyside></task>
+
 <task><p>Write an equation for the height of the ball in terms of the horizontal distance it has traveled.</p></task> 
-<task><p>Find the height of the ball when it reaches the left field wall, which is 375 feet from home plate.  If the wall is 10 feet tall, did the batter hit a home run (did the ball go over the wall)?</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>It may help students to graph the equation.</p></commentary>
+
+<task><p>Find the height of the ball when it reaches the left field wall, which is 375 feet from home plate. If the wall is 10 feet tall, did the batter hit a home run (did the ball go over the wall)?</p></task>
 </activity>
 
 <activity><title>Maximum or Minimum value</title>
+
 <introduction><p>A farmer plans to fence a rectangular grazing area along a river using 300 yards of fence.</p></introduction>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Note that this problem is similar to the model in Lesson 3.2.</p></commentary>
+
 <task><p>Draw a sketch illustrating the grazing area, and label its length and width.</p></task>
+
 <task><p>Let <m>w</m> stand for the width of the rectangle, and write an expression for the length <m>l</m> in terms of the width.</p></task>
+
 <task><p>Write an equation for the area <m>A</m> of the grazing land in terms of <m>w</m>.</p></task>
+
 <task><p>Graph the equation.</p>
   <image source="act-4-2-2.png" width="40%"></image></task>
+
 <task><p>Use algebra to answer the questions:
   <ol>
   <li><p>What is the largest area the farmer can enclose?</p></li>  
@@ -50,6 +73,7 @@
 </activity>
 
 <activity><title>Revenue</title>
+
 <introduction><p>The local theater group sold tickets to its opening night performance for $5 and drew an audience of 100 people. The next night they reduced the ticket price by $0.25 and 10 more people attended; that is, 110 people bought tickets at $4.75 apiece. In fact, for each $0.25 reduction in ticket price, 10 additional tickets can be sold.</p></introduction>
 
 <task><p>Complete the table.</p>
@@ -89,28 +113,38 @@
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell></row>
     </tabular></task>
-  <task><p>Let <m>x</m> represent the number of price reductions, as in the first column of the table.  Write algebraic expressions in terms of  for:</p>  
+  
+<task><p>Let <m>x</m> represent the number of price reductions, as in the first column of the table.  Write algebraic expressions in terms of  for:</p>  
     <p>The Price of a Ticket after  price reductions:  </p>      
     <p>The Number of Tickets Sold at that price: </p>
     <p>The Total Revenue from ticket sales: </p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Stress that there are several unknown quantities in this problem, but all are expressed in terms of <m>x</m>, the number of price reductions.</p></commentary>
+
 <task><p>Enter your expressions into the calculator:</p>   
       <p><m>Y_1 = </m> the price of a ticket</p>
       <p><m>Y_2 = </m> the number of tickets sold</p>  
       <p><m>Y_3 = </m> the total revenue</p>  
   <p>Use the Table feature to verify that your algebraic expressions agree with your table from part (a).</p></task>
+
 <task><p>Use your calculator to graph your equation for total revenue in terms of <m>x</m>.  Sketch the graph on the grid.</p>
         <image source="act-4-2-3.png" width="50%"></image></task>
+
 <task><p>What is the maximum revenue possible from ticket sales?</p>
     <p>What is the value of <m>x</m> at that revenue?</p></task>
+
 <task><p>Use your formulas for <m>Y_1</m> and <m>Y_2</m> to answer the questions:</p>  
       <p>What price should the theater group charge for a ticket to generate the maximum revenue?</p>  
       <p>How many tickets will they sell at that price?</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>You will need to remind students what <m>x</m> represents, and that they have expressions for the other unknown quantities.</p></commentary>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>The height of a golf ball in meters is given by <m> h=-4.9t^2+20t </m>. Explain how to find out when the ball hits the ground.
-Explain how to find the greatest height the ball reaches.</p></li>
+<li><p>The height of a golf ball in meters is given by <m> h=-4.9t^2+20t </m>. Explain how to find out when the ball hits the ground. Explain how to find the greatest height the ball reaches.</p></li>
 <li><p>Explain why you need another point besides the vertex to find the equation of a parabola.</p></li>
 <li><p>Explain why revenue does not increase indefinitely as you increase price.</p></li>
 <li><p>What is the smallest value that <m>y</m> can have if <m>y=2(x-3)2+6</m> ?  What value of <m>x</m> produces that smallest <m>y</m>-value?</p></li>
@@ -125,6 +159,15 @@ Explain how to find the greatest height the ball reaches.</p></li>
 <li><p>Write a quadratic equation in vertex form by completing the square</p></li>
 <li><p>Find an equation for a parabola given the vertex and one other point</p></li> 
 <li><p>Write a quadratic model for revenue</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to find the coordinates of the vertex of a parabola.</p></li>
+<li><p>When is the vertex form for a quadratic equation useful?</p></li>
+<li><p>Explain why revenue will probably not increase indefinitely as price increases.</p></li>
+<li><p>Why do we need to know a second point besides the vertex to find the equation of a parabola?</p></li>
+</ol></p></commentary>
+</subsection>
 
 </section>

@@ -3,7 +3,13 @@
 <section xml:id="sec-5-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Direct Variation</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we consider direct variation, as a precursor to the later study of power functions. We consider how to identify different forms of variation from a table, a graph, or an equation, and how to model applications with variation equations.</p></commentary> 
+
 <activity><title>Constant of Variation</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>As you work through the Activities, keep a record on the blackboard listing the properties of direct variation and direct variation with a power (for this course, the power is almost always two or at most three). Include how to recognize variation from a table of values, the form of the equation, and the shape of the graph.</p></commentary>
 
 <task><p>Complete the statements about direct variation.</p>
   <p><ul>  
@@ -16,7 +22,8 @@
 </activity>
 
 <activity><title>Tax Rate</title>
-  <introduction><p>Delbert's credit card statement lists three purchases he made while on a business trip in the midwest. His company's accountant would like to know the sales tax rate on the purchases.</p>
+  
+<introduction><p>Delbert's credit card statement lists three purchases he made while on a business trip in the midwest. His company's accountant would like to know the sales tax rate on the purchases.</p>
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Price of Item ($)</cell>
@@ -33,17 +40,32 @@
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></introduction>
 
-  <task><p>Compute the ratio of the tax to the price of each item. Is the tax proportional to the price? What is the tax rate?</p></task>
-  <task><p>Express the tax, <m>T</m>, as a function of the price, <m>p</m>, of the item.</p></task>
-  <task><p>Sketch a graph of the function.</p>
+<task><p>Compute the ratio of the tax to the price of each item. Is the tax proportional to the price? What is the tax rate?</p></task>
+                <commentary audience="instructor"><title>Note</title>
+                <p>Point out that the constant of variation is just the constant <m>\dfrac{T}{p}</m>, which is also the slope of the graph.</p></commentary>
+ 
+<task><p>Express the tax, <m>T</m>, as a function of the price, <m>p</m>, of the item.</p></task>
+  
+<task><p>Sketch a graph of the function.</p>
             <image source="act-5-4-1.png" width="55%"></image></task>
-  <task><p>What is the slope of the graph?</p></task>
+  
+<task><p>What is the slope of the graph?</p></task>
+
 <task><p>Look back at your work above to answer the questions.</p>
     <p>How can you recognize a direct variation from a table of values?</p>
     <p>How can you find the constant of variation?</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Give a general strategy for direct variation problems in three steps:</p>
+                    <p><ol>
+                        <li><p>Find the constant of variation.</p></li>
+                        <li><p>Write a fromula for the function.</p></li>
+                        <li><p>Use the formula to answer the questions.</p></li>
+                    </ol></p></commentary>
 </activity>
 
 <activity><title>Weight on the Moon</title>
+
 <introduction><p>The weight of an object on the moon varies directly with its weight on earth. A person who weighs 150 pounds on earth would weigh only 24.75 pounds on the moon.</p></introduction>
 
 <task><p>Find a formula that gives the weight <m>m</m> of an object on the moon in terms of its weight <m>w</m> on earth.</p></task>
@@ -61,8 +83,11 @@
                     <cell><m>\hphantom{0000000}</m></cell>
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></task>
+  
   <task><p>Use technology to graph your function. Make a sketch of the graph and label the scales on the axes.</p></task>
+  
   <task><p>How much would a person weigh on the moon if she weighs 120 pounds on earth? Label the corresponding point on your graph.</p></task>
+  
   <task><p>A piece of rock weighs 50 pounds on the moon. How much will it weigh back on earth? Label the corresponding point on your graph.</p></task>
 </activity>
 
@@ -77,6 +102,7 @@
 </activity>                         
 
 <activity><title>Acceleration</title>
+
 <introduction><p>At constant acceleration from rest, the distance traveled by a racecar is proportional to the square of the time elapsed. The highest recorded road-tested acceleration is 0 to 60 miles per hour in 3.07 seconds, which produces the following data.</p>
 <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -95,7 +121,12 @@
     </tabular></introduction>
   
   <task><p>Compute the ratios of the distance traveled to the square of the time elapsed. What is the constant of proportionality?</p></task>
-  <task><p>Express the distance traveled, <m>d</m>, as a function of time in seconds, <m>t</m>.</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Point out that a slight discrepancy in the value of <m>k</m> can be explained by round-off error.</p></commentary>
+
+    <task><p>Express the distance traveled, <m>d</m>, as a function of time in seconds, <m>t</m>.</p></task>
+  
   <task><p>Sketch a graph of the function.</p>
           <image source="act-5-4-2.png" width="40%"></image></task>
 
@@ -105,15 +136,21 @@
 </activity>
 
 <activity><title>Stopping Distance</title>
+
 <introduction><sidebyside widths="50% 40%"><p>The faster a car moves, the more difficult it is to stop. The graph shows the distance, <m>d</m>, required to stop a car as a function of its velocity, <m>v</m>, before the brakes were applied.</p>
   <image source="act-5-4-3.png" width="45%"></image></sidebyside></introduction>
 
+                <commentary audience="instructor"><title>Note</title>
+                <p>Values of the variables are not given, but can be read from the graph.</p></commentary>
+
 <task><p>Find a formula for <m>d</m> as a function of <m>v</m>. Hints:</p>    
     <p><ul>
-    <li><p> How do you know from the graph that <m>d=kv^2</m> (instead of <m>d=kv</m> ?</p></li>
+    <li><p>How do you know from the graph that <m>d=kv^2</m> (instead of <m>d=kv</m> ?</p></li>
     <li><p>Use a point on the graph to find the value of <m>k</m>, and then write the formula.</p></li>
     </ul></p></task>
+
 <task><p>How fast was the car moving if it took 50 meters to stop?</p></task>
+
 <task><p>What is the stopping distance for a car moving at 100 kilometers per hour?</p></task>
 </activity>
 
@@ -131,7 +168,17 @@
 <li><p>Recognize direct variation from a table of values or a graph</p></li>
 <li><p>Find the constant of variation and write an equation for the function</p></li> 
 <li><p>Sketch the graph of a direct variation </p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain why the function <m>f(x)=4x+1</m> is not an example of direct variation.</p></li>
+<li><p>What does the constant of variation tell you about the graph of the function?</p></li>
+<li><p>Describe the scaling property of direct variation.</p></li>
+<li><p>Describe the graph of direct variation with a power.</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 
 

@@ -2,8 +2,14 @@
 
 <section xml:id="sec-3-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Extraction of Roots</title>
+
+<commentary audience="instructor"><title>Overview</title>
+<p>This is the first Lesson on quadratic equations. Take a few moments to explain how to recognize a quadratic equation, and to obtain the graph of the basic parabola. It is also useful to review solving an equation by graphing (in particular a quadratic equation), and to stress the difference between an exact solution and a decimal approximation. Point out that our first quadratic models include the Pythagorean theorem, formulas for volume an d surface area, and the compound interest formula.</p>
+
+<p>We recommend going over these Activities with the class, using a smart board or a projector. Almost all of the skills required will be new to most students. Even students who recently completed elementary algebra have trouble with extraction of roots: although solving <m>x^2=16</m> is easy for them, solving <m>(x+3)^2=16</m> is not. In particular, watch out for the mistake of solving <m>A=P(1+r)^2</m> by subtracting <m>P</m> from both sides.</p></commentary>
   
 <activity><title>Volume</title>
+
 <introduction><p>You are designing a new coffee maker. The coffee filter must be 8.4 centimeters tall and shaped like a cone. The volume of the filter will therefore depend on how wide the opening is (the radius of the cone).</p></introduction>
 
 <task><p>Write a formula for the filter's volume <m>V</m> in terms of its widest radius <m>r</m> (at the top of the filter). (Hint: Look up the formula for the volume of a cone.)</p>
@@ -33,7 +39,9 @@
     </tabular></task>
 
   <task><p>Look at the table of values. If you double the radius of the filter, by what factor does the volume increase?</p></task>
+  
   <task><p>Write and solve an equation to answer the question: If the volume of the filter is 302.4 cubic centimeters, what is its radius?</p></task>
+  
   <task><p>Use technology to graph the volume equation. (Use the table of values to help you choose a window.) Sketch your graph on paper, including scales on the axes). Label the coordinates of the point on the graph that corresponds to the filter in part (d).</p></task>
 </activity>
 
@@ -57,7 +65,9 @@
                     <cell><m>\hphantom{000000}</m></cell>
                     <cell><m>\hphantom{000000}</m></cell></row>
     </tabular></task>
+
 <task><p>If Cyril would like to have $6250 in two years, what interest rate must the account pay?</p></task>
+
 <task><p>Use technology to graph the formula for Cyril's account balance. (Use the table of values to help you choose a window.) Sketch your graph on paper, including scales on the axes). Label the coordinates of the point on the graph that corresponds to the filter in part (c).</p></task>
 </activity>
 
@@ -91,6 +101,16 @@
 <li><p>Graph a parabola by plotting points</p></li>
 <li><p>Solve a quadratic equation by extraction of roots</p></li>
 <li><p>Use formulas that involve quadratic terms</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Use graphs to explain why a linear equation can have only one solution, but a quadratic equation may have two solutions.</p></li>
+<li><p>Explain the difference between the volume and the surface area of a cylinder. Include units in your explanation.</p></li>
+<li><p>Which of these is an exact value:  <m>\sqrt{5}</m> or <m>2.236067977</m>?</p></li>
+<li><p>Delbert squared <m>-6</m> by entering <m>-6^2</m> into his calculator, and got <m>-36</m>. What went wrong?</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 </section>

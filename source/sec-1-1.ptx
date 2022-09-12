@@ -2,9 +2,14 @@
 
 <section xml:id="sec-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Models</title>
+
+<commentary audience="instructor"><title>Overview</title>
+<p>Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <m>y=</m> (starting value)<m>+</m>(rate of change)<m>\cdot x</m>.</p>
+<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work.</p> 
+</commentary>
   
-  <activity><title>Making and Reading a Graph</title>
-      <task>
+<subsection>
+  <title>Activity 1: Making and Reading a Graph</title>
     <p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year. </p>
     <p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
               <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -19,19 +24,37 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
-            </tabular></task>
-
+            </tabular>
     <task><p>Write an equation for the sea level, <m>L</m>, in terms of <m>t</m>, the number of years since 2000.</p></task>
 
-    <task><p>Graph the equation on the grid. Label the axes with the correct variables.</p>
-            <image source="act-1-1-1.png" width="40%"></image>
+            <commentary audience="instructor"><title>Note</title>
+            <p>Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></commentary>
 
-      <p>To answer questions (d) and (e), read the graph. Show your work on the graph:</p></task>
-    <task><p>According to this model, what will the sea level be in 2020?</p></task>  
+     <task><sidebyside widths="60% 30%">
+    <p><ol>
+        <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p></li>
 
-    <task><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters in 1 centimeter?)</p></task>
-      
-    <task><p>Now use algebra to find the answers for parts (d) and (e) above. Compare your answers to the values you read from the graph.</p></task> 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Graphs should extend across the entire grid, including any intercepts.</p></commentary>
+
+      <li><p>To answer questions below, read the graph. Show your work on the graph:</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Have students draw dashed lines on the graph, as in Example 1.7.</p></commentary>
+
+        <p><ol>
+            <li><p>According to this model, what will the sea level be in 2020?</p></li> 
+
+            <li><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters in 1 centimeter?)</p></li>
+        </ol></p></li>
+</ol></p>
+    <image source="act-1-1-1.png"></image></sidebyside></task>
+  
+            <commentary audience="instructor"><title>Note</title>
+            <p> Emphasize the difference between evaluating an expression and solving an equation.</p></commentary>
+
+    <task><sidebyside widths="45% 50%"><p>Now use algebra to find the answers for part (b) above. Compare your answers to the values you read from the graph.</p>
+    <p></p></sidebyside></task> 
 
     <task><p>Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation
       <me>T = 13.9 + 0.13t</me> 
@@ -39,47 +62,62 @@
 
     <p><m>13.9</m> tells us:</p>
 
-    <p><m>0.13</m> tells us:</p></task></activity>
+    <p><m>0.13</m> tells us:</p></task>
+</subsection>
 
-    <activity><title>A Decreasing Graph</title>
+<subsection><title>Activity 2: A Decreasing Graph</title>
     <p>Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p>
+
     <task><p>Complete the table of values showing the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.  Then write your answers as ordered pairs.</p>
         
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Year</cell>
-                    <cell><m>t~</m></cell>
+                    <cell><m>~~t~~</m></cell>
                     <cell><m>C</m></cell>
                     <cell><m>(t,C)</m></cell></row>
                 <row><cell>2000</cell>
                     <cell><m>0</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>(0,\hphantom{000})</m></cell></row>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>(0,\hphantom{00000})</m></cell></row>
                 <row><cell>2005</cell>
                     <cell><m>5</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>(5,\hphantom{000})</m></cell></row>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>(5,\hphantom{00000})</m></cell></row>
                 <row><cell>2010</cell>
                     <cell><m>10</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>(10,\hphantom{000})</m></cell></row>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>(10,\hphantom{00000})</m></cell></row>
                 <row><cell>2015</cell>
                     <cell><m>15</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>(15,\hphantom{000})</m></cell></row>
+                    <cell><m>\hphantom{0000000}</m></cell>
+                    <cell><m>(15,\hphantom{00000})</m></cell></row>
             </tabular></task>
-    <task><p>Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p>
-          <image source="act-1-1-2.png" width="50%"></image></task>    
+    
+    <task><sidebyside widths= "50% 40%">
+        <p><ol>
+            <li><p>Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p></li>
+            <li><p>In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p></li>
+        </ol></p>
+          <image source="act-1-1-2.png" width="50%"></image></sidebyside></task>    
 
-    <task>><p>In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p></task>
+<task><p>Interpret the point <m>(16,45)</m> for this situation. (Use complete sentences!)</p></task>
 
-<task><p>Interpret the point <m>(16,45)</m> for this situation.  (Use complete sentences!)</p></task>
+            <commentary audience="instructor"><title>Note</title>
+            <p>Teach students to start with <m>t=16,~C=45</m>, then replace the variables with words, and finally write a sentence.</p></commentary>
 
 <task><p>Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph.</p></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Highlight the appropriate portion of the graph, and then the corresponding portion of the horizontal axis, as in Example 1.10.</p></commentary>
+
 <task><p>Write an equation for the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.</p></task>  
 
-<task><p>Write and solve an inequality to verify your answer to part (e).</p></task></activity>
+<task><p>Write and solve an inequality to verify your answer to part (d).</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Remind students how to write and solve a compound inequality.</p></commentary>
+</subsection>
 
 <subsection><title> Check Your Understanding</title><ol>
 <li><p>In Activity 1b, you wrote an equation for sea level, <m>L</m>.  What was the starting value, and what was the rate?</p></li>
@@ -100,8 +138,16 @@
 <li><p>Evaluate an algebraic expression.</p></li>
 <li><p>Solve linear equations and inequalities.</p></li>
 <li><p>Use a graph to evaluate an expression or solve an equation.</p></li>
-</ul></p></subsection>
+</ul></p>
 
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe some ways to display the relationship between two variables.</p></li>
+<li><p>What is the difference between an expression and an equation?</p></li>
+<li><p>What is the difference between evaluating an expression and solving an equation?</p></li>
+<li><p>Explain how to find the <m>x</m>-value that corresponds to a given <m>x</m>-value on a graph.</p></li>
+</ol></p></commentary>
+</subsection>
 
   
 </section>

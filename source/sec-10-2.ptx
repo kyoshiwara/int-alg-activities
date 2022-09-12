@@ -3,7 +3,11 @@
 <section xml:id="sec-10-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Logarithmic Scales</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we look at logarithmic scales and their application to pH, decibels, and earthquake magnitude. Students should be able to plot and read values on log scales labeled with powers of 10 or with integer values. They should understand that a difference of  units on a log scale corresponds to an increase in magnitude by a factor of 10.</p></commentary> 
+
 <activity><title>Weights of Animals</title>
+
 <task><p>The table shows the mass, or weights, of different animals. Try to plot all these values on a number line.  Why is that difficult?</p>
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -22,6 +26,7 @@
                     <cell>5400</cell>
                     <cell>70,000</cell></row>
     </tabular></task>
+  
   <task><p>Instead, take the log of each animal's weight, then plot those values:</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -71,18 +76,26 @@
                     <cell></cell>
                     <cell></cell></row>
     </tabular>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>You might have the class use the table feature on the calculator to evaluate <m>\log x</m>for <m>x = 0.06, 0.6, 6, 60, 600</m>, and <m>6000</m>. To reinforce the conclusion, you might list powers of ten and their logs on the board.</p></commentary>
+
     <p>What do you notice about the weights of these four animals?</p>
     <p>What do you notice about the logs of their weights?</p>
     <p>Multiplying by a factor of 10 on a normal scale results in  <fillin/>  on a log scale.</p></task>
   </activity>
 
 <activity><title>Richter Scale</title>
+ 
  <introduction><p>On April 30, 1986, an earthquake in Mexico City measured 7.0 on the Richter scale. On September 21 a second earthquake, measuring 8.1, hit Mexico City. How many times stronger was the September quake than the one in April?</p></introduction>
 
  <task><p> Let <m>A_1</m> denote the amplitude of the April quake, with <m>M_1 = 7.0</m>.</p> 
   <p>Let <m>A_2</m> denote the amplitude of the September quake, with <m>M_2 = 8.1</m></p> 
 
   <p>Use the formula <m>M = \log_{10} \left(\dfrac{A}{A_0}\right)</m> to calculate <m>A_1</m> and <m>A_2</m> (in terms of <m>A_0</m> :</p>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Point out that the value of <m>A_0</m> is not needed in the calculation.</p></commentary>
 
    <p>Solve for <m>A_1</m>:  <m>~~~ M_1 = \log_{10} \left(\dfrac{A_1}{A_0}\right)</m></p>
    <p>Solve for <m>A_2</m>:  <m>~~~ M_2 = \log_{10} \left(\dfrac{A_2}{A_0}\right)</m></p></task>
@@ -102,6 +115,16 @@
 <p><ul>
 <li><p>Plot and read values on a logarithmic scale</p></li>    
 <li><p>Solve problems involving log scales such as pH, decibels, and the Richter scale</p></li>
-</ul></p></subsection>  
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How does a log scale differ from a linear scale?
+<li><p>If <m>B=100 A</m>, the difference between <m>A</m> and <m>B</m> on a log scale is 2 units. Use the properties of logarithms to explain why this is true.</p></li>
+<li><p>Explain what negative values on a log scale mean.</p></li>
+<li><p>How much stronger is a magnitude 6 earthquake than a magnitude 3 earthquake? Explain.</p></li>
+</p></li></ol>
+
+</subsection>  
 
 </section>

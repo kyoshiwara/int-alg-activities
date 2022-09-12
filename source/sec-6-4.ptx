@@ -3,7 +3,11 @@
 <section xml:id="sec-6-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Working with Radicals</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we use the product and quotient rules for radicals to simplify radical expressions, including rationalizing the denominator. Begin by explaining the distinction between evaluating a radical (e.g. <m>\sqrt{45} \approx 6.708</m>) and simplifying a radical (<m>\sqrt{45} = 3\sqrt{5}</m>). You might want to have students work on the Activities independently or in groups, and help individuals when they get stuck. Activity 1 is devoted to simplifying radicals, while Activity 2 considers operations on radicals.</p></commentary>
+
 <activity><title>Simplifying Radicals</title>
+
 <introduction><p>We use the product and quotient rules for radicals to simplify radicals. To "simplify" a radical does not mean to find a decimal approximation using a calculator! The simplified expression is an exact equivalent for the original radical, not an approximation. For example,
   <md><mrow>\sqrt{12} = \sqrt{4 \cdot 3} = \sqrt{4}~ \sqrt{3} = 2\sqrt{3}</mrow>
     <mrow>\sqrt[3]{40} = \sqrt[3]{8 \cdot 5} = \sqrt[3]{8}~ \sqrt[3]{5} = 2\sqrt[3]{5}</mrow></md>
@@ -41,6 +45,11 @@ You can use your calculator to verify that the simplified expression has the sam
     <me>\sqrt{x^{13}} = \sqrt{x^{12} \cdot x} = \sqrt{x^{12}} \cdot \sqrt{x} = x^6 \sqrt{x}</me>
   Similarly, for cube roots, we factor out a power whose exponent is a multiple of 3.
     <me>\sqrt[3]{x^8} = \sqrt[3]{x^6 \cdot x^2} = \sqrt[3]{x^6} \cdot \sqrt[3]{x^2} = x^2 \sqrt[3]{x^2}</me></p>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Show the class how to factor the radicand into "perfect squares" and "left-overs":
+              <me> \sqrt{72b^{16}c^{15}} = \sqrt{36 b^{16}c^{14} \cdot 2c}</me></p></commentary>
+
     <p><ol cols="2">
     <li><p><m>\sqrt{12t^5}</m></p></li>
     <li><p><m>\sqrt{27w^9}</m></p></li>
@@ -54,10 +63,14 @@ You can use your calculator to verify that the simplified expression has the sam
 </activity>
 
 <activity><title>Operations on Radicals</title>
+
 <introduction><p>We can combine the radicands in products or quotients of radicals as long as both radicals have the same index, but we cannot combine radicands in sums or differences. You can check that:
   <md><mrow> \sqrt{12}~\sqrt{3} = \sqrt{36}~~~~~~~~\amp \text{and}~~~~~~~~ \dfrac{\sqrt{12}}{\sqrt{3}} = \sqrt{4}</mrow>
       <mrow> \text{but}~~\sqrt{12}+\sqrt{3} \not= \sqrt{15}~~~~~~~~\amp \text{and}~~~~~~~~ \sqrt{12}-\sqrt{3} \not= \sqrt{9}</mrow></md>
   </p></introduction>
+
+         <commentary audience="instructor"><title>Note</title>
+         <p>Help students recognize the difference between a product of radicals and a sum of radicals, while emphasizing that the rules for simplifying them are quite different.</p></commentary>   
 
   <task><p>Simplify the following products and quotients.</p>
     <p><ol cols="2">
@@ -96,7 +109,7 @@ You can use your calculator to verify that the simplified expression has the sam
 
 <activity><title>Rationalizing the Denominator</title>
 
-<task><p>Simplify by rattionalizing the denominator.</p>
+<task><p>Simplify by rationalizing the denominator.</p>
   <p><ol cols="2">
       <li><p><m>\dfrac{10}{\sqrt{5}} </m></p></li>
       <li><p><m>\dfrac{6}{\sqrt{12}}</m></p></li>
@@ -110,6 +123,9 @@ You can use your calculator to verify that the simplified expression has the sam
       <li><p><m>(\sqrt{6} - \sqrt{3})(\sqrt{6} + \sqrt{3})</m></p></li>
     </ol></p>
   <p>Do you see a short-cut for the product? Hint: What is the product <m>(a+b)(a-b)~</m>?</p></task> 
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Rationalizing denominators somehow reinforces students' misconception that <m>(a+b)^2 = a^2 + b^2</m>, so take the opportunity to compare <m>(a+b)(a-b)</m> with <m>(a+b)^2</m>.</p></commentary>
 
 <task><p>Use a conjugate to rationalize the denominator.</p>
   <p><ol cols="2">
@@ -136,6 +152,15 @@ You can use your calculator to verify that the simplified expression has the sam
 <li><p>Simplifying products or quotients of radicals</p></li>   
 <li><p>Rationalizing the denominator</p></li>
 </ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain the difference between simplifying a radical and evaluating a radical.</p></li>
+<li><p>Explain how to simplify a cube root.  List the cubes of the first six whole numbers.</p></li>
+<li><p>Compare the rules for adding radicals and multiplying radicals. Illustrate by computing <m>4\sqrt[3]{2x^2} + 3\sqrt[3]{2x^2}</m>  and  <m>4\sqrt[3]{2x^2} \cdot 3\sqrt[3]{2x^2}</m>.</p></li>
+<li><p>Explain why we use a conjugate to rationalize a binomial denominator.</p></li>
+</ol></p></commentary>
+
 </subsection>     
 
 </section>

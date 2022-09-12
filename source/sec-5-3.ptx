@@ -3,7 +3,15 @@
 <section xml:id="sec-5-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Some Basic Graphs</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we review cube roots and absolute value in preparation for studying the graphs of eight basic functions. When considering the two rational functions, we introduce the notions of vertical and horizontal asymptotes. Note that these topics should be treated intuitively and numerically; in particular we do not explicitly discuss limits.  Nor do we use the terminology of domain and range, as these are topics for precalculus. At this stage, students still think of functions and graphs pointwise, and will only gradually progress to a more global view.</p>
+
+<p>After doing a few examples of simplifying expressions involving cube roots and absolute values, let the class work in groups on the Activities. You might display examples of students' graphs and discuss their strengths and weaknesses.</p></commentary>
+
 <activity><title>Some Powers and Roots</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>It is helpful to graph each pair of functions together on a graphing calculator, and compare the two graphs in different windows. In particular, look at the window <m>[0,1] x [0,1]</m> and observe that the graphs intersect at <m>(1,1)</m>.</p></commentary>
 
 <task><p>Complete the table of values for the two functions 
     <me>f(x)=x^2~~~\text{and}~~~g(x)=x^3</me></p>
@@ -228,6 +236,9 @@ What is true about the <m>y</m>-values at <m>x=0</m> ?</p>
             </tabular> </sidebyside></task>
 
   <task><p>State the intervals on which each graph is increasing. Write a few sentences comparing the two graphs.</p></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Here is our first encounter with asymptotes. It may be helpful to graph a few translations of <m>y=\dfrac{1}{x}</m> and <m>y=\dfrac{1}{x^2}</m> with technology, e.g. <m>y=\dfrac{1}{(x-2}</m> and <m>y=\dfrac{1}{x^2}+3</m>, to show that asymptotes do not always coincide with the axes.</p></commentary>
 </activity>
 
 <activity><title>Absolute Value</title>
@@ -289,6 +300,16 @@ What is true about the <m>y</m>-values at <m>x=0</m> ?</p>
 <li><p>Evaluate cube roots and absolute values</p></li>
 <li><p>Graph eight basic functions</p></li> 
 <li><p>Use horizontal and vertical asymptotes for graphing </p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe the differences between the graphs of <m>f(x)=x^2</m> and <m>g(x)=x^3</m>.</p></li>
+<li><p>Describe how we use a vertical asymptote to help us sketch a graph.</p></li>
+<li><p>Compare the graphs of <m>\dfrac{1}{x}</m> and <m>\dfrac{1}{x^2}</m> for <m>0 \le x \le 1</m>.</p></li>
+<li><p>What connections do you see between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m>?</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 </section>

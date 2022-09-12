@@ -3,8 +3,16 @@
 <section xml:id="sec-10-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Natural Base</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we briefly introduce the natural exponential and natural log functions. We consider their graphs and solving equations, and we write exponential growth and decay functions with base <m>e</m>.</p></commentary>
+
 <activity><title>Base <m>e</m></title>
+
 <task><p>Recall that <m>e</m> is an irrational number approximately equal to 2.7. Use your calculator to help you complete the table. Round values to tenths.</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students are not comfortable with <m>e</m>, because they are not comfortable with any irrational numbers. Take every opportunity to state that <m>e</m> is about 2.7.</p></commentary>
+
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -50,17 +58,28 @@
     </tabular></task>
 
 <task><p>Plot points from the table to sketch all three graphs on the grid below.</p>
-      <image source="act-10-3-1.png" width = "60%"></image></task>
+      <image source="act-10-3-1.png" width = "55%"></image></task>
+
 <task><p>On the same grid, graph <m>~y = \log_2 {x},~y = \ln {x},~</m> and <m>~y = \log_3 {x}</m>.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Many students read "ln x" as "I-n-x." Point out that "ln" stands for natural log, so it's an l not an I.</p></commentary>
 </activity>
 
 <activity><title>Changing the Base</title>
+
 <introduction><p>It is useful to express any exponential function with base <m>e</m>. This is easy to do.</p></introduction>  
+
 <task><p>Which law of exponents tells us that <m>~(e^k)^t = e^{kt}~</m>?</p></task>
+
 <task><p>Follow the steps to write <m>P = 25(\alert{10})^t</m> as <m>P = 25 (\alert{e^k})^t</m></p> 
   <p>We need to replace <m>10</m> by <m>e^k</m>. Solve the equation <m>~10 = e^k~</m> for <m>k</m>. Round your answer to tenths.</p>
   <p>Substitute your value for <m>k</m> into the formula for <m>P</m>.</p>
   <p>Check that the two formulas for <m>P</m> give the same outputs for <m>x = 1,~x=2,~</m> and <m>x=3</m>.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>It is very helpful to demonstrate that both forms of the function have the same graph.</p></commentary>
+
 <task><p>Rewrite each exponential function with base <m>e</m>:</p>
   <p><ol cols="2">
     <li><p><m>H=12(1.05)^t</m></p></li>
@@ -70,7 +89,7 @@
    
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>Why would you expect the graph of <m>y = \ln {x}</m>  to lie between the graphs of <m>y = \log_2 {x}</m> and <m>y = \log_3 {x}</m>?</p></li>
+<li><p>Why would you expect the graph of <m>y = \ln {x}</m> to lie between the graphs of <m>y = \log_2 {x}</m> and <m>y = \log_3 {x}</m>?</p></li>
 <li><p>What does "ln" stand for in the function <m>y = \ln {x}</m> ?</p></li>
 <li><p>Give decimal approximations for the constants <m>\pi</m> and <m>e</m>.</p></li>
 </ol></p></subsection>
@@ -81,6 +100,16 @@
 <li><p>Graph exponential functions </p></li>   
 <li><p>Solve exponential equations</p></li>
 <li><p>Convert exponential functions to base <m>e</m></p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>If <m>k</m> is negative in <m>P(t) = P_0 e^{kt}</m>, what does this tell you about the graph?</p></li>
+<li><p>To write <m><m>P(t) = P_0 b^t</m> with base <m>e</m>, we set <m>k = \ln b</m>. Why is that?</m></p></li>
+<li><p>Why is it easier to solve <m>e^t = 30</m> than <m>2^t = 30</m>?</p></li>
+<li><p>Which produces more interest on an investment: annual compounding at rate <m>r</m> or continuous compounding at rate <m>r</m>?</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 </section>

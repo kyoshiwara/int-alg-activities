@@ -3,22 +3,39 @@
 <section xml:id="sec-3-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Intercepts, Solutions, and Factors</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>Students find this Lesson quite difficult; in fact, you may need to spend two sessions on the lesson, one session on intercepts, factors and solutions, and one session on application problems.</p>
+    
+<p>Begin by pointing out that <m>ax^2+bx+c</m> is an expression, which we may be able to factor, <m>ax^2+bx+c=0</m> is an equation, which has solutions, and <m>y=ax^2+bx+c</m> is an equation in two variables, which we can graph.</p>  
+    
+<p>Some students will not remember how to factor quadratic expressions; if so you will probably have to review factoring outside of class time.  And although most students remember the zero-factor principle, they often do not apply it correctly. You will also need to spend some time discussing whether to use factoring or extraction of roots to solve a given equation. It is a good idea to keep quizzing students on their solving skills as we progress to each new solution technique.</p>   
+    
+<p>Although the Activities do not include finding a quadratic equation with given solutions, you should do some examples like Example 3.37 in class. Note that most students do not know what integers are.</p></commentary>  
+
   <activity><title>A Typical Quadratic Graph</title>
-  <task><p>Verify that <m>y=(2x-7)(x+1)</m> is a quadratic equation.  (Hint:  Expand the right side.)</p></task>
+  
+  <task><p>Verify that <m>y=(2x-7)(x+1)</m> is a quadratic equation. (Hint: Expand the right side.)</p></task>
+  
   <task><p>Graph <m>y=(2x-7)(x+1)</m> with technology.  If you are using a graphing calculator, use the friendly window  
       <md><mrow>\text{Xmin} = -9.4,~~~\text{Xmax} = 9.4</mrow>
           <mrow>\text{Ymin} = -10,~~~\text{Ymax} = 10</mrow></md>
     Sketch the graph on the grid.</p>
     <image source="act-3-2-1.png" width="40%"></image></task>
 
-    <task><p>Use the Trace feature to locate the <m>x</m>-intercepts of the graph.</p></task>
-    <task><p>Solve the equation
-          <me>(2x-7)(x+1)=0</me></p></task>
-    <task><p>Explain how your answers to parts (c) and part (d) are related.</p></task>
-  </activity>
+<task><p>Use the Trace feature to locate the <m>x</m>-intercepts of the graph.</p></task>
 
-  <activity><title>X-Intercepts</title>
-  <task><sidebyside widths="45% 45%"><p>Graph the three equations below in the standard 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Ask the class how they can verify algebraically that 3.5 is indeed the intercept.</p></commentary> 
+
+<task><p>Solve the equation
+          <me>(2x-7)(x+1)=0</me></p></task>
+
+<task><p>Explain how your answers to parts (c) and part (d) are related.</p></task>
+</activity>
+
+<activity><title>X-Intercepts</title>
+  
+<task><sidebyside widths="45% 45%"><p>Graph the three equations below in the standard 
     window, and sketch the graphs on the grid at right. What do you notice about the <m>x</m>-intercepts?
     <ol>
       <li><p><m>y=x^2-2x+15</m></p></li>
@@ -28,21 +45,37 @@
 
     <p>Multiplying a quadratic expression by a constant does not change the <m>x</m>-intercepts of the graph.</p> </task>
 
-  <task><p>Solve by factoring  <m>~~20x^2-40x-700 = 0</m>.</p></task>
+            <commentary audience="instructor"><title>Note</title>
+            <p>The point of this task is to show that we can factor a constant from a quadratic equation without changing its solutions. If students are not convinced that we can "ignore" the constant, you might point out that the equations <m>x-2=0</m> and <m>5x-10=0</m> have the same solution.</p></commentary>
 
-  <task><p>Graph <m>~~y=0.1(x^2+9x-360)~~</m> on your calculator, using the ZInteger setting.</p></task>  
-  <task><p>Locate the <m>x</m>-intercepts of the graph.</p></task>  
-  <task><p>Use the <m>x</m>-intercepts to write the quadratic expression in factored form. (Do not try to factor the expression!)</p></task>
+<task><p>Solve by factoring  <m>~~20x^2-40x-700 = 0</m>.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Explain to the class that one of the main reasons they learn how to factor is to find the solutions of quadratic equations. On the other hand, if we know the solutions of the equation, we can write it in factored form.</p></commentary>
+
+<task><p>Graph <m>~~y=0.1(x^2+9x-360)~~</m> on your calculator, using the ZInteger setting.</p></task>  
+
+<task><p>Locate the <m>x</m>-intercepts of the graph.</p></task>  
+
+<task><p>Use the <m>x</m>-intercepts to write the quadratic expression in factored form. (Do not try to factor the expression!)</p></task>
 </activity>
 
 <subsection><title>A Quadratic Model</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>The idea that rectangles with the same perimeter may have different areas is new to many students. Before tackling this model, you may want to illustrate the concept by drawing several rectangles with perimeter 36 but different dimensions and areas.</p></commentary>
+
 <p>A rancher has 360 yards of fence to enclose a rectangular pasture. If she uses a riverbank to border one side of the pasture, she can enclose 16,000 square yards of land. What will the dimensions of the pasture be then?</p>  
 <p>We'll solve this problem in three different ways. First, make a sketch of the pasture and the river.</p>
 
 <activity><title>Method 1: Using a Table</title>
-<introduction><p>Notice that you only have 360 yards of fence. So if you decide how wide the pasture is going to be, the length of the pasture is determined. See the table for two examples.</p></introduction>
 
-<task><p>Use the perimeter of the pasture, 360 yards, to write a formula for the length of the pasture in terms of its width. (Be careful:  remember that one side of the pasture does not need any fence!)</p>  
+<introduction><p>Notice that you only have 360 yards of fence. So if you decide how wide the pasture is going to be, the length of the pasture is determined.</p></introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students find it difficult to compute the length of the rectangle when its width is known. Do several numerical examples.</p></commentary>
+
+<task><p>Use the perimeter of the pasture, 360 yards, to write a formula for the length of the pasture in terms of its width. (Be careful: remember that one side of the pasture does not need any fence!)</p>  
   <p>Length = </p></task>
 
 <task><p>Make a table that shows the areas of pastures of various widths.</p>
@@ -73,23 +106,31 @@
                     <cell><m>\hphantom{000000}</m></cell>
                     <cell><m>\hphantom{000000}</m></cell></row>
     </tabular></task>
+
 <task><p>Continue the table until you find the pasture whose area is 16,000 square yards.</p>
       <p>Dimensions of pasture:</p></task>
 </activity>
 
 <activity><title>Method 2: Using a Graph</title>
+
 <introduction><p>On your sketch of the pasture in part (1), label the width of the pasture as <m>x</m>.</p></introduction>
 
 <task><p>Write an expression for the length of the pasture if its width is <m>x</m>. (Hint: How did you compute the length of the pasture in Method 1?</p>
     <p> Length = </p></task>
+
 <task><p>Write an expression for the area <m>A</m> of the pasture if its width is <m>x</m>.</p> 
     <p>Area = </p></task>                                                
-<task><sidebyside widths="45% 50%"><p>Graph the equation for <m>A</m> on your calculator, using the window
+
+<task><sidebyside widths="45% 50%"><p>Use technology to graph the equation for <m>A</m>. If you use a calculator, set the window at
       <md><mrow>\text{Xmin} = 0,~~~\amp \text{Xmax} = 188</mrow>
           <mrow>\text{Ymin} =0,~~~\amp \text{Ymax} = 17,000</mrow></md>
 Then copy the graph onto the grid.</p> 
         <image source="act-3-2-2.png"></image></sidebyside></task>
-<task><p>Use the TRACE feature to find the pasture of area 16,000 square yards. Label the correct point on your graph.</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Emphasize the fact that the graph shows how the area changes as we change the width of the rectangle; the length of the rectangle does not appear in this graph.</p></commentary>
+
+<task><p>On the graph, find the pasture of area 16,000 square yards. Label the correct point on your graph.</p>
       <p>Dimensions of pasture:</p></task>
 </activity>
 
@@ -97,14 +138,16 @@ Then copy the graph onto the grid.</p>
 
 <task><p>Refer to steps (a) and (b) of Method 2, and write an equation for the area <m>A</m> of the pasture in terms of its width <m>x</m>.</p>
     <p>Area = </p></task>
+
 <task><p>Substitute <m>A = 16,000</m> and solve your equation algebraically.</p>
   <p>Dimensions of pasture:</p></task>
+
 <task><p>Which of the three methods do you prefer?  Why?</p></task></activity>
 </subsection>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>Delbert says that the solutions of the equation <m>4(x-2)(x+1)=0</m> are <m>x=4,~x=2</m> and <m>x=-1</m>.  Do you agree?  Why or why not?</p></li>
+<li><p>Delbert says that the solutions of the equation <m>4(x-2)(x+1)=0</m> are <m>x=4,~x=2</m> and <m>x=-1</m>. Do you agree?  Why or why not?</p></li>
 <li><p>If the perimeter of a rectangle is 56 inches, and its width is <m>w</m> inches, write an expression for its length.</p></li>
 <li><p>How can you use a graph to factor a quadratic expression?</p></li>
 <li><p>In Method 2 of the Quadratic Model, what did the two variables on the graph represent? What happened to the second variable as you increased the first variable?</p></li>
@@ -117,7 +160,17 @@ Then copy the graph onto the grid.</p>
 <li><p>Find a quadratic equation with given solutions</p></li> 
 <li><p>Find the <m>x</m>-intercepts of a parabola</p></li>
 <li><p>Solve problems involving perimeter and area or the Pythagorean theorem</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>How can you use a graph to factor a quadratic expression?</p></li>
+<li><P>How are the factors of <m>ax^2+bx+c</m> related to the <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m>?</P></li>
+<li><p>Explain why the solutions of <m>(x-3)(x-6)=1-</m> are not 3 and 6.</p></li>
+<li><p>Explain why we cannot "cancel" <m>(x-5)</m> from both sides of the equation <m>3x(x-5)=6(x-5)</m>. What are the solutions of the equation?</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 
 </section>

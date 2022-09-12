@@ -3,7 +3,13 @@
 <section xml:id="sec-9-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conic Sections: Hyperbolas</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we consider hyperbolas and categorize the conic sections. You might want to start class with a calculator demonstration:  solve <m>x^2 + y^2 = 1</m>  for <m>y</m> and graph in a squre window, then do the same for <m>y^2 - x^2 = 1</m> and <m>x^2 - y^2 = 1</m>.  If your class is strong enough, you can come back to these equations and graphs when you discuss the asymptotes of a hyperbola.</p>
+    
+<p>You might also point out to the class that we are not exploring the geometric properties of parabolas in this course, but that by interchanging <m>x</m> and <m>y</m> in the standard equation, we obtain parabolas that open left or right.</p></commentary>
+
 <activity><title>Central Hyperbolas</title>
+
 <task><p>Write the two standard equations for central hyperbolas.</p>
 <p><ol>
   <li><p>(opens left and right)</p>
@@ -12,8 +18,8 @@
       <p></p></li>
   </ol></p>
 <p>The segment joining the two vertices is called the <fillin/>.</p>
-<p>The perpendicular segment is called the <fillin/>.</p>
-</task>
+<p>The perpendicular segment is called the <fillin/>.</p></task>
+
 <task><p>Follow the steps to graph the hyperbola  <m>~\dfrac{x^2}{9} - \dfrac{y^2}{16} = 1</m></p>.
   <sidebyside widths="50% 40%"><stack><p>Complete the table and plot the vertices.</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -33,6 +39,9 @@
 
 <p>Finally, sketch the two branches of the hyperbola through the vertices and approaching the asymptotes. (Neither the central rectangle nor the asymptotes are part of the graph; they are just tools.)</p></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>After students have graphed ellipses, they do not find hyperbolas any harder. Do point out that the branches of a hyperbola are not parabolas, but instead become closer to linear as they approach their asymptotes.</p></commentary>
+
 <task><p>Follow the steps to graph  <m>~~-4x^2 + 25y^2 = 100</m></p>
   <p>Write the equation in standard form:  divide both sides by 100.</p>
   <p>Identify the values of <m>a</m> and <m>b</m>.</p>
@@ -44,6 +53,7 @@
 </activity>
 
 <activity><title>Translated Hyperbolas</title>
+
 <task><p>The standard forms for a hyperbolas centered at <m>(h,k)</m> are</p>
 <p><ol>
   <li><p></p>
@@ -69,13 +79,20 @@
       <p><m>~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{\pm b}{a} = </m></p>
   <p>Substitute these values into the point-slope form and find the equations of the asymptotes.</p></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Finding the equations of the asymptotes is a good review of using point-slope formula.</p></commentary>
+
 <task><p>On the same grid above, sketch the graph of <m>~~\dfrac{(y+1)^2}{9} - \dfrac{(x-3)^2}{4} = 1</m>.</p>  
   <p>How does the graph differ from the first graph?</p>
   <p>Finally, on the same grid sketch the graph of <m>~~\dfrac{(x-3)^2}{4} + \dfrac{(y+1)^2}{9} = 1</m>.</p>
   <p>Very nice.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Try to use different colored pens for the graph; many students find this exercise aesthetically pleasing.</p></commentary>
 </activity>
 
 <activity><title>Standard Form</title>
+
 <task><p>Follow the steps to write the equation  
     <me>4x^2-6y^2+16x-12y-14=0</me>
   in standard form.</p> 
@@ -91,6 +108,7 @@ the <m>x</m>-terms and <m>-6(1) = -6</m> to the <m>y</m>-terms on the left side 
 </activity>
 
 <activity><title>Writing the Equation for a Hyperbola</title>
+
 <task><p>Find the equation of the hyperbola shown.</p>
       <image source="act-9-4-2.png" width="40%"></image>
   <p>The center of the hyperbola is <fillin/> </p>      
@@ -118,6 +136,15 @@ the <m>x</m>-terms and <m>-6(1) = -6</m> to the <m>y</m>-terms on the left side 
 <li><p>Write the equation for a hyperbola in standard form </p></li>   
 <li><p>Graph a hyperbola</p></li>
 <li><p>Find the equation for a hyperbola</p></li>    
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain how to use the central rectangle for graphing a hyperbola.</p></li>
+<li><p>What do you need to know about a hyperbola to find the equations of its asymptotes?</p></li>
+<li><p>How can you find the center of a hyperbola whose equation is given in general form?</p></li>
+<li><p>Why does the graph of <m>\dfrac{x^2}{9} - \dfrac{y^2}{4} = 1</m> have no points with <m>x</m>-coordinates between -3 and 3?</p></li>
+</ol></p></commentary>
+</subsection>
 
 </section>

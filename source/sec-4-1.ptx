@@ -3,9 +3,18 @@
 <section xml:id="sec-4-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Quadratic Formula</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this lesson we review the quadratic formula, discuss the discriminant and the number of <m>x</m>-intercepts of the graph, and consider more examples of the standard applications of quadratic models.</p>
+
+<p>Begin by trying to eradicate the erroneous version of the quadratic formula, <m>x=-b \pm \dfrac{sqrt{b^2-4ac}}{2a}</m>.  Also point out the distinction between a quadratic equation and the quadratic formula. The treatment of <m>x</m>-intercepts in the reading is a nice way to illustrate the quadratic formula and lead into the discriminant. Note that we do not treat complex numbers yet, other than to acknowledge their existence. (Some students already know about complex numbers, so it is best to mention  briefly, but postpone further discussion for later.)</p>
+  
+<p>If you have time, go over Example 4.16 and Exercise 4.17 with the class, as they find solving formulas difficult.</p></commentary>
+
   <activity><title>A Quadratic Model:  Free-Fall</title>
+
   <introduction><p>A skydiver jumps out of an airplane at 11,000 feet.  While she is in free-fall, her altitude in feet <m>t</m> seconds after jumping is given by
       <me>h=-16t^2-16t+11,000</me></p></introduction>
+  
   <task><p>Use technology to complete the table of values. (You can use the Table feature of your calculator.)</p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -26,26 +35,52 @@
                     <cell><m>\hphantom{00000000}</m></cell>
                     <cell><m>\hphantom{00000000}</m></cell></row>
     </tabular></task>
-    <task><p>Graph the equation.</p>
-          <image source="act-4-1-1.png" width="40%"></image></task>  
+    
+  <task><p>Graph the equation.</p>
+          <image source="act-4-1-1.png" width="40%"></image></task>
+
+              <commentary audience="instructor"><title>Note</title>
+              <p>If students want to use technology to make the graph, point out that they can use the grid provided to help them choose a window.</p></commentary>
+  
   <task><p>Write and solve an equation to answer the question:  If the skydiver must open her parachute at an altitude of 1000 feet, how long can she free-fall?</p></task>
-  <task><P>Locate the corresponding point on your graph.</P></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students may have difficulty writing an appropriate equation. Ask them to explain what the given equation for <m>h</m> means, then help them translate the question to "find <m>t</m> when <m>h</m> is 1000."</p></commentary>
+
+<task><p>Locate the corresponding point on your graph.</p></task>
 </activity>
 
 <activity><title>Area and Perimeter</title>
+
 <introduction><sidebyside widths="55% 40%"><p>A dog trainer has 100 meters of chain link fence.  She wants to enclose a total area of 250 square meters in three pens of equal size, as shown at right. We will find the length and width of each pen.</p>
 <image source="act-4-1-2.png"></image></sidebyside></introduction>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Suggest to each group that they agree on which side is the length of the pen and which is the width.</p></commentary>
+
 <task><p>Let <m>l</m> and <m>w</m> represent the length and width of each pen. Label the figure.  (How many <m>l</m>'s and <m>w</m>'s do you have?)</p></task>
+
 <task><p>Write an equation in <m>l</m> and <m>w</m> about the amount of chain link fence. (Hint: Is this an area or a perimeter?)</p></task>
+
 <task><p>Solve your equation for <m>l</m> in terms of <m>w</m>.</p></task>
+
 <task><p>Write an equation in terms of <m>l</m> and <m>w</m> for the total area enclosed.</p></task>  
+
 <task><p>Substitute your expression for <m>l</m> from part (c) into your equation from part (d).</p></task>
+
 <task><p>Solve your equation from part (d). (There are two solutions!)</p></task>
-<task><p>Find the dimensions of each pen.  Round your answers to hundredths. ("Dimensions" means length and width. There are two different solutions to the problem.)</p></task>
+
+<task><p>Find the dimensions of each pen. Round your answers to hundredths. ("Dimensions" means length and width. There are two different solutions to the problem.)</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>A common mistake is to assume that one of the solutions for <m>w</m> is the width and the other solution is the length.</p></commentary>
 </activity>
 
 <activity><title>Summary: Solving Quadratic Equations</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>This Activity could be used as a wrap-up assignment.</p></commentary>
+
 <task><p>List four algebraic methods for solving quadratic equations.<ol>
 
   <li><p></p></li>
@@ -54,7 +89,9 @@
   <li><p></p></li></ol></p></task>
 
 <task><p>Which method(s) work on any quadratic equation?</p></task>
+
 <task><p>Which method is fastest if one side of the equation is a perfect square?</p></task>
+
 <task><p>For each equation, name the easiest method for solving, then solve.<ol>
   <li><p><m>x^2-7=0</m></p></li>
   <li><p><m>x^2=7x</m></p></li>
@@ -65,6 +102,9 @@
 </activity>
 
 <activity><title>Deriving the Quadratic Formula</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Treat this Activity as optional, depending on the strength of your students.</p></commentary>
 
 <task><p>Use completing the square to solve the equation <m>x^2+bx+c=0</m> for <m>x</m> in terms of <m>b</m> and <m>c</m>. Follow the steps below:</p>
   <p>Move the constant term to the right side</p>
@@ -93,6 +133,19 @@
 <li><p>Use the quadratic formula to solve quadratic equations</p></li>
 <li><p>Solve quadratic equations for one variable in terms of the others</p></li>
 <li><p>Solve problems arising from quadratic models</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain in words how to evaluate the quadratic formula.</p></li>
+<li><p>Explain what the discriminant tells us about a quadratic equation.</p></li>
+<li><p>Use completing the square to derive the quadratic formula.</p></li>
+<li><p>What is a solution of multiplicity two?</p></li>
+</ol></p></commentary>
+
+
+
+
+</subsection>
 
 </section>

@@ -3,15 +3,24 @@
 <section xml:id="sec-8-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Polynomial Functions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we consider polynomials, and specifically cubes of binomials and factoring the sum or difference of cubes. We also look at some simple poynomial models.</p></commentary> 
+
 <activity><title>Polynomials</title>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>You may need to review the vocabulary of polynomials: degree, coefficient, descending powers, monomial, binomial, and trinomial.</p></commentary>
+
 <task><p>Write the definition of a polynomial function.</p></task>  
  
  <task><p>Give an example of a trinomial of degree four whose lead coefficient is <m>~-5</m>.</p></task>
-
   
 <task><p>Multiply  <m>~(3x-2)(4x^2+x-2)</m></p></task>
 
 <task><p>Multiply  <m>~(2a^2-3a+1)(3a^2+2a-1)</m></p></task>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>Students can usually multiply polynomials without difficulty, but you will have to show them how to find a specific term of the product. This is a good exercise for analyzing what could be just a rote manipulation.</p></commentary>
 
 <task><p> Find the indicated terms of the product. (Do not compute the entire product!)
   <me>(2-x+3x^2)(3+2x-x^2+2x^4)</me></p>
@@ -33,6 +42,9 @@
 
   <p><m>(a-b)^3 = </m></p></task>
 
+              <commentary audience="instructor"><title>Note</title>
+              <p>Some students have a hard time understanding how to use a formula to compute the cube of a binomial. It may help to analyze one product in detail to see how the terms arise.</p></commentary> 
+
 <task><p>Use the formula to expand <m>(x+2)^3</m>. Compare the result to your answer above.</p></task>       
 
 <task><p>Use the formula to expand <m>(2-5\sqrt{t})^3</m>.</p></task>
@@ -49,7 +61,10 @@
 
     <p><m>a^3-b^3 = </m></p>
 
-<p>Memorize these two formulas!</p></task>  
+<p>Memorize these two formulas!</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Emphasize to students that they will need to memorize the formulas for factoring the sum and differnec of two cubes (as opposed to the strategies they learned for factoring quadratic trinomials.)</p></commentary>
 
 <task><p>Factor <m>~x^3-8y^3</m></p>    
 
@@ -57,7 +72,12 @@
 </activity>
 
 <activity><title>Volume of a Box</title>
+
 <introduction><p> A paper company plans to make boxes without tops from sheets of cardboard 8 inches wide and 12 inches long. They will cut out four squares of side <m>x</m> inches from the corners of the sheet and fold up the edges.</p></introduction> 
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>It is helpful to physically cut the corners from a sheet of paper or cardboard and turn up the edges to illustrate the box.</p></commentary>
+
 <task><p> Write expressions in terms of  for the length, width, and height of the resulting box.</p>
     <p>Length:</p>
     <p>Width:</p>
@@ -69,9 +89,16 @@
 
 <task><p>What are the largest and smallest reasonable values for <m>x</m> in this situation? Explain your answer.</p></task>
 
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students may not understand what is asked in part (d), so you may want to make a table showing the length, width, and height of the box for various values of <m>x</m>.</p></commentary>
+
 <task><p>Use your answer to part (d) to graph the function in a suitable window. Make a sketch of your graph, and label the scales on the axes.</p></task>
 
 <task><p>Use your graph to find the value of <m>x</m> that will yield a box with maximum possible volume.</p>  
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Point out that (at this point) we don't have an algebraic method for solving cubic equations, so we use a graphical solution instead.</p></commentary>
+
   <p>Label the corresponding point on your graph.</p>
   <p>What is the maximum possible volume?</p>
   <p>What are the dimensions of the box with the largest possible volume?</p></task>
@@ -93,6 +120,14 @@
 <li><p>Factor the sum or difference of cubes</p></li>  
 <li><p>Use polynomials as models</p></li>
 </ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Explain the difference between the expressions <m>(a+b)^3</m> and <m>a^3 + b^3</m>.</p></li>
+<li><p>Compare the formulas for expanding <m>(a-b)^2</m> and <m>(a-b)^3</m>.</p></li>
+<li><p>Explain why a cost function might have the shape of a cubic polynomial.</p></li>
+<li><p>Explain how to find the surface area of a solid figure (such as a box or a cylinder).</p></li>
+</ol></p></commentary>
 </subsection>
 
 </section>

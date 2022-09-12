@@ -4,8 +4,15 @@
   <title>Algebraic Solution of Systems</title>
 
 
+<commentary audience="instructor"><title>Overview</title>
+<p>This Lesson is a review of material from elementary algebra: solving systems by substitution and elimination. We try to avoid artificial applications such as coin and age problems, considering instead weighted averages, which include mixture and interest problems. Finding the equilibrium price for supply and demand equations, and the break-even point from cost and revenue are also included.</p></commentary>
+
 <activity><title>Interest Problems</title>
+
 <introduction><p>Carmella has $1200 invested in two stocks; one earns 8% per year and the other earns 12% per year. The income from the 8% stock is $3 more than the income from the 12% stock. How much did she invest in each stock?</p></introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Emphasize that there are two types of money in this problem: the amount invested (principal) and the amount earned (interest).</p></commentary>
 
 <task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
       <p><m>\hphantom{0000} x</m>:</p>
@@ -31,12 +38,21 @@
     </tabular></task>
 
 <task><p>Write one equation about the amount Carmella invested.</p></task>
+
 <task><p>Write a second equation about Carmella's annual interest.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students typically have trouble with the interest equation: which side of the equation do we add $3 to? Write out the English sentence and translate phrase by phrase. Point out that if we add $3 to the larger side, the two sides cannot be equal!</p></commentary>
+
 <task><p>Solve the system and answer the question in the problem.</p></task>
 </activity>
 
 <activity><title>Mixture Problems</title>
+
 <introduction><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?</p></introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Many students still believe that we can add percents, even of different amounts. Try this example: If you have two jars of red and blue marbles, each of which is 50% red marbles, and you pour both jars into a larger jar, will the result be 100% red marbles?</p></commentary>
 
 <task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
       <p><m>\hphantom{0000} x</m>:</p>
@@ -61,8 +77,13 @@
                     <cell></cell></row>
     </tabular></task>
 
+                <commentary audience="instructor"><title>Note</title>
+                <p>Point out that mixture problems are actually easy: after we fill in the first two columns of the table with information from the problem, we multiply across to get the third column and add down columns 1 and 3 to get the equations.</p></commentary> 
+
 <task><p>Write one equation about the amount of solution Amal needs.</p></task>
+
 <task><p>Write a second equation about the amount of acid in the solutions.</p></task>
+
 <task><p>Solve the system and answer the question in the problem.</p></task>
 </activity>
 
@@ -72,6 +93,10 @@
 <task><p>Choose variables for the two unknown quantities, and fill in the table.</p>
       <p><m>\hphantom{0000} x</m>:</p>
       <p><m>\hphantom{0000} y</m>:</p>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Explain how to add or subtract the speed of the wind (or the current in a river) to the speed of the airplane. Point out explicitly that <m>x</m> and <m>y</m> are NOT the entries in the Rate column.</p></commentary>
+
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell></cell>
@@ -89,7 +114,9 @@
     </tabular></task>
 
 <task><p>Write one equation about the trip from Detroit to Denver.</p></task>
+
 <task><p>Write a second equation about the return trip.</p></task>
+
 <task><p>Solve the system and answer the question in the problem.</p></task>
 </activity>
 
@@ -107,6 +134,14 @@
 <li><p>Solve systems using substitution.</p></li>
 <li><p>Solve systems using elimination.</p></li>
 <li><p>Model and solve applied problems with a system of equations.</p></li></ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>When is the substitution method easier to use than the elimination method. Why?</p></li>
+<li><p>Explain how to use linear combinations to identify inconsistent and dependent systems.</p></li>
+<li><p>What is a weighted average?</p></li>
+<li><p>Explain why the solution of a system is also a solution of any linear combination of the two equations in the system.</p></li></ol></p></commentary> 
+   
 </subsection> 
 
 </section>

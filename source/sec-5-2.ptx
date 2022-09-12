@@ -3,18 +3,33 @@
 <section xml:id="sec-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs of Functions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we use function notation with graphs, construct the graph of a function, use the vertical line test, and solve equations and inequalities graphically.</p></commentary>
+
 <activity><title>The Graph of a Function</title>
+
+          <commentary audience="instructor"><title>Note</title>
+          <p>A major goal of these Activities is to help students distinguish between input and output values on a graph, or between <m>x</m> and <m>f(x)</m>, as in "what is the maximum value of the function" versus "where did the maximum occur."</p></commentary>
+
 <introduction><p>The graph shows the U.S. unemployment rate as a function of time, <m>U=f(t)</m>, for the years 1985-2004.</p>
     <image source="act-5-2-1.png" width="70%"></image></introduction>
 
 <task><p>Evaluate <m>f(1993)</m>, and explain its meaning for this problem.</p></task>
+
 <task><p>When did the unemployment rate reach its highest value, and what was its highest value?  Write your answer with function notation.</p></task>
+
 <task><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?  Write your answer with function notation.</p></task>
+
 <task><p>Solve the equation <m>f(t)=4.5</m>, and explain its meaning for this problem.</p></task>
+
 <task><p>Over what intervals was the unemployment rate increasing?</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Students will probably be unfamiliar with the terminology "over what interval," so you will need to explain that this refers to input values.</p></commentary>
 </activity>
 
 <activity><title>Functions Defined by Graphs</title>
+
 <introduction><p>The figure shows the graph of the function <m>y=F(s)</m>. A solid dot means that the point is part of the graph, and an open circle means that the point is not part of the graph.</p>
     <image source="act-5-2-2.png" width="40%"></image></introduction>
 
@@ -28,10 +43,14 @@
 </activity>
 
 <activity><title>Solving Equations and Inequalities</title>
+
 <introduction><p>Each figure shows a graph of 
   <me>B = f(p)= \dfrac{1}{3}p^3 - 3p + 2</me>     
 Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
 </introduction>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Most students still find solving inequalities graphically quite difficult. It may be helpful to go over several of the homework problems on this topic.</p></commentary>
 
 <task><sidebyside widths="50% 40%"><p><me>\dfrac{1}{3}p^3 - 3p + 2 = 6</me></p> 
   <image source="act-5-2-3.png"></image></sidebyside></task>
@@ -58,6 +77,16 @@ Use the graph to solve the following equations and inequalities. Show your work 
 <li><p>Interpret the coordinates of a point on the graph of a function</p></li> 
 <li><p>Use the vertical line test</p></li>
 <li><p>Solve an equation or inequality graphically</p></li>
-</ul></p></subsection>
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>Describe how to find the value of <m>f(3)</m> from a graph of <m>f(3)</m>.</p></li>
+<li><p>Explain how to construct the graph of a function from its equation.</p></li>
+<li><p>Explain how to use the vertical line test.</p></li>
+<li><p>Explain how to solve an inequality by using a graph.</p></li>
+</ol></p></commentary>
+
+</subsection>
 
 </section>

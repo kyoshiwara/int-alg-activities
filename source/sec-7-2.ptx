@@ -3,11 +3,21 @@
 <section xml:id="sec-7-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Exponential Functions</title>
 
+<commentary audience="instructor"><title>Overview</title>
+<p>In this Lesson we introduce the formal definition of exponential function. Explain to students why we make the restrictions <m>b \gt 0</m> and <m>b \not= 1</m>;  trying to evaluate <m>f(x) = (-4)^{1/2}</m> is a good example. Point out that the input values can be positive or negative, but ouptut values are always positive. Have students graph several examples on their calculators.</p> 
+
+<p>We also introduce exponential equations. Note that in this first treatment, we do not use logarithms; we solve only equations in which both sides can be written with the same base. The purpose of this approach is to emphasize that we are looking for an unknown exponent on a known base.</p></commentary>
+
 <activity><title>A New Kind of Function</title>
+
 <introduction><p>The functions that describe exponential growth and decay are called exponential functions:
     <me>f(x) = a \cdot b^x,~~b \gt 0,~~ b \not= 1</me></p></introduction>
 
   <task><p>Make a table of values and graph <m>f(x) = \frac{1}{2} (2^x)</m></p>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>Show students how to enter exponential formulas into the calculator, and demonstrate that (for example) <m>4(\frac{1}{2})^x</m> is not the same as <m>2^x</m>.</p></commentary>
+
      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -75,12 +85,24 @@
     <li><p><m>M(z) = 0.2z^{1.3}</m></p></li>
     <li><p><m>N(z) = z^{-3}</m></p></li>
   </ol></p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>You may need to give several more examples comparing exponential and power functions.</p></commentary>
 </activity>
 
 <activity><title>Solving Exponential Equations</title>
+
 <task><p>What is an exponential equation?</p></task>  
+
 <task><p>One way to solve exponential equations is to write both sides of the equation as powers with the same <fillin/>.  If two equivalent powers have the same base, then their <fillin/> must be equal also.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Point out that it is usually easiest to write both sides in the lower of the two possible bases. As you work examples, emphasize the statement in part (b), and that we are not really "cancelling" the bases.</p></commentary>
+
 <task><p>We'll solve the equation  <m>~~3^{x-1} = 27^{1/2}~~</m> by writing each side as a power of base 3.</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>Be prepared for students to have difficulty applying the laws of exponents to simplify expressions.</p></commentary>
 
   <p>Write 27 as a power of base 3:</p>      
   <p>Use the laws of exponents to simplify the right side:</p> 
@@ -96,18 +118,27 @@
 </activity>
 
 <activity><title>Cows</title>
+
 <introduction><p>An outbreak of ungulate fever can sweep through the livestock in a region so that the number of animals affected triples every 4 days.</p></introduction>  
+
 <task><p>A rancher discovers four cases of ungulate fever among his herd. Write a function for the number of sick cows <m>P(t)</m> on day <m>t</m>.</p></task>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>This is the first example in which a population triples every 4 days, instead of every day. Look at several examples to help students understand that the formula for the population should be <m>P_0 (3)^{t/4}</m> instead of <m>P_0 (3)^t</m>.</p></commentary>
+
 <task><p> Use technology to graph the function on the interval <m>0 \le t \le 20</m>. Make a sketch of your graph, and label the scales on the axes.</p></task>
+
 <task><p>If the rancher does not act quickly, how long will it be until 324 cows are sick? Write and solve an equation to find your answer, and label the appropriate point on your graph.</p></task>
 </activity>
 
 <activity><title>Using Tables and Graphs</title>
+
 <task><p>Use technology to graph <m>~y=2^{x+3}~</m> for <m>-5 \le x \le 1</m>.</p>
   <p>Use your graph to solve the equation <m>~2^{x+3} = 5</m>. Round your answer to the nearest hundredth.</p></task>
 
 <task><p>The graph of <m>~g(x) = P_0 b^x~</m> is shown in the figure. Read the value of <m>P_0</m> from the graph.</p>
     <image source="act-7-2-2.png" width="40%"></image></task>
+
 <task><p>Make a short table of values for the function by reading values from the graph.</p>  
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -120,11 +151,21 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
     </tabular></task>
+
+                <commentary audience="instructor"><title>Note</title>
+                <p>In the table, demonstrate again that the ratio of equally spaced function values is constant, not their difference.</p></commentary>
+
 <task><p>Does your table confirm that the function is exponential?  How do you know?</p></task>
+
 <task><p>Use your table to calculate the growth factor, <m>b</m>.</p></task>
+
 <task><p>Write a formula for <m>~g(x)</m>.</p></task>
 
 <task><p>Which of the following tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.</p>
+
+            <commentary audience="instructor"><title>Note</title>
+            <p>These tables provide another opportunity to consider the difference between linear and exponential functions.  Students will need to be reminded of the "equal ratios" test throughout this chapter, as they tend to persist in believing that all functions share the properties of linear functions.</p>
+
 <p><ol cols="4">
   <li><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -204,6 +245,16 @@
 <li><p>Solve exponential equations with the same base</p></li>   
 <li><p>Solve exponential equations graphically</p></li>
 <li><p>Find a formula for an exponential function from a table or a graph</p></li>
-</ul></p></subsection>   
+</ul></p>
+
+<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<p><ol>
+<li><p>What is the difference between a power function and an exponential function?</p></li>
+<li><p>How can you recognize an exponential function from a table of values?</p></li>
+<li><p>If a population grows by 6% annually, why is its growth factor 1.06?</p></li>
+<li><p>If a population decreases exponentially, does it lose the same number of people each year? Why or why not?</p></li>
+</ol></p></commentary>
+
+</subsection>   
 
 </section>

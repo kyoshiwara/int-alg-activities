@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<worksheet xml:id="wk-1-1">
+  <title>Lesson 1.1 Linear Models</title>
+
+<commentary audience="instructor"><title>Overview</title>
+<p>Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <m>y=</m> (starting value)<m>+</m>(rate of change)<m>\cdot x</m>.</p>
+<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work.</p> 
+</commentary>
+
+  
+  <section><title>Activity 1 Making and Reading a Graph</title>
+    <introduction><p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year. </p></introduction>
+
+  <exercise>
+    <statement>
+      <task><p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
+              <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                <row bottom="minor">
+                    <cell><m>t~</m>(years)</cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>20</m></cell></row>
+                <row><cell><m>L~</m>(mm)</cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell></row>
+            </tabular></task>
+    <sidebyside widths="60% 30%">
+    <stack> 
+      <task workspace="1in"><p>Write an equation for the sea level, <m>L</m>, in terms of <m>t</m>, the number of years since 2000.</p></task>
+          <commentary audience="instructor"><title>Note</title>
+          <p>Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></commentary>
+
+      <task><p>Graph the equation on the grid. Label the axes with the correct variables.</p></task>
+          <commentary audience="instructor"><title>Note</title>
+          <p>Graphs should extend across the entire grid, including any intercepts.</p></commentary>
+
+      <p>To answer questions below, read the graph. Show your work on the graph:</p>
+          <commentary audience="instructor"><title>Note</title>
+          <p>Have students draw dashed lines on the graph, as in Example 1.7.</p></commentary>
+
+      <task><p>According to this model, what will the sea level be in 2020?</p></task> 
+
+      <task><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters in 1 centimeter?)</p></task>
+    </stack>
+        <image source="act-1-1-1.png"></image></sidebyside>
+
+      <task workspace="2in"><p>Now use algebra to find the answers for part (b) above. Compare your answers to the values you read from the graph.</p></task>
+</statement></exercise>
+    
+</section>
+</worksheet>
