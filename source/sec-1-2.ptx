@@ -43,7 +43,8 @@ While they work on the Activities, walk around to check each student's graphs, t
     <p>Look back at your work in Activity 2. Use the graph to show that the following three statements are different ways of saying the same thing: <ol>
         <li><p>The point <m>(-1,7)</m> lies on the graph of <m>y=4-3x</m>.</p></li>                     
         <li><p> <m>x=-1,~y=7</m>  is a solution of the equation <m>y=4-3x</m>.</p></li>      
-        <li><p> <m>x=-1</m> is a solution of the equation <m>7=4-3x</m>.</p></li></ol></p>
+        <li><p> <m>x=-1</m> is a solution of the equation <m>7=4-3x</m>.</p></li>
+    </ol></p>
 </activity> 
 
 <activity><title>Solving Inequalities Graphically</title>
@@ -87,7 +88,7 @@ While they work on the Activities, walk around to check each student's graphs, t
       <li><p><m>15-3x \ge 9</m></p>
             <image source="act-1-2-4.png" width="80%"></image>
             <p>Solution:</p></li>
-      <li>p><m>6 \gt 15-3x</m>
+      <li><p><m>6 \gt 15-3x</m></p>
             <image source="act-1-2-4.png" width="80%"></image>
             <p>Solution:</p></li>
     </ol></p>
@@ -113,7 +114,8 @@ While they work on the Activities, walk around to check each student's graphs, t
     <li><p>Solve a linear inequality, and graph the solutions on a number line</p></li>
     <li><p>Recognize a solution of an equation in two variables</p></li>
     <li><p>Use the connection between the graph of an equation and its solutions</p></li>
-    <li><p>Use a graph to solve an equation or inequality in one variable</p></li></ul></p>
+    <li><p>Use a graph to solve an equation or inequality in one variable</p></li>
+</ul></p>
 
 
 <commentary audience="instructor"><title>Questions for Writing or Discussion</title>
