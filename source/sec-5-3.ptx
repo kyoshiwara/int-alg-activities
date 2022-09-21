@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-5-3" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Some Basic Graphs</title>
+  <title>Some Basic Functions</title>
 
 <commentary audience="instructor"><title>Overview</title>
 <p>In this lesson we review cube roots and absolute value in preparation for studying the graphs of eight basic functions. When considering the two rational functions, we introduce the notions of vertical and horizontal asymptotes. Note that these topics should be treated intuitively and numerically; in particular we do not explicitly discuss limits.  Nor do we use the terminology of domain and range, as these are topics for precalculus. At this stage, students still think of functions and graphs pointwise, and will only gradually progress to a more global view.</p>
@@ -288,26 +288,27 @@ What is true about the <m>y</m>-values at <m>x=0</m> ?</p>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>In Activity 1, describe the differences between the graphs of <m>y=x^2</m> and <m>y=x^3</m>.</p></li>     
-<li><p>What connection do you see between the graphs of <m>y=x^2</m> and <m>y=\sqrt{x}</m>, and between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m> ?</p></li>
-<li><p>Explain how we use asymptotes to help us sketch a graph.</p></li>
-<li><p>Which of the functions in this Lesson are undefined at <m>x=0</m> ?</p></li>
+    <li><p>In Activity 1, describe the differences between the graphs of <m>y=x^2</m> and <m>y=x^3</m>.</p></li>     
+    <li><p>What connection do you see between the graphs of <m>y=x^2</m> and <m>y=\sqrt{x}</m>, and between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m> ?</p></li>
+    <li><p>Explain how we use asymptotes to help us sketch a graph.</p></li>
+    <li><p>Which of the functions in this Lesson are undefined at <m>x=0</m> ?</p></li>
 </ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to functions:</p>
 <p><ul>
-<li><p>Evaluate cube roots and absolute values</p></li>
-<li><p>Graph eight basic functions</p></li> 
-<li><p>Use horizontal and vertical asymptotes for graphing </p></li>
+    <li><p>Evaluate cube roots and absolute values</p></li>
+    <li><p>Graph eight basic functions</p></li> 
+    <li><p>Use horizontal and vertical asymptotes for graphing </p></li>
+    <li><p>Graph functions defined piecewise</p></li>
 </ul></p>
 
 <commentary audience="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Describe the differences between the graphs of <m>f(x)=x^2</m> and <m>g(x)=x^3</m>.</p></li>
-<li><p>Describe how we use a vertical asymptote to help us sketch a graph.</p></li>
-<li><p>Compare the graphs of <m>\dfrac{1}{x}</m> and <m>\dfrac{1}{x^2}</m> for <m>0 \le x \le 1</m>.</p></li>
-<li><p>What connections do you see between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m>?</p></li>
+    <li><p>Describe the differences between the graphs of <m>f(x)=x^2</m> and <m>g(x)=x^3</m>.</p></li>
+    <li><p>Describe how we use a vertical asymptote to help us sketch a graph.</p></li>
+    <li><p>Compare the graphs of <m>\dfrac{1}{x}</m> and <m>\dfrac{1}{x^2}</m> for <m>0 \le x \le 1</m>.</p></li>
+    <li><p>What connections do you see between the graphs of <m>y=x^3</m> and <m>y=\sqrt[3]{x}</m>?</p></li>
 </ol></p></commentary>
 
 </subsection>

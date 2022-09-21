@@ -65,7 +65,7 @@
           <p>How much do <m>x</m> gallons of regular cost?</p>  
           <p>How much do <m>y</m> gallons of premium cost?</p></task>
 
-    <task><p>Write an equation that relates the amount of regular unleaded gasoline, <m>x</m>,the owner can buy and the amount of premium unleaded, <m>y</m>.</p></task>
+    <task><p>Write an equation that relates the amount of regular unleaded gasoline, <m>x</m>, the owner can buy and the amount of premium unleaded, <m>y</m>.</p></task>
 
     <task><p>Find the intercepts and use the intercept method to sketch the graph.</p>
           <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -91,11 +91,13 @@
 
     <task><p>What is the meaning of the point <m>(2000, 4500)</m> on the graph?</p></task></activity>
 
-  <subsection><title>Check Your Understanding</title><ol>
+  <subsection><title>Check Your Understanding</title>
+  <p><ol>
     <li><p>In Activity 1, how did you use algebra to find the intercepts of the graph?</p></li>
-    <li><p>In Activity 1, which intercept gives the starting value of <m>C</m></p></li>
+    <li><p>In Activity 1, which intercept gives the starting value of <m>C</m>?</p></li>
     <li><p>The equation you wrote in Activity 2 was different in form from the equation you wrote in Activity 1. How?</p></li>
-    <li><p>In Activity 2, what did the variables <m>x</m> and <m>y</m> represent?</p></li></ol></subsection> 
+    <li><p>In Activity 2, what did the variables <m>x</m> and <m>y</m> represent?</p></li>
+</ol></p></subsection> 
 
   <subsection><title>Wrap-Up</title>
   <p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
@@ -108,10 +110,10 @@
 
 <commentary audience="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Explain how to graph a line by the intercept method.</p></li>
-<li><p>Explain how the words intercept and intersect are related, and how they are different.</p></li>
-<li><p>In what situations is the general linear form easier to use for a model than the form <m>y = \text{(starting value)} + \text{rate} \cdot x</m>?</p></li>
-<li><p>Explain why setting <m>y=0</m> in a linear equation allows us to find the <m>x</m>-intercept.</p></li>
+    <li><p>Explain how to graph a line by the intercept method.</p></li>
+    <li><p>Explain how the words intercept and intersect are related, and how they are different.</p></li>
+    <li><p>In what situations is the general linear form easier to use for a model than the form <m>y = \text{(starting value)} + \text{rate} \cdot x</m>?</p></li>
+    <li><p>Explain why setting <m>y=0</m> in a linear equation allows us to find the <m>x</m>-intercept.</p></li>
 </ol></p></commentary>
 </subsection>
 

@@ -8,8 +8,7 @@
 <p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work.</p> 
 </commentary>
   
-<subsection>
-  <title>Activity 1: Making and Reading a Graph</title>
+<activity><title>Making and Reading a Graph</title>
     <p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year. </p>
     <p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
               <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -63,9 +62,9 @@
     <p><m>13.9</m> tells us:</p>
 
     <p><m>0.13</m> tells us:</p></task>
-</subsection>
+</activity>
 
-<subsection><title>Activity 2: A Decreasing Graph</title>
+<activity><title>A Decreasing Graph</title>
     <p>Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p>
 
     <task><p>Complete the table of values showing the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.  Then write your answers as ordered pairs.</p>
@@ -117,7 +116,7 @@
 
             <commentary audience="instructor"><title>Note</title>
             <p>Remind students how to write and solve a compound inequality.</p></commentary>
-</subsection>
+</activity>
 
 <subsection><title> Check Your Understanding</title><ol>
 <li><p>In Activity 1b, you wrote an equation for sea level, <m>L</m>.  What was the starting value, and what was the rate?</p></li>
