@@ -12,22 +12,68 @@
 </head>
 <body class="ignore-math">
 <article class="activity project-like"><h3 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.3.5</span><span class="period">.</span><span class="space"> </span><span class="title">Atmospheric Pressure.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Logarithms and Inverse Operations.</span>
 </h3>
 <div class="introduction">
-<p>The atmospheric pressure decreases with altitude above the surface of the earth, according to the formula</p>
+<p>We use inverse operations to solve equations. For example, cubing and taking cube roots are inverse operations. Each operation undoes the effect of the other.  Start with any number, say 5, cube it, and then take the cube root. We get back to the original number:</p>
 <div class="displaymath process-math" data-contains-math-knowls="">
 \begin{equation*}
-P(h) = 30(10^{-0.09h})
+5 \rightarrow \text{cube} \rightarrow 5^3 = 125 \rightarrow \text{take cube root} \rightarrow \sqrt[3]{125} = 5
 \end{equation*}
 </div>
-<p class="continuation">where <span class="process-math">\(h\)</span> is altitude in miles and <span class="process-math">\(P\)</span> is atmospheric pressure in inches of mercury.</p>
+<p class="continuation">We can write the two operations in one step, like this:  <span class="process-math">\(~~\sqrt[3]{5^3} = 5~~\text{.}\)</span> The same thing works for any number <span class="process-math">\(x\text{,}\)</span> so <span class="process-math">\(~~\sqrt[3]{x^3} = x~~\text{.}\)</span></p>
 </div>
 <article class="task exercise-like"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<p>Use technology to graph this function for  <span class="process-math">\(0 \le h \le 10\text{.}\)</span></p></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<p>Use algebra to answer the question, then verify on your graph:</p>
-<p>The elevation of Mount McKinley, the highest mountain in the United Sates, is 20,320  feet. What is the atmospheric pressure at the top? (Hint:  1 mile = 5280 feet.)</p></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<p>Use algebra to answer the question, then verify on your graph:</p>
-<p>How high above sea level is the atmospheric pressure 16.1 inches of mercury?</p></article></article><span class="incontext"><a href="sec-7-3.html#activity-109" class="internal">in-context</a></span>
+<p>Here are some more examples of inverse operations. Fill in the blanks.</p>
+<ol class="decimal cols2">
+<li><p><span class="process-math">\(\displaystyle (25 + 3,489) - 3,489 = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle (42 \times 13.76) \div 13.76 =  \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle (\sqrt{5936})^2 = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \dfrac{1}{1/6.97} = \fillinmath{XXX}\)</span></p></li>
+</ol></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p>Logarithms and exponentials are inverse operations. Taking a logarithm base <span class="process-math">\(b\)</span> is the opposite of evaluating an exponential function with base <span class="process-math">\(b\text{.}\)</span> For example, let <span class="process-math">\(b=3\text{,}\)</span> and start by start by evaluating <span class="process-math">\(b^x\)</span> with <span class="process-math">\(x=4\text{.}\)</span> Then take the log base 3 of the result:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+x=\alert{4} \rightarrow \text{exponential function} \rightarrow 3^4 = 81 \rightarrow \text{logarithm} \rightarrow \log_3{81} = \alert{4}
+\end{equation*}
+</div>
+<p class="continuation">Or, <span class="process-math">\(~\log_3 {3^4} = 4\text{.}\)</span>  So we have the rule:  <span class="process-math">\(~\log_b {b^x} = x\)</span></p>
+<p>Fill in the blanks.</p>
+<ol class="decimal cols2">
+<li><p><span class="process-math">\(\displaystyle \log_5 {5^2} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log_6 {6^8} =  \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log_2 {2^{3.56}} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log_8 {8^{x+4}} = \fillinmath{XXX}\)</span></p></li>
+</ol></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p>We take logarithms to solve exponential equations.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{align*}
+5^x \amp = 125~~~~~~~~\text{Take the log of both sides.}\\
+\log_5 {5^x} \amp = \log_5 {125}~~~~~~~\text{Simplify each side.}\\
+\fillinmath{XXX} \amp = \fillinmath{XXX}
+\end{align*}
+</div>
+<p class="continuation">The solution, <span class="process-math">\(\log_5 {125} = 3\text{,}\)</span> is the exponent in the original equation. Once again, we see that a logarithm is just an exponent; in this case it is the exponent on base 5 that will give us 125.</p>
+<p>You can think of taking a logarithm as a command that says "find me the exponent!"</p></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p>Logarithms base 10 are called common logarithms, because they are used more often in applications than logs to other bases. We often omit the base on common logs, so that</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\log {x}~~~~\text{means}~~~~\log_{10}{x}
+\end{equation*}
+</div>
+<p>Evaluate the logs:</p>
+<ol class="decimal cols2">
+<li><p><span class="process-math">\(\displaystyle \log {100} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log {100,000} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log {0.01} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \log {1} = \fillinmath{XXX}\)</span></p></li>
+</ol></article><article class="task exercise-like"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p>Estimate each log between two integers. Then use a calculator to evaluate the log.</p>
+<ol class="decimal">
+<li><p><span class="process-math">\(\displaystyle \fillinmath{XXX} \lt \log {1476} \lt \fillinmath{XXX},~~~~\log {1476} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \fillinmath{XXX} \lt \log {27.9} \lt \fillinmath{XXX},~~~~\log {27.9} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \fillinmath{XXX} \lt \log {0.694} \lt \fillinmath{XXX},~~~~\log {0.694} = \fillinmath{XXX}\)</span></p></li>
+<li><p><span class="process-math">\(\displaystyle \fillinmath{XXX} \lt \log {0.0104} \lt \fillinmath{XXX},~~~~\log {0.0104} = \fillinmath{XXX}\)</span></p></li>
+</ol></article></article><span class="incontext"><a href="sec-7-3.html#activity-109" class="internal">in-context</a></span>
 </body>
 </html>
