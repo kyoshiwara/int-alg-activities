@@ -8,7 +8,7 @@
 <p>We also review the intercept method for graphing a line.  Finally, we consider linear models given in the general linear form, <m>Ax+By=C</m>.</p></commentary>
 
 <activity><title>Interpreting the Intercepts</title>
-    <p>Copper is the third most widely used metal, behind iron and aluminum. In 2007 the US Geological Survey estimated that there are 490 million tons of usable copper reserves left in the world. The global consumption of copper in 2007 was 17.8 million tons.</p>
+    <introduction><p>Copper is the third most widely used metal, behind iron and aluminum. In 2007 the US Geological Survey estimated that there are 490 million tons of usable copper reserves left in the world. The global consumption of copper in 2007 was 17.8 million tons.</p></introduction>
 
     <task><p>Supposing that we continue to consume copper at the same annual rate, write an equation for the amount of copper, <m>C</m>, in millions of tons, remaining <m>t</m> years after 2007.</p></task>
 
