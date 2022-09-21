@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exponential Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-7-1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-7-3.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-7-1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-7-3.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="active">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-7-2"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">7.2</span> <span class="title">Exponential Functions</span>
+</h2>
+<article class="activity project-like" id="activity-101"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">A New Kind of Function.</span>
+</h3>
+<div class="introduction" id="introduction-74">
+<p id="p-1700">The functions that describe exponential growth and decay are called exponential functions:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+f(x) = a \cdot b^x,~~b \gt 0,~~ b \not= 1
+\end{equation*}
+</div>
+</div>
+<article class="task exercise-like" id="task-407"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1701">Make a table of values and graph <span class="process-math">\(f(x) = \frac{1}{2} (2^x)\)</span></p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/act-7-2-1.png" class="contained"></div>
+<p id="p-1703">What is the <span class="process-math">\(y\)</span>-intercept of the graph?</p>
+<p id="p-1704">What is the <span class="process-math">\(x\)</span>-intercept?</p>
+<p id="p-1705">Give the equations of any asymptotes.</p></article><article class="task exercise-like" id="task-408"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1706">Make a table of values and graph <span class="process-math">\(f(x) = 4(\frac{1}{2})^x \)</span></p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/act-7-2-1.png" class="contained"></div>
+<p id="p-1707">What is the <span class="process-math">\(y\)</span>-intercept of the graph?</p>
+<p id="p-1708">What is the <span class="process-math">\(x\)</span>-intercept?</p>
+<p id="p-1709">Give the equations of any asymptotes.</p></article><article class="task exercise-like" id="task-409"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1710">What does the value of <span class="process-math">\(a\)</span> tell you about the graph?</p>
+<p id="p-1711">What does the value of <span class="process-math">\(b\)</span> tell you about the graph?</p></article><article class="task exercise-like" id="task-410"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1712">Find the <span class="process-math">\(y\)</span>-intercept of each exponential function and decide whether the graph is increasing or decreasing.</p>
+<ol id="p-1713" class="decimal cols2">
+<li id="li-659"><p id="p-1714"><span class="process-math">\(\displaystyle M(x) = 1.5(0.05)^x\)</span></p></li>
+<li id="li-660"><p id="p-1715"><span class="process-math">\(\displaystyle N(x) = 0.05(1.05)^x\)</span></p></li>
+<li id="li-661"><p id="p-1716"><span class="process-math">\(\displaystyle P(x) = \left(\dfrac{5}{8}\right)^x\)</span></p></li>
+<li id="li-662"><p id="p-1717"><span class="process-math">\(\displaystyle Q(x) = \left(\dfrac{4}{3}\right)^x\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-411"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1718">Decide whether each function is an exponential function, a power function, or neither.</p>
+<ol id="p-1719" class="decimal cols2">
+<li id="li-663"><p id="p-1720"><span class="process-math">\(\displaystyle R(w) = 5(5)^{w-1}\)</span></p></li>
+<li id="li-664"><p id="p-1721"><span class="process-math">\(\displaystyle Q(w) = 2^w - w^2\)</span></p></li>
+<li id="li-665"><p id="p-1722"><span class="process-math">\(\displaystyle M(z) = 0.2z^{1.3}\)</span></p></li>
+<li id="li-666"><p id="p-1723"><span class="process-math">\(\displaystyle N(z) = z^{-3}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-102"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Solving Exponential Equations.</span>
+</h3>
+<article class="task exercise-like" id="task-412"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1725">What is an exponential equation?</p></article><article class="task exercise-like" id="task-413"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1726">One way to solve exponential equations is to write both sides of the equation as powers with the same <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.  If two equivalent powers have the same base, then their <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> must be equal also.</p></article><article class="task exercise-like" id="task-414"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1728">We'll solve the equation  <span class="process-math">\(~~3^{x-1} = 27^{1/2}~~\)</span> by writing each side as a power of base 3.</p>
+<p id="p-1730">Write 27 as a power of base 3:</p>
+<p id="p-1731">Use the laws of exponents to simplify the right side:</p>
+<p id="p-1732">Equate the exponents:</p>
+<p id="p-1733">Solve for <span class="process-math">\(x\text{:}\)</span></p></article><article class="task exercise-like" id="task-415"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1734">Follow the steps to solve <span class="process-math">\(~~2^{3x-1} = \dfrac{\sqrt{2}}{16}\)</span></p>
+<p id="p-1735">Write <span class="process-math">\(\sqrt{2}\)</span> and <span class="process-math">\(16\)</span> as powers of base 2:</p>
+<p id="p-1736">Use the laws of exponents to simplify the right side:</p>
+<p id="p-1737">Equate the exponents:</p>
+<p id="p-1738">Solve for <span class="process-math">\(x\text{:}\)</span></p></article></article><article class="activity project-like" id="activity-103"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Cows.</span>
+</h3>
+<div class="introduction" id="introduction-75"><p id="p-1739">An outbreak of ungulate fever can sweep through the livestock in a region so that the number of animals affected triples every 4 days.</p></div>
+<article class="task exercise-like" id="task-416"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1740">A rancher discovers four cases of ungulate fever among his herd. Write a function for the number of sick cows <span class="process-math">\(P(t)\)</span> on day <span class="process-math">\(t\text{.}\)</span></p></article><article class="task exercise-like" id="task-417"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1742">Use technology to graph the function on the interval <span class="process-math">\(0 \le t \le 20\text{.}\)</span> Make a sketch of your graph, and label the scales on the axes.</p></article><article class="task exercise-like" id="task-418"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1743">If the rancher does not act quickly, how long will it be until 324 cows are sick? Write and solve an equation to find your answer, and label the appropriate point on your graph.</p></article></article><article class="activity project-like" id="activity-104"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Using Tables and Graphs.</span>
+</h3>
+<article class="task exercise-like" id="task-419"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1744">Use technology to graph <span class="process-math">\(~y=2^{x+3}~\)</span> for <span class="process-math">\(-5 \le x \le 1\text{.}\)</span></p>
+<p id="p-1745">Use your graph to solve the equation <span class="process-math">\(~2^{x+3} = 5\text{.}\)</span> Round your answer to the nearest hundredth.</p></article><article class="task exercise-like" id="task-420"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1746">The graph of <span class="process-math">\(~g(x) = P_0 b^x~\)</span> is shown in the figure. Read the value of <span class="process-math">\(P_0\)</span> from the graph.</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-7-2-2.png" class="contained"></div></article><article class="task exercise-like" id="task-421"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1747">Make a short table of values for the function by reading values from the graph.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-422"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1749">Does your table confirm that the function is exponential?  How do you know?</p></article><article class="task exercise-like" id="task-423"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1750">Use your table to calculate the growth factor, <span class="process-math">\(b\text{.}\)</span></p></article><article class="task exercise-like" id="task-424"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-1751">Write a formula for <span class="process-math">\(~g(x)\text{.}\)</span></p></article><article class="task exercise-like" id="task-425"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<p id="p-1752">Which of the following tables could describe exponential functions? Explain why or why not. If the function is exponential, find its growth or decay factor.</p>
+<ol id="p-1754" class="decimal cols4">
+<li id="li-667"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(12\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(24\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(48\)</span></td>
+</tr>
+</table></div></li>
+<li id="li-668"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(P\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(7\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(10\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(15\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(22\)</span></td>
+</tr>
+</table></div></li>
+<li id="li-669"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(N\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(6\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(34\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(110\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(258\)</span></td>
+</tr>
+</table></div></li>
+<li id="li-670"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(p\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(R\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(405\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(135\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(45\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(13\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+</tr>
+</table></div></li>
+</ol></article></article><section class="subsection" id="subsection-64"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.2.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1755" class="decimal">
+<li id="li-671"><p id="p-1756">Use the order of operations to explain why <span class="process-math">\(F(x) = 2(3^x)\)</span> and <span class="process-math">\(G(x) = 6^x\)</span> are different. Confirm by evaluating <span class="process-math">\(F(4)\)</span> and <span class="process-math">\(G(4)\text{.}\)</span></p></li>
+<li id="li-672"><p id="p-1757">How is the graph of <span class="process-math">\(f(x) = \frac{1}{2}(2^x)\)</span> different from the graph of <span class="process-math">\(g(x) = 2^x\text{?}\)</span></p></li>
+<li id="li-673"><p id="p-1758">What is the difference between the formula for a power function and the formula for an exponential function?</p></li>
+<li id="li-674"><p id="p-1759">How can you recognize an exponential function from a table of values?</p></li>
+</ol></section><section class="subsection" id="subsection-65"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.2.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1760">In this Lesson, we worked on the following skills and goals related to exponential functions:</p>
+<ul id="p-1761" class="disc">
+<li id="li-675"><p id="p-1762">Graph exponential functions</p></li>
+<li id="li-676"><p id="p-1763">Distinguish exponential functions from power functions and other functions</p></li>
+<li id="li-677"><p id="p-1764">Solve exponential equations with the same base</p></li>
+<li id="li-678"><p id="p-1765">Solve exponential equations graphically</p></li>
+<li id="li-679"><p id="p-1766">Find a formula for an exponential function from a table or a graph</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

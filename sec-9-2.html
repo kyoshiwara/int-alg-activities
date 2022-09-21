@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Distance and Midpoint Formulas</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-9-1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch9.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-9-3.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-9-1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch9.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-9-3.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="active">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-9-2"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">9.2</span> <span class="title">Distance and Midpoint Formulas</span>
+</h2>
+<article class="activity project-like" id="activity-140"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Distance Between Two Points.</span>
+</h3>
+<article class="task exercise-like" id="task-563"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2376">Plot the points <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{,}\)</span> and draw the line segment joining them.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-2-2-2.png" class="contained"></div></article><article class="task exercise-like" id="task-564"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2377">Draw horizontal and vertical line segments to make a right triangle. What are the coordinates at the vertex of the right angle?</p></article><article class="task exercise-like" id="task-565"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2378">Find the length of each leg of the right triangle. We'll call those lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span> (Do you see how to calculate <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> from the coordinates of the given points?)</p>
+<p id="p-2379"><span class="process-math">\(~~~~~a=\)</span></p>
+<p id="p-2380"><span class="process-math">\(~~~~~b=\)</span></p></article><article class="task exercise-like" id="task-566"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2381">Use the Pythagorean theorem to calculate the length of the hypotenuse. This is the distance between <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{.}\)</span></p></article></article><article class="activity project-like" id="activity-141"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Distance Formula.</span>
+</h3>
+<article class="task exercise-like" id="task-567"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2383">Now we'll do the same thing in general. Plot any two points of your choice and label their coordinates <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{.}\)</span> Draw the line segment joining them.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-2-2-2.png" class="contained"></div></article><article class="task exercise-like" id="task-568"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2384">Draw horizontal and vertical line segments to make a right triangle. What are the coordinates at the vertex of the right angle?</p></article><article class="task exercise-like" id="task-569"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2385">Find an expression for the length of each leg of the right triangle, in terms of the coordinates of the points. We'll call those lengths <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span></p>
+<p id="p-2386"><span class="process-math">\(~~~~~a=\)</span></p>
+<p id="p-2387"><span class="process-math">\(~~~~~b=\)</span></p></article><article class="task exercise-like" id="task-570"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2388">Use the Pythagorean theorem to write a expression for the length of the hypotenuse. This is the distance between <span class="process-math">\((x_1, y_1)\)</span> and <span class="process-math">\((x_2, y_2)\text{.}\)</span></p></article></article><article class="activity project-like" id="activity-142"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Midpoint Formula.</span>
+</h3>
+<article class="task exercise-like" id="task-571"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2390">Plot the points <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{,}\)</span> and draw the line segment joining them.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-2-2-2.png" class="contained"></div></article><article class="task exercise-like" id="task-572"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2391">Draw horizontal and vertical line segments to make a right triangle.</p></article><article class="task exercise-like" id="task-573"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2392">Now start at <span class="process-math">\((-5,3)\)</span> and move half the horizontal distance and half the vertical distance to <span class="process-math">\((3,-9)\text{.}\)</span> What are the coordinates of the new point?</p></article><article class="task exercise-like" id="task-574"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2393">The new point is called the midpoint of the segment joining <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{.}\)</span> It is half-way between <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{.}\)</span></p>
+<p id="p-2394">How can we find a formula for calculating the coordinates of the midpoint? When we calculate the average of two numbers, we find a number that is half-way between them. For example, if your test scores are 70 and 90, your test average is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{average} = \dfrac{70+90}{2} = \dfrac{160}{2} = 80
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-575"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2395">For the two points <span class="process-math">\((-5,3)\)</span> and <span class="process-math">\((3,-9)\text{,}\)</span> calculate the average of their <span class="process-math">\(x\)</span>-coordinates and the average of their <span class="process-math">\(x\)</span>-coordinates.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-32">
+\begin{gather*}
+\overline{x} = \dfrac{x_1 + x_2}{2} = \\
+\overline{y} = \dfrac{y_1 + y_2}{2} = 
+\end{gather*}
+</div>
+<p class="continuation">You should get the same point you found above.</p></article></article><article class="activity project-like" id="activity-143"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Using the Formulas.</span>
+</h3>
+<article class="task exercise-like" id="task-576"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2397">Complete the rules for the distance and midpoint formulas.</p>
+<p id="p-2398">The distance between two points <span class="process-math">\(P_1 (x_1, y_1)\)</span> and <span class="process-math">\(P_2 (x_2, y_2)\)</span> is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+d = \fillinmath{XXXXXXXXXXXXXXXXXXXX}
+\end{equation*}
+</div>
+<p id="p-2399">The midpoint of the line segment joining the points <span class="process-math">\(P_1 (x_1, y_1)\)</span> and <span class="process-math">\(P_2 (x_2, y_2)\)</span> is the point <span class="process-math">\(M(\overline{x}, \overline{y})\text{,}\)</span>   where</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\overline{x} =\fillinmath{XXXXXXXX} ~~\text{and}~~\overline{y} =\fillinmath{XXXXXXXX}
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-577"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2400">Use the formula to find the distance between <span class="process-math">\((-5, 2)\)</span> and <span class="process-math">\((7, -3)\text{.}\)</span></p></article><article class="task exercise-like" id="task-578"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2401">Use the formula to find the midpoint of the line segment joining <span class="process-math">\((-5, 2)\)</span> and <span class="process-math">\((7, -3)\text{.}\)</span></p></article></article><article class="activity project-like" id="activity-144"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Circles.</span>
+</h3>
+<div class="introduction" id="introduction-93"><p id="p-2402">A circle is the set of all points in a plane that lie at a given distance, called the radius, from a fixed point called the center.  We can use the distance formula to find an equation for a circle.</p></div>
+<article class="task exercise-like" id="task-579"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2403">The center of a circle is the origin, <span class="process-math">\((0,0)\text{.}\)</span> The distance from the origin to any point <span class="process-math">\((x,y)\)</span> on the circle is <span class="process-math">\(r\text{.}\)</span></p>
+<ol id="p-2405" class="decimal">
+<li id="li-897"><p id="p-2406">Use the distance formula to write and equation about the circle.</p></li>
+<li id="li-898"><p id="p-2407">Square both sides of your equation and simplify, to obtain the equation for a circle of radius <span class="process-math">\(r\)</span> centered at the origin.</p></li>
+</ol></article><article class="task exercise-like" id="task-580"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<ol id="p-2408" class="decimal">
+<li id="li-899"><p id="p-2409">Use the distance formula to write a formula for the circle whose radius is <span class="process-math">\(r\)</span> and whose center is <span class="process-math">\((h,k)\text{.}\)</span></p></li>
+<li id="li-900">
+<p id="p-2410">Square both sides to obtain a formula for a circle:</p>
+<p id="p-2411">The standard form for the equation for a circle of radius <span class="process-math">\(r\)</span> centered at the point <span class="process-math">\((h,k)\)</span> is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\fillinmath{XXXXXXXXXXXX}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+</li>
+</ol></article><article class="task exercise-like" id="task-581"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2412">Write an equation for the circle with center at <span class="process-math">\((4,-3)\)</span> with radius <span class="process-math">\(2\sqrt{6}\text{.}\)</span></p></article></article><article class="activity project-like" id="activity-145"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">Standard Form.</span>
+</h3>
+<div class="introduction" id="introduction-94"><p id="p-2413">The standard form for a circle is useful because we can see the center and the radius right in the equation, so we can graph the circle.</p></div>
+<article class="task exercise-like" id="task-582"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2414">State the center and radius of the circle  <span class="process-math">\(~(x+3)^2 + (y+2)^2 = 16\text{.}\)</span></p></article><article class="task exercise-like" id="task-583"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2415">Graph the circle on the grid.</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-2-2-2.png" class="contained"></div></article><article class="task exercise-like" id="task-584"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2416">Expand the left side of the equation, and write it in general quadratic form:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+ax^2 + bxy + cy^2 + dx + ey + f = 0
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-585"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2417">To convert an equation to standard form we complete the square. Follow the steps to convert the equation</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+x^2 + y^2 - 14x + 4y = -25
+\end{equation*}
+</div>
+<p class="continuation">to standard form.</p>
+<p id="p-2419">Collect the <span class="process-math">\(x\)</span>-terms together and the <span class="process-math">\(y\)</span>-terms together.</p>
+<p id="p-2420">Complete the square for <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{.}\)</span></p>
+<p id="p-2421">Write each expression as a perfect square and simplify the right side.</p>
+<p id="p-2422">The circle has center <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>  and radius  <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> .</p></article><article class="task exercise-like" id="task-586"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2423">Write the equation for the circle in standard form:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+x^2 + y^2 - 10x - 6y - 24 = 0
+\end{equation*}
+</div></article></article><section class="subsection" id="subsection-84"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">9.2.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-2424" class="decimal">
+<li id="li-901"><p id="p-2425">State the Pythagorean theorem, then solve for <span class="process-math">\(c\text{.}\)</span>  Compare this equation with the distance formula; how are they similar?</p></li>
+<li id="li-902"><p id="p-2426">In the midpoint formula, why do we add the coordinates of the two points, instead of subtracting them, as we do in the distance formula?</p></li>
+<li id="li-903"><p id="p-2427">What fact about circles does the equation of a circle state?</p></li>
+<li id="li-904"><p id="p-2428">What algebraic technique do we use to write the equation of a circle in standard form?</p></li>
+</ol></section><section class="subsection" id="subsection-85"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">9.2.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-2429">In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<ul id="p-2430" class="disc">
+<li id="li-905"><p id="p-2431">Find the distance between two points</p></li>
+<li id="li-906"><p id="p-2432">Find the midpoint of a line segment</p></li>
+<li id="li-907"><p id="p-2433">Graph a circle</p></li>
+<li id="li-908"><p id="p-2434">Find the equation for a circle</p></li>
+<li id="li-909"><p id="p-2435">Use completing the square to write the equation of a circle in standard form</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

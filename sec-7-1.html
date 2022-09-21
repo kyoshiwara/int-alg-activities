@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Exponential Growth and Decay</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch7.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-7-2.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch7.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-7-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="active">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-7-1"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">7.1</span> <span class="title">Exponential Growth and Decay</span>
+</h2>
+<article class="activity project-like" id="activity-94"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Population Growth.</span>
+</h3>
+<div class="introduction" id="introduction-67"><p id="p-1628">In a laboratory experiment, researchers establish a colony of 100 bacteria and monitor its growth. The colony triples in population every day.</p></div>
+<article class="task exercise-like" id="task-378"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1629">Complete the table showing the population, <span class="process-math">\(P(t)\text{,}\)</span> of bacteria <span class="process-math">\(t\)</span> days later.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(P(t)\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(0)=100\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(1)=100 \cdot 3 = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(2)=[100 \cdot 3] \cdot 3 =\hphantom{0000000000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(3) = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(4) = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(5) = \hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-379"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1630">Plot the data points from the table and connect them with a smooth curve.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-7-1-1.png" class="contained"></div></article><article class="task exercise-like" id="task-380"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1631">Write a function that gives the population of the colony at any time, <span class="process-math">\(t\text{,}\)</span> in days.</p></article><article class="task exercise-like" id="task-381"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1633">Graph your function from part (c) using technology. (Use the table to help you choose an appropriate window.)</p></article><article class="task exercise-like" id="task-382"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1634">Evaluate your function to find the number of bacteria present after 8 days.</p>
+<p id="p-1635">How many bacteria are present after 36 hours?</p></article></article><article class="activity project-like" id="activity-95"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Bees.</span>
+</h3>
+<div class="introduction" id="introduction-68"><p id="p-1638">A beekeeper starts a new hive with 20 insects. The population can increase in size by a factor of 1.8 every month.</p></div>
+<article class="task exercise-like" id="task-383"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1639">Write a formula for the population of bees, <span class="process-math">\(B(t)\text{,}\)</span> after <span class="process-math">\(t\)</span> months.</p></article><article class="task exercise-like" id="task-384"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1640">How many bees will there be after 4 months?</p>
+<p id="p-1641">After 6 weeks?</p></article><article class="task exercise-like" id="task-385"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1642">Graph your function using technology, then sketch the graph on the grid.</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-7-1-2.png" class="contained"></div></article></article><article class="activity project-like" id="activity-96"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Percent Increase.</span>
+</h3>
+<div class="introduction" id="introduction-69"><p id="p-1643">Imagine that you take a job that pays $1000 a month, and every year you'll get a 5% raise. You would like a formula that allows you to compute your salary, <span class="process-math">\(S(t)\text{,}\)</span> after <span class="process-math">\(t\)</span> years.</p></div>
+<article class="task exercise-like" id="task-386"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1644">Compute your new salary after working for one year:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+S(1) = \blert{\text{old salary + raise}} = 1000 + 0.05(1000) = ~~~~~~~~~~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+<p id="p-1645">Compute your salary after working for two years:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+S(2) = \blert{S(1) + \text{raise}} = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{equation*}
+</div>
+<p id="p-1646">There is a faster way to compute each year's new salary. We'll factor out 1000 from the calculation for <span class="process-math">\(S(1)\text{:}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+S(1) = 1000 + 0.05(1000) = 1000(1+0.05) = \blert{1000(1.05)} = 1050
+\end{equation*}
+</div>
+<p id="p-1647">We can compute your new salary each year by multiplying the old salary by <span class="process-math">\(1.05\text{.}\)</span> Verify that this works to compute <span class="process-math">\(S(2)\text{:}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+S(2) = 1050(1.05) = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-387"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1649">Continue the pattern: To compute your new salary every year, multiply your old salary by <span class="process-math">\(1.05\text{.}\)</span> (Round to the nearest penny.)</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(S(t)\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(0)=1000\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(1)=1000(1.05) = 1050\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(2)=1050(1.05) = 1000(1.05)^2 = \hphantom{0000000000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(3) = S(2)(1.05) = 1000(1.05)^3 =\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(4) = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(S(5) = \hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-388"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1650">The table shows that <span class="process-math">\(S(t)\)</span> follows exponential growth. What is its growth factor?</p>
+<p id="p-1651">Write a formula for your salary <span class="process-math">\(S(t)\)</span> after <span class="process-math">\(t\)</span> years.</p></article></article><article class="activity project-like" id="activity-97"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Cost of College.</span>
+</h3>
+<div class="introduction" id="introduction-70"><p id="p-1652">In 1998, the average annual cost of a public college was $10,069, and costs were climbing by 6% per year.</p></div>
+<article class="task exercise-like" id="task-389"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1653">Write a formula for <span class="process-math">\(C(t)\text{,}\)</span> the cost of one year of college <span class="process-math">\(t\)</span> years after 1998.</p></article><article class="task exercise-like" id="task-390"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1655">How much did a year of college cost in 2020?</p></article><article class="task exercise-like" id="task-391"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1656">Complete the table and sketch a graph of <span class="process-math">\(C(t)\text{.}\)</span></p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">20</td>
+<td class="c m b1 r1 l0 t1 lines">25</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(C(t)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/act-7-1-3.png" class="contained"></div></article></article><article class="activity project-like" id="activity-98"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Decay.</span>
+</h3>
+<div class="introduction" id="introduction-71"><p id="p-1657">A small coal-mining town has been losing population since 1940, when 5000 people lived there. At each census thereafter (taken at 10-year intervals) the population declined to approximately 0.90 of its earlier figure.</p></div>
+<article class="task exercise-like" id="task-392"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1658">Complete the table showing the population, <span class="process-math">\(P(t)\text{,}\)</span> of the town <span class="process-math">\(t\)</span> decades after 1940.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="l m b1 r1 l0 t1 lines"><span class="process-math">\(P(t)\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(0)=5000\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(1)=5000 \cdot 0.90 = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(2)=[5000 \cdot 0.90] \cdot 0.90 =\hphantom{0000000000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(3) = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(4) = \hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(P(5) = \hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-393"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1659">Plot the data points and connect them with a smooth curve.</p>
+<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/act-7-1-4.png" class="contained"></div></article><article class="task exercise-like" id="task-394"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1660">Write a function that gives the population of the town at any time <span class="process-math">\(t\)</span> in decades after 1940.</p></article><article class="task exercise-like" id="task-395"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1662">Graph your function from part (c) using technology. (Use the table to choose an appropriate window.)</p></article><article class="task exercise-like" id="task-396"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1664">Evaluate your function to find the population of the town in 1990.</p>
+<p id="p-1665">What was the population in 2005?</p></article></article><article class="activity project-like" id="activity-99"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Growth and Decay Laws.</span>
+</h3>
+<div class="introduction" id="introduction-72"><p id="p-1666">Write a growth or decay law to describe each population, and complete the table of values.</p></div>
+<article class="task exercise-like" id="task-397"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1667">A herd of 1000 deer grew by 4% per year.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-398"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1668">A herd of 1000 deer grew by 40% per year.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-399"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1669">A herd of 1000 deer decreased to 40% of its previous population every year.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-400"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1670">A herd of 1000 deer decreased by 40% each year.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">0</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(P\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article></article><article class="activity project-like" id="activity-100"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Comparing Linear and Exponential Decrease.</span>
+</h3>
+<div class="introduction" id="introduction-73"><p id="p-1672">In 2003, the Center for Biological Diversity filed a lawsuit against the federal government for failing to protect Alaskan sea otters. The population of sea otters, which numbered between 150,000 and 300,000 before hunting began in 1741, declined from about 20,000 in 1992 to 6000 in 2000.</p></div>
+<article class="task exercise-like" id="task-401"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1673">If the population declined linearly after 1992, what was its annual rate of decrease?</p></article><article class="task exercise-like" id="task-402"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1674">Write a formula for <span class="process-math">\(L(t)\text{,}\)</span> the number of otters <span class="process-math">\(t\)</span> years after 1992 under linear decline.</p></article><article class="task exercise-like" id="task-403"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1675">If the population declined exponentially after 1992, a formula for the number of otters  years after 1992 is <span class="process-math">\(E(t) = 20,000 b^t\text{.}\)</span> Use the population in 2000 to write an equation and solve for <span class="process-math">\(b\text{.}\)</span></p></article><article class="task exercise-like" id="task-404"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1676">What was the annual decay factor for exponential decline in the otter population? What was its annual percent decrease?</p></article><article class="task exercise-like" id="task-405"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1677">Predict the number of sea otters in 2010 under each assumption, linear or exponential decline.</p></article><article class="task exercise-like" id="task-406"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-1678">Graph both functions,<span class="process-math">\(L(t)\)</span> and <span class="process-math">\(E(t)\text{,}\)</span> on the same grid.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-7-1-5.png" class="contained"></div></article></article><section class="subsection" id="subsection-62"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.1.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1679" class="decimal">
+<li id="li-644"><p id="p-1680">In Activity 1, how can you tell from the table of values that the bacteria population is increasing exponentially?</p></li>
+<li id="li-645"><p id="p-1681">In Activity 4, what is the annual growth factor in the cost of a year of college?</p></li>
+<li id="li-646"><p id="p-1682">In Activity 5, what was the decay factor for the town's population each decade? What was the percent decrease in population?</p></li>
+<li id="li-647"><p id="p-1683">If the population of the town in Activity 5 decreased by 500 in the first decade, did it also decrease by 500 in the second decade?  Why or why not?</p></li>
+</ol></section><section class="subsection" id="subsection-63"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.1.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1684">In this Lesson, we worked on the following skills and goals related to exponential growth and decay:</p>
+<ul id="p-1685" class="disc">
+<li id="li-648"><p id="p-1686">Calculate percent increase or decrease</p></li>
+<li id="li-649"><p id="p-1687">Write a formula for exponential growth or decay</p></li>
+<li id="li-650"><p id="p-1688">Evaluate an exponential growth or decay function</p></li>
+<li id="li-651"><p id="p-1689">Find the growth factor or initial value</p></li>
+<li id="li-652"><p id="p-1690">Solve for percent increase or decrease</p></li>
+<li id="li-653"><p id="p-1691">Compare linear and exponential growth</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linear Inequalities</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-2-4.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="ch3.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-2-4.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch2.html" title="Up">Up</a><a class="next-button button toolbar-item" href="ch3.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="active">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-2-5"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.5</span> <span class="title">Linear Inequalities</span>
+</h2>
+<article class="activity project-like" id="activity-24"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Graphing a Linear Inequality.</span>
+</h3>
+<div class="introduction" id="introduction-17"><p id="p-439">How is an inequality in two variables different from an equation? How are the solutions different? How are their graphs different? (Remember that a graph is just a picture of all the solutions.)</p></div>
+<article class="task exercise-like" id="task-97"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-440">Graph the solutions to the linear inequality</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+3x - y \le -2
+\end{equation*}
+</div>
+<p id="p-441">We begin by graphing the equation <span class="process-math">\(3x - y = -2\text{.}\)</span> This line will be the boundary line for our solution set.</p>
+<p id="p-442">Write the equation <span class="process-math">\(3x - y = -2\)</span> in slope-intercept form.</p></article><article class="task exercise-like" id="task-98"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
+<div class="sbspanel top" style="width:43.2432432432432%;">
+<p id="p-443">Use the slope-intercept method to graph the line.</p>
+<p id="p-444"><span class="process-math">\(b = \)</span></p>
+<p id="p-445"><span class="process-math">\(m = \dfrac{\Delta y}{\Delta x} = \)</span></p>
+</div>
+<div class="sbspanel top" style="width:48.6486486486486%;"><img src="external/act-2-5-2.png" class="contained"></div>
+</div></div></article><article class="task exercise-like" id="task-99"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-446">Next we'll use a test point to find out where the solutions of the inequality are. We can use any point for a test point, as long as it does not lie on the line! We'll use <span class="process-math">\((1,4)\text{.}\)</span> Locate this point on your graph. Use algebra to decide whether <span class="process-math">\((1,4)\)</span> is a solution of the inequality <span class="process-math">\(3x - y \le -2\text{.}\)</span></p></article><article class="task exercise-like" id="task-100"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-447">Which side of the line includes all the solutions of the inequality? Shade that side of the line. Is the line itself included in the solution set?</p></article><article class="task exercise-like" id="task-101"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-448">Can you suggest an easier test point instead of <span class="process-math">\((1,4)\text{?}\)</span></p></article><article class="task exercise-like" id="task-102"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-449">Graph the solutions to each inequality.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-450">1. <span class="process-math">\(~~y - 3x \lt 6\)</span></p>
+<img src="external/act-2-5-2.png" class="contained">
+</div>
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-451">2. <span class="process-math">\(~~y \gt \dfrac{-3}{2} x\)</span></p>
+<img src="external/act-2-5-2.png" class="contained">
+</div>
+</div></div></article></article><article class="activity project-like" id="activity-25"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Systems of Inequalities.</span>
+</h3>
+<div class="introduction" id="introduction-18"><p id="p-452">To graph the solution set of a system, graph each inequality separately, one at a time. Shade each solution region lightly (or use different colors) so that you can see their intersection.</p></div>
+<article class="task exercise-like" id="task-103"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;">
+<p id="p-454">Graph each inequality in the system:</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-9">
+\begin{gather*}
+5x + 4y \lt 40\\
+-3x + 4y \lt 12\\
+x \lt 6,~ y \gt 2
+\end{gather*}
+</div>
+</div>
+<div class="sbspanel top" style="width:50%;"><img src="external/act-2-5-2.png" class="contained"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-455">Inequality 1: <span class="process-math">\(~~5x + 4y \lt 40\)</span></p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+</tr>
+</table>
+<p id="p-456">Test Point:</p>
+</div>
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-457">Inequality 2: <span class="process-math">\(~~-3x + 4y \lt 12\)</span></p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+</tr>
+</table>
+<p id="p-458">Test Point:</p>
+</div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-459">Inequality 3: <span class="process-math">\(~~x \lt 6\)</span></p>
+<p id="p-460">Remember that <span class="process-math">\(x=6\)</span> is a vertical line. Which side should you shade?</p>
+</div>
+<div class="sbspanel top" style="width:47.3684210526316%;">
+<p id="p-461">Inequality 4: <span class="process-math">\(~~y \gt 2\)</span></p>
+<p id="p-462">Remember that <span class="process-math">\(y=2\)</span> is a horizontal line. Which side should you shade?</p>
+</div>
+</div></div></article><article class="task exercise-like" id="task-104"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-463">Outline the intersection of the four solution sets. Draw dots at the vertices, or corners, of the intersection region. (There are four vertices.)</p></article></article><article class="activity project-like" id="activity-26"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.5.3</span><span class="period">.</span><span class="space"> </span><span class="title">Finding the Vertices.</span>
+</h3>
+<article class="task exercise-like" id="task-105"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-464">Use a system of equations to find the coordinates of each of the vertices of the solution set above.</p>
+<p id="p-465">Intersection of Line 1 and Line 2:</p>
+<p id="p-466">Intersection of Line 1 and Line 3:</p>
+<p id="p-467">Intersection of Line 2 and Line 4:</p>
+<p id="p-468">Intersection of Line 3 and Line 4:</p></article><article class="task exercise-like" id="task-106"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:42.1052631578947%;">
+<p id="p-471">Graph the solutions to the system of inequalities, and find the vertices of the solution set.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-10">
+\begin{gather*}
+2y-x \lt 2\\
+x+y \le 4
+\end{gather*}
+</div>
+</div>
+<div class="sbspanel top" style="width:52.6315789473684%;"><img src="external/act-2-5-2.png" class="contained"></div>
+</div></div></article><article class="task exercise-like" id="task-107"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel top" style="width:42.1052631578947%;">
+<p id="p-472">Graph the solutions to the system of inequalities, and find the vertices of the solution set.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-11">
+\begin{gather*}
+2y+3x \ge 6\\
+2y+x \le 10\\
+x \ge 0,~~y \ge 0
+\end{gather*}
+</div>
+</div>
+<div class="sbspanel top" style="width:52.6315789473684%;"><img src="external/act-2-5-2.png" class="contained"></div>
+</div></div>
+<p id="p-473">How do the last two inequalities affect the solution set?</p></article></article><section class="subsection" id="subsection-21"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-474" class="decimal">
+<li id="li-161"><p id="p-475">What is the difference between the graph of an equation in two variables and an inequality in two variables?</p></li>
+<li id="li-162"><p id="p-476">When is it wrong to use <span class="process-math">\((0,0)\)</span> as a test point?  What should you do instead?</p></li>
+<li id="li-163"><p id="p-477">What does it mean to shade the intersection of two regions?</p></li>
+<li id="li-164"><p id="p-478">What portion of the Cartesian plane is described by the inequalities <span class="process-math">\(x \gt 0\)</span> and <span class="process-math">\(y \gt 0\text{?}\)</span></p></li>
+</ol></section><section class="subsection" id="subsection-22"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.5.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-479">In this Lesson, we worked on the following skills and goals related to linear inequalities:</p>
+<ul id="p-480" class="disc">
+<li id="li-165"><p id="p-481">Graph the solution set for an inequality in two variables</p></li>
+<li id="li-166"><p id="p-482">Graph the solution set for a system of inequalities</p></li>
+<li id="li-167"><p id="p-483">Find the vertices of the solution set</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

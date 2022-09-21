@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Logarithmic Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch10.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch10.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-10-2.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch10.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch10.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-10-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="active">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-10-1"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">10.1</span> <span class="title">Logarithmic Functions</span>
+</h2>
+<article class="activity project-like" id="activity-159"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Inverse Functions.</span>
+</h3>
+<div class="introduction" id="introduction-101">
+<p id="p-2644">For each of the functions shown below,</p>
+<ol id="p-2645" class="decimal">
+<li id="li-955"><p id="p-2646">Complete the table of values, then make a table of values for the inverse function.</p></li>
+<li id="li-956"><p id="p-2647">Sketch the inverse on the same graph as the function.</p></li>
+<li id="li-957"><p id="p-2648">For which of these functions is the inverse also a function?</p></li>
+</ol>
+</div>
+<article class="task exercise-like" id="task-634"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2649"><span class="process-math">\(y=x^2\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-1.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2650">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2651">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article><article class="task exercise-like" id="task-635"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2652"><span class="process-math">\(y=x^3\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-2.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2653">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2654">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article><article class="task exercise-like" id="task-636"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2655"><span class="process-math">\(y=\sqrt{x}\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-3.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2656">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(6\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(9\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2657">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article><article class="task exercise-like" id="task-637"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2658"><span class="process-math">\(y=\sqrt[3]{x}\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-4.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2659">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-8\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(8\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2660">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article><article class="task exercise-like" id="task-638"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2661"><span class="process-math">\(y=\dfrac{1}{x}\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-5.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2662">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2663">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article><article class="task exercise-like" id="task-639"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-2664"><span class="process-math">\(y=\dfrac{1}{x^2}\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-10-1-6.png" class="contained"></div>
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-2665">Table for function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(-\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+<p id="p-2666">Table for inverse function:</p>
+<table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(y\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table>
+</div>
+</div></div></article></article><article class="activity project-like" id="activity-160"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Making a Choice.</span>
+</h3>
+<div class="introduction" id="introduction-102"><p id="p-2667">Hick's Law says that the time, <span class="process-math">\(T\text{,}\)</span> required for a person to make a choice from a list or menu of <span class="process-math">\(n\)</span> items is proportional to <span class="process-math">\(\log_2 {n+1}\text{.}\)</span> A classic study measured the amount of time shoppers took to choose a flavor of jam from a display of 6 flavors and from a display of 24 flavors. Hick's Law is used by restaurants and web-designers in making menus, and by survey companies in designing multiple-choice questionaires.</p></div>
+<article class="task exercise-like" id="task-640"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2668">Graciela is choosing an AirBnB for her next vacation. If there are <span class="process-math">\(n\)</span> choices available, it will take her <span class="process-math">\(T\)</span> minutes to make her choice, where</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+T=5 \log_2 {n+1}
+\end{equation*}
+</div>
+<p class="continuation">Complete the table and make a graph.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel fixed-width top" style="width:41.025641025641%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(n\)</span></td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">15</td>
+<td class="c m b1 r1 l0 t1 lines">31</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(T\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="sbspanel top" style="width:56.4102564102564%;"><img src="external/act-10-1-7.png" class="contained"></div>
+</div></div></article><article class="task exercise-like" id="task-641"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2670">If Graciela has 30 minutes to spend choosing an AirBnB, how many can she consider?</p></article></article><article class="activity project-like" id="activity-161"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">A Log Function.</span>
+</h3>
+<div class="introduction" id="introduction-103"><p id="p-2671">In this Activity we compare the graphs of <span class="process-math">\(~y=\sqrt{x}~\)</span>  and <span class="process-math">\(~y=\log_2{x}~\text{.}\)</span></p></div>
+<article class="task exercise-like" id="task-642"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2673">Use your calculator to complete the table. Use the formula <span class="process-math">\(~\log_2{x} = \dfrac{\log{x}}{\log{2}}\)</span> when needed to evaluate <span class="process-math">\(\log_2{x}\text{.}\)</span> Round values to tenths.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel fixed-width top" style="width:42.1052631578947%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\sqrt{x}\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(\log_2{x}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="sbspanel top" style="width:52.6315789473684%;"><img src="external/act-10-1-8.png" class="contained"></div>
+</div></div></article><article class="task exercise-like" id="task-643"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2674">Plot both functions on the grid.</p></article><article class="task exercise-like" id="task-644"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2675">At which two points do the graphs intersect?</p>
+<p id="p-2676">Which graph has larger function values in the long run?</p></article></article><article class="activity project-like" id="activity-162"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Logarithmic Equations.</span>
+</h3>
+<article class="task exercise-like" id="task-645"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2677">What is a log equation?</p></article><article class="task exercise-like" id="task-646"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2679">Follow the steps to solve the equation <span class="process-math">\(~\log_2 {(3x-1)} = 5\)</span></p>
+<p id="p-2680"><span class="process-math">\(\blert{\text{Convert to exponential form.}}\)</span></p>
+<p id="p-2681"><span class="process-math">\(\blert{\text{Solve the new equation.}}\)</span></p>
+<p id="p-2682"><span class="process-math">\(\blert{\text{Check the solution.}}\)</span></p></article><article class="task exercise-like" id="task-647"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2683">To solve more complicated log equations, we first use the log properties to combine any expressions containing logs into a single logarithm.</p>
+<p id="p-2685">Follow the steps to solve <span class="process-math">\(~~\log_4 {(x+8)} + \log_4 {(x+2)} = 2\)</span></p>
+<p id="p-2686"><span class="process-math">\(\blert{\text{Use log properties to write the left side as a single log.}}\)</span></p>
+<p id="p-2687"><span class="process-math">\(\blert{\text{Convert the equation to exponential form.}}\)</span></p>
+<p id="p-2688"><span class="process-math">\(\blert{\text{Solve the new equation.}}\)</span></p>
+<p id="p-2689"><span class="process-math">\(\blert{\text{Don't forget to check for extraneous solutions!}}\)</span></p></article></article><section class="subsection" id="subsection-92"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">10.1.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-2690" class="decimal">
+<li id="li-958"><p id="p-2691">If you double the number of choices under Hick's Law in Activity 1, approximately how much more time will you need to make your choice?</p></li>
+<li id="li-959"><p id="p-2692">Suppose you don't have a calculator handy. How can you estimate the value of <span class="process-math">\(\log_2 {50}\text{?}\)</span></p></li>
+<li id="li-960"><p id="p-2693">How do we check for extraneous solutions when solving a logarithmic equation?</p></li>
+<li id="li-961"><p id="p-2694">How might you use the properties of logarithms when solving a logarithmic equation?</p></li>
+</ol></section><section class="subsection" id="subsection-93"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">10.1.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-2695">In this Lesson, we worked on the following skills and goals related to logarithmic functions:</p>
+<ul id="p-2696" class="disc">
+<li id="li-962"><p id="p-2697">Use a graph of <span class="process-math">\(f\)</span> to find values of its inverse</p></li>
+<li id="li-963"><p id="p-2698">Evaluate logarithmic functions</p></li>
+<li id="li-964"><p id="p-2699">Graph logarithmic functions</p></li>
+<li id="li-965"><p id="p-2700">Solve logarithmic equations</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

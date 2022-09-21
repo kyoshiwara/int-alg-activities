@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Working with Radicals</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-6-3.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-6-5.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-6-3.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-6-5.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="active">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-6-4"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">6.4</span> <span class="title">Working with Radicals</span>
+</h2>
+<article class="activity project-like" id="activity-88"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Simplifying Radicals.</span>
+</h3>
+<div class="introduction" id="introduction-62">
+<p id="p-1465">We use the product and quotient rules for radicals to simplify radicals. To "simplify" a radical does not mean to find a decimal approximation using a calculator! The simplified expression is an exact equivalent for the original radical, not an approximation. For example,</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-20">
+\begin{gather*}
+\sqrt{12} = \sqrt{4 \cdot 3} = \sqrt{4}~ \sqrt{3} = 2\sqrt{3}\\
+\sqrt[3]{40} = \sqrt[3]{8 \cdot 5} = \sqrt[3]{8}~ \sqrt[3]{5} = 2\sqrt[3]{5}
+\end{gather*}
+</div>
+<p class="continuation">You can use your calculator to verify that the simplified expression has the same decimal approximation as the original radical.</p>
+</div>
+<article class="task exercise-like" id="task-355"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1466">Simplify the radicals. Look for a perfect square or a perfect cube that divides evenly into the radicand.</p>
+<ol id="p-1467" class="decimal cols2">
+<li id="li-545"><p id="p-1468"><span class="process-math">\(\displaystyle \sqrt{45}\)</span></p></li>
+<li id="li-546"><p id="p-1469"><span class="process-math">\(\displaystyle \sqrt{200}\)</span></p></li>
+<li id="li-547"><p id="p-1470"><span class="process-math">\(\displaystyle \sqrt{48}\)</span></p></li>
+<li id="li-548"><p id="p-1471"><span class="process-math">\(\displaystyle \sqrt[3]{81}\)</span></p></li>
+<li id="li-549"><p id="p-1472"><span class="process-math">\(\displaystyle \sqrt[3]{72}\)</span></p></li>
+<li id="li-550"><p id="p-1473"><span class="process-math">\(\displaystyle \sqrt[3]{250}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-356"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1474">Fill in the blanks.</p>
+<ol id="p-1475" class="decimal">
+<li id="li-551"><p id="p-1476"><span class="process-math">\(\sqrt{x^6} = \)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> because (<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>)<span class="process-math">\(^2 = x^6\)</span></p></li>
+<li id="li-552"><p id="p-1477"><span class="process-math">\(\sqrt[3]{x^{15}} = \)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> because (<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>)<span class="process-math">\(^3 = x^{15}\)</span></p></li>
+<li id="li-553"><p id="p-1478"><span class="process-math">\(\sqrt[4]{x^{12}} = \)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> because (<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>)<span class="process-math">\(^4 = x^{12}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-357"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1479">Simplify the radicals.</p>
+<ol id="p-1480" class="decimal cols2">
+<li id="li-554"><p id="p-1481"><span class="process-math">\(\displaystyle \sqrt{81x^8}\)</span></p></li>
+<li id="li-555"><p id="p-1482"><span class="process-math">\(\displaystyle \sqrt{16x^{16}}\)</span></p></li>
+<li id="li-556"><p id="p-1483"><span class="process-math">\(\displaystyle \sqrt[3]{8x^9}\)</span></p></li>
+<li id="li-557"><p id="p-1484"><span class="process-math">\(\displaystyle \sqrt[4]{x^{20}}\)</span></p></li>
+<li id="li-558"><p id="p-1485"><span class="process-math">\(\displaystyle \sqrt{\dfrac{9a^8}{16b^4}}\)</span></p></li>
+<li id="li-559"><p id="p-1486"><span class="process-math">\(\displaystyle \sqrt[3]{\dfrac{-27y^9}{125z^6}}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-358"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1487">To simplify the square root of an odd power of <span class="process-math">\(x\text{,}\)</span> we factor off <span class="process-math">\(x\text{.}\)</span> For example,</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\sqrt{x^{13}} = \sqrt{x^{12} \cdot x} = \sqrt{x^{12}} \cdot \sqrt{x} = x^6 \sqrt{x}
+\end{equation*}
+</div>
+<p class="continuation">Similarly, for cube roots, we factor out a power whose exponent is a multiple of 3.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\sqrt[3]{x^8} = \sqrt[3]{x^6 \cdot x^2} = \sqrt[3]{x^6} \cdot \sqrt[3]{x^2} = x^2 \sqrt[3]{x^2}
+\end{equation*}
+</div>
+<ol id="p-1489" class="decimal cols2">
+<li id="li-560"><p id="p-1490"><span class="process-math">\(\displaystyle \sqrt{12t^5}\)</span></p></li>
+<li id="li-561"><p id="p-1491"><span class="process-math">\(\displaystyle \sqrt{27w^9}\)</span></p></li>
+<li id="li-562"><p id="p-1492"><span class="process-math">\(\displaystyle \sqrt{80a^5 b^4}\)</span></p></li>
+<li id="li-563"><p id="p-1493"><span class="process-math">\(\displaystyle \sqrt{72b^{16}c^{15}}\)</span></p></li>
+<li id="li-564"><p id="p-1494"><span class="process-math">\(\displaystyle \sqrt[3]{32 m^{11}}\)</span></p></li>
+<li id="li-565"><p id="p-1495"><span class="process-math">\(\displaystyle \sqrt[3]{64 w^4 z^2}\)</span></p></li>
+<li id="li-566"><p id="p-1496"><span class="process-math">\(\displaystyle \sqrt[3]{81 a^{12} b^8}\)</span></p></li>
+<li id="li-567"><p id="p-1497"><span class="process-math">\(\displaystyle \sqrt[3]{40x^{14} y^9}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-89"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Operations on Radicals.</span>
+</h3>
+<div class="introduction" id="introduction-63">
+<p id="p-1498">We can combine the radicands in products or quotients of radicals as long as both radicals have the same index, but we cannot combine radicands in sums or differences. You can check that:</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-21">
+\begin{align*}
+\sqrt{12}~\sqrt{3} = \sqrt{36}~~~~~~~~\amp \text{and}~~~~~~~~ \dfrac{\sqrt{12}}{\sqrt{3}} = \sqrt{4}\\
+\text{but}~~\sqrt{12}+\sqrt{3} \not= \sqrt{15}~~~~~~~~\amp \text{and}~~~~~~~~ \sqrt{12}-\sqrt{3} \not= \sqrt{9}
+\end{align*}
+</div>
+</div>
+<article class="task exercise-like" id="task-359"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1500">Simplify the following products and quotients.</p>
+<ol id="p-1501" class="decimal cols2">
+<li id="li-568"><p id="p-1502"><span class="process-math">\(\displaystyle \sqrt[3]{4x^2}~\sqrt[3]{16x}\)</span></p></li>
+<li id="li-569"><p id="p-1503"><span class="process-math">\(\displaystyle \sqrt[4]{2m^3}~\sqrt[4]{8m}\)</span></p></li>
+<li id="li-570"><p id="p-1504"><span class="process-math">\(\displaystyle \dfrac{\sqrt{18xy^3}}{\sqrt{2y}}\)</span></p></li>
+<li id="li-571"><p id="p-1505"><span class="process-math">\(\displaystyle \dfrac{\sqrt[3]{200a^8}}{\sqrt[3]{5a^2}}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-360"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1506">True or false?</p>
+<ol id="p-1507" class="decimal cols2">
+<li id="li-572"><p id="p-1508"><span class="process-math">\(\sqrt{7} + \sqrt{7} = \sqrt{14}~\text{?}\)</span></p></li>
+<li id="li-573"><p id="p-1509"><span class="process-math">\(\sqrt{7} + \sqrt{7} = 2\sqrt{7}~\text{?}\)</span></p></li>
+<li id="li-574"><p id="p-1510"><span class="process-math">\(\sqrt{7} - \sqrt{5} = \sqrt{2}~\text{?}\)</span></p></li>
+<li id="li-575"><p id="p-1511"><span class="process-math">\(6\sqrt{5} - 4\sqrt{5} = 2\sqrt{5}~\text{?}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-361"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1512">Simplify and combine like terms.</p>
+<ol id="p-1513" class="decimal cols2">
+<li id="li-576"><p id="p-1514"><span class="process-math">\(\displaystyle 5\sqrt{6} - 2\sqrt{6} + 6\sqrt{2}~\)</span></p></li>
+<li id="li-577"><p id="p-1515"><span class="process-math">\(\displaystyle 8\sqrt[3]{a^2} - 5\sqrt[3]{a} - 5\sqrt[3]{a^2}~\)</span></p></li>
+<li id="li-578"><p id="p-1516"><span class="process-math">\(\displaystyle 2\sqrt{75} + 3\sqrt{48} \)</span></p></li>
+<li id="li-579"><p id="p-1517"><span class="process-math">\(\displaystyle \sqrt[3]{81} + \sqrt[3]{24} - 3\sqrt[3]{3}~\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-362"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1518">Simplify the products. Use the distributive law when appropriate.</p>
+<ol id="p-1519" class="decimal cols2">
+<li id="li-580"><p id="p-1520"><span class="process-math">\(\displaystyle (3\sqrt{2})(2\sqrt{5})\)</span></p></li>
+<li id="li-581"><p id="p-1521"><span class="process-math">\(\displaystyle (3\sqrt{5})(2\sqrt{5})\)</span></p></li>
+<li id="li-582"><p id="p-1522"><span class="process-math">\(\displaystyle (2\sqrt{15})(3\sqrt{6}) \)</span></p></li>
+<li id="li-583"><p id="p-1523"><span class="process-math">\(\displaystyle 5(2\sqrt{3} - \sqrt{5})\)</span></p></li>
+<li id="li-584"><p id="p-1524"><span class="process-math">\(\displaystyle 4\sqrt{2}(4\sqrt{3} + 2\sqrt{6})\)</span></p></li>
+<li id="li-585"><p id="p-1525"><span class="process-math">\(\displaystyle (3\sqrt{x} - \sqrt{5})(2\sqrt{x} + 3\sqrt{5})\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-90"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.4.3</span><span class="period">.</span><span class="space"> </span><span class="title">Rationalizing the Denominator.</span>
+</h3>
+<article class="task exercise-like" id="task-363"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1526">Simplify by rationalizing the denominator.</p>
+<ol id="p-1527" class="decimal cols2">
+<li id="li-586"><p id="p-1528"><span class="process-math">\(\displaystyle \dfrac{10}{\sqrt{5}} \)</span></p></li>
+<li id="li-587"><p id="p-1529"><span class="process-math">\(\displaystyle \dfrac{6}{\sqrt{12}}\)</span></p></li>
+<li id="li-588"><p id="p-1530"><span class="process-math">\(\displaystyle \sqrt{\dfrac{27x}{20}}\)</span></p></li>
+<li id="li-589"><p id="p-1531"><span class="process-math">\(\displaystyle \dfrac{6\sqrt{2}}{3\sqrt{v}}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-364"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1532">Multiply each binomial by its conjugate.</p>
+<ol id="p-1533" class="decimal">
+<li id="li-590"><p id="p-1534"><span class="process-math">\(\displaystyle (3 + \sqrt{7})(3 - \sqrt{7})\)</span></p></li>
+<li id="li-591"><p id="p-1535"><span class="process-math">\(\displaystyle (\sqrt{6} - \sqrt{3})(\sqrt{6} + \sqrt{3})\)</span></p></li>
+</ol>
+<p id="p-1536">Do you see a short-cut for the product? Hint: What is the product <span class="process-math">\((a+b)(a-b)~\text{?}\)</span></p></article><article class="task exercise-like" id="task-365"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1538">Use a conjugate to rationalize the denominator.</p>
+<ol id="p-1539" class="decimal cols2">
+<li id="li-592"><p id="p-1540"><span class="process-math">\(\displaystyle \dfrac{\sqrt{3}}{\sqrt{3} - \sqrt{2}} \)</span></p></li>
+<li id="li-593"><p id="p-1541"><span class="process-math">\(\displaystyle \dfrac{y}{\sqrt{5}-y}\)</span></p></li>
+<li id="li-594"><p id="p-1542"><span class="process-math">\(\displaystyle \dfrac{\sqrt{6} - 3}{2 - \sqrt{6}}\)</span></p></li>
+<li id="li-595"><p id="p-1543"><span class="process-math">\(\displaystyle \dfrac{\sqrt{x} + \sqrt{y}}{\sqrt{x} - \sqrt{y}}\)</span></p></li>
+</ol></article></article><section class="subsection" id="subsection-58"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1544" class="decimal">
+<li id="li-596"><p id="p-1545">Explain the difference between simplifying a radical and evaluating a radical.</p></li>
+<li id="li-597"><p id="p-1546">Explain how to simplify a cube root.  List the cubes of the first six whole numbers.</p></li>
+<li id="li-598"><p id="p-1547">Compare the rules for adding radicals and multiplying radicals.  Illustrate by computing <span class="process-math">\(~4\sqrt[3]{2x^2} + 3\sqrt[3]{2x^2}~\)</span>    and <span class="process-math">\(~4\sqrt[3]{2x^2} \cdot 3\sqrt[3]{2x^2}~\text{.}\)</span></p></li>
+<li id="li-599"><p id="p-1548">Explain why we use a conjugate to rationalize a binomial denominator.</p></li>
+</ol></section><section class="subsection" id="subsection-59"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1549">In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<ul id="p-1550" class="disc">
+<li id="li-600"><p id="p-1551">Simplifying radicals</p></li>
+<li id="li-601"><p id="p-1552">Adding or subtracting like radicals</p></li>
+<li id="li-602"><p id="p-1553">Simplifying products or quotients of radicals</p></li>
+<li id="li-603"><p id="p-1554">Rationalizing the denominator</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

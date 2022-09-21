@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Integer Exponents</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch6.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-6-2.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch6.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-6-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="active">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-6-1"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">6.1</span> <span class="title">Integer Exponents</span>
+</h2>
+<article class="activity project-like" id="activity-78"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Power Functions.</span>
+</h3>
+<article class="task exercise-like" id="task-307"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1255">State the values of <span class="process-math">\(k\)</span> and <span class="process-math">\(p\)</span> for the two examples below.</p>
+<ol id="p-1256" class="decimal">
+<li id="li-436"><p id="p-1257"><span class="process-math">\(V=f(r) = \frac{4}{3} \pi r^3,~~\)</span>  the volume of a sphere as a function of its radius</p></li>
+<li id="li-437"><p id="p-1258"><span class="process-math">\(L=f(T)= 0.8125 T^2,~~\)</span> the length of a pendulum as a function of its period</p></li>
+</ol></article><article class="task exercise-like" id="task-308"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1259">Write each expression as a power function using negative exponents.  State the values of <span class="process-math">\(k\)</span> and <span class="process-math">\(p\text{.}\)</span></p>
+<ol id="p-1260" class="decimal">
+<li id="li-438"><p id="p-1261"><span class="process-math">\(\displaystyle h(s)=\dfrac{9}{s^3}\)</span></p></li>
+<li id="li-439"><p id="p-1262"><span class="process-math">\(\displaystyle f(v)=\dfrac{3}{8v^6}\)</span></p></li>
+<li id="li-440"><p id="p-1263"><span class="process-math">\(\displaystyle g(t)=\dfrac{1}{(5t)^4}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-79"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">The Trebuchet.</span>
+</h3>
+<div class="introduction" id="introduction-56"><p id="p-1264">In the middle ages in Europe, castles were used as defensive strongholds. An attacking force would build a huge catapult called a trebuchet to hurl rocks and scrap metal inside the castle walls. The engineers could adjust its range by varying the mass (or weight) of the missiles. The mass, <span class="process-math">\(m\text{,}\)</span> of the projectile is inversely proportional to the square of the distance, <span class="process-math">\(d\text{,}\)</span> to the target.</p></div>
+<article class="task exercise-like" id="task-309"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1265">Use a negative exponent to write a formula for <span class="process-math">\(m\)</span> as a function of <span class="process-math">\(d\text{,}\)</span> <span class="process-math">\(m=f(d)\text{.}\)</span></p></article><article class="task exercise-like" id="task-310"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1266">The engineers test the trebuchet with a 30-pound lead ball, which lands 948 yards away. Find the constant of proportionality, and rewrite your formula for <span class="process-math">\(m\text{.}\)</span> (Round your value of <span class="process-math">\(k\)</span> to the nearest million.)</p></article><article class="task exercise-like" id="task-311"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1268">Graph  <span class="process-math">\(m=f(d)\text{.}\)</span></p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-6-1-1.png" class="contained"></div></article><article class="task exercise-like" id="task-312"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1269">The trebuchet is 500 yards from the courtyard within the castle. What size missile will hit the target?</p></article><article class="task exercise-like" id="task-313"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1270">The largest missile the trebuchet can handle is 300 pounds. If the attackers would like to hurl a 300-pound rock at the castle, how close must they bring their trebuchet?</p></article></article><article class="activity project-like" id="activity-80"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Radar.</span>
+</h3>
+<div class="introduction" id="introduction-57"><p id="p-1272">Airplanes use radar to detect the distances to other objects. A radar unit transmits a pulse of energy which bounces off a distant object, and the echo of the pulse returns to the sender.  The power, <span class="process-math">\(P\text{,}\)</span> of the returning echo is inversely proportional to the fourth power of the distance, <span class="process-math">\(d\text{,}\)</span> to the object.</p></div>
+<article class="task exercise-like" id="task-314"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1274">A radar operator receives an echo of <span class="process-math">\(5 \times 10^{-10}\)</span> watt from an aircraft 2 nautical miles away. Express the power of the echo received in picowatts. (1 picowatt <span class="process-math">\(= 10^{-12}\)</span> watt.)</p></article><article class="task exercise-like" id="task-315"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1275">Write a function that expresses <span class="process-math">\(P\)</span> in terms of <span class="process-math">\(d\)</span> using negative exponents. Use picowatts for the units of power.</p></article><article class="task exercise-like" id="task-316"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1276">Complete the table of values for the power of the echo received from objects at various distances.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">
+<span class="process-math">\(d\)</span> (nautical miles)</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(P\)</span> (picowatts)</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-317"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1277">Sketch a graph of <span class="process-math">\(P\)</span> as a function of <span class="process-math">\(d\text{.}\)</span> Use units of picowatts on the vertical axis.</p>
+<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/act-6-1-2.png" class="contained"></div></article><article class="task exercise-like" id="task-318"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1278">Radar units can typically detect signals as low as <span class="process-math">\(10^{-13}\)</span> watt.  How far away is an aircraft whose echo is <span class="process-math">\(10^{-13}\)</span> watt? (Hint: Convert <span class="process-math">\(10^{-13}\)</span> watt to picowatts.)</p></article></article><article class="activity project-like" id="activity-81"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Using the Laws of Exponents.</span>
+</h3>
+<article class="task exercise-like" id="task-319"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1280">Simplify if possible using the first law.</p>
+<ol id="p-1281" class="decimal cols2">
+<li id="li-441"><p id="p-1282"><span class="process-math">\(\displaystyle x^6 \cdot x^{-3}\)</span></p></li>
+<li id="li-442"><p id="p-1283"><span class="process-math">\(\displaystyle x^{-6} \cdot x^3\)</span></p></li>
+<li id="li-443"><p id="p-1284"><span class="process-math">\(\displaystyle x^{-6} \cdot x^{-3}\)</span></p></li>
+<li id="li-444"><p id="p-1285"><span class="process-math">\(\displaystyle x^3 + x^{-6}\)</span></p></li>
+<li id="li-445"><p id="p-1286"><span class="process-math">\(\displaystyle x^{-3} - x^{-6}\)</span></p></li>
+<li id="li-446"><p id="p-1287"><span class="process-math">\(\displaystyle x^3 + x^{-3}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-320"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1288">Simplify if possible using the second law.</p>
+<ol id="p-1289" class="decimal cols2">
+<li id="li-447"><p id="p-1290"><span class="process-math">\(\displaystyle \dfrac{x^6}{x^3}\)</span></p></li>
+<li id="li-448"><p id="p-1291"><span class="process-math">\(\displaystyle \dfrac{x^{-6}}{x^3}\)</span></p></li>
+<li id="li-449"><p id="p-1292"><span class="process-math">\(\displaystyle \dfrac{x^6}{x^{-3}}\)</span></p></li>
+<li id="li-450"><p id="p-1293"><span class="process-math">\(\displaystyle \dfrac{x^{-6}}{x^{-3}}\)</span></p></li>
+<li id="li-451"><p id="p-1294"><span class="process-math">\(\displaystyle \dfrac{x^3}{x^{-6}}\)</span></p></li>
+<li id="li-452"><p id="p-1295"><span class="process-math">\(\displaystyle \dfrac{x^{-3}}{x^{-6}}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-321"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1296">Simplify if possible using the third law.</p>
+<ol id="p-1297" class="decimal cols2">
+<li id="li-453"><p id="p-1298"><span class="process-math">\(\displaystyle (x^6)^{-3}\)</span></p></li>
+<li id="li-454"><p id="p-1299"><span class="process-math">\(\displaystyle (x^{-6})^3\)</span></p></li>
+<li id="li-455"><p id="p-1300"><span class="process-math">\(\displaystyle (x^{-6})^{-3}\)</span></p></li>
+<li id="li-456"><p id="p-1301"><span class="process-math">\(\displaystyle (-x)^{-3}\)</span></p></li>
+<li id="li-457"><p id="p-1302"><span class="process-math">\(\displaystyle (-x)^{-6}\)</span></p></li>
+<li id="li-458"><p id="p-1303"><span class="process-math">\(\displaystyle (-x^3)^{-6}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-322"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1304">Simplify if possible using the fourth and fifth laws.</p>
+<ol id="p-1305" class="decimal cols2">
+<li id="li-459"><p id="p-1306"><span class="process-math">\(\displaystyle (2x)^{-3}\)</span></p></li>
+<li id="li-460"><p id="p-1307"><span class="process-math">\(\displaystyle (\dfrac{2}{x})^{-3}\)</span></p></li>
+<li id="li-461"><p id="p-1308"><span class="process-math">\(\displaystyle (2x^4)^{-3}\)</span></p></li>
+<li id="li-462"><p id="p-1309"><span class="process-math">\(\displaystyle (2x^{-4})^3\)</span></p></li>
+<li id="li-463"><p id="p-1310"><span class="process-math">\(\displaystyle (2x^{-4})^{-3}\)</span></p></li>
+<li id="li-464"><p id="p-1311"><span class="process-math">\(\displaystyle (-2x^{-4})^{-3}\)</span></p></li>
+<li id="li-465"><p id="p-1312"><span class="process-math">\(\displaystyle \left(\dfrac{2}{x^{-4}}\right)^3\)</span></p></li>
+<li id="li-466"><p id="p-1313"><span class="process-math">\(\displaystyle \left(\dfrac{2}{x^{-4}}\right)^{-3}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-323"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1314">Which of the following statements are true for all non-zero values of <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{?}\)</span>  (You may want to try out some specific values of <span class="process-math">\(a\)</span> and <span class="process-math">\(b\)</span> before you decide!)</p>
+<ol id="p-1316" class="decimal cols2">
+<li id="li-467"><p id="p-1317"><span class="process-math">\(\dfrac{1}{a} + \dfrac{1}{b} = \dfrac{1}{a+b}~\text{?}\)</span></p></li>
+<li id="li-468"><p id="p-1318"><span class="process-math">\(a^{-1} + b^{-1} = (a+b)^{-1}~\text{?}\)</span></p></li>
+<li id="li-469"><p id="p-1319"><span class="process-math">\(a^2 + b^2 = (a+b)^2~\text{?}\)</span></p></li>
+<li id="li-470"><p id="p-1320"><span class="process-math">\(a^{-2} + b^{-2} = (a+b)^{-2}~\text{?}\)</span></p></li>
+<li id="li-471"><p id="p-1321"><span class="process-math">\(\dfrac{1}{a^{-1}} + \dfrac{1}{b^{-1}} = a + b~\text{?}\)</span></p></li>
+<li id="li-472"><p id="p-1322"><span class="process-math">\(\dfrac{1}{a^{-1} + b^{-1}} = a + b~\text{?}\)</span></p></li>
+</ol></article></article><section class="subsection" id="subsection-52"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.1.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1323" class="decimal">
+<li id="li-473">
+<p id="p-1324">Explain the difference between each pair of expressions.</p>
+<ol id="p-1325" class="lower-alpha">
+<li id="li-474"><p id="p-1326"><span class="process-math">\(-2^3\)</span> and <span class="process-math">\(2^{-3}\)</span></p></li>
+<li id="li-475"><p id="p-1327"><span class="process-math">\(-x^4\)</span> and <span class="process-math">\(x^{-4}\)</span></p></li>
+<li id="li-476"><p id="p-1328"><span class="process-math">\(-2^n\)</span> and <span class="process-math">\(2^{-n}\)</span></p></li>
+</ol>
+</li>
+<li id="li-477"><p id="p-1329">Write a power function for "<span class="process-math">\(y\)</span> varies inversely with the cube of <span class="process-math">\(x\text{.}\)</span>"</p></li>
+<li id="li-478"><p id="p-1330">How do you convert a value in watts to picowatts?</p></li>
+<li id="li-479"><p id="p-1331">Explain how to decide which law of exponents to use when simplifying an expression.</p></li>
+</ol></section><section class="subsection" id="subsection-53"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.1.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1332">In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<ul id="p-1333" class="disc">
+<li id="li-480"><p id="p-1334">Evaluate negative exponents</p></li>
+<li id="li-481"><p id="p-1335">Write a formula for a power function</p></li>
+<li id="li-482"><p id="p-1336">Graph and analyze power functions</p></li>
+<li id="li-483"><p id="p-1337">Solve equations involving negative exponents</p></li>
+<li id="li-484"><p id="p-1338">Simplify expressions using the laws of exponents</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

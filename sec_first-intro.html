@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-06-23T11:10:58-07:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linear Models</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Me">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch_first.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch_first.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch_first.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch_first.html" title="Up">Up</a><a class="next-button button toolbar-item" href="meta_backmatter.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1" class="internal">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Not just that..</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch_first.html" data-scroll="ch_first" class="internal"><span class="codenumber">1</span> <span class="title">My First Chapter</span></a><ul><li><a href="sec_first-intro.html" data-scroll="sec_first-intro" class="active">Linear Models</a></li></ul>
+</li>
+<li class="link backmatter"><a href="meta_backmatter.html" data-scroll="meta_backmatter" class="internal"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1" class="internal"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
+<li class="link"><a href="solutions-2.html" data-scroll="solutions-2" class="internal"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec_first-intro"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Linear Models</span>
+</h2>
+<article class="activity project-like" id="activity-1"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Making and Reading a Graph.</span>
+</h3>
+<article class="task exercise-like" id="task-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-6">In 2000, the average sea level, <span class="process-math">\(L\text{,}\)</span> was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</p>
+<p id="p-7">Complete the table of values for the sea level <span class="process-math">\(t\)</span> years after 2000.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">
+<span class="process-math">\(t~\)</span>(years)</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(15\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(20\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(L~\)</span>(mm)</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-8">Write an equation for the sea level, <span class="process-math">\(L\text{,}\)</span> in terms of <span class="process-math">\(t\text{,}\)</span> the number of years since 2000.</p></article><article class="task exercise-like" id="task-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-9">Graph the equation on the grid. Label the axes with the correct variables.</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-1-1-1.png" class="contained"></div>
+<p id="p-10">To answer questions (d) and (e), read the graph. Show your work on the graph:</p></article><article class="task exercise-like" id="task-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-11">According to this model, what will the sea level be in 2020?</p></article><article class="task exercise-like" id="task-5"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-12">How long will it be before the sea level is 6 centimeters above average? (How many millimeters in 1 centimeter?)</p></article><article class="task exercise-like" id="task-6"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-13">Now use algebra to find the answers for parts (d) and (e) above. Compare your answers to the values you read from the graph.</p></article><article class="task exercise-like" id="task-7"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<p id="p-14">Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+T = 13.9 + 0.13t
+\end{equation*}
+</div>
+<p class="continuation">where <span class="process-math">\(t\)</span> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
+<p id="p-15"><span class="process-math">\(13.9\)</span> tells us:</p>
+<p id="p-16"><span class="process-math">\(0.13\)</span> tells us:</p></article></article><article class="activity project-like" id="activity-2"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">A Decreasing Graph.</span>
+</h3>
+<article class="task exercise-like" id="task-8"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-18">Complete the table of values showing the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.  Then write your answers as ordered pairs.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Year</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(t~\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(C\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\((t,C)\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2000</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((0,\hphantom{000})\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2005</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((5,\hphantom{000})\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2010</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(10\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((10,\hphantom{000})\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2015</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(15\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((15,\hphantom{000})\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-9"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-19">Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-1-1-2.png" class="contained"></div></article><article class="task exercise-like" id="task-10"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-20">In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p></article><article class="task exercise-like" id="task-11"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-21">Interpret the point <span class="process-math">\((16,45)\)</span> for this situation.  (Use complete sentences!)</p></article><article class="task exercise-like" id="task-12"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-22">Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph.</p></article><article class="task exercise-like" id="task-13"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-23">Write an equation for the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.</p></article><article class="task exercise-like" id="task-14"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<p id="p-24">Write and solve an inequality to verify your answer to part (e).</p></article></article><section class="subsection" id="subsection-1"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol class="decimal">
+<li id="li-1"><p id="p-25">In Activity 1b, you wrote an equation for sea level, <span class="process-math">\(L\text{.}\)</span>  What was the starting value, and what was the rate?</p></li>
+<li id="li-2"><p id="p-26">In part (d) of Activity 1, did you evaluate an expression or solve an equation?</p></li>
+<li id="li-3"><p id="p-27">In part (e) of Activity 1, you solved an equation by using the graph.  Did you start by locating the given value on the horizontal axis, or on the vertical axis?</p></li>
+<li id="li-4"><p id="p-28">In Activity 2, which variable goes on the horizontal axis?</p></li>
+<li id="li-5"><p id="p-29">In part (e) of Activity 2, you solved an inequality.  On which axis did your answers appear?</p></li>
+</ol></section><section class="subsection" id="subsection-2"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-30">In this Lesson, we worked on the following skills and goals related to linear models:</p>
+<ul id="p-31" class="disc">
+<li id="li-6"><p id="p-32">Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li>
+<li id="li-7">
+<p id="p-33">Write an equation for a linear model described in words, in the form:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+y=\text{(starting value)} + \text{(rate)} \times t
+\end{equation*}
+</div>
+</li>
+<li id="li-8"><p id="p-34">Interpret an ordered pair of values for a linear model.</p></li>
+<li id="li-9"><p id="p-35">Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
+<li id="li-10"><p id="p-36">Evaluate an algebraic expression.</p></li>
+<li id="li-11"><p id="p-37">Solve linear equations and inequalities.</p></li>
+<li id="li-12"><p id="p-38">Use a graph to evaluate an expression or solve an equation.</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Operations on Algebraic Fractions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-8-2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch8.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-8-4.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-8-2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch8.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-8-4.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="active">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-8-3"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">8.3</span> <span class="title">Operations on Algebraic Fractions</span>
+</h2>
+<article class="activity project-like" id="activity-123"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.3.1</span><span class="period">.</span><span class="space"> </span><span class="title">Multiplying and Dividing Fractions.</span>
+</h3>
+<article class="task exercise-like" id="task-498"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2103">To multiply algebraic fractions:</p>
+<ol id="p-2104" class="decimal">
+<li id="li-803"><p id="p-2105"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> each numerator and denominator</p></li>
+<li id="li-804"><p id="p-2106">Divide out any factors that appear in <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> .</p></li>
+<li id="li-805"><p id="p-2107"></p></li>
+</ol></article><article class="task exercise-like" id="task-499"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2108">Multiply  <span class="process-math">\(~~\dfrac{3y}{4xy-xy^2} \cdot \dfrac{2x-3y}{12x}\)</span></p></article><article class="task exercise-like" id="task-500"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2109">Multiply  <span class="process-math">\(~~\dfrac{9x^2-25}{2x-2} \cdot \dfrac{x^2-1}{6x-10}\)</span></p></article><article class="task exercise-like" id="task-501"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2110">Multiply  <span class="process-math">\(~~\dfrac{3x^2-7x-6}{2x^2-x-1} \cdot \dfrac{2x^2-9x-5}{3x^2-13x-10}\)</span></p></article><article class="task exercise-like" id="task-502"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2111">To divide algebraic fractions:</p>
+<ol id="p-2112" class="decimal"></ol></article><article class="task exercise-like" id="task-503"><h4 class="heading"><span class="codenumber">(f)</span></h4>
+<p id="p-2117">Divide  <span class="process-math">\(~~ \dfrac{a^2+2a-15}{a^2+3a-10} \div \dfrac{a^2-9}{a^2+9a-14}\)</span></p></article><article class="task exercise-like" id="task-504"><h4 class="heading"><span class="codenumber">(g)</span></h4>
+<p id="p-2118">Divide  <span class="process-math">\(~~ \dfrac{8x^3-y^3}{x+y} \div \dfrac{2x-y}{x^2-y^2}\)</span></p></article></article><article class="activity project-like" id="activity-124"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.3.2</span><span class="period">.</span><span class="space"> </span><span class="title">Adding and Subtracting Fractions.</span>
+</h3>
+<article class="task exercise-like" id="task-505"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2120">What are like fractions?</p>
+<p id="p-2121">To add or subtract like fractions, we <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> their numerators and <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> the denominator.</p></article><article class="task exercise-like" id="task-506"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2122">Add   <span class="process-math">\(~~~~\dfrac{2}{a-3b} - \dfrac{b-2}{a-3b} + \dfrac{b}{a-3b}\)</span></p></article><article class="task exercise-like" id="task-507"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2123">To add or subtract unlike fractions, we must first find <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.</p>
+<p id="p-2124">Fill in the steps to add or subtract unlike fractions:</p>
+<ol id="p-2125" class="decimal">
+<li id="li-810"><p id="p-2126"></p></li>
+<li id="li-811"><p id="p-2127"></p></li>
+<li id="li-812"><p id="p-2128"></p></li>
+<li id="li-813"><p id="p-2129"></p></li>
+</ol></article><article class="task exercise-like" id="task-508"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2131">Follow the steps to add: <span class="process-math">\(~~ \dfrac{x-2}{4x} + \dfrac{2x-3}{3x}\)</span></p>
+<ol id="p-2132" class="decimal">
+<li id="li-814"><p id="p-2133">The LCD is:   <span class="process-math">\(~~~3 \cdot 3 \cdot x = 12x\)</span></p></li>
+<li id="li-815">
+<p id="p-2134">Find the building factor for each fraction and build:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~ \blert{\dfrac{3}{3}} \cdot \dfrac{x-2}{4x} + \dfrac{2x-3}{3x} \cdot \blert{\dfrac{4}{4}} = \dfrac{\fillinmath{XXX}}{12x} + \dfrac{\fillinmath{XXX}}{12x}
+\end{equation*}
+</div>
+</li>
+<li id="li-816"><p id="p-2135">Combine the numerators: <span class="process-math">\(~~~\dfrac{\fillinmath{XXX}}{12x} = \)</span></p></li>
+<li id="li-817"><p id="p-2136">Can the answer be reduced?</p></li>
+</ol></article><article class="task exercise-like" id="task-509"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2137">If neither denominator can be factored, the LCD is just their product.</p>
+<p id="p-2138">Follow the steps to subtract:  <span class="process-math">\(~~~~\dfrac{2x}{3x+1} - \dfrac{x}{x-2}\)</span></p>
+<ol id="p-2139" class="decimal">
+<li id="li-818"><p id="p-2140">The LCD is:</p></li>
+<li id="li-819">
+<p id="p-2141">Find the building factor for each fraction and build:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\dfrac{2x}{3x+1} - \dfrac{x}{x-2} = \dfrac{\fillinmath{XXX}}{(3x+1)(x-2)} - \dfrac{\fillinmath{XXX}}{(3x+1)(x-2)}
+\end{equation*}
+</div>
+</li>
+<li id="li-820"><p id="p-2142">Combine the numerators: <span class="process-math">\(~~~~\dfrac{\fillinmath{XXX}}{(3x+1)(x-2)} = \)</span></p></li>
+<li id="li-821"><p id="p-2143">Can the answer be reduced?</p></li>
+</ol></article></article><article class="activity project-like" id="activity-125"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.3.3</span><span class="period">.</span><span class="space"> </span><span class="title">Finding the LCD.</span>
+</h3>
+<article class="task exercise-like" id="task-510"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2144">The LCD must be divisible by each of the given <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> .</p>
+<p id="p-2145">The first step in finding the LCD is to <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> each denominator.</p></article><article class="task exercise-like" id="task-511"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2146">Follow the steps to subtract:  <span class="process-math">\(~~~~\dfrac{2}{3y+6} - \dfrac{3}{2y+4}\)</span></p>
+<ol id="p-2147" class="decimal">
+<li id="li-822">
+<p id="p-2148">Factor each denominator</p>
+<p id="p-2149"><span class="process-math">\(3y+6 = \)</span></p>
+<p id="p-2150"><span class="process-math">\(2y+4 = \)</span></p>
+<p id="p-2151">The LCD is:  <span class="process-math">\(~~ 2 \cdot 3 (y + 2)\)</span></p>
+</li>
+<li id="li-823">
+<p id="p-2152">Find the building factor for each fraction and build:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~ \blert{\dfrac{2}{2}} \cdot \dfrac{2}{3 (y+2)} - \dfrac{3}{2 (y+2)} \cdot \blert{\dfrac{3}{3}} = \dfrac{\fillinmath{XXX}}{LCD} - \dfrac{\fillinmath{XXX}}{LCD}
+\end{equation*}
+</div>
+</li>
+<li id="li-824"><p id="p-2153">Combine the numerators: <span class="process-math">\(~~\dfrac{\fillinmath{XXX}}{6 (y + 2)}\)</span></p></li>
+<li id="li-825"><p id="p-2154">Can the answer be reduced?</p></li>
+</ol></article><article class="task exercise-like" id="task-512"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2155">Follow the steps to subtract:  <span class="process-math">\(~~~~\dfrac{x+1}{x^2+2x} - \dfrac{x-1}{x^2-3x}\)</span></p>
+<ol id="p-2156" class="decimal">
+<li id="li-826">
+<p id="p-2157">Factor each denominator</p>
+<p id="p-2158"><span class="process-math">\(x^2+2x = \)</span></p>
+<p id="p-2159"><span class="process-math">\(x^2-3x = \)</span></p>
+<p id="p-2160">The LCD is:</p>
+</li>
+<li id="li-827">
+<p id="p-2161">Find the building factor for each fraction and build:</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+~~ \blert{\dfrac{?}{?}} \cdot \dfrac{x+1}{x(x+2)} - \dfrac{x-1}{x(x-3)} \cdot \blert{\dfrac{?}{?}} = \dfrac{\fillinmath{XXX}}{LCD} - \dfrac{\fillinmath{XXX}}{LCD}
+\end{equation*}
+</div>
+</li>
+<li id="li-828"><p id="p-2162">Combine the numerators: <span class="process-math">\(~~\dfrac{\fillinmath{XXX}}{x(x+2)(x-3)}\)</span></p></li>
+<li id="li-829"><p id="p-2163">Can the answer be reduced?</p></li>
+</ol></article></article><article class="activity project-like" id="activity-126"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.3.4</span><span class="period">.</span><span class="space"> </span><span class="title">Application.</span>
+</h3>
+<div class="introduction" id="introduction-88"><p id="p-2164">River Queen Tours offers a round-trip excursion on the Mississippi River by paddle wheel, 25 miles each way. The current in the Mississippi is 8 miles per hour.</p></div>
+<article class="task exercise-like" id="task-513"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2165">The speed of the boat in still water is <span class="process-math">\(v\)</span> miles per hour. Fill in the table the first two columns of the table.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(D\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(R\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(T\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">upstream</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">downstream</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-514"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2166">Express the time required for the downstream journey as a function of the speed of the boat, <span class="process-math">\(v\text{,}\)</span> in still water.</p></article><article class="task exercise-like" id="task-515"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2167">Express the time required for the return trip upstream in terms of <span class="process-math">\(v\text{.}\)</span></p></article><article class="task exercise-like" id="task-516"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2168">By adding your answers for parts (b) and (c), write an expression for the total time for the round trip in terms of <span class="process-math">\(v\text{.}\)</span> Then simplify the expression.</p></article></article><section class="subsection" id="subsection-76"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">8.3.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-2170" class="decimal">
+<li id="li-830"><p id="p-2171">If you divide 4 cakes into <span class="process-math">\(\frac{1}{3}\)</span>'s, how many pieces will you have?  If you divide 3 cakes into <span class="process-math">\(\frac{1}{5}\)</span>'s, how many pieces will you have? How are these calculations related to the rule for dividing fractions?</p></li>
+<li id="li-831"><p id="p-2172">How would you simplify <span class="process-math">\(~~\left(\dfrac{x-3}{3x}\right)^{-2}~\text{?}\)</span></p></li>
+<li id="li-832"><p id="p-2173">Compute <span class="process-math">\(~\dfrac{2a}{a-2b} - \dfrac{4a}{a-2b}~\)</span> and <span class="process-math">\(~\dfrac{2a}{a-2b} \div \dfrac{4a}{a-2b}~\text{.}\)</span> Compare the methods for each computation.</p></li>
+<li id="li-833"><p id="p-2174">Why do we build fractions when adding or subtracting them?</p></li>
+</ol></section><section class="subsection" id="subsection-77"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">8.3.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-2175">In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
+<ul id="p-2176" class="disc">
+<li id="li-834"><p id="p-2177">Multiply and divide algebraic fractions</p></li>
+<li id="li-835"><p id="p-2178">Add and subtract like fractions</p></li>
+<li id="li-836"><p id="p-2179">Find a lowest common denominator</p></li>
+<li id="li-837"><p id="p-2180">Add and subtract unlike fractions</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

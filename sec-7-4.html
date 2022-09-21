@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Properties of Logarithms</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-7-3.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-7-5.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-7-3.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch7.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-7-5.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="active">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-7-4"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">7.4</span> <span class="title">Properties of Logarithms</span>
+</h2>
+<article class="activity project-like" id="activity-110"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.4.1</span><span class="period">.</span><span class="space"> </span><span class="title">Three Properties.</span>
+</h3>
+<article class="task exercise-like" id="task-440"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1865">Complete the statements of the three properties.</p>
+<p id="p-1866">If <span class="process-math">\(x,~y \gt 0\text{,}\)</span></p>
+<ol id="p-1867" class="decimal">
+<li id="li-721"><p id="p-1868"><span class="process-math">\(\displaystyle \log_b (xy) = \)</span></p></li>
+<li id="li-722"><p id="p-1869"><span class="process-math">\(\displaystyle \log_b \left(\dfrac{x}{y} \right) = \)</span></p></li>
+<li id="li-723"><p id="p-1870"><span class="process-math">\(\displaystyle \log_b (x^m) = \)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-441"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1872">Verify that the properties are true for these examples by calculating the logs:</p>
+<p id="p-1873">Property (1):</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-27">
+\begin{align*}
+~~~~\log_2 32 = \log_2 (4 \cdot 8) \amp = \log_2 4 + \log_2 8 ~~~~~~~~~~ \text{because} ~2^5 = 2^2 \cdot 2^3)\\
+\fillinmath{XXX} \amp = \fillinmath{XXX} + \fillinmath{XXX}
+\end{align*}
+</div>
+<p id="p-1875">Property (2):</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-28">
+\begin{align*}
+~~~~\log_2 8 = \log_2 \left(\dfrac{16}{2} \right)\amp  = \log_2 16 - \log_2 2 ~~~~~~~~~~ \text{because} ~2^3 = \dfrac{2^4}{2^1}\\
+\fillinmath{XXX} \amp = \fillinmath{XXX} - \fillinmath{XXX}
+\end{align*}
+</div>
+<p id="p-1877">Property (3):</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-29">
+\begin{align*}
+~~~~\log_2 64 = \log_2 (4^3) \amp = 3\log_2 4 ~~~~~~~~~~  \text{because} ~(2^2)^3 = 2^6\\
+\fillinmath{XXX} \amp = \fillinmath{XXX} \times \fillinmath{XXX}
+\end{align*}
+</div></article><article class="task exercise-like" id="task-442"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1879">Given that <span class="process-math">\(\log_b 2 = 0.6931,~ \log_b 3 = 1.0986,~\)</span> and <span class="process-math">\(\log_b 5 = 1.6094~\text{,}\)</span>  use the properties to simplify each expression.</p>
+<ol id="p-1880" class="decimal">
+<li id="li-724"><p id="p-1881"><span class="process-math">\(\displaystyle \log_b 3x\)</span></p></li>
+<li id="li-725"><p id="p-1882"><span class="process-math">\(\displaystyle \log_b \dfrac{5}{x}\)</span></p></li>
+<li id="li-726"><p id="p-1883"><span class="process-math">\(\displaystyle \log_b 8\)</span></p></li>
+<li id="li-727"><p id="p-1884"><span class="process-math">\(\displaystyle \log_b \sqrt{5x}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-443"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1885">Caution! Be careful when using the properties of logarithms. Which expressions in each group are equivalent (if any)?</p>
+<ol id="p-1886" class="decimal">
+<li id="li-728"><p id="p-1888"><span class="process-math">\(\displaystyle \log \dfrac{x}{25}~~~~~~~~\dfrac{\log x}{\log 25}~~~~~~~~\log x - \log 25~~~~~~~~\log (x-25)\)</span></p></li>
+<li id="li-729"><p id="p-1889"><span class="process-math">\(\displaystyle \log (25x)~~~~~~~~\log 25 + \log x~~~~~~~~\log (x+25)~~~~~~~~\log x \log 25\)</span></p></li>
+<li id="li-730"><p id="p-1890"><span class="process-math">\(\displaystyle \log (x^2)~~~~~~~~(\log x)^2~~~~~~~~2 \log x~~~~~~~~\log 2x\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-111"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7.4.2</span><span class="period">.</span><span class="space"> </span><span class="title">Solving Exponential Equations.</span>
+</h3>
+<div class="introduction" id="introduction-80"><p id="p-1892">Now we can solve exponential equations to any base, by using the third log property.</p></div>
+<article class="task exercise-like" id="task-444"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1893">Follow the steps to solve the equation  <span class="process-math">\(~~3^x = 25\)</span></p>
+<p id="p-1894">Take the log base 10 of both sides.</p>
+<p id="p-1895">Apply the third log property.</p>
+<p id="p-1896">Divide both sides by  <span class="process-math">\(\log 3\text{.}\)</span></p>
+<p id="p-1897">Use a calculator to obtain an approximation to 4 decimal places.</p></article><article class="task exercise-like" id="task-445"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1899">Solve <span class="process-math">\(~12 \cdot 5^{1.5x} = 85\)</span></p></article><article class="task exercise-like" id="task-446"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1900">Starting in 1998, the demand for electricity in Ireland grew at a rate of 5.8% per year. In 1998, 20,500 gigawatts were used. Write a formula for electricity demand in Ireland as a function of time.</p>
+<p id="p-1901">When did demand reach 30,000 gigawatts?</p></article></article><section class="subsection" id="subsection-68"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.4.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1902" class="decimal">
+<li id="li-731">
+<p id="p-1903">True or False:</p>
+<ol id="p-1904" class="lower-alpha cols2">
+<li id="li-732"><p id="p-1905"><span class="process-math">\(\displaystyle \log (x+y) = \log x + \log y\)</span></p></li>
+<li id="li-733"><p id="p-1906"><span class="process-math">\(\displaystyle \log (x-y) = \log x - \log y\)</span></p></li>
+<li id="li-734"><p id="p-1907"><span class="process-math">\(\displaystyle \log (xy) = \log x \cdot \log y\)</span></p></li>
+<li id="li-735"><p id="p-1908"><span class="process-math">\(\displaystyle \log \left(\dfrac{x}{y}\right) = \dfrac{\log x}{\log y}\)</span></p></li>
+</ol>
+</li>
+<li id="li-736"><p id="p-1909">How can we use common logarithms to solve exponential equations with any base?</p></li>
+<li id="li-737"><p id="p-1910">Where should you put parentheses when computing <span class="process-math">\(\dfrac{\log 8}{\log 3}\)</span> on your calculator?</p></li>
+<li id="li-738"><p id="p-1911">How can you combine the sum of two logs (of the same base) into one logarithm?</p></li>
+</ol></section><section class="subsection" id="subsection-69"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">7.4.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1912">In this Lesson, we worked on the following skills and goals related to logarithms:</p>
+<ul id="p-1913" class="disc">
+<li id="li-739"><p id="p-1914">Use the properties of logarithms to simplify expressions</p></li>
+<li id="li-740"><p id="p-1915">Avoid mistakes using the properties of logarithms.</p></li>
+<li id="li-741"><p id="p-1916">Solve exponential equations using base 10 logarithms</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

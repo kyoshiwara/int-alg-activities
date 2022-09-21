@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Radical Equations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-6-4.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="ch7.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-6-4.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch6.html" title="Up">Up</a><a class="next-button button toolbar-item" href="ch7.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="active">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-6-5"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">6.5</span> <span class="title">Radical Equations</span>
+</h2>
+<article class="activity project-like" id="activity-91"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.5.1</span><span class="period">.</span><span class="space"> </span><span class="title">Solving Radical Equations.</span>
+</h3>
+<div class="introduction" id="introduction-64">
+<p id="p-1561">To solve a radical equation, we:</p>
+<ol id="p-1562" class="decimal">
+<li id="li-608"><p id="p-1563">isolate the radical, then</p></li>
+<li id="li-609"><p id="p-1564">square both sides.</p></li>
+</ol>
+<p id="p-1565">Be careful when squaring binomials. For example, why is the following calculation incorrect?</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+(x-4)^2 \rightarrow x^2 - 4^2 \rightarrow x^2-16~~~~~~~~~~~~~~~~\alert{\text{(Wrong!)}}
+\end{equation*}
+</div>
+</div>
+<article class="task exercise-like" id="task-366"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1566">Square the binomials. Try to do the calculation mentally.</p>
+<ol id="p-1567" class="decimal">
+<li id="li-610"><p id="p-1568"><span class="process-math">\(\displaystyle (x+5)^2\)</span></p></li>
+<li id="li-611"><p id="p-1569"><span class="process-math">\(\displaystyle (x-6)^2\)</span></p></li>
+<li id="li-612"><p id="p-1570"><span class="process-math">\(\displaystyle (2t-3)^2\)</span></p></li>
+<li id="li-613"><p id="p-1571"><span class="process-math">\(\displaystyle (3v-4)^2\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-367"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1572">Follow the steps to solve the equation <span class="process-math">\(~2x-3 = \sqrt{4x-3}\text{.}\)</span></p>
+<ol id="p-1573" class="decimal">
+<li id="li-614"><p id="p-1574">Square both sides.</p></li>
+<li id="li-615"><p id="p-1575">Get zero on one side.</p></li>
+<li id="li-616"><p id="p-1576">Solve the quadratic equation.</p></li>
+<li id="li-617">
+<p id="p-1577">Check both solutions:</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-22">
+\begin{gather*}
+x = 3:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\
+x = 1:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{gather*}
+</div>
+<p class="continuation">You should find that one of the "solutions" checks, and the other doesn't. Why does this happen?</p>
+</li>
+</ol></article><article class="task exercise-like" id="task-368"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1579">Use a graph to solve the equation <span class="process-math">\(~2x-3 = \sqrt{4x-3}\text{.}\)</span></p>
+<p id="p-1580">Graph <span class="process-math">\(Y_1 = 2x-3\)</span>  and  <span class="process-math">\(Y_2 = \sqrt{4x-3}\)</span>  on the grid below. How many solutions?</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-6-5-1.png" class="contained"></div>
+<p id="p-1581">Graph <span class="process-math">\(Y_1 = (2x-3)^2\)</span> and  <span class="process-math">\(Y_2 = 4x-3\)</span> on the grid below. How many solutions? What happened when we squared both sides of the equation? We should always check for extraneous solutions.</p>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/act-6-5-2.png" class="contained"></div></article><article class="task exercise-like" id="task-369"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1582">Sometimes we have to square both sides twice in order to get rid of all the radicals. Follow the steps to solve the equation    <span class="process-math">\(\sqrt{y+4} = \sqrt{y+20} - 2\text{.}\)</span></p>
+<ol id="p-1583" class="decimal">
+<li id="li-618"><p id="p-1584">Isolate the more complicated radical.</p></li>
+<li id="li-619"><p id="p-1585">Square both sides.</p></li>
+<li id="li-620"><p id="p-1586">Isolate the term with the radical.</p></li>
+<li id="li-621"><p id="p-1587">Divide both sides by 4.</p></li>
+<li id="li-622"><p id="p-1588">Square both sides again.</p></li>
+<li id="li-623"><p id="p-1589">Solve for <span class="process-math">\(y\text{.}\)</span></p></li>
+<li id="li-624"><p id="p-1590">Check the solution(s).</p></li>
+<li id="li-625"><p id="p-1591">Solution:</p></li>
+</ol></article></article><article class="activity project-like" id="activity-92"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.5.2</span><span class="period">.</span><span class="space"> </span><span class="title">Powers and Roots are Opposite Operations.</span>
+</h3>
+<article class="task exercise-like" id="task-370"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1592">Simplify:</p>
+<ol id="p-1593" class="decimal">
+<li id="li-626"><p id="p-1594"><span class="process-math">\(\displaystyle \sqrt{9^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{9})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{9^2}\sqrt{9^2}\)</span></p></li>
+<li id="li-627"><p id="p-1595"><span class="process-math">\(\displaystyle \sqrt{5^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{5})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{5^2}\sqrt{5^2}\)</span></p></li>
+<li id="li-628"><p id="p-1596"><span class="process-math">\(\displaystyle \sqrt[3]{8^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{8})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{8^3}\sqrt[3]{8^3}\sqrt[3]{8^3}\)</span></p></li>
+<li id="li-629"><p id="p-1597"><span class="process-math">\(\displaystyle \sqrt[3]{4^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{4})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{4^3}\sqrt[3]{4^3}\sqrt[3]{4^3}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-371"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1598">Did you use your calculator? You don't need it! Explain why not.</p></article><article class="task exercise-like" id="task-372"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1599">Simplify. Assume that <span class="process-math">\(x\)</span> is a positive number.</p>
+<ol id="p-1600" class="decimal">
+<li id="li-630"><p id="p-1601"><span class="process-math">\(\displaystyle \sqrt{x^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{x})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{x^2}\sqrt{x^2}\)</span></p></li>
+<li id="li-631"><p id="p-1602"><span class="process-math">\(\displaystyle \sqrt[3]{x^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{x})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{x^3}\sqrt[3]{x^3}\sqrt[3]{x^3}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-93"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">6.5.3</span><span class="period">.</span><span class="space"> </span><span class="title">The Gossamer Albatross.</span>
+</h3>
+<div class="introduction" id="introduction-65"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.25%;margin-right:1.25%;">
+<div class="sbspanel top" style="width:51.2820512820513%;">
+<p id="p-1603">A bicycle ergometer is used to measure the amount of power generated by a cyclist. The scatterplot at right shows how long an athlete was able to sustain various levels of power output. The curve is the graph of</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+y=500x^{-0.29},
+\end{equation*}
+</div>
+<p class="continuation">which approximately models the data.</p>
+</div>
+<div class="sbspanel top" style="width:46.1538461538462%;"><img src="external/act-6-5-3.png" class="contained"></div>
+</div></div></div>
+<article class="task exercise-like" id="task-373"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-1604">In this graph, which variable is the input and which is the output?</p></article><article class="task exercise-like" id="task-374"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-1605">The athlete maintained 650 watts of power for 40 seconds. What power output does the equation predict for 40 seconds?</p></article><article class="task exercise-like" id="task-375"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-1606">The athlete maintained 300 watts of power for 10 minutes. How long does the equation predict that power output can be maintained?</p></article><article class="task exercise-like" id="task-376"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-1607">In 1979 a remarkable pedal-powered aircraft called the Gossamer Albatross was successfully flown across the English Channel. The flight took 3 hours. According to the equation, what level of power can be maintained for 3 hours?</p></article><article class="task exercise-like" id="task-377"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-1608">The Gossamer Albatross needed 250 watts of power to keep it airborne. For how long can 250 watts be maintained, according to the given equation?</p></article></article><section class="subsection" id="subsection-60"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.5.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-1609" class="decimal">
+<li id="li-632"><p id="p-1610">What is the most important thing to remember when solving a radical equation?</p></li>
+<li id="li-633"><p id="p-1611">When can extraneous solutions occur?  Why?</p></li>
+<li id="li-634"><p id="p-1612">Explain why it is not always true that <span class="process-math">\(\sqrt{x^2} = x\text{.}\)</span></p></li>
+<li id="li-635"><p id="p-1613">Explain how to solve the equation <span class="process-math">\(~4x+4 = \sqrt{3x+4}~\)</span> by graphing.</p></li>
+</ol></section><section class="subsection" id="subsection-61"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.5.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-1614">In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
+<ul id="p-1615" class="disc">
+<li id="li-636"><p id="p-1616">Solving radical equations</p></li>
+<li id="li-637"><p id="p-1617">Checking for extraneous solutions</p></li>
+<li id="li-638"><p id="p-1618">Analyzing models involving radical equations</p></li>
+<li id="li-639"><p id="p-1619">Simplifying roots of powers</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>

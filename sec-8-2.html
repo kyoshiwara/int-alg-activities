@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Algebraic Fractions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Activities for Intermediate Algebra">
+<meta property="book:author" content="Katherine Yoshiwara">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+
+        \newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+        \newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+        \newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+        \delimitershortfall-1sp
+        \newcommand\abs[1]{\left|#1\right|}
+        \newcommand\degree[0]{^{\circ}}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec-8-1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch8.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-8-3.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec-8-1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch8.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-8-3.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
+<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="internal">Linear Models</a></li>
+<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
+<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
+<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
+<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
+<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
+<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
+<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
+<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
+<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
+<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
+<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
+<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
+<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
+<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
+<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
+<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
+<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
+<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
+<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
+<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Graphs</a></li>
+<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
+<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
+<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
+<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
+<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
+<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
+<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
+<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
+<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
+<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
+<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
+<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
+<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
+<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="active">Algebraic Fractions</a></li>
+<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
+<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
+<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
+<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
+<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
+<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
+<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
+<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
+<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
+<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
+<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-8-2"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">8.2</span> <span class="title">Algebraic Fractions</span>
+</h2>
+<article class="activity project-like" id="activity-119"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.2.1</span><span class="period">.</span><span class="space"> </span><span class="title">Reducing Fractions.</span>
+</h3>
+<article class="task exercise-like" id="task-479"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2023">To reduce an algebraic fraction:</p>
+<ol id="p-2024" class="decimal">
+<li id="li-770"><p id="p-2025"><span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> the numerator and denominator.</p></li>
+<li id="li-771"><p id="p-2026">Divide the numerator and denominator by any <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> .</p></li>
+</ol></article><article class="task exercise-like" id="task-480"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2027">Reduce the fraction. Numerator and denominator are monomials, so no factoring needed.</p>
+<p id="p-2028"><span class="process-math">\(~~~~\dfrac{-12rs^2t}{-6rst^2}\)</span></p></article><article class="task exercise-like" id="task-481"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2029">Reduce. Factor numerator and denominator before canceling!</p>
+<ol id="p-2031" class="decimal">
+<li id="li-772"><p id="p-2032"><span class="process-math">\(\displaystyle \dfrac{5y^2-20}{2y-4} \)</span></p></li>
+<li id="li-773"><p id="p-2033"><span class="process-math">\(\displaystyle \dfrac{6x^2-x-1}{2x^2+9x-5}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-482"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2034">Reduce. Use the formulas for factoring sums and differences of cubes.</p>
+<p id="p-2035"><span class="process-math">\(~~~~\dfrac{8z^3-1}{4z^2-1}\)</span></p></article><article class="task exercise-like" id="task-483"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2036">Reduce. Look for negatives of binomials.</p>
+<ol id="p-2037" class="decimal">
+<li id="li-774"><p id="p-2038"><span class="process-math">\(\displaystyle \dfrac{2a^2-ab}{b^2-2ab}\)</span></p></li>
+<li id="li-775"><p id="p-2039"><span class="process-math">\(\displaystyle \dfrac{-4b^2-2b}{4b^3-b}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-120"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Equivalent Fractions.</span>
+</h3>
+<div class="introduction" id="introduction-85"><p id="p-2041">Which expressions are equivalent to the given fraction?</p></div>
+<article class="task exercise-like" id="task-484"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2042"><span class="process-math">\(\dfrac{3}{5}\)</span></p>
+<ol id="p-2043" class="decimal cols4">
+<li id="li-776"><p id="p-2044"><span class="process-math">\(\displaystyle \dfrac{3x}{5x}\)</span></p></li>
+<li id="li-777"><p id="p-2045"><span class="process-math">\(\displaystyle \dfrac{3-x}{5-x}\)</span></p></li>
+<li id="li-778"><p id="p-2046"><span class="process-math">\(\displaystyle \dfrac{30+x}{x+50}\)</span></p></li>
+<li id="li-779"><p id="p-2047"><span class="process-math">\(\displaystyle \dfrac{30x}{50x}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-485"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2048"><span class="process-math">\(\dfrac{v-1}{v+1}\)</span></p>
+<ol id="p-2049" class="decimal cols4">
+<li id="li-780"><p id="p-2050"><span class="process-math">\(\displaystyle -1\)</span></p></li>
+<li id="li-781"><p id="p-2051"><span class="process-math">\(\displaystyle \dfrac{1-v}{1+v}\)</span></p></li>
+<li id="li-782"><p id="p-2052"><span class="process-math">\(\displaystyle -\dfrac{1-v}{v+1}\)</span></p></li>
+<li id="li-783"><p id="p-2053"><span class="process-math">\(\displaystyle \dfrac{v+1}{v-1}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-486"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2054"><span class="process-math">\(\dfrac{2w-6}{w}\)</span></p>
+<ol id="p-2055" class="decimal cols4">
+<li id="li-784"><p id="p-2056"><span class="process-math">\(\displaystyle -4\)</span></p></li>
+<li id="li-785"><p id="p-2057"><span class="process-math">\(\displaystyle \dfrac{6-2w}{-w}\)</span></p></li>
+<li id="li-786"><p id="p-2058"><span class="process-math">\(\displaystyle 2-\dfrac{6}{w}\)</span></p></li>
+<li id="li-787"><p id="p-2059"><span class="process-math">\(\displaystyle -\dfrac{2w+6}{w}\)</span></p></li>
+</ol></article><article class="task exercise-like" id="task-487"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2060"><span class="process-math">\(\dfrac{3a+2}{3a-2}\)</span></p>
+<ol id="p-2061" class="decimal cols4">
+<li id="li-788"><p id="p-2062"><span class="process-math">\(\displaystyle \dfrac{3a-2}{3a+2}\)</span></p></li>
+<li id="li-789"><p id="p-2063"><span class="process-math">\(\displaystyle \dfrac{3a-2}{2-3a}\)</span></p></li>
+<li id="li-790"><p id="p-2064"><span class="process-math">\(\displaystyle -1\)</span></p></li>
+<li id="li-791"><p id="p-2065"><span class="process-math">\(\displaystyle \dfrac{2a+3}{2a-3}\)</span></p></li>
+</ol></article></article><article class="activity project-like" id="activity-121"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Horizontal Asymptote.</span>
+</h3>
+<div class="introduction" id="introduction-86"><p id="p-2066">Envirogreen Technology, Inc. decides to produce a new type of water filter for home use.They spend $5000 for startup costs, and each filter costs $50 to produce.</p></div>
+<article class="task exercise-like" id="task-488"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2068">To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <span class="process-math">\(x\)</span> filters.</p>
+<p id="p-2069">Compute the total cost of producing <span class="process-math">\(x\)</span> filters:</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-30">
+\begin{align*}
+\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}\\
+\amp = 
+\end{align*}
+</div>
+<p id="p-2070">Divide the total cost by the number of filters produced.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = 
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-489"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2071">Sketch a graph of the average cost, <span class="process-math">\(A\text{.}\)</span></p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:30%;"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(A\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(50\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(100\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(200\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(400\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(500\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1000\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1250\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2000\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<div class="sbspanel top" style="width:70%;"><img src="external/act-8-2-1.png" class="contained"></div>
+</div></div>
+<p id="p-2072">Use the graph and the table to help you answer the questions.</p></article><article class="task exercise-like" id="task-490"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2073">Approximately how many filters should Envirogreen produce for the average cost to be $75?</p></article><article class="task exercise-like" id="task-491"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2074">What happens to the average cost per filter as <span class="process-math">\(x\)</span> increases?</p>
+<p id="p-2075">As <span class="process-math">\(x\)</span> increases, the average cost appears to be approaching a limiting value. What is that value?</p></article><article class="task exercise-like" id="task-492"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2076">A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? Use the formula:</p>
+<p id="p-2077">Profit = Revenue - Cost.</p></article></article><article class="activity project-like" id="activity-122"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Vertical Asymptote.</span>
+</h3>
+<div class="introduction" id="introduction-87"><p id="p-2078">The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></div>
+<article class="task exercise-like" id="task-493"><h4 class="heading"><span class="codenumber">(a)</span></h4>
+<p id="p-2079">Express the tuna's travel time <span class="process-math">\(t\)</span> as a function of the current speed, <span class="process-math">\(t\text{.}\)</span></p></article><article class="task exercise-like" id="task-494"><h4 class="heading"><span class="codenumber">(b)</span></h4>
+<p id="p-2081">Complete the table showing the travel time for various current speeds.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines"><span class="process-math">\(v\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(8\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(12\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(16\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(20\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(24\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(28\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(32\)</span></td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(36\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(t\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+</tr>
+</table></div>
+<p id="p-2082">What happens to the travel time as the current speed increases?</p></article><article class="task exercise-like" id="task-495"><h4 class="heading"><span class="codenumber">(c)</span></h4>
+<p id="p-2083">Use the table to choose an appropriate window and graph your function <span class="process-math">\(t(v)\text{.}\)</span> Sketch the graph and label scales on the axes.</p></article><article class="task exercise-like" id="task-496"><h4 class="heading"><span class="codenumber">(d)</span></h4>
+<p id="p-2084">Use your graph to estimate the speed of the current if the tuna's travel time was 20 hours.  Show your method on the graph.</p></article><article class="task exercise-like" id="task-497"><h4 class="heading"><span class="codenumber">(e)</span></h4>
+<p id="p-2085">Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote mean in the context of the problem?</p></article></article><section class="subsection" id="subsection-74"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">8.2.1</span> <span class="title">Check Your Understanding</span>
+</h3>
+<ol id="p-2086" class="decimal">
+<li id="li-792"><p id="p-2087">What is the most important thing to remember about reducing fractions?</p></li>
+<li id="li-793"><p id="p-2088">Explain why <span class="process-math">\(\dfrac{x-t}{t-x} = -1\text{.}\)</span></p></li>
+<li id="li-794"><p id="p-2089">In Activity 3, why does the average cost per filter never decrease below $50?</p></li>
+<li id="li-795"><p id="p-2090">What would negative values of <span class="process-math">\(v\)</span> mean in Activity 4?</p></li>
+</ol></section><section class="subsection" id="subsection-75"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">8.2.2</span> <span class="title">Wrap-Up</span>
+</h3>
+<p id="p-2091">In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
+<ul id="p-2092" class="disc">
+<li id="li-796"><p id="p-2093">Reduce fractions</p></li>
+<li id="li-797"><p id="p-2094">Use rational functions as models</p></li>
+<li id="li-798"><p id="p-2095">Interpret horizontal and vertical asymptotes</p></li>
+</ul></section></section></div></main>
+</div>
+</body>
+</html>
