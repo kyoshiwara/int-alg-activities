@@ -26,13 +26,13 @@
     </target>
     <target name="subset">
       <format>html</format>
-      <source>source/test-chap.ptx</source>
+      <source>source/test-section.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/subset</output-dir>
       <stringparam key="debug.skip-knowls" value="yes"/>
       <!-- edit this to change the section/chapter/etc. to include
            in your subset build -->
-      <xmlid-root>my-great-book</xmlid-root>
+      <xmlid-root>testing</xmlid-root>
     </target>
   </targets>
   <executables>

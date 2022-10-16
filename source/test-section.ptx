@@ -6,14 +6,14 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./meta_docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="testing">
     <title>Activities for Intermediate Algebra</title>
     <subtitle>Functions and Graphs</subtitle>
 
    <xi:include href="./meta_frontmatter.ptx" />
 
 <chapter xml:id="Test"><title>Test Chapter</title>
-<xi:include href="./sec-10-3.ptx" /> 
+<xi:include href="./sec-1-4.ptx" /> 
 <!--<xi:include href="./wksht.ptx" /> 
 <xi:include href="./wk-1-1.ptx" /> -->
 </chapter>

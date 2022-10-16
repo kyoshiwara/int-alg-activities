@@ -135,7 +135,7 @@ where <m>h</m> is the number of hours since the bat's most recent meal.</p></int
 <li><p>What does the notation <m>a^{0.6}</m>  mean?</p></li>
 <li><p>Explain how to evaluate the function <m>f(x)=x^{-3/4}</m> for <m>x=625</m>, without using a calculator.</p></li>
 <li><p>Explain why <m>~x\sqrt{x} = x^{1.5}</m>.</p></li>
-<li><p>Suppose <m>M=9 \times 10^{14}</m>.  Explain why <m>\sqrt{M} = 3 \times 10^7</m>.</p></li>
+<li><p>Delbert says that to compute <m>a^{m/n}</m> you have to do the power first, and Francine says you have to do the root first. Who is correct?</p></li>
 </ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
@@ -150,10 +150,10 @@ where <m>h</m> is the number of hours since the bat's most recent meal.</p></int
 
 <commentary audience="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Explain how to compute <m>625^{3/4}</m>  by hand.</p></li>
+<li><p>Why are rational exponents more convenient to use than radical notation?</p></li>
 <li><p>Explain how to solve <m>x^{0.4} = 18</m>, and why this method works.</p></li>
-<li><p>Explain why <m>x\sqrt{x} = x^{1.5}</m>.</p></li>
-<li><p>Suppose <m>M=8 \times 10^6</m>.  Explain why <m>M^{2/3} = 4 \times 10^4</m>.</p></li>
+<li><p>Describe the difference between the graphs of <m>y=x^{3/4}</m> and <m>y=x^{4/3}</m>.</p></li>
+<li><p>Suppose <m>M=8 \times 10^6</m>. Explain why <m>M^{2/3} = 4 \times 10^4</m>.</p></li>
 </ol></p></commentary>
 
 </subsection>    

@@ -158,7 +158,7 @@ where <m>L</m> is the length of the vessel in feet.</p></introduction>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>Explain why <m>x^{1/4}</m> is a reasonable notation for <m>\sqrt[4]{x}</m>.</p></li>
+<li><p>Delbert says his calculator told him that <m>5^1/2</m> is equal to 2.5. What did he do wrong</p></li>
 <li><p>What does the notation <m>a^{0.125}</m> mean? How is it evaluated?</p></li>
 <li><p>Express each of the following algebraic notations in words, and evaluate each for <m>x=16</m>:
       <me>4x,~x^4,~\dfrac{x}{4},~\dfrac{1}{4}x,~x^{1/4},~x-4,~x^{-4},~x^{-1/4}</me></p></li>
@@ -179,7 +179,7 @@ where <m>L</m> is the length of the vessel in feet.</p></introduction>
 <p><ol>
 <li><p>Explain why <m>x^{1/4}</m> is a reasonable notation for <m>\sqrt[4]{x}</m>.</p></li>
 <li><p>What is the principal root of a number? How many real-valued roots does a real number have?</p></li>
-<li><p>Compare the graphs of <m>y=x^{1/n}</m>, for <m>n=2, 3</m> and <m>4</m>.</p></li>
+<li><p>Suppose <m>M=9 \times 10^{14}</m>. Explain why <m>\sqrt{M} = 3 \times 10^7</m>.</p></li>
 <li><p>Explain the difference between a rational and an irrational number. Give examples.</p></li>
 </ol></p></commentary>
 </subsection> 

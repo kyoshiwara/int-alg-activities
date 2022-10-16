@@ -3,38 +3,41 @@
 <section xml:id="sec-1-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Intercepts</title>
 
-<commentary audience="instructor"><title>Overview</title>
+<introduction><title>Instructor Overview</title>
 <p>In this Lesson we find the intercepts of a linear model, and interpret their meaning in the context of the model. Some students will have forgotten how to find the intercepts, and most will need help interpreting the meaning of the intercepts in context.  A common mistake is to give the meaning of the variable on the appropriate axis, instead of its value at the intercept.</p>
-<p>We also review the intercept method for graphing a line.  Finally, we consider linear models given in the general linear form, <m>Ax+By=C</m>.</p></commentary>
+<p>We also review the intercept method for graphing a line.  Finally, we consider linear models given in the general linear form, <m>Ax+By=C</m>.</p></introduction>
 
 <activity><title>Interpreting the Intercepts</title>
-    <introduction><p>Copper is the third most widely used metal, behind iron and aluminum. In 2007 the US Geological Survey estimated that there are 490 million tons of usable copper reserves left in the world. The global consumption of copper in 2007 was 17.8 million tons.</p></introduction>
-
-    <task><p>Supposing that we continue to consume copper at the same annual rate, write an equation for the amount of copper, <m>C</m>, in millions of tons, remaining <m>t</m> years after 2007.</p></task>
+    <introduction><p>Copper is the third most widely used metal, behind iron and aluminum. In 2007 the US Geological Survey estimated that there are 490 million tons of usable copper reserves left in the world. The global consumption of copper in 2007 was 17.8 million tons per year.</p></introduction>
 
     <task><p>Complete the table of values.</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p> You may have to remind students that  is measured from 2007, not from the previous table entry; so that for instance in 2015, <m>t=8</m> (not 5).</p></commentary>
+            <aside><title>Note</title>
+            <p> You may have to remind students that <m>t</m> is measured from 2007, not from the previous table entry; so that for instance in 2015, <m>t=8</m> (not 5).</p></aside>
       
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Year</cell>
+                    <cell>2008</cell>
                     <cell>2010</cell>
                     <cell>2015</cell>
                     <cell>2020</cell></row>
                 <row><cell><m>t~</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
                 <row><cell><m>C~</m></cell>
+                    <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
             </tabular></task>
 
+    <task><p>Supposing that we continue to consume copper at the same annual rate, write an equation for the amount of copper, <m>C</m>, in millions of tons, remaining <m>t</m> years after 2007.</p></task>
+
     <task><p>Graph the equation.</p>
-          <image source="act-1-3-1.png" width="40%"></image></task>
+          <image source="act-1-3-1new.png" width="55%"></image></task>
 
     <task><p>Use algebra to find the coordinates of each intercept of the graph.</p>
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -46,28 +49,29 @@
                 <row><cell><m>\hphantom{00000}</m></cell>
                     <cell><m>0</m></cell></row>
             </tabular></task>
-    <task><p>Explain what the intercepts tell us about the problem.</p>
+    <task><p>Explain what the intercepts tell us about copper consumption.</p>
             
-            <commentary audience="instructor"><title>Note</title>
-            <p>To interpret the <m>C</m>-intercept, for example, start with <m>C=490</m> when <m>t=0</m>, then replace the variables with words, and finally write a sentence.</p></commentary>
+            <aside><title>Note</title>
+            <p>To interpret the <m>C</m>-intercept, for example, start with <m>C=490</m> when <m>t=0</m>, then replace the variables with words, and finally write a sentence.</p></aside>
 
           <p>The <m>C</m>-intercept is  <fillin/>  .  It tells us:</p>
 
           <p>The <m>t</m>-intercept is  <fillin/>  .  It tells us:</p></task></activity>
 
-  <activity><title>General Form for a Linear Equation</title>
+  <activity><title>General Form for a Linear Equation, <m>Ax + By = C</m> </title>
     <p>The owner of a gas station has $19,200 to spend on unleaded gas this month. Regular unleaded costs him $2.40 per gallon, and premium unleaded costs $3.20 per gallon.</p>
     <task><p>Write algebraic expressions to answer the questions:</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Many students will immediately write an equation (the answer to part (b)), but will have trouble answering the two questions in part (a).</p></commentary>
+            <aside><title>Note</title>
+            <p>Many students will immediately write an equation (the answer to part (b)), but will have trouble answering the two questions in part (a).</p></aside>
 
           <p>How much do <m>x</m> gallons of regular cost?</p>  
           <p>How much do <m>y</m> gallons of premium cost?</p></task>
 
-    <task><p>Write an equation that relates the amount of regular unleaded gasoline, <m>x</m>, the owner can buy and the amount of premium unleaded, <m>y</m>.</p></task>
+    <task><p>Write an equation that relates the amount of regular unleaded gasoline, <m>x</m>, and the amount of premium unleaded, <m>y</m>, that the owner can buy if he spends $19,200.</p></task>
 
     <task><p>Find the intercepts and use the intercept method to sketch the graph.</p>
+        <sidebyside widths="40% 45%">
           <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x~</m></cell>
@@ -77,17 +81,17 @@
                 <row><cell><m>\hphantom{00000}</m></cell>
                     <cell><m>0</m></cell></row>
             </tabular>
-      <image source="act-1-3-2.png" width="40%"></image></task>
+      <image source="act-1-3-2new.png" width="40%"></image></sidebyside></task>
 
     <task><p>Explain what the intercepts tell us about the amount of gasoline.</p>
         <p>The <m>x</m>-intercept is  <fillin/>  .  It tells us:</p>
 
         <p>The <m>y</m>-intercept is  <fillin/>  .  It tells us:</p></task>
 
-    <task><p>If the gas station owner would like to buy 5000 gallons of regular gasoline, how many gallons of premium can he buy?  Label this point on the graph.</p></task>
+    <task><p>If the gas station owner would like to buy 5000 gallons of regular gasoline, how many gallons of premium can he buy with his budget ot $19,200?  Label this point on the graph.</p></task>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Some students will not know what to do with the 5000.</p></commentary>
+            <aside><title>Note</title>
+            <p>Some students will not know what to do with the 5000.</p></aside>
 
     <task><p>What is the meaning of the point <m>(2000, 4500)</m> on the graph?</p></task></activity>
 
@@ -102,19 +106,20 @@
   <subsection><title>Wrap-Up</title>
   <p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
   <p><ul>
+    <li><p>Find the intercepts of the graph of a linear equation.</p></li>
     <li><p>Interpret the intercepts of the graph of a linear model.</p></li>
     <li><p>Write a model in general linear form, <m>Ax+By=C</m>.</p></li> 
-    <li><p>Find the intercepts of the graph of a linear equation.</p></li>
     <li><p>Graph a line by the intercept method.</p></li>
     <li><p>Solve a linear equation for <m>y</m> in terms of <m>x</m>.</p></li></ul></p>
+</subsection>
 
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Explain how to graph a line by the intercept method.</p></li>
     <li><p>Explain how the words intercept and intersect are related, and how they are different.</p></li>
     <li><p>In what situations is the general linear form easier to use for a model than the form <m>y = \text{(starting value)} + \text{rate} \cdot x</m>?</p></li>
     <li><p>Explain why setting <m>y=0</m> in a linear equation allows us to find the <m>x</m>-intercept.</p></li>
-</ol></p></commentary>
+</ol></p>
 </subsection>
 
 </section>

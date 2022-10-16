@@ -3,9 +3,9 @@
 <section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Slope</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>This Lesson reviews the notion of slope, which students learned in elementary algebra, but emphasizes the meaning of the slope as a rate of change. Notice that in this Lesson we do not use the coordinate formula for slope, <m>y=\dfrac{y_2-y_1}{x_2-x_1}</m>;  that formula is taken up in Lesson 1.5. All of the slopes in this Lesson can be computed from the definition, <m>m=\dfrac{\Delta y}{\Delta x}</m>. Encourage students to include units in their calculation of <m>\Delta y</m> and <m>\Delta x</m> to help them interpret the slope as a rate.</p>
-<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></commentary>
+<introduction><title>Instructor Overview</title>
+<p>This Lesson reviews the notion of slope, which students learned in elementary algebra, but emphasizes the meaning of the slope as a rate of change. Notice that in this Lesson we do not use the coordinate formula for slope, <m>y=\dfrac{y_2-y_1}{x_2-x_1}</m>;  that formula is taken up in Lesson 1.5. All of the slopes in this Lesson can be computed from the definition, <m>m = \dfrac{\Delta y}{\Delta x}</m>. Encourage students to include units in their calculation of <m>\Delta y</m> and <m>\Delta x</m> to help them interpret the slope as a rate.</p>
+<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></introduction>
 
 <activity><title>Calculating Rate of Change</title>
 
@@ -24,8 +24,8 @@
             </tabular>
             <p><m>~~~~~~~~~~~~~~~\Delta H =</m></p>
     
-            <commentary audience="instructor"><title>Note</title>
-            <p>Explain the difference between total change and average yearly change.</p></commentary>
+            <aside><title>Note</title>
+            <p>Explain the difference between total change and average yearly change.</p></aside>
 
     <p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
     <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
@@ -42,13 +42,13 @@
             </tabular></p></stack>
             <image source="act-1-4-2.png" width="75%"></image></sidebyside></task>
 
-<task><p>Calculate the slope of the graph from 1992 to 2002.  Include units in your answer.</p></task>
+<task><p>Calculate the slope of the graph from 1992 to 2002. Include units in your answer.</p></task>
 
 <task><p>What does the slope tell us about glaciers?</p></task>
 </activity>
 
 <activity><title>Slope and Linear Models</title>
-<introduction><p>The taxi fare in three different cities is described below.  In each city, you pay an initial charge when you get into the taxi, and then your fare is based on the distance you travel.  Each city uses a different distance unit to compute the fare.
+<introduction><p>The taxi fare in three different cities is described below.  In each city, you pay an initial charge when you get into the taxi, and then your fare is based on the distance you travel. Each city uses a different distance unit to compute the fare.
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>City</cell>
@@ -69,21 +69,22 @@
                     <cell><m>0.40</m></cell></row>
             </tabular></p></introduction>
   
-  <task><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest mileage rate?</p></task>
+  <task>    <aside><title>Note</title>
+            <p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></commentary>
+    <p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest mileage rate?</p></task>
 
-  <task><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></task>
-            <commentary audience="instructor"><title>Note</title>
-            <p>Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></commentary>
+  <task><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p>
+
+            <aside><title>Note</title>
+            <p>Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></aside></task>
 
   <task><p>In which city do taxis charge the lowest fare for a 5 mile ride?</p></task>
 
-  <task><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (b).)</p></task>
+  <task><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (b).)</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></commentary>
+            <aside><title>Note</title>
+            <p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></task>
 
   <task><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
       <image source="act-1-4-3.png" width="75%"></image></sidebyside></task>
@@ -121,10 +122,10 @@
 
 <task><p>Calculate the slope, and interpret it as a rate of change. Include units in your answer.</p></task>
 
-<task><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p></task>
+<task><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p>>
 
-             <commentary audience="instructor"><title>Note</title>
-             <p>Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></commentary>
+             <aside><title>Note</title>
+             <p>Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></aside></task>
 </activity>
 
 <subsection><title>Check Your Understanding</title><ol>
@@ -144,15 +145,14 @@
 <li><p>Illustrate slope on a graph.</p></li>
 <li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
 <li><p>Recognize a linear relationship by its constant rate of change.</p></li>
-<li><p>Write a linear model using slope and initial value.</p></li></ul>
+<li><p>Write a linear model using slope and initial value.</p></li></ul></subsection>
 
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
 <li><p>What do we use ratios and rates for?</p></li>
 <li><p>Suppose  represents your distance from home, in miles. Compare the meanings of the two statements <m>x=30</m> and <m>\Delta x=30</m>.</p></li>
 <li><p>Explain how slope measures the steepness of an incline.</p></li>
 <li><p>State two useful consequences of the fact that lines have constant slope.</p></li>
-</ol></p></commentary>
+</ol></p></subsection>
 
-</subsection>
 </section>
