@@ -3,13 +3,12 @@
 <section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs and Equations</title>
 
-<commentary audience="instructor"><title>Overview</title>
+<introduction><title>Overview</title>
 <p>This Lesson emphasizes the relationship between a graph and an equation or inequality. This is a difficult concept for students, and it is worth pointing out to the class that understanding this connection is the goal of the Lesson. Stress that they must show their work on the graph. They will want to solve all the problems algebraically, but you could mention that they will soon encounter equations that they cannot solve with algebra.</p>
-<p>Try to make students understand that, for a linear inequality, all the solutions lie on one side of the boundary value. This is why using a single test value works. The technique will have to be modified slightly when we solve nonlinear inequalities.
-While they work on the Activities, walk around to check each student's graphs, to see if they are getting it. If one person in the group is marking the graphs correctly, ask him or her to demonstrate the graphical technique to the others in the group.</p>
-</commentary>
+<p>Solving linear inequalities graphically helps students see that all the solutions lie on one side of the boundary value. While they work on the Activities, walk around to check each student's graphs, to see if they are getting it. If one person in the group is marking the graphs correctly, ask him or her to demonstrate the graphical technique to the others in the group.</p>
+</introduction>
 
-<activity><title>Evaluating and Solving</title>
+<activity xml:id="act-1-2-1"><title>Evaluating and Solving</title>
 <p>Use the graph of <m>y=2x-6</m> to complete the tasks.</p>
     <sidebyside widths="40% 60%"><image source="act-1-2-1.png"></image>
     <ol marker="a">
@@ -21,7 +20,7 @@ While they work on the Activities, walk around to check each student's graphs, t
     </ol></sidebyside>     
 </activity>
 
-<activity><title>Solving Equations Graphically</title>
+<activity xml:id="act-1-2-2"><title>Solving Equations Graphically</title>
 
 <introduction><p>Use the graph of <m>y=4-3x</m> to solve the equations. (Show your work by making a dot at the correct point on the graph for each equation.)</p>
     <sidebyside widths="40% 50%"><image source="act-1-2-2.png"></image>
@@ -47,7 +46,7 @@ While they work on the Activities, walk around to check each student's graphs, t
     </ol></p>
 </activity> 
 
-<activity><title>Solving Inequalities Graphically</title>
+<activity xml:id="act-1-2-3"><title>Solving Inequalities Graphically</title>
 
 <task><p>Solve <m>2x+1 \lt 7</m>.</p>
 
@@ -100,10 +99,10 @@ While they work on the Activities, walk around to check each student's graphs, t
 
 <subsection><title> Check Your Understanding</title>
 <p><ol>
-    <li><p>What are the two skills compared in Activity 1?  What is the difference in the methods for performing the two skills?</p></li>
-    <li><p>What was different about the problems in Activity 3, compared to those in Activity 2?</p></li>
-    <li><p>How were the solutions you found in Activity 3 different from the solutions in Activity 2?</p></li>
-    <li><p>In Activity 3, how do you decide which side of the boundary point to shade?</p></li>
+    <li><p>What are the two skills compared in <xref ref="act-1-2-1" text="custom">Activity 1</xref>?  What is the difference in the methods for performing the two skills?</p></li>
+    <li><p>What was different about the problems in <xref ref="act-1-2-3" text="custom">Activity 3</xref>, compared to those in <xref ref="act-1-2-2" text="custom">Activity 2</xref>?</p></li>
+    <li><p>How were the solutions you found in <xref ref="act-1-2-3" text="custom">Activity 3</xref> different from the solutions in <xref ref="act-1-2-2" text="custom">Activity 2</xref>?</p></li>
+    <li><p>In <xref ref="act-1-2-3" text="custom">Activity 3</xref>, how do you decide which side of the boundary point to shade?</p></li>
 </ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
@@ -115,16 +114,14 @@ While they work on the Activities, walk around to check each student's graphs, t
     <li><p>Recognize a solution of an equation in two variables</p></li>
     <li><p>Use the connection between the graph of an equation and its solutions</p></li>
     <li><p>Use a graph to solve an equation or inequality in one variable</p></li>
-</ul></p>
+</ul></p></subsection>
 
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>In Activity 2 we used a graph of <m>y=4-3x</m> to solve the equation <m>4-3x=10</m>. Why can we do this? (How are the two equations related?)</p></li>
-<li><p>In Activity 3a we shaded one side of the boundary value, <m>x=3</m>, on the <m>x</m>-axis, and said that the solutions of the inequality are any <m>x</m>-values with <m>x \lt 3</m>. Verify the solution by checking two <m>x</m>-values less than 3, and two <m>x</m>-values greater than 3.</p></li>
+<li><p>In <xref ref="act-1-2-2" text="custom">Activity 2</xref> we used a graph of <m>y=4-3x</m> to solve the equation <m>4-3x=10</m>. Why can we do this? (How are the two equations related?)</p></li>
+<li><p>In <xref ref="act-1-2-3" text="custom">Activity 3a</xref> we shaded one side of the boundary value, <m>x=3</m>, on the <m>x</m>-axis, and said that the solutions of the inequality are any <m>x</m>-values with <m>x \lt 3</m>. Verify the solution by checking two <m>x</m>-values less than 3, and two <m>x</m>-values greater than 3.</p></li>
 <li><p>Suppose you have an increasing graph, for example, <m>y=2x-8</m>. If you know that <m>y \gt 5</m> for a particular <m>x</m>-value, say, <m>x=9</m>, how do you know that <m>y \gt 5</m> for all <m>x \gt 9</m>?</p></li>
-<li><p>In Activity 2 we solved the equation <m>4-3x=10</m> by using the graph of <m>y=4-3x</m>.  Explain why the following statement is incorrect: "The solution of <m>4-3x=10</m> is <m>(-2,10)</m>."</p></li>
-</ol></p></commentary>
-</subsection>
+<li><p>In <xref ref="act-1-2-2" text="custom">Activity 2</xref> we solved the equation <m>4-3x=10</m> by using the graph of <m>y=4-3x</m>.  Explain why the following statement is incorrect: "The solution of <m>4-3x=10</m> is <m>(-2,10)</m>."</p></li>
+</ol></p></subsection>
 
 </section>
