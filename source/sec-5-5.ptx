@@ -3,18 +3,8 @@
 <section xml:id="sec-5-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Inverse Variation</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>This Lesson continues the study of variation, this time addressing inverse variation.</p></commentary>
-
-<activity><title>Inverse Variation</title>
-
-<task><p>Complete the statements about inverse variation.</p>
-  <p><ul>  
-  <li><p>The formula for inverse variation is <fillin/> .</p></li>                          
-  <li><p>An inverse variation is an example of a  <fillin/> function.</p></li>
-  <li><p>The graph of an inverse variation has a  <fillin/> at <m>x=0</m> .</p></li>
-  <li><p>If <m>y</m> varies inversely with <m>x</m>, so that <m>y=\dfrac{k}{x}</m>, what is true about the product of the variables?</p></li></ul></p></task>
-</activity>
+<assemblage>
+<p>This Lesson continues the study of variation, this time addressing inverse variation. If you did not complete all four Activities in Lesson 5.4, you could begin with an example of direct variation for review and contrast.</p></assemblage>
 
 <activity><title>Wrapping Paper</title>
 
@@ -34,19 +24,17 @@
                     <cell><m>\hphantom{0000000}</m></cell>
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></introduction>
+            <aside><p>Point out that not every decreasing function represents inverse variation; we must test for <m>xy=k</m>.</p></aside>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Point out that not every decreasing function represents inverse variation; we must test for <m>xy=k</m>.</p></commentary>
+<p><ol marker="a.">
+    <li><p>Compute the product of the length and width for each roll of wrapping paper. What is the constant of inverse proportionality?</p></li>
 
-<task><p>Compute the product of the length and width for each roll of wrapping paper. What is the constant of inverse proportionality?</p></task>
+    <li><p>Express the length, <m>L</m> of the paper as a function of the width, <m>w</m> of the roll.</p></li>
 
-<task><p>Express the length, <m>L</m> of the paper as a function of the width, <m>w</m> of the roll.</p></task> 
-
-<task><p>Sketch a graph of the function. Which basic graph does your answer resemble?</p>
-      <image source="act-5-5-1.png" width="35%"></image></task>
-
-            <commentary audience="instructor"><title>Note</title>
-            <p>Note that in direct variation, the graph passes through the origin, but in inverse variation the function is undefined at <m>x=0</m>. The graph has both a vertical and a horizontal asymptote.</p></commentary>
+    <li><p>Sketch a graph of the function. Which basic graph does your answer resemble?</p>
+      <image source="act-5-5-1.png" width="35%"></image>
+            <aside><p>Point out that in direct variation, the graph passes through the origin, but in inverse variation the function is undefined at <m>x=0</m>. The graph has both a vertical and a horizontal asymptote.</p></aside></li>
+</ol></p>
 </activity>
 
 <activity><title>Ocean Temperature</title>
@@ -64,37 +52,83 @@
                     <cell>4</cell></row>
     </tabular></introduction>      
 
-<task><p>How do you know from the table that this is an inverse variation?</p></task>
+<p><ol marker="a.">
+    <li><p>How do you know from the table that this is an inverse variation?</p></li>
 
-<task><p>Find a formula for <m>T</m>, temperature, in terms of <m>D</m>, depth.</p></task>  
+    <li><p>Find a formula for <m>T</m>, temperature, in terms of <m>D</m>, depth.</p></li>
 
-<task><p>What is the ocean temperature at a depth of 500 meters?</p></task>
+    <li><p>What is the ocean temperature at a depth of 500 meters?</p></li>
+</ol></p>
+</activity>
+
+<activity><title>Sunshine</title>
+<introduction><p>The intensity, <m>I</m>, of radiation from the Sun is inversely proportional to the square of the distance, <m>d</m>, from the Sun. Mercury is about 36 million miles from the Sun and receives radiation intensity of approximately 9000 watts per square meter.</p></introduction>
+<p><ol marker="a.">
+    <li><p>Write a formula for <m>I</m> as a function of <m>d</m>.</p></li>
+
+    <li><p>The distance from the Sun to Earth is about three times the distance from the Sun to Mercury. What level of radiation intensity does Earth receive?</p></li>
+
+
+    <li><p>What happens to the radiation intensity if the distance from the Sun is quadrupled?</p></li>
+</ol></p>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>How can you recognize inverse variation from a graph?</p></li>     
-<li><p>What should you compute to see if <m>w</m> varies inversely with <m>p</m>?</p></li>
-<li><p>Is every decreasing function an inverse variation? Explain.</p></li>
-<li><p>In Activity 3, what happens to <m>T</m> when you double <m>D</m>?</p></li>
+    <li><p>How can you recognize inverse variation from a graph?</p></li>     
+    <li><p>What should you compute to see if <m>w</m> varies inversely with <m>p</m>?</p></li>
+    <li><p>Is every decreasing function an inverse variation? Explain.</p></li>
+    <li><p>In Activity 3, what happens to <m>T</m> when you double <m>D</m>?</p></li>
 </ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to functions:</p>
 <p><ul>
-<li><p>Recognize inverse variation from a table of values</p></li>
-<li><p>Find the constant of variation and write an equation for the function</p></li> 
-<li><p>Sketch the graph of an inverse variation</p></li> 
+    <li><p>Recognize inverse variation from a table of values</p></li>
+    <li><p>Find the constant of variation and write an equation for the function</p></li> 
+    <li><p>Sketch the graph of an inverse variation</p></li> 
 </ul></p>
+</subsection>
 
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Describe the graph of an inverse variation.</p></li>
-<li><p>What should you check to see if a decreasing function describes inverse variation?</p></li>
-<li><p>Where is the vertical asymptote in the graph of an inverse variation?</p></li>
-<li><p>Give an example of nverse variation with a power.</p></li>
-</ol></p></commentary>
+    <li><p>Describe the graph of an inverse variation.</p></li>
+    <li><p>What should you check to see if a decreasing function describes inverse variation?</p></li>
+    <li><p>Where is the vertical asymptote in the graph of an inverse variation?</p></li>
+    <li><p>Give an example of inverse variation with a power.</p></li>
+</ol></p>
 
+<assemblage><title>Concept Questions</title>
+<p><ol>
+    <li><p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
+        <p><ol marker="a.">
+            <li>Check whether <m>xy</m> is constant</li>
+            <li>Check whether the function is decreasing</li>
+            <li>Check whether <m>y</m> is the reciprocal of <m>y</m></li>
+            <li>Check whether <m>y/x</m> is constant</li>
+        </ol></p></li>
+    <li><p>An inverse variation is an example of a  <fillin/> function.</p>
+        <p><ol marker="a.">
+            <li>linear</li>
+            <li>decreasing</li>
+            <li>quadraric</li>
+            <li>piecewise</li>
+        </ol></p></li>
+    <li><p>The graph of an inverse variation has a(n) <fillin/> at <m>x=0</m> .</p>
+        <p><ol marker="a.">
+            <li>intercept</li>
+            <li>solution</li>
+            <li>asymptote</li>
+            <li>minimum</li>
+        </ol></p></li>
+    <li><p>Delbert says that if a line has a negative slope, it must be an inverse variation. Is he correct?</p>
+        <p><ol marker="a.">
+            <li>Yes, because it is decreasing.</li>
+            <li>Yes, because "inverse" means opposite.</li>
+            <li>No, because the slope is not a reciprocal.</li>
+            <li>No, because it is not true that <m>yx=k</m>.</li>
+        </ol></p></li>
+</ol></p></assemblage>
 </subsection>
 
 </section>

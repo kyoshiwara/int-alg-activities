@@ -3,19 +3,17 @@
 <section xml:id="sec-3-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphing Parabolas</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this Lesson we consider the effects of the parameters <m>a</m>, <m>b</m>, and <m>c</m> on the graph of the basic parabola.  You could have students work on the Activities in groups, stopping to summarize after each part.</p></commentary>
+<assemblage>
+<p>In this Lesson we consider the effects of the parameters <m>a</m>, <m>b</m>, and <m>c</m> on the graph of the basic parabola.  You could have students work on the Activities in groups, stopping to summarize after each part.</p></assemblage>
 
-<activity><title>Graphing Practice, I</title>
-
-<task><p>Complete the table of values, then sketch the graph and label the coordinates of three points on the graph.</p>
-
-          <commentary audience="instructor"><title>Note</title>
-          <p>Students have trouble evaluating even these simple quadratic expressions. A common error, for example, is to enter <m>-4^2</m> into the calculator when evaluating <m>x^2</m> at <m>-4</m>.</p></commentary>
+<activity><title>Graphing Practice I</title>
+<p><ol marker="a.">
+  <li><p>Complete the table of values, then sketch the graph on the grid with the basic parabola and label the coordinates of three points on the graph.</p>
+          <aside><p>Students have trouble evaluating even these simple quadratic expressions. A common error, for example, is to enter <m>-4^2</m> into the calculator when evaluating <m>x^2</m> at <m>-4</m>.</p></aside>
   
-  <sidebyside widths="35% 35%"><stack>
-    <p><m>y=\frac{1}{2}x^2</m></p>
-      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+  <sidebyside widths="45% 45%">
+    <stack><p>i. <m>~y=\frac{1}{2}x^2</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>-2</m></cell>
@@ -29,10 +27,11 @@
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell></row>
-    </tabular>
+        </tabular>
     <image source="act-3-3-1.png"></image></stack>
-    <stack><p><m>y=3x^2</m></p>
-      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+    
+    <stack><p>ii. <m>~y=3x^2</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>-2</m></cell>
@@ -46,21 +45,20 @@
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell></row>
-    </tabular>
-    <image source="act-3-3-2.png"></image></stack></sidebyside></task>
+        </tabular>
+    <image source="act-3-3-2.png"></image></stack></sidebyside></li>
   
-  <task><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p></task>
+    <li><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p>
+            <aside><p>Summarize the results and direct students' attention to the appropriate page in the textbook.</p></aside></li>
+</ol></p>
+</activity>
 
-                <commentary audience="instructor"><title>Note</title>
-                <p>Summarize the results and direct students' attention to the appropriate page in the textbook.</p></commentary>       
-  </activity>
-
-<activity><title>Graphing Practice, II</title>
-
-<task><p>Complete the table of values, then sketch the graph and label the coordinates of three points on the graph.</p>
-  <sidebyside widths="45% 45%"><stack>
-    <p><m>y=x^2 - 9</m></p>
-      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<activity><title>Graphing Practice II</title>
+<p><ol marker="a.">
+  <li><p>Complete the table of values, then sketch the graph on the grid with the basic parabola and label the coordinates of three points on the graph.</p>
+  <sidebyside widths="45% 45%">
+    <stack><p>i. <m>~y=x^2 - 9</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>-4</m></cell>
@@ -78,13 +76,12 @@
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell></row>
-    </tabular>
+          </tabular>
     <image source="act-3-3-3.png"></image>
-    <p>Find the <m>x</m>-intercepts of the graph.</p>
-    <p>Find the vertex of the graph.</p>
-  </stack>
-    <stack><p><m>y=9 - x^2</m></p>
-      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+    </stack>
+
+    <stack><p>ii. <m>~y=9 - x^2</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>-4</m></cell>
@@ -102,25 +99,25 @@
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell></row>
-    </tabular>
+          </tabular>
     <image source="act-3-3-3.png"></image>
-    <p>Find the <m>x</m>-intercepts of the graph.</p>
-    <p>Find the vertex of the graph.</p>
-  </stack></sidebyside></task>
+    </stack>
+  </sidebyside></li>
 
-  <task><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p></task>
+    <li><p>Find the <m>x</m>-intercepts of each graph.</p>
+    <p>Find the vertex of each graph.</p></li>
 
-              <commentary audience="instructor"><title>Note</title>
-              <p>Note the symmetry of each graph and the location of the vertex. Again direct students' attention to the appropriate page in the textbook.</p></commentary>
+    <li><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p>
+              <aside><p>Note the symmetry of each graph and the location of the vertex. Again direct students' attention to the appropriate page in the textbook.</p></aside></li>
+</ol></p>
+</activity>
 
-  </activity>
-
-<activity><title>Graphing Practice, III</title>
-
-<task><p>Complete the table of values, then sketch the graph and label the coordinates of three points on the graph.</p>
-  <sidebyside widths="45% 45%"><stack>
-    <p><m>y=x^2 + 6x</m></p>
-      <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<activity><title>Graphing Practice III</title>
+<p><ol marker="a.">
+  <li><p>Complete the table of values, then sketch the graph on the grid with the basic parabola and label the coordinates of three points on the graph.</p>
+  <sidebyside widths="45% 45%">
+    <stack><p>i. <m>~y=x^2 + 6x</m></p>
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>-6</m></cell>
@@ -136,12 +133,10 @@
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell></row>
-    </tabular>
+        </tabular>
     <image source="act-3-3-3.png"></image>
-    <p>Find the <m>x</m>-intercepts of the graph.</p>
-    <p>Find the vertex of the graph.</p>
   </stack>
-    <stack><p><m>y=2x^2 - 6x</m></p>
+  <stack><p>ii. <m>~y=2x^2 - 6x</m></p>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
@@ -160,71 +155,101 @@
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell>
                     <cell><m>\hphantom{000}</m></cell></row>
-    </tabular>
+        </tabular>
     <image source="act-3-3-3.png"></image>
-
-    <p>Find the <m>x</m>-intercepts of the graph.</p>
-
-                  <commentary audience="instructor"><title>Note</title>
-                  <p>Help students find the <m>x</m>-intercepts, pointing out the use of factoring instead of extracting roots to solve the equations.</p></commentary>
-
-    <p>Find the vertex of the graph.</p>
-
-                  <commentary audience="instructor"><title>Note</title>
-                  <p>Show the class how to find the <m>x</m>-coordinate of the vertex as the average of the -intercepts.  They will also need to be prompted on how to find the <m>y</m>-coordinate of the vertex.</p></commentary> 
-                     
-  </stack></sidebyside></task>
+    </stack>
+    </sidebyside></li>
+    <li><p>Find the <m>x</m>-intercepts of each graph.</p>
+                <aside><p>Help students find the <m>x</m>-intercepts, pointing out the use of factoring instead of extracting roots to solve the equations.</p>
+                <p>Show the class how to find the <m>x</m>-coordinate of the vertex as the average of the <m>x</m>-intercepts. They will also need to be prompted on how to find the <m>y</m>-coordinate of the vertex.</p></aside>
+    <p>Find the vertex of each graph.</p></li>
   
-  <task><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p></task>
+    <li><p>Compare each graph to the basic parabola, <m>y=x^2</m>. How is it different?</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Intercepts and Vertex</title>
+<p><ol>
+    <li><p><ol marker="a.">
+        <li><p>How do we find the <m>y</m>-intercept of a parabola from its equation?</p></li>
+        <li><p>How do we find the <m>x</m>-intercepts of a parabola from its equation?</p></li>
+        <li><p>Recall that to find the average of two numbers we add them up, and divide the result by 2.</p></li>
+    </ol></p></li>
 
-<task><p>How do we find the <m>y</m>-intercept of a parabola from its equation?</p></task>
+    <li><p><ol>
+        <li><p>If the <m>x</m>-intercepts of a parabola are <m>x=p</m> and <m>x=q</m>, what is the <m>x</m>-coordinate of its vertex?</p></li>
+        <li><p>If the <m>x</m>-intercepts of a parabola are <m>x=0</m> and <m>x=\dfrac{-b}{a}</m>, what is the <m>x</m>-coordinate of its vertex?</p></li>
+        <li><p>How do we find the <m>y</m>-coordinate of the vertex from the equation?</p>
+              <aside><p>This Activity leads students to the formula for the <m>x</m>-coordinate of the vertex. After deriving the formula, demonstrate that it works on the graphs in the prevous Activity.</p></aside></li>
+    </ol></p></li>
 
-<task><p>How do we find the <m>x</m>-intercepts of a parabola from its equation?</p></task>
-
-<task><p>Recall that to find the average of two numbers we add them up, and divide the result by 2.</p>
-  <p><ol>
-    <li><p>If the <m>x</m>-intercepts of a parabola are <m>x=p</m> and <m>x=q</m>, what is the <m>x</m>-coordinate of its vertex?</p></li>
-    <li><p>If the <m>x</m>-intercepts of a parabola are <m>x=0</m> and <m>x=\dfrac{-b}{a}</m>, what is the <m>x</m>-coordinate of its vertex?</p></li></ol></p></task>
-
-<task><p>How do we find the <m>y</m>-coordinate of the vertex from the equation?</p></task>
-
-              <commentary audience="instructor"><title>Note</title>
-              <p>This Activity leads students to the formula for the <m>x</m>-coordinate of the vertex. After deriving the formula, demonstrate that it works on the graphs in the prevous Activity.</p></commentary>
-
-<task><p>Describe how each of the three parameters <m>a</m>, <m>b</m>, and <m>c</m> affect the graph of the basic parabola.</p>
-    <p><ol>
-      <li><p><m>y=ax^2</m></p></li>
-      <li><p><m>y=x^2 + c</m></p></li>
-      <li><p><m>y=x^2 + bx</m></p></li></ol></p></task>
+    <li><p>Describe how each of the three parameters <m>a</m>, <m>b</m>, and <m>c</m> affect the graph of the basic parabola.</p>
+        <p><ol>
+          <li><p><m>y=ax^2</m></p></li>
+          <li><p><m>y=x^2 + c</m></p></li>
+          <li><p><m>y=x^2 + bx</m></p></li>
+      </ol></p></li>
+</ol></p>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>What are the <m>x</m>-intercepts of the graph of <m>y=x^2-16</m>?  What are the <m>x</m>-intercepts of the graph of <m>y=x^2-16x</m>?
-</p></li>
-<li><p>What is the axis of symmetry of the graph of <m>y=x^2-16</m>?  What is the axis of symmetry of the graph of <m>y=x^2-16</m>?</p></li>
-<li><p>How is the graph of <m>y=2x^2+5</m> different from the basic parabola?  What are the coordinates of its vertex?</p></li>
-<li><p>Compare the graphs of <m>y=x^2-25</m> and <m>y=25-x^2</m>.</p></li></ol></p>
+    <li><p>What are the <m>x</m>-intercepts of the graph of <m>~y=x^2-16</m>?  What are the <m>x</m>-intercepts of the graph of <m>y=x^2-16x</m>?</p></li>
+    <li><p>What is the axis of symmetry of the graph of <m>y=x^2-16</m>?  What is the axis of symmetry of the graph of <m>~y=x^2-16</m>?</p></li>
+    <li><p>How is the graph of <m>~y=2x^2+5~</m> different from the basic parabola?  What are the coordinates of its vertex?</p></li>
+    <li><p>Compare the graphs of <m>y=x^2-25</m> and <m>y=25-x^2</m>.</p></li>
+</ol></p>
 </subsection>
 
 <subsection><title>Wrap Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to quadratic models:</p>
 <p><ul>
- <li><p>Describe the effect of each of the parameters <m>a</m>, <m>b</m>, and <m>c</m> on the graph of a parabola</p></li>
-<li><p>Find the <m>x</m>- and <m>y</m>-intercepts of a parabola</p></li> 
-<li><p>Find the vertex of a parabola</p></li>
-<li><p>Sketch the graph of a parabola</p></li></ul></p>
+    <li><p>Describe the effect of each of the parameters <m>a</m>, <m>b</m>, and <m>c</m> on the graph of a parabola</p></li>
+    <li><p>Find the <m>x</m>- and <m>y</m>-intercepts of a parabola</p></li> 
+    <li><p>Find the vertex of a parabola</p></li>
+    <li><p>Sketch the graph of a parabola</p></li>
+</ul></p>
+</subsection>
 
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Describe what the parameter <m>a</m> tells you about the graph of <m>y=ax^2</m>.</p></li>
-<li><p>Explain why the <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts of the graph.</p></li>
-<li><p>Describe the differences between the graphs of <m>y=x^2-4</m> and <m>y=x^2-4x</m>.</p></li>
-<li><p>Explain why the graph of <m>y=x^2-2</m> is shifted down 2 units compared to the basic parabola.</p></li>
-</ol></p></commentary>
+    <li><p>Describe what the parameter <m>a</m> tells you about the graph of <m>y=ax^2</m>.</p></li>
+    <li><p>Explain why the <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts of the graph.</p></li>
+    <li><p>Describe the differences between the graphs of <m>y=x^2-4</m> and <m>y=x^2-4x</m>.</p></li>
+    <li><p>Explain why the graph of <m>y=x^2-2</m> is shifted down 2 units compared to the basic parabola.</p></li>
+</ol></p>
+
+<assemblage><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which point on a parabola always lies on the axis of symmetry?</p>
+    <p><ol marker="a.">
+        <li>The <m>x</m>-intercept</li>    
+        <li>The <m>y</m>-intercept</li>
+        <li>The vertex</li>  
+        <li>The origin</li>
+    </ol></p></li>
+    <li><p>The <m>x</m>-intercept of the graph of <m>~y=ax^2+bx+c~</m> is the same as the value of which parameter?</p>
+    <p><ol marker="a.">
+        <li><m>a</m></li> 
+        <li><m>b</m></li>
+        <li><m>c</m></li>   
+        <li>None of these</li>
+    </ol></p></li>
+    <li><p>What does the value of <m>a</m> tell us about the graph of <m>~y=ax^2+bx+c~</m>? </p>
+    <p><ol marker="a.">
+        <li>The <m>y</m>-intercept</li>  
+        <li>The number of <m>x</m>-intercepts</li>
+        <li>The <m>x</m>-coordinate of the vertex</li> 
+        <li>The width of the parabola</li>
+    </ol></p></li>
+    <li><p>Give the equation of a parabola that has no <m>x</m>-intercepts.</p>
+    <p><ol marker="a.">
+        <li><m>y=x^2</m></li>
+        <li><m>y=x^2+4</m></li>
+        <li><m>y=x^2-4</m></li>
+        <li><m>y=x^2+x</m></li>
+      </ol></p></li>
+</ol></p></assemblage>
 </subsection>
 
 </section>

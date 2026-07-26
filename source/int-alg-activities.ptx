@@ -14,7 +14,7 @@
   <!-- to some short (non-spaced) description of your book         -->
   <book xml:id="act-int-alg">
     <title>Activities for Intermediate Algebra</title>
-    <subtitle>Functions and Graphs</subtitle>
+    <subtitle>Instructors' Guide</subtitle>
 
     <xi:include href="./meta_frontmatter.ptx" />
 
@@ -24,11 +24,7 @@
     <xi:include href="./ch3.ptx" />
     <xi:include href="./ch4.ptx" />
     <xi:include href="./ch5.ptx" />
-    <xi:include href="./ch6.ptx" />
-    <xi:include href="./ch7.ptx" />
-    <xi:include href="./ch8.ptx" />
-    <xi:include href="./ch9.ptx" />
-    <xi:include href="./ch10.ptx" />
+    
 
     
   </book>

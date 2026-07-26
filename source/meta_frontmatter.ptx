@@ -31,11 +31,18 @@
   </colophon>
 
   
-  <preface xml:id="meta_frontmatter-preface">
-    <p>This Activities Workbook provides a Lesson for each section in the book, consisting of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. The Lessons are designed to show students how the mathematical techniques they are learning can be applied to study and understand new situations. Each Lesson ends with a Wrap-Up and a set of "Check Your Understanding" questions for discussion.</p>
+<preface xml:id="preface">
+<p>This Activities Workbook includes a Lesson for each section of the textbook, consisting of Activities for students to complete in groups or with guidance from the instructor. The Lessons are intended for use for in class and present the skills of algebra in the context of modeling and problem-solving. There is a pdf version of the workbook that can be printed out for students, and a pretext version for instructors. Besides the Activities, the Instructor's Guide includes objectives for each section, tips for teaching, and questions for writing or discussion.</p> 
 
-    <p>The Instructor's version of the Workbook contains an overview and teaching notes for each Lesson, including suggestions for using the Workbook and how to structure class time. There are also suggested questions for writing or discussion.</p>
-  </preface>
+<p>We have also provided some activity-specific Concept Questions for each Lesson; if you use "clickers" for these questions, Turning Point will grade them and keep the scores for you. If you make them part of the grade, they can help motivate students to focus on the lesson during class time. Alternatively, the Concept Questions questions can be used as part of a review before exams.</p>
+
+<p>Before coming to class, students should read the assigned section and answer the embedded QuickCheck reading questions. We want students to learn how to read a textbook, rather than relying entirely on an instructor's lecture to provide all the information they need. There is also a Preview set of Homework Problems on the prerequisite skills needed for the section; these can be assigned before class or used as the class opener. </p>
+
+<p>Class time can then be spent primarily on the Activities. You may want to give a brief  introduction, but should start on the Activities as soon as possible to allow students sufficient time. Usually, students should work on the Activities in groups of three or four, while you circulate to answer questions and provide support. For some Lessons it may be more effective to lead the class as a whole in a guided inquiry.</p>
+
+<p>Allow time at the end of class for a summary of the Lesson. The Check Your Understanding questions highlight the main points of the Activities. There is also a Wrap-Up that outlines the concepts and skills addressed in the Lesson.</p>
+
+</preface>
 
 </frontmatter>
 

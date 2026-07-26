@@ -3,89 +3,122 @@
 <section xml:id="sec-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs of Functions</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this Lesson we use function notation with graphs, construct the graph of a function, use the vertical line test, and solve equations and inequalities graphically.</p></commentary>
+<assemblage>
+<p>In this Lesson we use function notation with graphs, construct the graph of a function, use the vertical line test, and solve equations and inequalities graphically.</p></assemblage>
 
 <activity><title>The Graph of a Function</title>
 
-          <commentary audience="instructor"><title>Note</title>
-          <p>A major goal of these Activities is to help students distinguish between input and output values on a graph, or between <m>x</m> and <m>f(x)</m>, as in "what is the maximum value of the function" versus "where did the maximum occur."</p></commentary>
+          <aside><p>A major goal of these Activities is to help students distinguish between input and output values on a graph, or between <m>x</m> and <m>f(x)</m>, as in "what is the maximum value of the function" versus "where did the maximum occur."</p></aside>
 
 <introduction><p>The graph shows the U.S. unemployment rate as a function of time, <m>U=f(t)</m>, for the years 1985-2004.</p>
-    <image source="act-5-2-1.png" width="70%"></image></introduction>
+    <image source="act-5-2-1.png" width="80%"></image></introduction>
 
-<task><p>Evaluate <m>f(1993)</m>, and explain its meaning for this problem.</p></task>
+<p><ol marker="a.">
+<li><p>Evaluate <m>f(1993)</m>, and explain its meaning for this problem.</p></li>
 
-<task><p>When did the unemployment rate reach its highest value, and what was its highest value?  Write your answer with function notation.</p></task>
+<li><p>When did the unemployment rate reach its highest value, and what was its highest value?  Write your answer with function notation.</p></li>
 
-<task><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?  Write your answer with function notation.</p></task>
+<li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?  Write your answer with function notation.</p></li>
 
-<task><p>Solve the equation <m>f(t)=4.5</m>, and explain its meaning for this problem.</p></task>
+<li><p>Solve the equation <m>f(t)=4.5</m>, and explain its meaning for this problem.</p></li>
 
-<task><p>Over what intervals was the unemployment rate increasing?</p></task>
-
-            <commentary audience="instructor"><title>Note</title>
-            <p>Students will probably be unfamiliar with the terminology "over what interval," so you will need to explain that this refers to input values.</p></commentary>
+<li><p>Over what intervals was the unemployment rate increasing?</p>
+            <aside><p>Students will probably be unfamiliar with the terminology "over what interval," so you will need to explain that this refers to input values.</p></aside></li>
+</ol></p>
 </activity>
 
 <activity><title>Functions Defined by Graphs</title>
 
 <introduction><p>The figure shows the graph of the function <m>y=F(s)</m>. A solid dot means that the point is part of the graph, and an open circle means that the point is not part of the graph.</p>
-    <image source="act-5-2-2.png" width="40%"></image></introduction>
+      <image source="act-5-2-2.png" width="50%"></image></introduction>
 
-<task><p>Find <m>F(-3), F(-2)</m> and <m>F(2)</m>.</p></task>
+<p><ol marker="a.">
+<li><p>Find <m>F(-3), F(-2)</m> and <m>F(2)</m>.</p></li>
 
-<task><p>For what value(s) of <m>s</m> is <m>F(s)=-1</m> ?</p></task>
+<li><p>For what value(s) of <m>s</m> is <m>F(s)=-1</m> ?</p></li>
 
-<task><p>Find the maximum value of <m>F(s)</m>. For what value(s) of <m>s</m> does <m>F</m> take on its maximum value?</p></task>
+<li><p>Find the maximum value of <m>F(s)</m>. For what value(s) of <m>s</m> does <m>F</m> take on its maximum value?</p></li>
 
-<task><p>Find the minimum value of <m>F(s)</m>  For what value(s) of <m>s</m> does <m>F</m> take on its minimum value?</p></task>
+<li><p>Find the minimum value of <m>F(s)</m>  For what value(s) of <m>s</m> does <m>F</m> take on its minimum value?</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Solving Equations and Inequalities</title>
 
 <introduction><p>Each figure shows a graph of 
-  <me>B = f(p)= \dfrac{1}{3}p^3 - 3p + 2</me>     
-Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p>
-</introduction>
+      <me>B = f(p)= \dfrac{1}{3}p^3 - 3p + 2</me>     
+Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p></introduction>
+            <aside><p>Most students still find solving inequalities graphically quite difficult. It may be helpful to go over several of the homework problems on this topic.</p></aside>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Most students still find solving inequalities graphically quite difficult. It may be helpful to go over several of the homework problems on this topic.</p></commentary>
+<p><ol marker="a.">
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 = 6</m></p> 
+    <image source="act-5-2-3.png"></image></sidebyside></li>
 
-<task><sidebyside widths="50% 40%"><p><me>\dfrac{1}{3}p^3 - 3p + 2 = 6</me></p> 
-  <image source="act-5-2-3.png"></image></sidebyside></task>
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 = 2</m></p>
+    <image source="act-5-2-3.png"></image></sidebyside></li>
 
-<task><sidebyside widths="50% 40%"><p><me>\dfrac{1}{3}p^3 - 3p + 2 = 2</me></p>
-  <image source="act-5-2-3.png"></image></sidebyside></task>
-
-<task><sidebyside widths="50% 40%"><p><me>\dfrac{1}{3}p^3 - 3p + 2 \lt 2</me></p>
-  <image source="act-5-2-3.png"></image></sidebyside></task>
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 \lt 2</m></p>
+    <image source="act-5-2-3.png"></image></sidebyside></li>
+</ol></p>
 </activity>
 
 <subsection><title>Check Your Understanding</title>
 <p><ol>
-<li><p>In Activity 1, what is the input variable, and what is the output variable?</p></li>     
-<li><p>In Activity 1d, how did you solve the equation?</p></li>
-<li><p>Is it possible for a function to have more than one maximum value? Is it possible for a function to take on its maximum value at more than one point?</p></li>
-<li><p>In Activity 3, how do you know that the graph represents a function?</p></li>
+    <li><p>In Activity 1, what is the input variable, and what is the output variable?</p></li>     
+    <li><p>In Activity 1d, how did you solve the equation?</p></li>
+    <li><p>Is it possible for a function to have more than one maximum value? Is it possible for a function to take on its maximum value at more than one point?</p></li>
+    <li><p>In Activity 3, how do you know that the graph represents a function?</p></li>
 </ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to functions:</p>
 <p><ul>
-<li><p>Use function notation to label points on a graph</p></li>
-<li><p>Interpret the coordinates of a point on the graph of a function</p></li> 
-<li><p>Use the vertical line test</p></li>
-<li><p>Solve an equation or inequality graphically</p></li>
+    <li><p>Use function notation to label points on a graph</p></li>
+    <li><p>Interpret the coordinates of a point on the graph of a function</p></li> 
+    <li><p>Use the vertical line test</p></li>
+    <li><p>Solve an equation or inequality graphically</p></li>
 </ul></p>
+</subsection>
 
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Describe how to find the value of <m>f(3)</m> from a graph of <m>f(3)</m>.</p></li>
-<li><p>Explain how to construct the graph of a function from its equation.</p></li>
-<li><p>Explain how to use the vertical line test.</p></li>
-<li><p>Explain how to solve an inequality by using a graph.</p></li>
-</ol></p></commentary>
+    <li><p>Describe how to find the value of <m>f(3)</m> from a graph of <m>f(3)</m>.</p></li>
+    <li><p>Explain how to construct the graph of a function from its equation.</p></li>
+    <li><p>Explain how to use the vertical line test.</p></li>
+    <li><p>Explain how to solve an inequality by using a graph.</p></li>
+</ol></p>
+
+<assemblage><title>Concept Questions</title>
+<p><ol>
+    <li><p>If <m>f(8)=2</m>, what point lies on the graph of <m>f</m>?</p>
+    <p><ol marker="a.">
+        <li><m>(8,2)</m></li>
+        <li><m>(2,8)</m></li>
+        <li>Both (a) and (b).</li>
+        <li>All points between 2 and 8.</li>
+        </ol></p></li>
+    <li><p>Write an equation that says <m>(8,17)</m> lies on the graph of <m>f</m>.</p>
+    <p><ol marker="a.">
+        <li><m>8+17=g</m></li>    
+        <li><m>g+8=17</m></li>
+        <li><m>g(8)=17</m></li>    
+        <li><m>8=\dfrac{17}{g}</m></li>
+        </ol></p></li>
+    <li><p>Which of the following is true?</p>
+    <p><ol marker="a.">
+        <li>It is not possible for the function  to take on the same <m>y</m>-value at two different <m>x</m>-values.</li>
+        <li>The maximum value of <m>y=f(x)</m> may occur at two different <m>x</m>-values.</li>
+        <li>The maximum value of the function <m>y=f(x)</m> is the largest <m>x</m>-value that appears on the graph.</li>
+        <li><m>f(x)=0</m> at the <m>x</m>-intercept of <m>y=f(x)</m>.</li>
+        </ol></p></li>
+    <li><p>When is a function called decreasing?</p>
+    <p><ol marker="a.">
+        <li>If its <m>x</m>-values increase from left to right.</li>
+        <li>If its <m>y</m>-values decrease when its <m>x</m>-values decrease.</li>
+        <li>If its <m>y</m>-values decrease when its <m>x</m>-values increase.</li>
+        <li>If the graph lies below the <m>x</m>-axis.</li>
+    </ol></p></li>
+</ol></p></assemblage>
 
 </subsection>
 

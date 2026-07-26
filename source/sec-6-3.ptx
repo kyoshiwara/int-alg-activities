@@ -10,16 +10,21 @@
 
 <activity xml:id="act-6-3-1"><title>Kepler's Law</title>
 
-<introduction><p>Kepler's law gives a relation between the period <m>p</m> of a planet's revolution and its average distance <m>a</m> from the sun:
+<introduction><p> In 1619 Johannes Kepler published what is now known as his third law of planetary motion. He wrote "I first believed I was dreaming... But it is absolutely certain and exact that the ratio which exists between the period times of any two planets is precisely the ratio of the 3/2th power of the mean distance." One way to state Kepler's Law is as follows:</p> 
+<p>The relation between the period <m>p</m> of a planet's revolution and its average distance <m>a</m> from the Sun is given by
   <me>p^2=Ka^3</me>
-where <m>K=1.243 \times 10^{-6}</m>, <m>p</m> is in millions of miles, and <m>a</m> is in years.</p></introduction>
+where <m>K=1.243 \times 10^{-6}</m>, <m>a</m> is in millions of miles, and <m>p</m> is in years.</p></introduction>
 
-<task><p>Solve Kepler's law for <m>a</m> in terms of <m>p</m>. Write your equation in two ways:  using a fractional exponent, and using a radical.</p>
+<task><p>The planet Neptune is <m>2.793 \times 10^3</m> million miles from the Sun. Find its period of revolution.</p></task>
+
+<task><p>The length of a "year" on the planet Jupiter (its period of revolution) is 11.86 Earth years. What is Jupiter's average distance from the Sun?</p></task> 
+
+<task><p>Astronomers can observe the orbital period of a planet and use Kepler's Law to calculate its distance from the Sun. Solve Kepler's law for <m>a</m> in terms of <m>p</m>. Write your equation in two ways:  using a fractional exponent, and using a radical.</p>
 
             <aside><title>Note</title>
             <p>This task involves working with scientific notation. Show students how to simplify the formula for <m>a</m> with minimal calculator use.</p></aside></task>
 
-<task><p>Complete the table for the four inner planets. Give the values of <m>a</m> in millions of miles.</p>
+<task><p>Use your new equation to complete the table for the four inner planets. Give the values of <m>a</m> in millions of miles.</p>
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Planet</cell>
@@ -39,19 +44,15 @@ where <m>K=1.243 \times 10^{-6}</m>, <m>p</m> is in millions of miles, and <m>a<
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></task>
 
-<task><p>Graph <m>a</m> as a function of <m>p</m>.</p>
+<task><p>Graph <m>a</m> as a function of <m>p</m>. Label the points that represent the four inner planets.</p>
     <image source="act-6-3-1.png" width="50%"></image></task>
 
-<task><p>The planet Neptune is <m>4.497 \times 10^3</m> million miles from the sun. Find its period of revolution.</p>
-
-                <aside><title>Note</title>
-                <p>You might want to do part (d) in two ways, using the original equation and the answer to part (a).</p></aside></task>
 </activity>
 
 <activity xml:id="act-6-3-2"><title>Vampire Bats</title>
 
  <introduction><p>Small animals like bats cannot survive for long without eating. The weight <m>W</m> of a typical vampire bat decreases over time until its next meal, according to the function   
-    <me>W = f(h) = 130.25 \times 10^{-0.126}</me>
+    <me>W = f(h) = 130.25 \times h^{-0.126}</me>
 where <m>h</m> is the number of hours since the bat's most recent meal, and <m>W</m> is in grams.</p>
 
                 <aside><title>Note</title>
@@ -107,6 +108,8 @@ where <m>h</m> is the number of hours since the bat's most recent meal, and <m>W
 
 <p><m>~~~~~~~~~~~~~~~~~~~m_{AB} = </m></p> 
 <p><m>~~~~~~~~~~~~~~~~~~~m_{CD} = </m></p></task>
+
+<task><p>What do the slopes you computed mean for the vampire bats?</p></task>
 
 <task><p>Vampire bats sometimes donate blood (through regurgitation) to other bats that are close to starvation. Suppose a bat at point A on the curve donates 5 grams of blood to a bat at point D. How many hours of life does the recipient gain from the 5 grams of food? How many hours of life does the donor give up?</p></task>
 </activity>

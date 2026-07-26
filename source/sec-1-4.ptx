@@ -3,18 +3,18 @@
 <section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Slope</title>
 
-<introduction><title>Instructor Overview</title>
+<assemblage>
 <p>This Lesson reviews the notion of slope, which students learned in elementary algebra, but emphasizes the meaning of the slope as a rate of change. Notice that in this Lesson we do not use the coordinate formula for slope, <m>y=\dfrac{y_2-y_1}{x_2-x_1}</m>;  that formula is taken up in Lesson 1.5. All of the slopes in this Lesson can be computed from the definition, <m>m = \dfrac{\Delta y}{\Delta x}</m>. Encourage students to include units in their calculation of <m>\Delta y</m> and <m>\Delta x</m> to help them interpret the slope as a rate.</p>
-<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></introduction>
+<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></assemblage>
 
 <activity xml:id="act-1-4-1"><title>Calculating Rate of Change</title>
 
 <introduction><p>The graph shows how the thickness of a typical land-based glacier has changed over 43 years. 
     <image source="act-1-4-1.png" width="75%"></image></p></introduction>
 
-  <task><P>At first glance, what does the graph tell you about the glaciers?</P></task>
-
-  <task><p>What was the total change, <m>\Delta H</m>, in thickness from 1960 to 2003?</p>
+<p><ol marker="a.">
+    <li>At first glance, what does the graph tell you about the glaciers?</li>
+    <li><p>What was the total change, <m>\Delta H</m>, in thickness from 1960 to 2003?</p>
     <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Year, <m>t</m></cell>
@@ -26,13 +26,12 @@
             </tabular>
             <p><m>~~~~~~~~~~~~~~~\Delta H =</m></p>
     
-            <aside><title>Note</title>
-            <p>Remind students that <m>\Delta H</m> can be negative. Also, explain the difference between total change and average yearly change.</p></aside>
+            <aside><p>1b. Remind students that <m>\Delta H</m> can be negative. Also, explain the difference between total change and average yearly change.</p></aside></li>
 
-    <p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
-    <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></task>
+    <li><p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
+        <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
 
-<task><sidebyside widths="50% 40%"><stack><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table.
+    <li><sidebyside widths="50% 40%"><stack><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table.</p>
        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Year, <m>t</m></cell>
@@ -41,16 +40,17 @@
                     <cell><m>\hphantom{00000}</m></cell></row>
                 <row><cell>2002</cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
-            </tabular></p></stack>
-            <image source="act-1-4-2.png" width="75%"></image></sidebyside></task>
+            </tabular></stack>
+            <image source="act-1-4-2.png" width="75%"></image></sidebyside></li>
 
-<task><p>Calculate the slope of the graph from 1992 to 2002. Include units in your answer.</p></task>
-
-<task><p>Compare the average yearly change you calculated in part (b) with the slope you calculated in part (d). What do those values tell us about land-based glaciers?</p></task>
+    <li><p>Calculate the slope of the graph from 1992 to 2002. Include units in your answer.</p></li>
+    <li><p>Compare the average yearly change you calculated in part (b) with the slope you calculated in part (d). What do those values tell us about land-based glaciers?</p></li>
+</ol></p>
 </activity>
 
 <activity xml:id="act-1-4-2"><title>Slope and Linear Models</title>
-<introduction><p>The taxi fare in three different cities is described below. In each city, you pay an initial charge when you get into the taxi, and the rest of your fare is based on the distance you travel. Each city uses a different distance unit to compute the fare.
+<introduction><p>The taxi fare in three different cities is described below. In each city, you pay an initial charge when you get into the taxi, and the rest of your fare is based on the distance you travel. Each city uses a different distance unit to compute the fare.</p>
+    <aside><p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>City</cell>
@@ -69,34 +69,24 @@
                     <cell><m>2.50</m></cell>
                     <cell><m>\frac{1}{5}</m> mile</cell>
                     <cell><m>0.40</m></cell></row>
-            </tabular></p></introduction>
-
-  <task><p>How much would a 4-mile taxi ride cost you in Honolulu?</p></task>
-  
-  <task><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest fare per mile?</p>
-
-            <aside><title>Note</title>
-            <p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside></task>
-
-  <task><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p>
-
-            <aside><title>Note</title>
-            <p>Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></aside></task>
-
-  <task><p>Use your models do decide in which city taxis charge the lowest fare for a 5 mile ride.</p></task>
-
-  <task><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (b).)</p>
-
-            <aside><title>Note</title>
-            <p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></task>
-
-  <task><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
-      <image source="act-1-4-3.svg" width="75%"></image></sidebyside></task>
+            </tabular></introduction>
+        
+  <p><ol marker="a.">
+    <li><p>How much would a 4-mile taxi ride cost you in Honolulu?</p></li>
+      <li><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest fare per mile?</p>
+        <aside><p>2c. Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></aside></li>
+    <li><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></li>
+    <li><p>Use your models do decide in which city taxis charge the lowest fare for a 5 mile ride.</p></li>
+    <li><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (c).)</p>
+            <aside><p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></li>
+    <li><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
+      <image source="act-1-4-3.svg" width="75%"></image></sidebyside></li>
+</ol></p>
 </activity>
 
 <activity xml:id="act-1-4-3"><title>Interpreting Slope as a Rate</title>
 
-<introduction><p>The amount of salt that can be dissolved in a beaker of water depends upon the temperature of the water. The table shows the amounts for several temperatures.
+<introduction><p>The amount of salt that can be dissolved in a beaker of water depends upon the temperature of the water. The table shows the amounts for several temperatures.</p>
   <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Temperature, <m>\degree</m>C, <m>T</m></cell>
@@ -115,51 +105,82 @@
                     <cell>40.5</cell>
                     <cell>48</cell>
                     <cell>54</cell></row>
-            </tabular></p></introduction>
+            </tabular></introduction>
 
-<task><p>Which variable is the input, and which is the output?</p>
+<p><ol marker="a.">
+    <li><p>Which variable is the input, and which is the output?</p>
             <p><m>\hphantom{00000}</m>input: <m>\hphantom{00000000000}</m>    output:  <m>\hphantom{00000}</m></p>                               
   <p>If you plot the data, which variable goes on the horizontal axis, and which on the vertical?</p>
-            <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>   vertical:  <m>\hphantom{00000}</m></p></task>
-
-<task><p>Without plotting the points, how can you decide if they will lie on a straight line? Do that.</p>
-
-            <aside><title>Note</title>
-            <p>Once students have thought of finding slopes, suggest that each person in their group calculate one slope.</p></aside></task>
-
-<task><p>Describe the slope of the line as a rate of change. Include units in your answer. What does the slope tell you about dissolving salt?</p></task>
-
-<task><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p>>
-
-             <aside><title>Note</title>
-             <p>Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></aside></task>
+            <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>   vertical:  <m>\hphantom{00000}</m></p></li>
+    <li><p>Without plotting the points, how can you decide if they will lie on a straight line? Do that.</p>
+            <aside><p>3b. Once students have thought of finding slopes, suggest that each person in their group calculate one slope.</p></aside></li>
+    <li><p>Describe the slope of the line as a rate of change. Include units in your answer. What does the slope tell you about dissolving salt?</p></li>
+    <li><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p>
+             <aside><p>3d. Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></aside></li>
+</ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title><ol>
-<li><p>What mathematical concept did you study in <xref ref="act-1-4-1" text="custom">Activity 1</xref>?</p></li>
-<li><p>What two numbers did you need to write each linear model in part (b) of <xref ref="act-1-4-2" text="custom">Activity 2</xref>?</p></li>
-<li><p>What algebraic technique did you use in part (d) of <xref ref="act-1-4-2" text="custom">Activity 2</xref>?</p></li>  
-<li><p>Describe one new skill or idea you learned from <xref ref="act-1-4-3" text="custom">Activity 3</xref>.</p></li></ol>
+<subsection><title>Check Your Understanding</title>
+<p><ol>
+    <li><p>What mathematical concept did you study in Activity 1?</p></li>
+    <li><p>What two numbers did you need to write each linear model in part (b) of Activity 2?</p></li>
+    <li><p>What algebraic technique did you use in part (d) of Activity 2?</p></li>  
+    <li><p>Describe one new skill or idea you learned from Activity 3.</p></li>
+</ol></p>
 </subsection> 
 
 <subsection><title>Wrap-Up</title>
 
-<p>In this Lesson, we worked on the following skills and goals:</p><ul>
-
-<li><p>Use ratios and rates for comparison.</p></li> 
-<li><p>Compute and interpret a rate of change.</p></li>
-<li><p>Interpret slope as a rate of change.</p></li>
-<li><p>Illustrate slope on a graph.</p></li>
-<li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
-<li><p>Recognize a linear relationship by its constant rate of change.</p></li>
-<li><p>Write a linear model using slope and initial value.</p></li></ul></subsection>
+<p>In this Lesson, we worked on the following skills and goals:</p>
+<p><ul>
+    <li><p>Use ratios and rates for comparison.</p></li> 
+    <li><p>Compute and interpret a rate of change.</p></li>
+    <li><p>Interpret slope as a rate of change.</p></li>
+    <li><p>Illustrate slope on a graph.</p></li>
+    <li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
+    <li><p>Recognize a linear relationship by its constant rate of change.</p></li>
+    <li><p>Write a linear model using slope and initial value.</p></li>
+</ul></p></subsection>
 
 <subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>What do we use ratios and rates for?</p></li>
-<li><p>Suppose  represents your distance from home, in miles. Compare the meanings of the two statements <m>x=30</m> and <m>\Delta x=30</m>.</p></li>
-<li><p>Explain how slope measures the steepness of an incline.</p></li>
-<li><p>State two useful consequences of the fact that lines have constant slope.</p></li>
-</ol></p></subsection>
+    <li><p>What do we use ratios and rates for?</p></li>
+    <li><p>Suppose  represents your distance from home, in miles. Compare the meanings of the two statements <m>x=30</m> and <m>\Delta x=30</m>.</p></li>
+    <li><p>Explain how slope measures the steepness of an incline.</p></li>
+    <li><p>State two useful consequences of the fact that lines have constant slope.</p></li>
+</ol></p>
+
+<assemblage><title>Concept Questions</title>
+<p><ol>
+    <li><p>Suppose <m>y</m> gives the weight in pounds of a bottle of water that holds <m>x</m> quarts.  What are the units of <m>\dfrac{\Delta y}{\Delta x}</m> ?</p>
+        <p><ol marker="a.">
+        <li>Water per bottle</li>    
+        <li>Quarts per pound</li>
+        <li>Pounds per quart</li>  
+        <li>Quart-pounds</li>
+    </ol></p></li>
+    <li><p>What is wrong with the following reasoning? The point <m>(10,7)</m> lies on the graph of a line, so the slope of the line is <m>\dfrac{7}{10}</m>.</p>
+        <p><ol marker="a.">
+        <li>The slope is <m>\dfrac{10}{7}</m>.</li>    
+        <li>7 is not an intercept.</li>
+        <li>We need two points to compute the slope.</li>  
+        <li>The line is decreasing.</li>
+    </ol></p></li>
+    <li><p>How can you tell from the equation of a line whether its graph is increasing or decreasing?</p>
+        <p><ol marker="a.">
+        <li>Its slope is positive.</li>    
+        <li>Its <m>x</m>-intercept is positive.</li>
+        <li>Its slope is negative.</li>  
+        <li>Its <m>y</m>-intercept is negative.</li>
+    </ol></p></li>
+    <li><p>Comment on the following calculation:  The intercepts of a line are <m>(0,3)</m> and <m>(5,0)</m>, so the slope of the line is <m>\dfrac{3}{5}</m>.</p>
+    <p><ol marker="a.">
+        <li>It's true because we used two points.</li>    
+        <li>It's false because <m>\Delta x</m> and <m>\Delta y</m> have opposite signs.</li>
+        <li>It's true because the values are increasing.</li>  
+        <li>It's false because the slope is <m>\dfrac{5}{3}</m>.</li>
+    </ol></p></li>
+</ol></p></assemblage>
+</subsection>
 
 </section>

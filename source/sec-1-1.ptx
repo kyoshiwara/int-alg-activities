@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Linear Models</title>
+  <title>Creating a Linear Model</title>
 
-<introduction><title>Overview</title>
-<p>Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <m>y=</m> (starting value)<m>~+~</m>(rate of change)<m>\cdot x</m>.</p>
-<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work.</p> </introduction>
+<assemblage>
+<p>Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <m>~y=</m> (starting value)<m>~+~</m>(rate of change)<m>\cdot x</m>.</p>
+
+<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work. You might use a tablet computer, a document camera, or overhead transparencies to show them exactly how to write their work on the page. </p> </assemblage>
 
 <activity xml:id="act-1-1-1"><title>Making and Reading a Graph</title>
-    <introduction><p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</p> 
-    <p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
+<p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</p> 
+    <sidebyside widths="55% 38%" valigns="middle middle">
+    <p><ol marker="a.">
+    <li><p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
               <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>t~</m>(years)</cell>
@@ -19,56 +22,49 @@
                     <cell><m>15</m></cell>
                     <cell><m>20</m></cell></row>
                 <row><cell><m>L~</m>(mm)</cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell>
-                    <cell><m>\hphantom{00000}</m></cell></row>
-            </tabular></introduction>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell>
+                    <cell><m>\hphantom{0000}</m></cell></row>
+            </tabular>
+        <aside><p>1b. Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></aside></li>
 
-    <task><p>Write an equation for the sea level, <m>L</m>, in terms of <m>t</m>, the number of years since 2000.</p></task>
+    <li><p>Write an equation for the sea level, <m>L</m>, in terms of <m>t</m>, the number of years since 2000.</p></li>
 
-            <aside><title>Note</title>
-            <p>Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></aside>
+    <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p>
 
-     <task><sidebyside widths="60% 30%">
-    <p><ol>
-        <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p></li>
+        <aside><p>1c. Graphs should extend across the entire grid, including any intercepts.</p></aside>
 
-            <aside><title>Note</title>
-            <p>Graphs should extend across the entire grid, including any intercepts.</p></aside>
+      <p>To answer the questions (d) and (e), read the graph. Show your work on the graph:</p>
 
-      <li><p>To answer the questions below, read the graph. Show your work on the graph:</p>
+        <aside><p>1d and e. Have students draw dashed lines on the graph, as in Example 1.1.8 in the text.</p></aside></li>
 
-            <aside><title>Note</title>
-            <p>Have students draw dashed lines on the graph, as in Example 1.7.</p></aside>
+    <li><p>According to this model, what will the sea level be in 2020?</p></li> 
 
-        <p><ol>
-            <li><p>According to this model, what will the sea level be in 2020?</p></li> 
-
-            <li><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</p></li>
-        </ol></p></li>
+    <li><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</p></li>
 </ol></p>
-    <image source="act-1-1-1.png"></image></sidebyside></task>
+    <image source="act-1-1-1.png"></image></sidebyside>
   
-            <aside><title>Note</title>
-            <p> Emphasize the difference between evaluating an expression and solving an equation.</p></aside>
+<p>f. Now use algebra to find the answers for parts (d) and (e) above. Compare your answers to the values you read from the graph.</p>
 
-    <task><p>Now use algebra to find the answers for part (b) above. Compare your answers to the values you read from the graph.</p></task> 
+    <p>(d)<m>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</m>(e)</p>
 
-    <task><p>Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation
+        <aside><p> Emphasize the difference between evaluating an expression and solving an equation.</p></aside>
+
+<p>g.  Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation
       <me>T = 13.9 + 0.13t</me> 
-    where <m>t</m> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
+where <m>t</m> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
 
     <p><m>13.9</m> tells us:</p>
 
-    <p><m>0.13</m> tells us:</p></task>
+    <p><m>0.13</m> tells us:</p>
 </activity>
 
 <activity xml:id="act-1-1-2"><title>A Decreasing Graph</title>
-    <introduction><p>Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p></introduction>
-
-    <task><p>Complete the table of values showing the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.  Then write your answers as ordered pairs.</p>
+<p>Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p>
+    <p><ol marker="a.">
+        <li><p>Complete the table of values showing the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.  Then write your answers as ordered pairs.</p>
         
         <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -92,63 +88,87 @@
                     <cell><m>15</m></cell>
                     <cell><m>\hphantom{0000000}</m></cell>
                     <cell><m>(15,\hphantom{00000})</m></cell></row>
-            </tabular></task>
+            </tabular></li>
     
-    <task><sidebyside widths= "50% 40%">
-        <p><ol>
-            <li><p>Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p></li>
-            <li><p>In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p></li>
-        </ol></p>
-          <image source="act-1-1-2.png" width="50%"></image></sidebyside></task>    
+    <li><p>Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p>
+          <image source="act-1-1-2.png" width="50%"></image></li> 
+    <li><p>In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p>
+        <aside><p>1d. Teach students to start with <m>t=16,~C=45</m>, then replace the variables with words, and finally write a sentence.</p></aside></li>
 
-<task><p>What does the point <m>(16,45)</m> tell us about this situation? (Use complete sentences!)</p></task>
+    <li><p>What does the point <m>(16,45)</m> tell us about this situation? (Use complete sentences!)</p></li>
 
-            <aside><title>Note</title>
-            <p>Teach students to start with <m>t=16,~C=45</m>, then replace the variables with words, and finally write a sentence.</p></aside>
+    <li><p>Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph. Highlight the appropriate portion of the graph, and then the corresponding portion of the horizontal axis.</p></li>
 
-<task><p>Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph.</p></task>
+    <li><p>Write an equation for the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.</p></li>  
 
-            <aside><title>Note</title>
-            <p>Highlight the appropriate portion of the graph, and then the corresponding portion of the horizontal axis, as in Example 1.10.</p></aside>
+    <li><p>Write and solve an inequality to verify your answer to part (e).</p>
 
-<task><p>Write an equation for the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.</p></task>  
-
-<task><p>Write and solve an inequality to verify your answer to part (d).</p></task>
-
-            <aside><title>Note</title>
-            <p>Remind students how to write and solve a compound inequality.</p></aside>
+        <aside><p>1g. Remind students how to write and solve a compound inequality.</p></aside></li>
+    </ol></p>
 </activity>
 
-<subsection><title> Check Your Understanding</title><ol>
-<li><p>In <xref ref="act-1-1-1" text="custom">Activity 1b</xref>, you wrote an equation for sea level, <m>L</m>.  What was the starting value, and what was the rate?</p></li>
-<li><p>In part (d) of <xref ref="act-1-1-1" text="custom">Activity 1</xref>, did you evaluate an expression or solve an equation? </p></li> 
-<li><p>In part (e) of <xref ref="act-1-1-1" text="custom">Activity 1</xref>, you solved an equation by using the graph.  Did you start by locating the given value on the horizontal axis, or on the vertical axis? </p></li> 
-<li><p>In <xref ref="act-1-1-2" text="custom">Activity 2</xref>, which variable goes on the horizontal axis? </p></li>
-<li><p>In part (e) of <xref ref="act-1-1-2" text="custom">Activity 2</xref>, you solved an inequality. On which axis did your answers appear?</p></li>
-</ol></subsection>
+<subsection><title> Check Your Understanding</title>
+<p><ol>
+    <li><p>In Activity 1b, you wrote an equation for sea level, <m>L</m>.  What was the starting value, and what was the rate?</p></li>
+    <li><p>In part (d) of Activity 1, did you evaluate an expression or solve an equation? </p></li> 
+    <li><p>In part (e) of Activity 1, you solved an equation by using the graph. Did you start by locating the given value on the horizontal axis, or on the vertical axis? </p></li> 
+    <li><p>In Activity 2, which variable goes on the horizontal axis? </p></li>
+    <li><p>In part (e) of Activity 2, you solved an inequality. On which axis did your answers appear?</p></li>
+</ol></p></subsection>
 
 <subsection><title>Wrap-Up</title>
 <p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
 <p><ul>
-<li><p>Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li> 
-<li><p>Write an equation for a linear model described in words, in the form:
+    <li><p>Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li> 
+    <li><p>Write an equation for a linear model described in words, in the form:
      <me>y=\text{(starting value)} + \text{(rate)} \times t</me></p></li>
-<li><p>Interpret an ordered pair of values for a linear model.</p></li> 
-<li><p>Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
-<li><p>Evaluate an algebraic expression.</p></li>
-<li><p>Solve linear equations and inequalities.</p></li>
-<li><p>Use a graph to evaluate an expression or solve an equation.</p></li>
+    <li><p>Interpret an ordered pair of values for a linear model.</p></li> 
+    <li><p>Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
+    <li><p>Evaluate an algebraic expression.</p></li>
+    <li><p>Solve linear equations and inequalities.</p></li>
+    <li><p>Use a graph to evaluate an expression or solve an equation.</p></li>
 </ul></p></subsection>
 
 <subsection><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Describe some ways to display the relationship between two variables.</p></li>
-<li><p>What is the difference between an expression and an equation?</p></li>
-<li><p>What is the difference between evaluating an expression and solving an equation?</p></li>
-<li><p>Explain how to find the <m>x</m>-value that corresponds to a given <m>x</m>-value on a graph.</p></li>
+    <li><p>Describe some ways to display the relationship between two variables.</p></li>
+    <li><p>What is the difference between an expression and an equation?</p></li>
+    <li><p>What is the difference between evaluating an expression and solving an equation?</p></li>
+    <li><p>Explain how to find the <m>x</m>-value that corresponds to a given <m>y</m>-value on a graph.</p></li>
 </ol></p>
-</subsection>
 
+<assemblage><title>Concept Questions</title>
+<p><ol>
+    <li><p>How many points do you need to graph a linear equation?</p>
+    <p><ol marker="a.">
+        <li>Two</li>
+        <li>Three</li>
+        <li>One in each quadrant</li>
+        <li>It depends on the equation</li>
+    </ol></p></li>
+    <li><p>When you graph the data given in a table, on which axis do you show the variable in the first row of the table?</p>
+    <p><ol marker="a.">
+        <li>The linear axis</li>
+        <li>The horizontal axis</li>
+        <li>The vertical axis</li>
+        <li>Both axes</li>
+    </ol></p></li>
+    <li><p>If <m>C</m> is expressed in terms of <m>H</m>, which variable goes on the horizontal axis?</p>
+    <p><ol marker="a.">
+        <li><m>C</m></li>
+        <li><m>H</m></li>
+        <li><m>x</m></li>
+        <li>The smaller one</li>
+    </ol></p></li>
+    <li><p>If <m>x \gt 5</m>, what is true about <m>2x</m>?</p>
+    <p><ol marker="a.">
+        <li>It is greater than 3</li>
+        <li>It is less than 3</li>
+        <li>It is greater than 10</li>
+        <li>It is less than <m>-10</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
+</subsection>
   
 </section>
 
