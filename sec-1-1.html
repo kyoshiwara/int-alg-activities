@@ -5,59 +5,131 @@
 <!--*         https://pretextbook.org          *-->
 <!--*                                          *-->
 <!--********************************************-->
-<html lang="en-US">
+<html lang="en-US" dir="ltr" data-legacy-colorscheme="blue_red">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Linear Models</title>
-<meta name="Keywords" content="Authored in PreTeXt">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="book">
-<meta property="book:title" content="Activities for Intermediate Algebra">
-<meta property="book:author" content="Katherine Yoshiwara">
-<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+<title>Creating a Linear Model</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;" rel="stylesheet">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
-  tex: {
-    inlineMath: [['\\(','\\)']],
-    tags: "none",
-    tagSide: "right",
-    tagIndent: ".8em",
-    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
   },
-  options: {
-    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
-    processHtmlClass: "process-math",
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
   },
-  chtml: {
-    scale: 0.88,
-    mtextInheritFont: true
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
   },
-  loader: {
-    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
-    paths: {pretext: "https://pretextbook.org/js/lib"},
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
   },
-  startup: {
+  "startup": {
     pageReady() {
       return MathJax.startup.defaultPageReady().then(function () {
       console.log("in ready function");
       rsMathReady();
       }
     )}
-},
+  }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
-</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/colors_blue_red.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="book">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:title" content="Activities for Intermediate Algebra">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="book:author" content="Katherine Yoshiwara">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.16';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.279b1f0077454c32.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.db8001875cb726c2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
 </head>
-<body class="pretext-book ignore-math has-toc has-sidebar-left">
-<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Instructors’ Guide</span></a></h1>
+<p class="byline">Katherine Yoshiwara</p>
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="ch1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-1-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\Q}{\mathbb Q}
 \newcommand{\R}{\mathbb R}
@@ -75,130 +147,247 @@ window.MathJax = {
 \definecolor{fillinmathshade}{gray}{0.9}
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
-<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
-<a id="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="act-int-alg.html"><span class="title">Activities for Intermediate Algebra:</span> <span class="subtitle">Functions and Graphs</span></a></h1>
-<p class="byline">Katherine Yoshiwara</p>
-</div>
-</div></div>
-<nav id="primary-navbar" class="navbar"><div class="container">
-<div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="ch1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="sec-1-2.html" title="Next">Next</a></span></div>
-</div>
-<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
-<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="ch1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="sec-1-2.html" title="Next">Next</a>
-</div>
-</div></nav></header><div class="page">
-<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
-<nav id="toc"><ul>
-<li class="link frontmatter">
-<a href="meta_frontmatter.html" data-scroll="meta_frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
-<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
-<li><a href="meta_frontmatter-preface.html" data-scroll="meta_frontmatter-preface" class="internal">Preface</a></li>
+<div class="ptx-page">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="meta_frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch1.html" data-scroll="ch1" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a><ul>
-<li><a href="sec-1-1.html" data-scroll="sec-1-1" class="active">Linear Models</a></li>
-<li><a href="sec-1-2.html" data-scroll="sec-1-2" class="internal">Graphs and Equations</a></li>
-<li><a href="sec-1-3.html" data-scroll="sec-1-3" class="internal">Intercepts</a></li>
-<li><a href="sec-1-4.html" data-scroll="sec-1-4" class="internal">Slope</a></li>
-<li><a href="sec-1-5.html" data-scroll="sec-1-5" class="internal">Equations of Lines</a></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch1.html" class="internal"><span class="codenumber">1</span> <span class="title">Linear Models</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-1-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Creating a Linear Model</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1.html#sec-1-1-5" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1.html#sec-1-1-6" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1.html#sec-1-1-7" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch2.html" data-scroll="ch2" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a><ul>
-<li><a href="sec-2-1.html" data-scroll="sec-2-1" class="internal">Linear Regression</a></li>
-<li><a href="sec-2-2.html" data-scroll="sec-2-2" class="internal">Linear Systems</a></li>
-<li><a href="sec-2-3.html" data-scroll="sec-2-3" class="internal">Algebraic Solution of Systems</a></li>
-<li><a href="sec-2-4.html" data-scroll="sec-2-4" class="internal">Gaussian Reduction</a></li>
-<li><a href="sec-2-5.html" data-scroll="sec-2-5" class="internal">Linear Inequalities</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Graphs and Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2.html#sec-1-2-6" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2.html#sec-1-2-7" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2.html#sec-1-2-8" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch3.html" data-scroll="ch3" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a><ul>
-<li><a href="sec-3-1.html" data-scroll="sec-3-1" class="internal">Extraction of Roots</a></li>
-<li><a href="sec-3-2.html" data-scroll="sec-3-2" class="internal">Intercepts, Solutions, and Factors</a></li>
-<li><a href="sec-3-3.html" data-scroll="sec-3-3" class="internal">Graphing Parabolas</a></li>
-<li><a href="sec-3-4.html" data-scroll="sec-3-4" class="internal">Completing the Square</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Intercepts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3.html#sec-1-3-5" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3.html#sec-1-3-6" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3.html#sec-1-3-7" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch4.html" data-scroll="ch4" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a><ul>
-<li><a href="sec-4-1.html" data-scroll="sec-4-1" class="internal">Quadratic Formula</a></li>
-<li><a href="sec-4-2.html" data-scroll="sec-4-2" class="internal">The Vertex</a></li>
-<li><a href="sec-4-3.html" data-scroll="sec-4-3" class="internal">Curve Fitting</a></li>
-<li><a href="sec-4-4.html" data-scroll="sec-4-4" class="internal">Quadratic Inequalities</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Slope</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4.html#sec-1-4-6" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4.html#sec-1-4-7" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4.html#sec-1-4-8" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch5.html" data-scroll="ch5" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a><ul>
-<li><a href="sec-5-1.html" data-scroll="sec-5-1" class="internal">Functions</a></li>
-<li><a href="sec-5-2.html" data-scroll="sec-5-2" class="internal">Graphs of Functions</a></li>
-<li><a href="sec-5-3.html" data-scroll="sec-5-3" class="internal">Some Basic Functions</a></li>
-<li><a href="sec-5-4.html" data-scroll="sec-5-4" class="internal">Direct Variation</a></li>
-<li><a href="sec-5-5.html" data-scroll="sec-5-5" class="internal">Inverse Variation</a></li>
-<li><a href="sec-5-6.html" data-scroll="sec-5-6" class="internal">Functions as Models</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Equations of Lines</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5.html#sec-1-5-6" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5.html#sec-1-5-7" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5.html#sec-1-5-8" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch6.html" data-scroll="ch6" class="internal"><span class="codenumber">6</span> <span class="title">Powers and Roots</span></a><ul>
-<li><a href="sec-6-1.html" data-scroll="sec-6-1" class="internal">Integer Exponents</a></li>
-<li><a href="sec-6-2.html" data-scroll="sec-6-2" class="internal">Roots and Radicals</a></li>
-<li><a href="sec-6-3.html" data-scroll="sec-6-3" class="internal">Rational Exponents</a></li>
-<li><a href="sec-6-4.html" data-scroll="sec-6-4" class="internal">Working with Radicals</a></li>
-<li><a href="sec-6-5.html" data-scroll="sec-6-5" class="internal">Radical Equations</a></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch7.html" data-scroll="ch7" class="internal"><span class="codenumber">7</span> <span class="title">Exponential Functions</span></a><ul>
-<li><a href="sec-7-1.html" data-scroll="sec-7-1" class="internal">Exponential Growth and Decay</a></li>
-<li><a href="sec-7-2.html" data-scroll="sec-7-2" class="internal">Exponential Functions</a></li>
-<li><a href="sec-7-3.html" data-scroll="sec-7-3" class="internal">Logarithms</a></li>
-<li><a href="sec-7-4.html" data-scroll="sec-7-4" class="internal">Properties of Logarithms</a></li>
-<li><a href="sec-7-5.html" data-scroll="sec-7-5" class="internal">Applications of Exponential Functions</a></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch2.html" class="internal"><span class="codenumber">2</span> <span class="title">Applications of Linear Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Linear Regression</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1.html#sec-2-1-5" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1.html#sec-2-1-6" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1.html#sec-2-1-7" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch8.html" data-scroll="ch8" class="internal"><span class="codenumber">8</span> <span class="title">Polynomials and Rational Functions</span></a><ul>
-<li><a href="sec-8-1.html" data-scroll="sec-8-1" class="internal">Polynomial Functions</a></li>
-<li><a href="sec-8-2.html" data-scroll="sec-8-2" class="internal">Algebraic Fractions</a></li>
-<li><a href="sec-8-3.html" data-scroll="sec-8-3" class="internal">Operations on Algebraic Fractions</a></li>
-<li><a href="sec-8-4.html" data-scroll="sec-8-4" class="internal">More Operations on Fractions</a></li>
-<li><a href="sec-8-5.html" data-scroll="sec-8-5" class="internal">Equations with Algebraic Fractions</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Linear Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2.html#sec-2-2-6" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2.html#sec-2-2-7" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2.html#sec-2-2-8" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch9.html" data-scroll="ch9" class="internal"><span class="codenumber">9</span> <span class="title">Equations and Graphs</span></a><ul>
-<li><a href="sec-9-1.html" data-scroll="sec-9-1" class="internal">Properties of Lines</a></li>
-<li><a href="sec-9-2.html" data-scroll="sec-9-2" class="internal">Distance and Midpoint Formulas</a></li>
-<li><a href="sec-9-3.html" data-scroll="sec-9-3" class="internal">Conic Sections: Ellipses</a></li>
-<li><a href="sec-9-4.html" data-scroll="sec-9-4" class="internal">Conic Sections: Hyperbolas</a></li>
-<li><a href="sec-9-5.html" data-scroll="sec-9-5" class="internal">Nonlinear Systems</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Algebraic Solution of Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3.html#sec-2-3-6" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3.html#sec-2-3-7" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3.html#sec-2-3-8" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-<li class="link">
-<a href="ch10.html" data-scroll="ch10" class="internal"><span class="codenumber">10</span> <span class="title">Logarithmic Functions</span></a><ul>
-<li><a href="sec-10-1.html" data-scroll="sec-10-1" class="internal">Logarithmic Functions</a></li>
-<li><a href="sec-10-2.html" data-scroll="sec-10-2" class="internal">Logarithmic Scales</a></li>
-<li><a href="sec-10-3.html" data-scroll="sec-10-3" class="internal">The Natural Base</a></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Gaussian Reduction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4.html#sec-2-4-7" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4.html#sec-2-4-8" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4.html#sec-2-4-9" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
 </ul>
 </li>
-</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
-</div></div>
-<main class="main"><div id="content" class="pretext-content"><section class="section" id="sec-1-1"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Linear Models</span>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Linear Inequalities in Two Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5.html#sec-2-5-6" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5.html#sec-2-5-7" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5.html#sec-2-5-8" class="internal"><span class="codenumber">2.5.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch3.html" class="internal"><span class="codenumber">3</span> <span class="title">Quadratic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Extraction of Roots</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1.html#sec-3-1-6" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1.html#sec-3-1-7" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1.html#sec-3-1-8" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Intercepts, Solutions, and Factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2.html#sec-3-2-6" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2.html#sec-3-2-7" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2.html#sec-3-2-8" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Graphing Parabolas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3.html#sec-3-3-7" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3.html#sec-3-3-8" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3.html#sec-3-3-9" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Completing the Square</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4.html#sec-3-4-7" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4.html#sec-3-4-8" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4.html#sec-3-4-9" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch4.html" class="internal"><span class="codenumber">4</span> <span class="title">Applications of Quadratic Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-1.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Quadratic Formula</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1.html#sec-4-1-7" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1.html#sec-4-1-8" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Wrap Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1.html#sec-4-1-9" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Vertex</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2.html#sec-4-2-7" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2.html#sec-4-2-8" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2.html#sec-4-2-9" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Curve Fitting</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3.html#sec-4-3-6" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3.html#sec-4-3-7" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3.html#sec-4-3-8" class="internal"><span class="codenumber">4.3.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Quadratic Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4.html#sec-4-4-6" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4.html#sec-4-4-7" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4.html#sec-4-4-8" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch5.html" class="internal"><span class="codenumber">5</span> <span class="title">Functions and Their Graphs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-1.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1.html#sec-5-1-6" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1.html#sec-5-1-7" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-1.html#sec-5-1-8" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-2.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Graphs of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2.html#sec-5-2-6" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2.html#sec-5-2-7" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-2.html#sec-5-2-8" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-3.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Some Basic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3.html#sec-5-3-6" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3.html#sec-5-3-7" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-3.html#sec-5-3-8" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-4.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Direct Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4.html#sec-5-4-7" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4.html#sec-5-4-8" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-4.html#sec-5-4-9" class="internal"><span class="codenumber">5.4.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-5.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Inverse Variation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5.html#sec-5-5-6" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5.html#sec-5-5-7" class="internal"><span class="codenumber">5.5.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-5.html#sec-5-5-8" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-5-6.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Functions as Models</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-6.html#sec-5-6-6" class="internal"><span class="codenumber">5.6.1</span> <span class="title">Check Your Understanding</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-6.html#sec-5-6-7" class="internal"><span class="codenumber">5.6.2</span> <span class="title">Wrap-Up</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-5-6.html#sec-5-6-8" class="internal"><span class="codenumber">5.6.3</span> <span class="title">Questions for Writing or Discussion</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="section" id="sec-1-1"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.1</span><span class="space"> </span><span class="title">Creating a Linear Model</span>
 </h2>
-<section class="introduction" id="introduction-2"><h3 class="heading">Overview.<span></span>
-</h3>
-<p id="p-4">Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <span class="process-math">\(y=\)</span> (starting value)<span class="process-math">\(~+~\)</span>(rate of change)<span class="process-math">\(\cdot x\text{.}\)</span></p>
-<p id="p-5">It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work.</p></section><article class="activity project-like" id="act-1-1-1"><h3 class="heading">
+<article class="assemblage assemblage-like" id="sec-1-1-2"><div class="para" id="sec-1-1-2-1">Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <span class="process-math">\(~y=\)</span> (starting value)<span class="process-math">\(~+~\)</span>(rate of change)<span class="process-math">\(\cdot x\text{.}\)</span>
+</div>
+<div class="para" id="sec-1-1-2-2">It’s a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work. You might use a tablet computer, a document camera, or overhead transparencies to show them exactly how to write their work on the page.</div></article><article class="activity project-like" id="act-1-1-1"><h3 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Making and Reading a Graph.</span>
 </h3>
-<div class="introduction" id="introduction-3">
-<p id="p-6">In 2000, the average sea level, <span class="process-math">\(L\text{,}\)</span> was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</p>
-<p id="p-7">Complete the table of values for the sea level <span class="process-math">\(t\)</span> years after 2000.</p>
-<div class="tabular-box natural-width"><table class="tabular">
+<div class="para" id="act-1-1-1-2">In 2000, the average sea level, <span class="process-math">\(L\text{,}\)</span> was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.75%;margin-right:1.75%;">
+<div class="sbspanel middle" style="width:56.9948186528497%;"><div class="para logical" id="act-1-1-1-3-1"><ol class="lower-alpha ol-marker-1" id="act-1-1-1-3-1-1">
+<li id="act-1-1-1-3-1-1-1">
+<div class="para" id="act-1-1-1-3-1-1-1-1">Complete the table of values for the sea level <span class="process-math">\(t\)</span> years after 2000.</div>
+<table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">
 <span class="process-math">\(t~\)</span>(years)</td>
@@ -211,45 +400,47 @@ window.MathJax = {
 <tr>
 <td class="c m b1 r1 l1 t0 lines">
 <span class="process-math">\(L~\)</span>(mm)</td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
-<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{00000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000}\)</span></td>
 </tr>
-</table></div>
-</div>
-<article class="task exercise-like" id="task-1"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<p id="p-8">Write an equation for the sea level, <span class="process-math">\(L\text{,}\)</span> in terms of <span class="process-math">\(t\text{,}\)</span> the number of years since 2000.</p></article><article class="task exercise-like" id="task-2"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel top" style="width:63.1578947368421%;"><ol id="p-10" class="decimal">
-<li id="li-1"><p id="p-11">Graph the equation on the grid. Label the axes with the correct variables.</p></li>
-<li id="li-2">
-<p id="p-13">To answer the questions below, read the graph. Show your work on the graph:</p>
-<aside class="aside aside-like" id="aside-3"><h5 class="heading"><span class="title">Note.</span></h5>
-<p id="p-14">Have students draw dashed lines on the graph, as in Example 1.7.</p></aside><ol id="p-15" class="lower-alpha">
-<li id="li-3"><p id="p-16">According to this model, what will the sea level be in 2020?</p></li>
-<li id="li-4"><p id="p-17">How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</p></li>
-</ol>
+</table>
+<aside class="aside aside-like" id="act-1-1-1-3-1-1-1-3"><div class="para" id="act-1-1-1-3-1-1-1-3-1">1b. Point out that the terminology "<span class="process-math">\(L\)</span> in terms of <span class="process-math">\(t\)</span>" tells us which variable goes on which axis.</div></aside>
 </li>
-</ol></div>
-<div class="sbspanel top" style="width:31.5789473684211%;"><img src="external/act-1-1-1.png" class="contained"></div>
-</div></div></article><article class="task exercise-like" id="task-3"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<p id="p-19">Now use algebra to find the answers for part (b) above. Compare your answers to the values you read from the graph.</p></article><article class="task exercise-like" id="task-4"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<p id="p-20">Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<li id="act-1-1-1-3-1-1-2"><div class="para" id="act-1-1-1-3-1-1-2-1">Write an equation for the sea level, <span class="process-math">\(L\text{,}\)</span> in terms of <span class="process-math">\(t\text{,}\)</span> the number of years since 2000.</div></li>
+<li id="act-1-1-1-3-1-1-3">
+<div class="para" id="act-1-1-1-3-1-1-3-1">Graph the equation on the grid. Label the axes with the correct variables.</div>
+<aside class="aside aside-like" id="act-1-1-1-3-1-1-3-2"><div class="para" id="act-1-1-1-3-1-1-3-2-1">1c. Graphs should extend across the entire grid, including any intercepts.</div></aside><div class="para" id="act-1-1-1-3-1-1-3-3">To answer the questions (d) and (e), read the graph. Show your work on the graph:</div>
+<aside class="aside aside-like" id="act-1-1-1-3-1-1-3-4"><div class="para" id="act-1-1-1-3-1-1-3-4-1">1d and e. Have students draw dashed lines on the graph, as in Example 1.1.8 in the text.</div></aside>
+</li>
+<li id="act-1-1-1-3-1-1-4"><div class="para" id="act-1-1-1-3-1-1-4-1">According to this model, what will the sea level be in 2020?</div></li>
+<li id="act-1-1-1-3-1-1-5"><div class="para" id="act-1-1-1-3-1-1-5-1">How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</div></li>
+</ol></div></div>
+<div class="sbspanel middle" style="width:39.3782383419689%;"><img src="external/act-1-1-1.png" class="contained"></div>
+</div></div>
+<div class="para" id="act-1-1-1-4">f. Now use algebra to find the answers for parts (d) and (e) above. Compare your answers to the values you read from the graph.</div>
+<div class="para" id="act-1-1-1-5">(d)<span class="process-math">\(~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\)</span>(e)</div>
+<aside class="aside aside-like" id="act-1-1-1-6"><div class="para" id="act-1-1-1-6-1">Emphasize the difference between evaluating an expression and solving an equation.</div></aside><div class="para logical" id="act-1-1-1-7">
+<div class="para">g.  Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation</div>
+<div class="displaymath process-math">
 \begin{equation*}
 T = 13.9 + 0.13t
 \end{equation*}
 </div>
-<p class="continuation">where <span class="process-math">\(t\)</span> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
-<p id="p-21"><span class="process-math">\(13.9\)</span> tells us:</p>
-<p id="p-22"><span class="process-math">\(0.13\)</span> tells us:</p></article></article><article class="activity project-like" id="act-1-1-2"><h3 class="heading">
+<div class="para">where <span class="process-math">\(t\)</span> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</div>
+</div>
+<div class="para" id="act-1-1-1-8">
+<span class="process-math">\(13.9\)</span> tells us:</div>
+<div class="para" id="act-1-1-1-9">
+<span class="process-math">\(0.13\)</span> tells us:</div></article><article class="activity project-like" id="act-1-1-2"><h3 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">A Decreasing Graph.</span>
 </h3>
-<div class="introduction" id="introduction-4"><p id="p-23">Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p></div>
-<article class="task exercise-like" id="task-5"><h4 class="heading"><span class="codenumber">(a)</span></h4>
-<p id="p-24">Complete the table of values showing the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.  Then write your answers as ordered pairs.</p>
+<div class="para" id="act-1-1-2-2">Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</div>
+<div class="para logical" id="act-1-1-2-3"><ol class="lower-alpha ol-marker-1" id="act-1-1-2-3-1">
+<li id="act-1-1-2-3-1-1">
+<div class="para" id="act-1-1-2-3-1-1-1">Complete the table of values showing the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.  Then write your answers as ordered pairs.</div>
 <div class="tabular-box natural-width"><table class="tabular">
 <tr>
 <td class="c m b1 r1 l1 t1 lines">Year</td>
@@ -281,54 +472,107 @@ T = 13.9 + 0.13t
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\hphantom{0000000}\)</span></td>
 <td class="c m b1 r1 l0 t0 lines"><span class="process-math">\((15,\hphantom{00000})\)</span></td>
 </tr>
-</table></div></article><article class="task exercise-like" id="task-6"><h4 class="heading"><span class="codenumber">(b)</span></h4>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
-<div class="sbspanel top" style="width:52.6315789473684%;"><ol id="p-25" class="decimal">
-<li id="li-5"><p id="p-26">Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p></li>
-<li id="li-6"><p id="p-27">In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p></li>
-</ol></div>
-<div class="sbspanel top" style="width:42.1052631578947%;"><img src="external/act-1-1-2.png" class="contained"></div>
-</div></div></article><article class="task exercise-like" id="task-7"><h4 class="heading"><span class="codenumber">(c)</span></h4>
-<p id="p-28">What does the point <span class="process-math">\((16,45)\)</span> tell us about this situation? (Use complete sentences!)</p></article><article class="task exercise-like" id="task-8"><h4 class="heading"><span class="codenumber">(d)</span></h4>
-<p id="p-30">Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph.</p></article><article class="task exercise-like" id="task-9"><h4 class="heading"><span class="codenumber">(e)</span></h4>
-<p id="p-32">Write an equation for the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.</p></article><article class="task exercise-like" id="task-10"><h4 class="heading"><span class="codenumber">(f)</span></h4>
-<p id="p-33">Write and solve an inequality to verify your answer to part (d).</p></article></article><section class="subsection" id="subsection-1"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">Check Your Understanding</span>
+</table></div>
+</li>
+<li id="act-1-1-2-3-1-2">
+<div class="para" id="act-1-1-2-3-1-2-1">Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/act-1-1-2.png" class="contained"></div>
+</li>
+<li id="act-1-1-2-3-1-3">
+<div class="para" id="act-1-1-2-3-1-3-1">In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</div>
+<aside class="aside aside-like" id="act-1-1-2-3-1-3-2"><div class="para" id="act-1-1-2-3-1-3-2-1">1d. Teach students to start with <span class="process-math">\(t=16,~C=45\text{,}\)</span> then replace the variables with words, and finally write a sentence.</div></aside>
+</li>
+<li id="act-1-1-2-3-1-4"><div class="para" id="act-1-1-2-3-1-4-1">What does the point <span class="process-math">\((16,45)\)</span> tell us about this situation? (Use complete sentences!)</div></li>
+<li id="act-1-1-2-3-1-5"><div class="para" id="act-1-1-2-3-1-5-1">Use the graph to find those years when the concentration will be below 120 ppm but above 30 ppm. Show your work on the graph. Highlight the appropriate portion of the graph, and then the corresponding portion of the horizontal axis.</div></li>
+<li id="act-1-1-2-3-1-6"><div class="para" id="act-1-1-2-3-1-6-1">Write an equation for the concentration, <span class="process-math">\(C\text{,}\)</span> of toxic chemicals <span class="process-math">\(t\)</span> years after 2000.</div></li>
+<li id="act-1-1-2-3-1-7">
+<div class="para" id="act-1-1-2-3-1-7-1">Write and solve an inequality to verify your answer to part (e).</div>
+<aside class="aside aside-like" id="act-1-1-2-3-1-7-2"><div class="para" id="act-1-1-2-3-1-7-2-1">1g. Remind students how to write and solve a compound inequality.</div></aside>
+</li>
+</ol></div></article><section class="subsection" id="sec-1-1-5"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.1</span><span class="space"> </span><span class="title">Check Your Understanding</span>
 </h3>
-<ol class="decimal">
-<li id="li-7"><p id="p-35">In <a href="" class="xref" data-knowl="./knowl/act-1-1-1.html" title="Activity 1.1.1: Making and Reading a Graph">Activity 1b</a>, you wrote an equation for sea level, <span class="process-math">\(L\text{.}\)</span>  What was the starting value, and what was the rate?</p></li>
-<li id="li-8"><p id="p-36">In part (d) of <a href="" class="xref" data-knowl="./knowl/act-1-1-1.html" title="Activity 1.1.1: Making and Reading a Graph">Activity 1</a>, did you evaluate an expression or solve an equation?</p></li>
-<li id="li-9"><p id="p-37">In part (e) of <a href="" class="xref" data-knowl="./knowl/act-1-1-1.html" title="Activity 1.1.1: Making and Reading a Graph">Activity 1</a>, you solved an equation by using the graph.  Did you start by locating the given value on the horizontal axis, or on the vertical axis?</p></li>
-<li id="li-10"><p id="p-38">In <a href="" class="xref" data-knowl="./knowl/act-1-1-2.html" title="Activity 1.1.2: A Decreasing Graph">Activity 2</a>, which variable goes on the horizontal axis?</p></li>
-<li id="li-11"><p id="p-39">In part (e) of <a href="" class="xref" data-knowl="./knowl/act-1-1-2.html" title="Activity 1.1.2: A Decreasing Graph">Activity 2</a>, you solved an inequality. On which axis did your answers appear?</p></li>
-</ol></section><section class="subsection" id="subsection-2"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Wrap-Up</span>
+<div class="para logical" id="sec-1-1-5-2"><ol class="decimal" id="sec-1-1-5-2-1">
+<li id="sec-1-1-5-2-1-1"><div class="para" id="sec-1-1-5-2-1-1-1">In Activity 1b, you wrote an equation for sea level, <span class="process-math">\(L\text{.}\)</span>  What was the starting value, and what was the rate?</div></li>
+<li id="sec-1-1-5-2-1-2"><div class="para" id="sec-1-1-5-2-1-2-1">In part (d) of Activity 1, did you evaluate an expression or solve an equation?</div></li>
+<li id="sec-1-1-5-2-1-3"><div class="para" id="sec-1-1-5-2-1-3-1">In part (e) of Activity 1, you solved an equation by using the graph. Did you start by locating the given value on the horizontal axis, or on the vertical axis?</div></li>
+<li id="sec-1-1-5-2-1-4"><div class="para" id="sec-1-1-5-2-1-4-1">In Activity 2, which variable goes on the horizontal axis?</div></li>
+<li id="sec-1-1-5-2-1-5"><div class="para" id="sec-1-1-5-2-1-5-1">In part (e) of Activity 2, you solved an inequality. On which axis did your answers appear?</div></li>
+</ol></div></section><section class="subsection" id="sec-1-1-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="space"> </span><span class="title">Wrap-Up</span>
 </h3>
-<p id="p-40">In this Lesson, we worked on the following skills and goals related to linear models:</p>
-<ul id="p-41" class="disc">
-<li id="li-12"><p id="p-42">Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li>
-<li id="li-13">
-<p id="p-43">Write an equation for a linear model described in words, in the form:</p>
-<div class="displaymath process-math" data-contains-math-knowls="">
+<div class="para" id="sec-1-1-6-2">In this Lesson, we worked on the following skills and goals related to linear models:</div>
+<div class="para logical" id="sec-1-1-6-3"><ul class="disc" id="sec-1-1-6-3-1">
+<li id="sec-1-1-6-3-1-1"><div class="para" id="sec-1-1-6-3-1-1-1">Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</div></li>
+<li id="sec-1-1-6-3-1-2"><div class="para logical" id="sec-1-1-6-3-1-2-1">
+<div class="para">Write an equation for a linear model described in words, in the form:</div>
+<div class="displaymath process-math">
 \begin{equation*}
 y=\text{(starting value)} + \text{(rate)} \times t
 \end{equation*}
 </div>
-</li>
-<li id="li-14"><p id="p-44">Interpret an ordered pair of values for a linear model.</p></li>
-<li id="li-15"><p id="p-45">Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
-<li id="li-16"><p id="p-46">Evaluate an algebraic expression.</p></li>
-<li id="li-17"><p id="p-47">Solve linear equations and inequalities.</p></li>
-<li id="li-18"><p id="p-48">Use a graph to evaluate an expression or solve an equation.</p></li>
-</ul></section><section class="subsection" id="subsection-3"><h3 class="heading hide-type">
-<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Questions for Writing or Discussion</span>
+</div></li>
+<li id="sec-1-1-6-3-1-3"><div class="para" id="sec-1-1-6-3-1-3-1">Interpret an ordered pair of values for a linear model.</div></li>
+<li id="sec-1-1-6-3-1-4"><div class="para" id="sec-1-1-6-3-1-4-1">Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</div></li>
+<li id="sec-1-1-6-3-1-5"><div class="para" id="sec-1-1-6-3-1-5-1">Evaluate an algebraic expression.</div></li>
+<li id="sec-1-1-6-3-1-6"><div class="para" id="sec-1-1-6-3-1-6-1">Solve linear equations and inequalities.</div></li>
+<li id="sec-1-1-6-3-1-7"><div class="para" id="sec-1-1-6-3-1-7-1">Use a graph to evaluate an expression or solve an equation.</div></li>
+</ul></div></section><section class="subsection" id="sec-1-1-7"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="space"> </span><span class="title">Questions for Writing or Discussion</span>
 </h3>
-<ol id="p-49" class="decimal">
-<li id="li-19"><p id="p-50">Describe some ways to display the relationship between two variables.</p></li>
-<li id="li-20"><p id="p-51">What is the difference between an expression and an equation?</p></li>
-<li id="li-21"><p id="p-52">What is the difference between evaluating an expression and solving an equation?</p></li>
-<li id="li-22"><p id="p-53">Explain how to find the <span class="process-math">\(x\)</span>-value that corresponds to a given <span class="process-math">\(x\)</span>-value on a graph.</p></li>
-</ol></section></section></div></main>
+<div class="para logical" id="sec-1-1-7-2"><ol class="decimal" id="sec-1-1-7-2-1">
+<li id="sec-1-1-7-2-1-1"><div class="para" id="sec-1-1-7-2-1-1-1">Describe some ways to display the relationship between two variables.</div></li>
+<li id="sec-1-1-7-2-1-2"><div class="para" id="sec-1-1-7-2-1-2-1">What is the difference between an expression and an equation?</div></li>
+<li id="sec-1-1-7-2-1-3"><div class="para" id="sec-1-1-7-2-1-3-1">What is the difference between evaluating an expression and solving an equation?</div></li>
+<li id="sec-1-1-7-2-1-4"><div class="para" id="sec-1-1-7-2-1-4-1">Explain how to find the <span class="process-math">\(x\)</span>-value that corresponds to a given <span class="process-math">\(y\)</span>-value on a graph.</div></li>
+</ol></div>
+<article class="assemblage assemblage-like" id="sec-1-1-7-3"><h4 class="heading"><span class="title">Concept Questions.</span></h4>
+<div class="para logical" id="sec-1-1-7-3-2"><ol class="decimal" id="sec-1-1-7-3-2-1">
+<li id="sec-1-1-7-3-2-1-1">
+<div class="para" id="sec-1-1-7-3-2-1-1-1">How many points do you need to graph a linear equation?</div>
+<div class="para logical" id="sec-1-1-7-3-2-1-1-2"><ol class="lower-alpha ol-marker-1" id="sec-1-1-7-3-2-1-1-2-1">
+<li id="sec-1-1-7-3-2-1-1-2-1-1"><div class="para" id="p-derived-sec-1-1-7-3-2-1-1-2-1-1">Two</div></li>
+<li id="sec-1-1-7-3-2-1-1-2-1-2"><div class="para" id="p-derived-sec-1-1-7-3-2-1-1-2-1-2">Three</div></li>
+<li id="sec-1-1-7-3-2-1-1-2-1-3"><div class="para" id="p-derived-sec-1-1-7-3-2-1-1-2-1-3">One in each quadrant</div></li>
+<li id="sec-1-1-7-3-2-1-1-2-1-4"><div class="para" id="p-derived-sec-1-1-7-3-2-1-1-2-1-4">It depends on the equation</div></li>
+</ol></div>
+</li>
+<li id="sec-1-1-7-3-2-1-2">
+<div class="para" id="sec-1-1-7-3-2-1-2-1">When you graph the data given in a table, on which axis do you show the variable in the first row of the table?</div>
+<div class="para logical" id="sec-1-1-7-3-2-1-2-2"><ol class="lower-alpha ol-marker-1" id="sec-1-1-7-3-2-1-2-2-1">
+<li id="sec-1-1-7-3-2-1-2-2-1-1"><div class="para" id="p-derived-sec-1-1-7-3-2-1-2-2-1-1">The linear axis</div></li>
+<li id="sec-1-1-7-3-2-1-2-2-1-2"><div class="para" id="p-derived-sec-1-1-7-3-2-1-2-2-1-2">The horizontal axis</div></li>
+<li id="sec-1-1-7-3-2-1-2-2-1-3"><div class="para" id="p-derived-sec-1-1-7-3-2-1-2-2-1-3">The vertical axis</div></li>
+<li id="sec-1-1-7-3-2-1-2-2-1-4"><div class="para" id="p-derived-sec-1-1-7-3-2-1-2-2-1-4">Both axes</div></li>
+</ol></div>
+</li>
+<li id="sec-1-1-7-3-2-1-3">
+<div class="para" id="sec-1-1-7-3-2-1-3-1">If <span class="process-math">\(C\)</span> is expressed in terms of <span class="process-math">\(H\text{,}\)</span> which variable goes on the horizontal axis?</div>
+<div class="para logical" id="sec-1-1-7-3-2-1-3-2"><ol class="lower-alpha ol-marker-1" id="sec-1-1-7-3-2-1-3-2-1">
+<li id="sec-1-1-7-3-2-1-3-2-1-1"><div class="para" id="p-derived-sec-1-1-7-3-2-1-3-2-1-1"><span class="process-math">\(\displaystyle C\)</span></div></li>
+<li id="sec-1-1-7-3-2-1-3-2-1-2"><div class="para" id="p-derived-sec-1-1-7-3-2-1-3-2-1-2"><span class="process-math">\(\displaystyle H\)</span></div></li>
+<li id="sec-1-1-7-3-2-1-3-2-1-3"><div class="para" id="p-derived-sec-1-1-7-3-2-1-3-2-1-3"><span class="process-math">\(\displaystyle x\)</span></div></li>
+<li id="sec-1-1-7-3-2-1-3-2-1-4"><div class="para" id="p-derived-sec-1-1-7-3-2-1-3-2-1-4">The smaller one</div></li>
+</ol></div>
+</li>
+<li id="sec-1-1-7-3-2-1-4">
+<div class="para" id="sec-1-1-7-3-2-1-4-1">If <span class="process-math">\(x \gt 5\text{,}\)</span> what is true about <span class="process-math">\(2x\text{?}\)</span>
+</div>
+<div class="para logical" id="sec-1-1-7-3-2-1-4-2"><ol class="lower-alpha ol-marker-1" id="sec-1-1-7-3-2-1-4-2-1">
+<li id="sec-1-1-7-3-2-1-4-2-1-1"><div class="para" id="p-derived-sec-1-1-7-3-2-1-4-2-1-1">It is greater than 3</div></li>
+<li id="sec-1-1-7-3-2-1-4-2-1-2"><div class="para" id="p-derived-sec-1-1-7-3-2-1-4-2-1-2">It is less than 3</div></li>
+<li id="sec-1-1-7-3-2-1-4-2-1-3"><div class="para" id="p-derived-sec-1-1-7-3-2-1-4-2-1-3">It is greater than 10</div></li>
+<li id="sec-1-1-7-3-2-1-4-2-1-4"><div class="para" id="p-derived-sec-1-1-7-3-2-1-4-2-1-4">It is less than <span class="process-math">\(-10\)</span>
+</div></li>
+</ol></div>
+</li>
+</ol></div></article></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="ch1.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-1-2.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>
