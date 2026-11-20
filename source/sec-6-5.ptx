@@ -3,8 +3,17 @@
 <section xml:id="sec-6-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Radical Equations</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this lesson we solve radical equations. We consider both graphical and algebraic solutions, identify extraneous solutions, and solve formulas that involve radicals.</p></commentary>
+<assemblage component="instructor">
+<p>In this Lesson we solve radical equations. We consider both graphical and algebraic solutions, identify extraneous solutions, and solve formulas that involve radicals.</p>
+
+<p>GOALS</p>
+<p><ul>
+  <li><p>Solving radical equations</p></li>    
+  <li><p>Checking for extraneous solutions</p></li>   
+  <li><p>Analyzing models involving radical equations</p></li>   
+  <li><p>Simplifying roots of powers</p></li>
+</ul></p>
+</assemblage>
 
 <activity><title>Solving Radical Equations</title>
 
@@ -14,111 +23,134 @@
     <li><p>square both sides.</p></li>
   </ol></p>
   <p>Be careful when squaring binomials. For example, why is the following calculation incorrect?
-      <me>(x-4)^2 \rightarrow x^2 - 4^2 \rightarrow x^2-16~~~~~~~~~~~~~~~~\alert{\text{(Wrong!)}}</me></p></introduction>
+      <md>(x-4)^2 \rightarrow x^2 - 4^2 \rightarrow x^2-16~~~~~~~~~~~~~~~~\alert{\text{(Wrong!)}}</md></p></introduction>
 
-  <task><p>Square the binomials. Try to do the calculation mentally.</p>
-    <p><ol>
-      <li><p><m>(x+5)^2</m></p></li>
-      <li><p><m>(x-6)^2</m></p></li>
-      <li><p><m>(2t-3)^2</m></p></li>
-      <li><p><m>(3v-4)^2</m></p></li>
-    </ol></p></task>
+<p><ol marker="a.">
+  <li><p>Square the binomials. Try to do the calculation mentally.</p>
+    
+      <p><m>(x+5)^2</m></p>
+      <p><m>(x-6)^2</m></p>
+      <p><m>(2t-3)^2</m></p>
+      <p><m>(3v-4)^2</m></p></li>
 
-  <task><p>Follow the steps to solve the equation <m>~2x-3 = \sqrt{4x-3}</m>.</p>
-    <p><ol>
-      <li><p>Square both sides.</p></li>
-      <li><p>Get zero on one side.</p></li>
-      <li><p>Solve the quadratic equation.</p></li>
-      <li><p>Check both solutions:
+  <li><p>Follow the steps to solve the equation <m>~2x-3 = \sqrt{4x-3}</m></p>
+    
+      <p>Square both sides.</p>
+      <p>Get zero on one side.</p>
+      <p>Solve the quadratic equation.</p>
+      <p>Check both solutions:
         <md><mrow>x = 3:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow>
             <mrow>x = 1:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md>
-            You should find that one of the "solutions" checks, and the other doesn't. Why does this happen?</p></li>
-    </ol></p></task>
+            You should find that one of the "solutions" checks, and the other doesn't. Why does this happen?</p>
 
-              <commentary audience="instructor"><title>Note</title>
-              <p>The next task uses graphs to show how extraneous solutions arise.</p></commentary>
+              <aside component="instructor"><p>1(c) This task uses graphs to show how extraneous solutions arise.</p></aside></li>
 
-    <task><p>Use a graph to solve the equation <m>~2x-3 = \sqrt{4x-3}</m>.</p>   
-      <p>Graph <m>Y_1 = 2x-3</m>  and  <m>Y_2 = \sqrt{4x-3}</m>  on the grid below. How many solutions?</p>
-            <image source="act-6-5-1.png" width="40%"></image>
-      <p>Graph <m>Y_1 = (2x-3)^2</m> and  <m>Y_2 = 4x-3</m> on the grid below. How many solutions? What happened when we squared both sides of the equation? We should always check for extraneous solutions.</p>
-            <image source="act-6-5-2.png" width="40%"></image></task>
+    <li><p>Use a graph to solve the equation <m>~2x-3 = \sqrt{4x-3}</m></p>   
+      <p>Graph <m>~Y_1 = 2x-3~</m>  and  <m>~Y_2 = \sqrt{4x-3}~</m>  on the grid below. How many solutions?</p>
+            <image source="act-6-5-1.png" width="40%"><description>grid [-2,6]x[-4,6]</description></image>
+      <p>Graph <m>~Y_1 = (2x-3)^2~</m> and  <m>~Y_2 = 4x-3~</m> on the grid below. How many solutions? What happened when we squared both sides of the equation? We should always check for extraneous solutions.</p>
+            <image source="act-6-5-2.png" width="40%"><description>grid [-2,6]x[-4,12]</description></image></li>
 
-    <task><p>Sometimes we have to square both sides twice in order to get rid of all the radicals. Follow the steps to solve the equation    <m>\sqrt{y+4} = \sqrt{y+20} - 2</m>.</p>   
-      <p><ol>
-        <li><p>Isolate the more complicated radical.</p></li>
-        <li><p>Square both sides.</p></li>
-        <li><p>Isolate the term with the radical.</p></li>
-        <li><p>Divide both sides by 4.</p></li>
-        <li><p>Square both sides again.</p></li>
-        <li><p>Solve for <m>y</m>.</p></li>
-        <li><p>Check the solution(s).</p></li>
-        <li><p>Solution:</p></li>
-    </ol></p></task>
+    <li><p>Sometimes we have to square both sides twice in order to get rid of all the radicals. Follow the steps to solve the equation    <m>~\sqrt{y+4} = \sqrt{y+20} - 2</m></p>   
+        <p>Isolate the more complicated radical.</p>
+        <p>Square both sides.</p>
+        <p>Isolate the term with the radical.</p>
+        <p>Divide both sides by 4.</p>
+        <p>Square both sides again.</p>
+        <p>Solve for <m>y</m>.</p>
+        <p>Check the solution(s).</p>
+        <p>Solution:</p></li>
+  </ol></p>
   </activity>
 
 <activity><title>Powers and Roots are Opposite Operations</title>
 
-<task><p>Simplify:</p>
-<p><ol>
-  <li><p><m>\sqrt{9^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{9})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{9^2}\sqrt{9^2}</m></p></li>
-  <li><p><m>\sqrt{5^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{5})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{5^2}\sqrt{5^2}</m></p></li>
-  <li><p><m>\sqrt[3]{8^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{8})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{8^3}\sqrt[3]{8^3}\sqrt[3]{8^3}</m></p></li>
-  <li><p><m>\sqrt[3]{4^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{4})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{4^3}\sqrt[3]{4^3}\sqrt[3]{4^3}</m></p></li>
-</ol></p></task>
+<p><ol marker="a.">
+<li><p>Simplify:</p>
+<p><ol marker="1.">
+  <li><p><m>\sqrt{9^2}=~~~~~~~~~~~~~~~~~~~~(\sqrt{9})^2=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{9^2}\sqrt{9^2}=</m></p></li>
+  <li><p><m>\sqrt{5^2}=~~~~~~~~~~~~~~~~~~~~(\sqrt{5})^2=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{5^2}\sqrt{5^2}=</m></p></li>
+  <li><p><m>\sqrt[3]{8^3}=~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{8})^3=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{8^3}\sqrt[3]{8^3}\sqrt[3]{8^3}=</m></p></li>
+  <li><p><m>\sqrt[3]{4^3}=~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{4})^3=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{4^3}\sqrt[3]{4^3}\sqrt[3]{4^3}=</m></p></li>
+</ol></p></li>
 
-<task><p>Did you use your calculator? You don't need it! Explain why not.</p></task>
+<li><p>Did you use your calculator? You don't need it! Explain why not.</p></li>
 
-<task><p>Simplify. Assume that <m>x</m> is a positive number.</p>
-  <p><ol>
-    <li><p><m>\sqrt{x^2}~~~~~~~~~~~~~~~~~~~~(\sqrt{x})^2~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{x^2}\sqrt{x^2}</m></p></li>
-    <li><p><m>\sqrt[3]{x^3}~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{x})^3~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{x^3}\sqrt[3]{x^3}\sqrt[3]{x^3}</m></p></li>
- </ol></p></task>
+<li><p>Simplify. Assume that <m>x</m> is a positive number.</p>
+  <p><ol marker="1.">
+    <li><p><m>\sqrt{x^2}=~~~~~~~~~~~~~~~~~~~~(\sqrt{x})^2=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt{x^2}\sqrt{x^2}=</m></p></li>
+    <li><p><m>\sqrt[3]{x^3}=~~~~~~~~~~~~~~~~~~~~(\sqrt[3]{x})^3=~~~~~~~~~~~~~~~~~~~~~~~~~~\sqrt[3]{x^3}\sqrt[3]{x^3}\sqrt[3]{x^3}=</m></p></li>
+ </ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>The Gossamer Albatross</title>
  
- <introduction><sidebyside widths="50% 45%"><p> A bicycle ergometer is used to measure the amount of power generated by a cyclist. The scatterplot at right shows how long an athlete was able to sustain various levels of power output. The curve is the graph of 
-    <me>y=500x^{-0.29},</me>
+ <introduction><p> A bicycle ergometer is used to measure the amount of power generated by a cyclist. The scatterplot below shows how long an athlete was able to sustain various levels of power output. The curve is the graph of 
+      <me>y=500x^{-0.29}</me>
 which approximately models the data.</p> 
-  <image source="act-6-5-3.png"></image></sidebyside></introduction>
+      <image source="act-6-5-3.png" width="60%"><description>scatterplot and graph of y=500x^{-0.29}</description></image>
+</introduction>
 
-<task><p>In this graph, which variable is the input and which is the output?</p></task>
+<p><ol marker="a.">
+<li><p>In this graph, which variable is the input and which is the output?</p></li>
 
-<task><p>The athlete maintained 650 watts of power for 40 seconds. What power output does the equation predict for 40 seconds?</p></task>
+<li><p>The athlete maintained 650 watts of power for 40 seconds. What power output does the equation predict for 40 seconds?</p></li>
 
-<task><p>The athlete maintained 300 watts of power for 10 minutes. How long does the equation predict that power output can be maintained?</p></task>
+<li><p>The athlete maintained 300 watts of power for 10 minutes. How long does the equation predict that power output can be maintained?</p></li>
 
-<task><p>In 1979 a remarkable pedal-powered aircraft called the Gossamer Albatross was successfully flown across the English Channel. The flight took 3 hours. According to the equation, what level of power can be maintained for 3 hours?</p></task>
+<li><p>In 1979 a remarkable pedal-powered aircraft called the Gossamer Albatross was successfully flown across the English Channel. The flight took 3 hours. According to the equation, what level of power can be maintained for 3 hours?</p></li>
 
-<task><p>The Gossamer Albatross needed 250 watts of power to keep it airborne. For how long can 250 watts be maintained, according to the given equation?</p></task>
+<li><p>The Gossamer Albatross needed 250 watts of power to keep it airborne. For how long can 250 watts be maintained, according to the given equation?</p></li>
+</ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
-<li><p>What is the most important thing to remember when solving a radical equation?</p></li>
-<li><p>When can extraneous solutions occur?  Why?</p></li>
-<li><p>Explain why it is not always true that <m>\sqrt{x^2} = x</m>.</p></li>
-<li><p>Explain how to solve the equation <m>~4x+4 = \sqrt{3x+4}~</m> by graphing.</p></li>
+  <li><p>What mistake should you avoid when squaring a binomial?</p></li>
+  <li><p>When can extraneous solutions occur?  Why?</p></li>
+  <li><p>If an equation contains two radicals, what is a good first step for solving it?</p></li>
+  <li><p>Explain why it is not always true that <m>\sqrt{x^2} = x</m>.</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to powers and roots:</p>
-<p><ul>
-<li><p>Solving radical equations</p></li>    
-<li><p>Checking for extraneous solutions</p></li>   
-<li><p>Analyzing models involving radical equations</p></li>   
-<li><p>Simplifying roots of powers</p></li>
-</ul></p>
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Is it possible for a radical equation to have no solution? If so, give an example; if not, explain why not.</p></li>
-<li><p>When can extraneous solutions occur? Why?</p></li>
-<li><p>If an equation contains two radicals, why is it a good idea to isolate one of the radicals on one side of the equation?</p></li>
-<li><p>Explain how to solve the equation <m>4x+4 = \sqrt{3x+4}</m>  by graphing.</p></li>
-</ol></p></commentary>
+  <li><p>Is it possible for a radical equation to have no solution? If so, give an example; if not, explain why not.</p></li>
+  <li><p>When can extraneous solutions occur? </p></li>
+  <li><p>If an equation contains two radicals, what is a good first step for solving it?</p></li>
+  <li><p>Explain why it is not always true that <m>\sqrt{x^2}=x</m>.</p></li>
+</ol></p></assemblage>
 
-</subsection>     
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>We might introduce extraneous solutions when we</p>
+    <p><ol marker="a.">
+        <li>square both sides of an equation.</li>
+        <li>cube both sides of an equation.</li>
+        <li>raise both sides to a power.</li>
+        <li>Do any of these.</li>
+    </ol></p></li>
+    <li><p>What would be a good first step to solve <m>\sqrt{x} + \sqrt{x-4} = 12</m>?</p>
+    <p><ol marker="a.">
+        <li>Square each term.</li>
+        <li>Subtract <m>\sqrt{x}</m> from both sides.</li>
+        <li>Combine the radicals on the right side.</li>
+        <li>Take the square root of 12.</li>
+    </ol></p></li>
+    <li><p><m>\sqrt[n]{a^n}=a</m> is false if</p>
+    <p><ol marker="a.">
+        <li><m>n</m> is odd and <m>a</m> is negative</li>
+        <li><m>n</m> is odd and <m>a</m> is positive</li>
+        <li><m>n</m> is even and <m>a</m> is negative</li>
+        <li><m>n</m> is even and <m>a</m> is positive</li>
+    </ol></p></li>
+    <li><p>Which of these is true for all <m>x</m> ?</p>
+    <p><ol marker="a.">
+        <li><m>(x+8)^2 = x^2+64</m></li>
+        <li><m>(\sqrt{x})+\sqrt{8})^2=x+8</m></li>
+        <li><m>(\sqrt{x+8})^2=x+8</m></li>
+        <li><m>\sqrt{(x+8)^2}=x+8</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
 
 </section>

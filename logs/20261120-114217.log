@@ -1,0 +1,15 @@
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+ERROR   : Error loading file:///C:/Users/kyosh/pretext/int-alg-activities/source/meta_frontmatter.ptx: Opening and ending tag mismatch: colophon line 25 and website, line 27, column 14 (file:///C:/Users/kyosh/pretext/int-alg-activities/source/meta_frontmatter.ptx, line 27)
+ERROR   : Error assembling source file: Opening and ending tag mismatch: colophon line 25 and website, line 27, column 14 (file:///C:/Users/kyosh/pretext/int-alg-activities/source/meta_frontmatter.ptx, line 27)
+FATAL   : XML syntax for source file is invalid
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

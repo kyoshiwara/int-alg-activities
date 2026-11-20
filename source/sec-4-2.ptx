@@ -3,36 +3,52 @@
 <section xml:id="sec-4-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Vertex</title>
 
-<assemblage>
-<p>In this Lesson we find the maximum or minimum value for a quadratic model and use the vertex form to find the equation of a parabola. We also put a quadratic equation into vertex form by completing the square.</p></assemblage>
+<assemblage component="instructor">
+<p>In this Lesson we find the maximum or minimum value for a quadratic model, and use the vertex form to find the equation of a parabola. We also put a quadratic equation into vertex form by completing the square.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find the vertex of a parabola</p></li>
+    <li><p>Find the maximum or minimum value of a quadratic model</p></li> 
+    <li><p>Write a quadratic equation in vertex form by completing the square</p></li>
+    <li><p>Find an equation for a parabola given the vertex and one other point</p></li> 
+    <li><p>Write a quadratic model for revenue</p></li>
+</ul></p></assemblage>
 
 <activity><title>Finding the Vertex</title>
 <p><ol>
-<li>
-  <p><ol>
-    <li><p>How do you know that the graph of <m>y=(x-2)^2-6</m> is a parabola?</p></li>
-    <li><p>Does the parabola open up or down?  Why?</p></li>
-    <li><p>What is the smallest <m>y</m>-value on the graph of <m>y=(x-2)^2-6</m>?
-    (Hint:  What is the smallest value that <m>(x-2)^2</m> can have?)</p></li>
-    <li><p>Which <m>x</m>-value gives us the smallest <m>y</m>-value?  Why?</p>
-        <aside><p>Help students understand why the vertex occurs at <m>(2,6)</m>.</p></aside></li>
-    <li><p>Graph the equation in the standard window and verify your answers.</p></li>
-  </ol></p></li>
+<li><p>Think about the graph of <m>y=(x-2)^2-6</m>.</p>
+    <p><ol marker="a.">
+        <li><p>How do you know that the graph is a parabola?</p></li>
+        <li><p>Does the parabola open up or down? Why?</p></li>
+        <li><p>What is the smallest <m>y</m>-value on the graph of <m>y=(x-2)^2-6</m>?
+                (Hint:  What is the smallest value that <m>(x-2)^2</m> can have?)</p></li>
+        <li><p>Which <m>x</m>-value gives us the smallest <m>y</m>-value? Why?</p></li>
+        <li><p>What are the coordinates of the vertex of the graph?</p></li>
+        <li><p>Graph the equation on the grid and verify your answers.
+                <image source="act-2-2-2.png" width="40%"><description>10x10 grid</description></image></p></li>
+    </ol></p></li>
 
-  <li><p><ol>
-    <li><p>Find the vertex of the graph of <m>y=3(x-2)^2-6</m>.</p></li>
-    <li><p>Write the equation above in standard form.</p></li>
-  </ol></p></li>
+<li><p>Now consider the graph of <m>y=3(x-2)^2-6</m>.</p>
+        <p><ol marker="a.">
+            <li><p>What is the vertex of this graph?</p></li>
+            <li><p>How is the graph of <m>y=3(x-2)^2-6</m> different from the graph of <m>y=(x-2)^2-6</m>?</p></li>
+            <li><p>Write the equation <m>y=3(x-2)^2-6</m> in standard form.</p></li>
+        </ol></p></li>
 
-  <li><p><ol>
-    <li><p>Find an equation for a parabola whose vertex is <m>(4,-7)</m>.</p></li> 
-    <li><p>Sketch your parabola on the grid.
-        <image source="act-2-2-2.png" width="40%"></image></p></li>
-    <li><p>Find an equation for another parabola whose vertex is <m>(4,-7)</m> if one point on the graph is <m>(2,9)</m>.</p></li>
-                <aside><p>Explain that many parabolas have the same vertex, so we need to know one other point to establish the "width" of the graph.</p></aside>
+  <li><p>We can write an equation for a parabola if we know its vertex.</p>
+        <p><ol marker="a.">
+            <li><p>State the vertex form for a quadratic function.</p></li>
+            <li><p>Find an equation for a parabola whose vertex is <m>(4,-7)</m>.</p></li> 
+            <li><p>Sketch your parabola on the grid.
+                <image source="act-2-2-2.png" width="40%"><description>10x10 grid</description></image></p></li>
+            <li><p>Find an equation for another parabola whose vertex is <m>(4,-7)</m> if one point on the graph is <m>(2,9)</m>.</p></li>
 
-    <li><p>Sketch that parabola on the same grid.</p></li>
-  </ol></p></li>
+                <aside><title>Note</title>
+                <p>Explain that many parabolas have the same vertex, so we need to know one other point to establish the "width" of the graph.</p></aside>
+
+            <li><p>Sketch that parabola on the same grid.</p></li>
+        </ol></p></li>
 </ol></p>
 </activity>
 
@@ -42,130 +58,72 @@
 
 <p><ol marker="a.">
     <li><sidebyside widths="50% 30%"><p>The path of the ball is shown at right. Label the <m>y</m>-intercept and the vertex with their coordinates.</p>
-  <image source="act-4-2-1.png"></image></sidebyside></li>
+        <image source="act-4-2-1.png"><description>unlabeled downward parabola on 2x2 grid</description></image></sidebyside></li>
 
-    <li><p>Write an equation for the height of the ball in terms of the horizontal distance it has traveled.</p></li> 
-                <aside><p>It may help students to graph the equation.</p></aside>
+    <li><p>Write an equation for the height of the ball in terms of the horizontal distance it has traveled.</p> 
+                <aside component="instructor"><p>2b. It may help students to graph the equation.</p></aside></li>
 
     <li><p>Find the height of the ball when it reaches the left field wall, which is 375 feet from home plate. If the wall is 10 feet tall, did the batter hit a home run (did the ball go over the wall)?</p></li>
 </ol></p>
 </activity>
 
-<activity><title>Maximum or Minimum value</title>
-
-<introduction><p>A farmer plans to fence a rectangular grazing area along a river using 300 yards of fence.</p></introduction>
-        <aside><p>Note that this problem is similar to the model in Lesson 3.2.</p></aside>
-
-<p><ol marker="a.">
-    <li><p>Draw a sketch illustrating the grazing area, and label its length and width.</p></li>
-    <li><p>Let <m>w</m> stand for the width of the rectangle, and write an expression for the length <m>l</m> in terms of the width.</p></li>
-    <li><p>Write an equation for the area <m>A</m> of the grazing land in terms of <m>w</m>.</p></li>
-    <li><p>Graph the equation.</p>
-        <image source="act-4-2-2.png" width="40%"></image></li>
-    <li><p>Use algebra to answer the questions:
-            <aside><p>Deciding which value corresponds to each variable is difficult for students.</p></aside>
-        <ol>
-            <li><p>What is the largest area the farmer can enclose?</p></li>  
-            <li><p>What are the dimensions of the largest area?</p></li>
-        </ol></p></li>
-</ol></p>
-</activity>
-
 <activity><title>Revenue</title>
-
-<introduction><p>The local theater group sold tickets to its opening night performance for $5 and drew an audience of 100 people. The next night they reduced the ticket price by $0.25 and 10 more people attended; that is, 110 people bought tickets at $4.75 apiece. In fact, for each $0.25 reduction in ticket price, 10 additional tickets can be sold.</p></introduction>
-
+<introduction><p>The Footlights Theater charged $60 for a ticket to its opening night performance of The Mikado, and 20 people attended. On each subsequent night, they dropped the price of a ticket by $2, and 4 more people attended.</p></introduction>
 <p><ol marker="a.">
-    <li><p>Complete the table.</p>
-        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
-                <row bottom="minor">
-                    <cell>Number of<line>Price Reductions</line></cell>
-                    <cell>Price of Ticket</cell>
-                    <cell>Number of <line>Tickets Sold</line></cell>
-                    <cell>Total Revenue</cell></row>
-                <row><cell>0</cell>
-                    <cell>5.00</cell>
-                    <cell>100</cell>
-                    <cell>500</cell></row>
-                <row><cell>1</cell>
-                    <cell>4.75</cell>
-                    <cell>110</cell>
-                    <cell>522.50</cell></row>
-                <row><cell>2</cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell></row>
-                <row><cell>3</cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell></row>
-                <row><cell>5</cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell></row>
-                <row><cell>8</cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell></row>
-                <row><cell>10</cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell>
-                    <cell><m>\hphantom{000}</m></cell></row>
-            </tabular></li>
-  
-    <li><p>Let <m>x</m> represent the number of price reductions, as in the first column of the table.  Write algebraic expressions in terms of  for:</p>  
-        <p>The Price of a Ticket after  price reductions:  </p>      
-        <p>The Number of Tickets Sold at that price: </p>
-        <p>The Total Revenue from ticket sales: </p>
-                <aside><p>Stress that there are several unknown quantities in this problem, but all are expressed in terms of <m>x</m>, the number of price reductions.</p></aside></li>
-
-    <li><p>Use the Table feature of your technology tool to verify that your algebraic expressions agree with your table from part (a).</p>   
-        <p><m>Y_1 = </m> the price of a ticket</p>
-        <p><m>Y_2 = </m> the number of tickets sold</p>  
-        <p><m>Y_3 = </m> the total revenue</p></li>
-
-    <li><p>Graph your equation for total revenue in terms of <m>x</m>.  Sketch the graph on the grid.</p>
-        <image source="act-4-2-3.png" width="50%"></image></li>
-
-    <li><p>What is the maximum revenue possible from ticket sales?</p>
-        <p>What is the value of <m>x</m> at that revenue?</p></li>
-
-    <li><p>Use your formulas for <m>Y_1</m> and <m>Y_2</m> to answer the questions:</p>  
-        <p>What price should the theater group charge for a ticket to generate the maximum revenue?</p>  
-        <p>How many tickets will they sell at that price?</p>
-                <aside><p>You will need to remind students what <m>x</m> represents, and that they have expressions for the other unknown quantities.</p></aside></li>
+    <li><p>What was the theater's revenue on opening night?</p></li>
+    <li><p>Write a formula for their revenue after <m>x</m> price reductions.</p></li>
+    <li><p>For what value of <m>x</m> will the revenue be maximum?</p></li>
+    <li><p>What is the maximum revenue? What price should they charge for a ticket, and how many people will attend?</p></li>
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<activity><title>Profit</title>
+
+<introduction><p>Woody's Woodshop makes birdhouses and sells them for $30 each. It costs Woody cost <m>C=0.125x^2+1000</m> dollars to make <m>x</m> birdhouses. </p></introduction>
+
+<p><ol marker="a.">
+    <li><p>Write a formula for the Woody's profit for making and selling <m>x</m> birdhouses. (Recall that Profit = Revenue - Costs.)</p></li> 
+    <li><p>How many birdhouses must Woody sell in order to break even?</p></li>
+    <li><p>How many birdhouses should Woody sell in order to maximize his profit?  How much will that profit be?</p></li>
+    <li><p>Graph your profit function from <m>x=0</m> to <m>x=240</m> and verify your answers to (b) and (c).</p>
+        <image width="50%" xml:id="grid-IA-ACT4-2-4"><description>Grid 0-250 by -1000to1000</description><latex-image>
+    <![CDATA[
+    \begin{tikzpicture} [xscale=0.5,yscale=0.5] 
+     \draw[cyan] (0,-5) grid (10,5);
+    \draw[black,thick,->,>=stealth'] (0,0)--(11,0);
+    \draw[black,thick,->,>=stealth'] (0,-5)--(0,5.9);
+    \foreach \x [evaluate=\x as \xi using int( 25* \x )]  in {2,4,6,8,10} {
+        \draw[black,thick] (\x,0.15)--++(0,-.3) node[below]{$\xi$};
+    }
+    \foreach \y [evaluate=\y as \yi using int( 250* \y )]   in {-5,-4,-3,-2,-1,1,2,3,4,5} {
+        \draw[black,thick] (.4,\y)--++(-.8,0) node[left]{$\yi$};
+    }
+    \end{tikzpicture}]]>
+</latex-image></image></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
 <p><ol>
-    <li><p>The height of a golf ball in meters is given by <m>~h=-4.9t^2+20t </m>. Explain how to find out when the ball hits the ground. Explain how to find the greatest height the ball reaches.</p></li>
-    <li><p>Explain why you need another point besides the vertex to find the equation of a parabola.</p></li>
-    <li><p>Explain why revenue does not increase indefinitely as you increase price.</p></li>
-    <li><p>What is the smallest value that <m>y</m> can have if <m>~y=2(x-3)2+6</m> ?  What value of <m>x</m> produces that smallest <m>y</m>-value?</p></li>
+    <li><p>What is the smallest value that <m>y</m> can have if <m>~y=2(x-3)2+6</m>?  What value of <m>x</m> produces that smallest <m>y</m>-value?</p></li>
+    <li><p>The height of a golf ball in meters is given by <m>~h=-4.9t^2+20t </m>.</p>
+        <p><ol marker="a."> 
+            <li><p>Explain how to find out when the ball hits the ground.</p></li>
+            <li><p>Explain how to find the greatest height the ball reaches.</p></li>
+        </ol></p></li>
+    <li><p>In Activity 3, what two quantities did you multiply to find the theater's revenue?</p></li>
+    <li><p>In Activity 4, what point did you find to answer part (b)? What point did you find to answer part (c)?</p></li>   
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-
-<p>In this Lesson, we worked on the following skills and goals related to quadratic models:</p>
-<p><ul>
-    <li><p>Find the vertex of a parabola</p></li>
-    <li><p>Find the maximum or minimum value of a quadratic model</p></li> 
-    <li><p>Write a quadratic equation in vertex form by completing the square</p></li>
-    <li><p>Find an equation for a parabola given the vertex and one other point</p></li> 
-    <li><p>Write a quadratic model for revenue</p></li>
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Explain how to find the coordinates of the vertex of a parabola.</p></li>
     <li><p>When is the vertex form for a quadratic equation useful?</p></li>
     <li><p>Explain why revenue will probably not increase indefinitely as price increases.</p></li>
     <li><p>Why do we need to know a second point besides the vertex to find the equation of a parabola?</p></li>
-</ol></p>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
 <li><p>What is the <m>x</m>-coordinate of the vertex of the parabola <m>~y=4(x-2)(x+8)</m>?</p>   
   <p><ol marker="a.">
@@ -174,7 +132,7 @@
       <li>6</li>   
       <li>3</li>
     </ol></p></li>
-<li><p>What is the smallest -value on the graph of <m>~y=4(x-6)^2 + 12</m>?</p>
+<li><p>What is the smallest <m>y</m>-value on the graph of <m>~y=4(x-6)^2 + 12</m>?</p>
   <p><ol marker="a.">
     <li>6</li> 
     <li>4</li>
@@ -197,5 +155,4 @@
     <li>The speed of the golf ball</li>
   </ol></p></li>
 </ol></p></assemblage>
-</subsection>
 </section>

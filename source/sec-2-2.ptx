@@ -3,12 +3,20 @@
 <section xml:id="sec-2-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Systems</title>
 
-<assemblage>
+<assemblage component="instructor">
 <p>This Lesson reviews linear systems in two variables. We solve systems graphically — algebraic solutions are treated in the next Lesson. Part of the purpose of this Lesson is to practice the graphing techniques presented in Chapter 1, both on paper and using technology.</p>
 
  <p>Students should learn to recognize inconsistent and dependent systems by writing both equations in the same form, either general linear or slope-intercept. For example, point out that two lines with the same slope but different <m>y</m>-intercepts must be parallel.</p>
     
-<p>The application to supply and demand may be new to students. It is also a good idea to review the formula  Profit = Revenue - Cost, and to remind students that profit can be positive or negative, and that breaking even means to make zero profit.</p>
+<p>If there is time at the end of the Lesson, you may want to briefly go over section 2.2.4 on Applications in the textbook. The application to supply and demand may be new to students. It is also a good idea to review the formula  Profit = Revenue - Cost, and to remind students that profit can be positive or negative, and that breaking even means to make zero profit.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Verify a solution of a system.</p></li>
+    <li><p>Solve a linear system graphically.</p></li>
+    <li><p>Identify inconsistent and dependent systems.</p></li>
+    <li><p>Model applications in two variables.</p></li>
+</ul></p>
 </assemblage> 
 
 <activity><title>Solving a System by Graphing</title>
@@ -17,9 +25,12 @@
 
 <p><ol marker="a.">
     <li><p>Write an equation for <m>S</m>, the total cost of purchasing and running the standard model for <m>t</m> months.</p></li> 
-    <li><p>Write an equation for <m>E</m>, the total cost of purchasing and running the energy-efficient model for <m>t</m> months.</p></li>   
+    <li><p>Write an equation for <m>E</m>, the total cost of purchasing and running the energy-efficient model for <m>t</m> months.</p>
+
+        <aside component="instructor"><p>1e. Explain that the intersection point is the point at which <m>S=E</m>, so by setting the expressions for <m>S</m> and <m>E</m> equal and solving the equation, we are finding the value of <m>t</m> that makes <m>S</m> and <m>E</m> equal, that is, the month in which the total operating costs are equal.</p></aside></li>   
+    
     <li><sidebyside widths="50% 40%"><stack><p>Complete the table of values and graph both equations on the grid.</p>
-            <aside><p>1c. After practicing the intercept method of graphing, many students have forgotten that we can also graph a line by plotting points.</p></aside>
+            <aside component="instructor"><p>1c. After practicing the intercept method of graphing, many students have forgotten that we can also graph a line by plotting points.</p></aside>
 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
@@ -36,10 +47,10 @@
                     <cell></cell>
                     <cell></cell></row>
             </tabular></stack>
-        <image source="act-2-2-1.png" ></image></sidebyside></li>
-    <li><p>Read your graph: What is the intersection point of the two graphs? What do the coordinates of the point tell us?</p>
-            <aside><p>1e. Explain that the intersection point is the point at which <m>S=E</m>, so by setting the expressions for <m>S</m> and <m>E</m> equal and solving the equation, we are finding the value of <m>t</m> that makes <m>S</m> and <m>E</m> equal, that is, the month in which the total operating costs are equal.</p></aside></li>
-    <li><p>Use algebra to find the answer to part (c).</p></li>
+        <image source="act-2-2-1.png"><description>Grid [0,100]x[800,1600]</description></image></sidebyside></li>
+    
+    <li><p>Read your graph: What is the intersection point of the two graphs? What do the coordinates of the point tell us?</p></li>
+    <li><p>Use algebra to find the answer to part (d).</p></li>
 </ol></p> 
 </activity>
 
@@ -49,12 +60,14 @@
 
 <p><ol marker="a.">
     <li><p>Describe the two unknown quantities:</p>
+        <aside component="instructor"><p>2a. Make sure students write down exactly what <m>x</m> and <m>y</m> represent.</p></aside>
 
     <p><m>\hphantom{00000} x:</m></p>
-    <p><m>\hphantom{00000} y:</m></p>
-        <aside><p>2a. Make sure students write down exactly what <m>x</m> and <m>y</m> represent.</p></aside></li>
+    <p><m>\hphantom{00000} y:</m></p></li>
 
     <li><p>Complete the table.</p>
+            <aside component="instructor"><p>2b. This is a typical "mixture" problem. Point out that once they have filled in the first two columns with information from the problem, they can multiply across to fill in the last column.</p></aside>
+        
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell></cell>
@@ -73,15 +86,16 @@
                     <cell></cell>
                     <cell></cell>
                     <cell></cell></row>
-    </tabular></li>
+    </tabular>
+            <aside component="instructor"><p>2c. And to write the equations, they can add down the first and third columns.</p></aside></li>
 
-    <li><p>Write two equations, one about the amount of each grain in the mixture, and one about the amount of protein in the mixture.</p></li>
+    <li><p>Write two equations, one about the amount of each grain in the mixture, and one about the amount of protein in the mixture.</p>
+        </li>
 
-    <li><p>Solve each equation for <m>y</m>, and graph them using technology. (Hint: What are the largest and smallest possible values for <m>x</m> and <m>y</m>? Use these values to choose a window.)</p>
+    <li><p>Solve each equation for <m>y</m>, and graph them using technology. (Hint: What are the largest and smallest possible values for <m>x</m> and <m>y</m>? Use these values to choose a window.)</p></li>
 
-           <aside><p>2d. Choosing a window is difficult for students. Suggest that they read the problem again, thinking about what <m>x</m> and <m>y</m> represent.</p></aside></li>
-
-    <li><p>Use technology to find the intersection point. What do the coordinates of the intersection point tell us?</p></li>
+    <li><p>Use technology to find the intersection point. What do the coordinates of the intersection point tell us?</p>
+            <aside component="instructor"><p>2d. You may need to remind students how to solve for <m>y</m>. Choosing a window is difficult for students. Suggest that they read the problem again, thinking about what <m>x</m> and <m>y</m> represent.</p></aside></li>
 </ol></p>
 </activity>
 
@@ -89,17 +103,17 @@
 
 <p><ol marker="a.">
     <li><p>Graph each system on the grid.</p>
-
-            <aside><p>3a. Use this task to review the two graphing methods: the intercept method and the slope-intercept method.  Ask students which method is more efficient on each equation.</p></aside>
-
-    <sidebyside widths="45% 45%"><stack><p>System I
+    <sidebyside widths="45% 45%">
+    <stack><p>System I
         <md><mrow>3x - 2y = 9</mrow>
             <mrow>x = \frac{2}{3} y + 3</mrow></md></p>
-    <image source="act-2-2-2.png" ></image></stack>    
+    <image source="act-2-2-2.png"><description>10x10 grid</description></image></stack>    
     <stack><p>System II
         <md><mrow>y = -3x + 6</mrow>
             <mrow>6x + 2y = 15</mrow></md></p>
-    <image source="act-2-2-2.png" ></image></stack></sidebyside></li>
+    <image source="act-2-2-2.png"><description>10x10 grid</description></image></stack></sidebyside>
+
+            <aside component="instructor"><p>3a. Use this task to review the two graphing methods: the intercept method and the slope-intercept method.  Ask students which method is more efficient on each equation.</p></aside></li>
 
     <li><p>How many solutions are there?</p> 
         <p><m>\hphantom{00000}</m>System I:    <m>\hphantom{00000000000000000000000000}</m> System II:</p></li>
@@ -115,7 +129,7 @@
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>In Activity 1, how did you use a graph to solve the system?</p></li>  
     <li><p>How did you solve the system in Activity 1 algebraically?</p></li>
@@ -124,26 +138,16 @@
 </ol></p>
 </subsection>
 
-<subsection><title>Wrap-Up</title>
-
-<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
-<p><ul>
-    <li><p>Verify a solution of a system.</p></li>
-    <li><p>Solve a linear system graphically.</p></li>
-    <li><p>Identify inconsistent and dependent systems.</p></li>
-    <li><p>Model applications in two variables.</p></li>
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>What do the points on the graph of an equation represent?</p></li>
     <li><p>What is true about the lines in an inconsistent system?</p></li>
     <li><p>Is it possible for a linear system to have more than one solution?</p></li>
     <li><p>What is the input variable in a demand equation?</p></li>
 </ol></p>
+</assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>Which points on the graphs satisfy both equations in a system?</p>
     <p><ol marker="a.">
@@ -174,7 +178,6 @@
         <li>The price at which revenue equals costs</li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection> 
 
 </section>
 

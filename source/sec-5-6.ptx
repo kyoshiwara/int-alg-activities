@@ -3,18 +3,31 @@
 <section xml:id="sec-5-6" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Functions as Models</title>
 
-<assemblage>
-<p>In this lesson we discuss the shape of a graph, in particular concavity, as it applies to modeling. We also use absolute value to describe distance, and solve absolute value equations and inequalities.</p>
-<p>If you prefer to concentrate on absolute value, you could assign Activity 1 as homework. Then give a short lesson on using the notation <m>\abs{x-a}=b</m> to discuss distance. If you wish to cover measurement error, you could also do that now.
-</p></assemblage>
+<assemblage component="instructor">
+<p>In this Lesson we discuss the shape of a graph, in particular concavity, as it applies to modeling. We also use absolute value to describe distance, and solve absolute value equations and inequalities.</p>
+<p>If you prefer to concentrate on absolute value, you could assign Activity 1 as homework. Then give a short lesson on using the notation <m>\abs{x-a}=b</m> to discuss distance. If you wish to cover measurement error, you could also do that now.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Sketch a graph whose shape models a situation</p></li>    
+    <li><p>Choose one of the basic graphs to fit a situation </p></li>    
+    <li><p>Use absolute value notation to write statements about distance</p></li>    
+    <li><p>Use graphs to solve absolute value equations and inequalities</p></li>    
+    <li><p>Solve absolute value equations and inequalities algebraically</p></li>    
+</ul></p></assemblage>
 
 <activity><title>Using the Basic Functions</title>
+
+    <aside component="instructor"><p>Before starting Activity 1, it would be good to lead a short discussion of concavity and changing slopes.</p></aside>
 
 <introduction><p>Here are some situations that can be modeled by variations of the basic functions.  Match each situation with a function from the list below, and with the appropriate graph.  Write your function with the variables in the description, and answer any questions about the model.
         <md><mrow>y=kx^2 ~~~~~ \amp y=kx^3 ~~~~~ y=k\sqrt{x}</mrow>
             <mrow>y=k\sqrt[3]{x} ~~~~~ \amp y=\dfrac{k}{x} ~~~~~~~ y=\dfrac{k}{x^2}</mrow></md></p>
-      <image source="act-5-6-1.png" width="90%"></image>
+      <image source="act-5-6-1.png" width="90%"><description>six basic curves</description></image>
 </introduction>
+
+        <aside component="instructor">
+          <p>Students will probably need help distinguishing between the graphs of <m>y=x^2</m> and <m>y=x^3</m>, between <m>y=\sqrt{x}</m> and <m>y=\sqrt[3]{x}</m>, and between <m>y=\dfrac{1}{x}</m> and <m>y=\dfrac{1}{x^2}</m>.</p></aside>
 
 <p><ol>
 <li><p>The time, <m>t</m>, it takes to travel a certain distance, <m>d</m>, is inversely proportional to the speed, <m>r</m>, at which you travel. For example, to travel 400 miles at an average speed of 50 miles per hour will take 8 hours.</p>
@@ -22,14 +35,18 @@
     <li>Write a formula for <m>t</m> as a function of <m>r</m>.</li>
     <li>Choose the appropriate graph, and label the axes.</li>
     <li>If you double your average speed, what happens to the travel time?</li>
-  </ol></p></li>
+  </ol></p>
+
+      <aside component="instructor"><p>For each model, students can answer the last question using either the formula or the graph, and can perhaps use one to verify the other.</p></aside></li>
 
 <li><p>The distance, <m>D</m>, needed to stop a car is proportional to the square of its velocity, <m>v</m>. A car traveling at 50 miles per hour needs about 170 feet to stop.</p>
   <p><ol marker="a.">
     <li>Write a formula for <m>D</m> as a function of <m>v</m>.</li>
     <li>Choose the appropriate graph, and label the axes.</li>
     <li>What happens to the stopping distance if the velocity of the car is doubled?</li>
-  </ol></p></li>
+  </ol></p>
+
+      <aside component="instructor"><p>The first model used the familiar formula <m>d=rt</m> (or <m>t=\dfrac{d}{r}</m>), but in the other models you may need to remind students how to find the constant <m>k</m>, from the values given.</p></aside></li>
 
 <li><p>The intensity, <m>I</m>, of sound is proportional to the reciprocal of the square of the distance, <m>d</m>, from its source. In a certain auditorium, the sound intensity 6 meters from the stage is 100 watts per square meter.</p>
   <p><ol marker="a.">
@@ -64,14 +81,14 @@
 <activity><title>Solving Absolute Value Equations</title>
 
 <introduction><p>We'll solve the equation 
-             <me>\abs{x-3} = 5</me>
+             <md>\abs{x-3} = 5</md>
     in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
 
 <p><ol>
 <li><p>Solution by graphing</p>
     <p><ol marker="a.">
         <li><p>Graph <m>y=\abs{x-3}</m> with technology, and copy the graph onto the grid below.</p>
-            <image source="act-5-6-2.png" width="50%"></image></li>
+            <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
         <li><p>Sketch the horizontal line <m>y=5</m> on your graph.</p></li>
         <li><p>Find the points on the graph of <m>y=\abs{x-3}</m> that have <m>y=5</m>. (How many points are there?) What are the <m>x</m>-coordinates of those two points? These are the solutions.</p></li>
       </ol></p></li>
@@ -80,9 +97,9 @@
     <p><ol marker="a.">
         <li><p>Translate the equation <m>\abs{x-3} = 5</m> into a sentence about distance.</p></li>
         <li><p>Locate 3 on the number line below, and find two points at a distance of 5 units from 3.</p>
-              <image source="act-5-6-3.png" width="70%"></image></li>
+              <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image></li>
         <li><p>What are the <m>x</m>-coordinates of those two points?</p>
-            <aside><p>Point out that when using a graph, the solution appears on the <m>x</m>-axis, and looks the same as the solution obtained on a number line.</p></aside></li>
+            <aside component="instructor"><p>2(2) Point out that when using a graph, the solution appears on the <m>x</m>-axis, and looks the same as the solution obtained on a number line.</p></aside></li>
         </ol></p></li>
 
   <li><p>Finally, we'll use algebra to sove the equation. Recall the definition of absolute value:
@@ -93,18 +110,20 @@
               <md><mrow>\abs{x-3} = \begin{cases} x-3 \amp \text{if } x-3\ge 0</mrow>
                   <mrow>-(x-3) \amp \text{if } x-3\lt 0 \end{cases}</mrow></md></p></li>
           <li><p>Thus, the equation <m>\abs{x-3} = 5</m> has two parts: 
-            <me>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</me></p>
+            <md><mrow>x-3=5~~~~~~~~~~~~~ \text{and} ~~~~~~~~~~~~~~~~~ -(x-3)=5</mrow></md></p>
 
-              <aside><p>Get students to see that we can replace <m>-(x-3) = 5</m> by <m>x-3=-5</m>. This will be useful when we solve inequalities.</p></aside></li>
+              <aside component="instructor"><p>2(3) Get students to see that we can replace <m>-(x-3) = 5</m> by <m>x-3=-5</m>. This will be useful when we solve inequalities.</p></aside></li>
 
           <li><p>Solve each equation to get two solutions.</p></li>
       </ol></p></li>
 
     <li><p>Solve the equation <m>\abs{x+6} = 2</m> in three different ways:</p>
     <p><ol>
-      <li><p>By graphing <m>y=\abs{x+6}</m>.</p></li>
+      <li><p>By graphing <m>y=\abs{x+6}</m>.</p>
+          <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
 
-      <li><p>By using a number line.</p></li>
+      <li><p>By using a number line.</p>
+          <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image></li>
 
       <li><p>By using algebra.</p></li>
     </ol></p></li>
@@ -114,16 +133,17 @@
 <activity><title>Solving Absolute Value Inequalities</title>
 
 <introduction><p>We'll solve the inequality 
-             <me>\abs{x-3} \lt 5</me>
+             <md>\abs{x-3} \lt 5</md>
     in three different ways: with a graph, wth a number line, and with algebra.</p></introduction>
 
 <p><ol>
   <li><p>Solution by graphing</p>
       <p><ol marker="a.">
-        <li><p>Refer to your graph of <m>y=\abs{x-3}</m> in Activity 2, and shade the points on the graph that have <m>y \lt 5</m>.</p></li>
+        <li><p>Refer to your graph of <m>y=\abs{x-3}</m> in Activity 2, and shade the points on the graph that have <m>y \lt 5</m>.</p>
+              <image source="act-5-6-2.png" width="50%"><description>grid [-10,10]x[-4,10]</description></image></li>
         <li><p>Now shade the portion of the <m>x</m>-axis that corresponds to those points. (Are the endpoints included in the solution set?) Write your answer with interval notation.</p>
 
-          <aside><p>When choosing the correct intervals on the <m>x</m>-axis, use the same language we used when solving quadratic inequalities: are the correct <m>x</m>-values "between" the boundary points, or "outside" of them?</p></aside></li>
+          <aside component="instructor"><p>3(1) When choosing the correct intervals on the <m>x</m>-axis, use the same language we used when solving quadratic inequalities: are the correct <m>x</m>-values "between" the boundary points, or "outside" of them?</p></aside></li>
         <li><p>Now use the graph to solve <m>\abs{x-3} \gt 5</m>. Note that the solution set consists of two intervals.</p></li>
         <li><p>Write your answer with interval notation.</p></li>
       </ol></p></li>
@@ -132,10 +152,10 @@
       <p><ol marker="a.">
         <li><p>Translate the inequality <m>\abs{x-3} \lt 5</m> into a sentence about distance.</p></li>
         <li><p>Locate 3 on the number line below, and shade the points closer than 5 units from 3.</p>
-                <image source="act-5-6-3.png" width="70%"></image>
+                <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image>
             <p>Write your answer with interval notation.</p></li>
         <li><p>Now use the number line to solve <m>\abs{x-3} \gt 5</m>.</p>
-            <image source="act-5-6-3.png" width="70%"></image>
+            <image source="act-5-6-3.png" width="70%"><description>number line -10 to 10</description></image>
             <p>Shade the points farther than 5 units from 3. Write your answer with interval notation.</p></li>
         </ol></p></li>
 
@@ -143,43 +163,32 @@
       <p>This absolute value inequality is equivalent to the compound inequality  <m>-5 \lt x-3 \lt 5</m>. Solve the inequality and verify that you get the same solution as before.</p></li>
 
 <li><p>Now we'll solve <m>\abs{x-3} \gt 5</m>.  This absolute value inequality is equivalent to the compound inequality
-        <me>x-3 \gt 5~~~~~~~~~~~~~~~~~\text{or}~~~~~~~~~~~~~~~~~~~~x-3 \lt -5</me>    
+        <md>x-3 \gt 5~~~~~~~~~~~~~~~~~\text{or}~~~~~~~~~~~~~~~~~~~~x-3 \lt -5</md>    
   Solve the inequality and verify that you get the same solution as before.</p>
 
-            <aside><p>Most students find it difficult to follow an algebraic argument to obtain the conclusions on absolute value inequalities summarized in the box in the text. It is more effective to rely on the graphical interpretation described above to motivate the algebraic solution.</p></aside></li>
+            <aside component="instructor"><p>3(4) Most students find it difficult to follow an algebraic argument to obtain the conclusions on absolute value inequalities summarized in the box in the text. It is more effective to rely on the graphical interpretation described above to motivate the algebraic solution.</p></aside></li>
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>Which basic function is increasing but concave down?  Which basic function is decreasing but concave up?</p></li>
     <li><p>How do we write "the distance between <m>x</m> and 5" in mathematical notation?</p></li>
     <li><p>How many solutions are there to the equation <m>\abs{2x-7} = k</m>, if <m>k \gt 0</m> ?</p></li>
-    <li><p>Do you prefer to solve absolute value inequalities algebraically, or with a graph?  Why?</p></li>
+    <li><p>In Activity 1, give the equation for each graph, in order from left to right. </p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to functions:</p>
-<p><ul>
-    <li><p>Sketch a graph whose shape models a situation</p></li>    
-    <li><p>Choose one of the basic graphs to fit a situation </p></li>    
-    <li><p>Use absolute value notation to write statements about distance</p></li>    
-    <li><p>Use graphs to solve absolute value equations and inequalities</p></li>    
-    <li><p>Solve absolute value equations and inequalities algebraically</p></li>    
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Describe and compare the graphs of the eight basic functions, including intervals where the graphs are positive or negative, increasing or decreasing, and concave up or down.</p></li>
     <li><p>Explain how solving an absolute value inequality with a graph is similar to solving a quadratic inequality with a graph.</p></li>
     <li><p>Explain the difference between an empirical model and a mechanistic model.</p></li>
     <li><p>How do we use absolute value to describe distance?</p></li>
-</ol></p>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
-    <li><p>A graph whose slopes decrease for increasing  is called</p>
+    <li><p>A graph whose slopes decrease for increasing <m>x</m> is called</p>
         <p><ol marker="a.">
             <li>Increasing</li>
             <li>Decreasing</li>
@@ -208,6 +217,5 @@
             <li>The solutions of <m>\abs{3x-12} \ge 6</m> form a closed interval.</li>
         </ol></p></li>
   </ol></p></assemblage>
-</subsection>
 
 </section>

@@ -3,14 +3,28 @@
 <section xml:id="sec-1-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Slope</title>
 
-<assemblage>
+<assemblage component="instructor">
 <p>This Lesson reviews the notion of slope, which students learned in elementary algebra, but emphasizes the meaning of the slope as a rate of change. Notice that in this Lesson we do not use the coordinate formula for slope, <m>y=\dfrac{y_2-y_1}{x_2-x_1}</m>;  that formula is taken up in Lesson 1.5. All of the slopes in this Lesson can be computed from the definition, <m>m = \dfrac{\Delta y}{\Delta x}</m>. Encourage students to include units in their calculation of <m>\Delta y</m> and <m>\Delta x</m> to help them interpret the slope as a rate.</p>
-<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p></assemblage>
+<p>Two skills will probably be new to students:  deciding if data are linear by checking for constant slope, and using the slope to calculate either <m>\Delta y</m> or <m>\Delta x</m>, given a value for the other.</p>
+
+<p>You may want to lead the class in Activity 1, to save time. Have students work in their groups, and give them a short time to work on each part, but then ask for their answer and record it for the class.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Use ratios and rates for comparison.</p></li> 
+    <li><p>Compute and interpret a rate of change.</p></li>
+    <li><p>Interpret slope as a rate of change.</p></li>
+    <li><p>Illustrate slope on a graph.</p></li>
+    <li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
+    <li><p>Recognize a linear relationship by its constant rate of change.</p></li>
+    <li><p>Write a linear model using slope and initial value.</p></li>
+</ul></p>
+</assemblage>
 
 <activity xml:id="act-1-4-1"><title>Calculating Rate of Change</title>
 
 <introduction><p>The graph shows how the thickness of a typical land-based glacier has changed over 43 years. 
-    <image source="act-1-4-1.png" width="75%"></image></p></introduction>
+    <image source="act-1-4-1.png" width="75%"><description>Graph of thickness on [1960,2040]x[0,100]</description></image></p></introduction>
 
 <p><ol marker="a.">
     <li>At first glance, what does the graph tell you about the glaciers?</li>
@@ -26,10 +40,10 @@
             </tabular>
             <p><m>~~~~~~~~~~~~~~~\Delta H =</m></p>
     
-            <aside><p>1b. Remind students that <m>\Delta H</m> can be negative. Also, explain the difference between total change and average yearly change.</p></aside></li>
+            <aside component="instructor"><p>1b. Remind students that <m>\Delta H</m> can be negative. Also, explain the difference between total change and average yearly change.</p></aside></li>
 
     <li><p>Calculate the average yearly change in thickness, <m>\dfrac{\Delta H}{\Delta t}</m> over that time interval. Give units with your answers.
-        <me>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
+        <md><mrow>\dfrac{\Delta H}{\Delta t}=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></li>
 
     <li><sidebyside widths="50% 40%"><stack><p>The graph appears to be almost linear from 1992 to 2002. Read the graph to complete the table.</p>
        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -41,16 +55,18 @@
                 <row><cell>2002</cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
             </tabular></stack>
-            <image source="act-1-4-2.png" width="75%"></image></sidebyside></li>
+            <image source="act-1-4-2.png" width="75%"><description>Graph of thickness on [1992,2002]x[91,96]</description></image></sidebyside></li>
 
     <li><p>Calculate the slope of the graph from 1992 to 2002. Include units in your answer.</p></li>
-    <li><p>Compare the average yearly change you calculated in part (b) with the slope you calculated in part (d). What do those values tell us about land-based glaciers?</p></li>
+    <li><p>Compare the average yearly change you calculated in part (c) with the slope you calculated in part (e). What do those values tell us about land-based glaciers?</p>
+        <aside component="instructor"><p>Remind students that their answer should be a rate of change, with units.</p></aside></li>
 </ol></p>
 </activity>
 
 <activity xml:id="act-1-4-2"><title>Slope and Linear Models</title>
+
 <introduction><p>The taxi fare in three different cities is described below. In each city, you pay an initial charge when you get into the taxi, and the rest of your fare is based on the distance you travel. Each city uses a different distance unit to compute the fare.</p>
-    <aside><p>To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside>
+    <aside component="instructor"><p>2a. To help students with part (a), ask: if 1/8 mile costs $0.30, how much would 1 mile cost? You can also point out that dividing $0.30 by 1/8 mile gives the same result as multiplying $0.30 by 8.</p></aside>
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>City</cell>
@@ -73,14 +89,14 @@
         
   <p><ol marker="a.">
     <li><p>How much would a 4-mile taxi ride cost you in Honolulu?</p></li>
-      <li><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest fare per mile?</p>
-        <aside><p>2c. Remind students of the form for a linear model. In this model the input variable is distance (miles), not time.</p></aside></li>
-    <li><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></li>
-    <li><p>Use your models do decide in which city taxis charge the lowest fare for a 5 mile ride.</p></li>
+    <li><p>Compute the charge per mile in each city. (Do not include the initial charge.) In which city do taxis charge the highest fare per mile?</p>
+        <aside component="instructor"><p>2c. Remind students of the form for a linear model. In this model the input variable is distance (miles), not time. Check that students were able to wtite the models.</p></aside></li>
+    <li><p>Write a linear model for the taxi fare in each city, using miles as the input variable. (Hint: What is the initial value for each model?)</p></li>  
+    <li><p>Use your models to decide in which city taxis charge the lowest fare for a 5 mile ride.</p></li>
     <li><p>For what distance are the taxi fares in Boston and New York equal? (Hint: Use the appropriate models from part (c).)</p>
-            <aside><p>Students find part (d) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></li>
+            <aside component="instructor"><p>2e. Students find part (e) difficult: they don't understand that the models in part (b) are expressions for the taxi fare.</p></aside></li>
     <li><sidebyside widths="50% 40%"><p>Choose the correct graph for each city. Explain how you decided.</p>
-      <image source="act-1-4-3.svg" width="75%"></image></sidebyside></li>
+      <image source="act-1-4-3.svg" width="75%"><description>Graph of three lines, fare vs miles</description></image></sidebyside></li>
 </ol></p>
 </activity>
 
@@ -113,14 +129,14 @@
   <p>If you plot the data, which variable goes on the horizontal axis, and which on the vertical?</p>
             <p><m>\hphantom{00000}</m> horizontal: <m>\hphantom{00000000000}</m>   vertical:  <m>\hphantom{00000}</m></p></li>
     <li><p>Without plotting the points, how can you decide if they will lie on a straight line? Do that.</p>
-            <aside><p>3b. Once students have thought of finding slopes, suggest that each person in their group calculate one slope.</p></aside></li>
+            <aside component="instructor"><p>3b. Once students have thought of finding slopes, suggest that each person in their group calculate one slope.</p></aside></li>
     <li><p>Describe the slope of the line as a rate of change. Include units in your answer. What does the slope tell you about dissolving salt?</p></li>
     <li><p>Use the slope to answer the question: If you increase the temperature 5°C from the current temperature, how much more salt will dissolve?</p>
-             <aside><p>3d. Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></aside></li>
+             <aside component="instructor"><p>3d. Many students will work out the answer using common sense. Show them how to use the definition of slope and solve an equation to get the same answer.</p></aside></li>
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>What mathematical concept did you study in Activity 1?</p></li>
     <li><p>What two numbers did you need to write each linear model in part (b) of Activity 2?</p></li>
@@ -129,28 +145,16 @@
 </ol></p>
 </subsection> 
 
-<subsection><title>Wrap-Up</title>
-
-<p>In this Lesson, we worked on the following skills and goals:</p>
-<p><ul>
-    <li><p>Use ratios and rates for comparison.</p></li> 
-    <li><p>Compute and interpret a rate of change.</p></li>
-    <li><p>Interpret slope as a rate of change.</p></li>
-    <li><p>Illustrate slope on a graph.</p></li>
-    <li><p>Use the definition of slope to compute <m>\Delta y</m> or <m>\Delta x</m>.</p></li>
-    <li><p>Recognize a linear relationship by its constant rate of change.</p></li>
-    <li><p>Write a linear model using slope and initial value.</p></li>
-</ul></p></subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>What do we use ratios and rates for?</p></li>
     <li><p>Suppose  represents your distance from home, in miles. Compare the meanings of the two statements <m>x=30</m> and <m>\Delta x=30</m>.</p></li>
     <li><p>Explain how slope measures the steepness of an incline.</p></li>
     <li><p>State two useful consequences of the fact that lines have constant slope.</p></li>
 </ol></p>
+</assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>Suppose <m>y</m> gives the weight in pounds of a bottle of water that holds <m>x</m> quarts.  What are the units of <m>\dfrac{\Delta y}{\Delta x}</m> ?</p>
         <p><ol marker="a.">
@@ -181,6 +185,5 @@
         <li>It's false because the slope is <m>\dfrac{5}{3}</m>.</li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection>
 
 </section>

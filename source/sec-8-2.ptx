@@ -3,97 +3,103 @@
 <section xml:id="sec-8-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebraic Fractions</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this lesson we reduce algebraic fractions and consider some simple examples using rational functions as models. We discuss the meaning of verical and horizontal asymptotes in aplications.</p></commentary>
+<assemblage component="instructor">
+<p>In this Lesson we reduce algebraic fractions and consider some simple examples using rational functions as models. We discuss the meaning of verical and horizontal asymptotes in aplications.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Reduce fractions</p></li>    
+    <li><p>Use rational functions as models</p></li>    
+    <li><p>Interpret horizontal and vertical asymptotes</p></li>
+</ul></p></assemblage>
 
 <activity><title>Reducing Fractions</title>
 
-<task><p>To reduce an algebraic fraction:</p>
+<p>To reduce an algebraic fraction:</p>
 <p><ol>
   <li><p><fillin/> the numerator and denominator.</p></li>
   <li><p>Divide the numerator and denominator by any <fillin/> .</p></li>
-</ol></p></task>
+</ol></p>
 
-<task><p>Reduce the fraction. Numerator and denominator are monomials, so no factoring needed.</p>
-  <p><m>~~~~\dfrac{-12rs^2t}{-6rst^2}</m></p></task>
+<p><ol marker="a.">
+<li><p>Reduce the fraction. The numerator and denominator are monomials, so no factoring is needed.</p>
+  <p><m>~~~~\dfrac{-12rs^2t}{-6rst^2}</m></p></li>
 
-<task><p>Reduce. Factor numerator and denominator before canceling!</p>
+<li><p>Reduce each fraction. Factor numerator and denominator before canceling!</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>You may be surprised at how feeble are your students' factoring skills. If it is important to you, you might need to provide additional factoring practice.</p></commentary>
+            <aside component="instructor"><p>1(b) You may be surprised at how feeble are your students' factoring skills. If it is important to you, you might need to provide additional factoring practice.</p></aside>
 
-  <p><ol>
-  <li><p><m>\dfrac{5y^2-20}{2y-4} </m></p></li>
-  <li><p><m>\dfrac{6x^2-x-1}{2x^2+9x-5}</m></p></li>
-  </ol></p></task> 
+    <p><m>\dfrac{5y^2-20}{2y-4} </m></p>
+    
+    <p><m>\dfrac{6x^2-x-1}{2x^2+9x-5}</m></p></li>
   
-<task><p>Reduce. Use the formulas for factoring sums and differences of cubes.</p>
-<p><m>~~~~\dfrac{8z^3-1}{4z^2-1}</m></p></task>
+<li><p>Reduce. Use the formulas for factoring sums and differences of cubes.</p>
+<p><m>~~~~\dfrac{8z^3-1}{4z^2-1}</m></p></li>
 
-<task><p>Reduce. Look for negatives of binomials.</p>
-  <p><ol>
-  <li><p><m>\dfrac{2a^2-ab}{b^2-2ab}</m></p></li>
-  <li><p><m>\dfrac{-4b^2-2b}{4b^3-b}</m></p></li>
-</ol></p></task>
+<li><p>Reduce each fraction. Look for negatives of binomials.</p>
+  
+  <p><m>\dfrac{2a^2-ab}{b^2-2ab}</m></p>
+  
+  <p><m>\dfrac{-4b^2-2b}{4b^3-b}</m></p></li>
+</ol></p>
 </activity>
   
 <activity><title>Equivalent Fractions</title>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Even if you can get students to "factor before they cancel," they will probably still have great difficulty with this Activity. It is a good idea to go over all of these problems in class.</p></commentary>
+            <aside component="instructor"><p>Even if you can get students to "factor before they cancel," they will probably still have great difficulty with this Activity. It is a good idea to go over all of these problems in class.</p></aside>
 
 <introduction><p>Which expressions are equivalent to the given fraction?</p></introduction>
-
-<task><p><m>\dfrac{3}{5}</m></p>
-  <p><ol cols="4">
+<p><ol marker="a.">
+<li><p><m>\dfrac{3}{5}</m></p>
+  <p><ol cols="4" marker="i.">
     <li><p><m>\dfrac{3x}{5x}</m></p></li>
     <li><p><m>\dfrac{3-x}{5-x}</m></p></li>
     <li><p><m>\dfrac{30+x}{x+50}</m></p></li>
     <li><p><m>\dfrac{30x}{50x}</m></p></li>   
-  </ol></p></task>
+  </ol></p></li>
 
-  <task><p><m>\dfrac{v-1}{v+1}</m></p>
-  <p><ol cols="4">
+  <li><p><m>\dfrac{v-1}{v+1}</m></p>
+  <p><ol cols="4" marker="i.">
     <li><p><m>-1</m></p></li>
     <li><p><m>\dfrac{1-v}{1+v}</m></p></li>
     <li><p><m>-\dfrac{1-v}{v+1}</m></p></li>
     <li><p><m>\dfrac{v+1}{v-1}</m></p></li>   
-  </ol></p></task>
+  </ol></p></li>
 
-  <task><p><m>\dfrac{2w-6}{w}</m></p>
-  <p><ol cols="4">
+  <li><p><m>\dfrac{2w-6}{w}</m></p>
+  <p><ol cols="4" marker="i.">
     <li><p><m>-4</m></p></li>
     <li><p><m>\dfrac{6-2w}{-w}</m></p></li>
     <li><p><m>2-\dfrac{6}{w}</m></p></li>
     <li><p><m>-\dfrac{2w+6}{w}</m></p></li>   
-  </ol></p></task>
+  </ol></p></li>
 
- <task><p><m>\dfrac{3a+2}{3a-2}</m></p>
-  <p><ol cols="4">
+ <li><p><m>\dfrac{3a+2}{3a-2}</m></p>
+  <p><ol cols="4" marker="i.">
     <li><p><m>\dfrac{3a-2}{3a+2}</m></p></li>
     <li><p><m>\dfrac{3a-2}{2-3a}</m></p></li>
     <li><p><m>-1</m></p></li>
     <li><p><m>\dfrac{2a+3}{2a-3}</m></p></li>   
-  </ol></p></task> 
+  </ol></p></li>
+  </ol></p> 
   </activity>
 
 <activity><title>Horizontal Asymptote</title>
 
 <introduction><p>Envirogreen Technology, Inc. decides to produce a new type of water filter for home use.They spend $5000 for startup costs, and each filter costs $50 to produce.</p></introduction>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Begin be reviewing the notions of revenue, profit, and cost. Make sure your students recognize the difference between price, variable cost, and average cost. Most students grasp the idea of spreading the start-up cost over the number of filters produced.</p></commentary>
+            <aside component="instructor"><p>Begin be reviewing the notions of revenue, profit, and cost. Make sure your students recognize the difference between price, variable cost, and average cost. Most students grasp the idea of spreading the start-up cost over the number of filters produced.</p></aside>
+<p><ol marker="a.">
+<li><p>To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters.</p>  
+    <p>Compute the total cost of producing <m>x</m> filters:
+            <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
+                <mrow>  \amp = </mrow></md></p>
+    <p>Divide the total cost by the number of filters produced.
+            <me>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </me></p></li>
 
-<task><p>To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters.</p>  
-<p>Compute the total cost of producing <m>x</m> filters:
-  <md><mrow>\text{Total Cost} \amp = \text{Startup Cost} + \text{Cost of}~x~\text{Filters}</mrow>
-      <mrow>  \amp = </mrow></md></p>
-<p>Divide the total cost by the number of filters produced.
-  <me>\text{Average Cost} = \dfrac{\text{Total Cost}}{\text{Number of Filters}} = </me></p></task>
-
-<task><p>Sketch a graph of the average cost, <m>A</m>.</p>
+<li><p>Sketch a graph of the average cost, <m>A</m>.</p>
   <sidebyside widths="30% 70%">
-    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>A</m></cell></row>                
@@ -114,30 +120,32 @@
                 <row><cell><m>2000</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
             </tabular>
-        <image source="act-8-2-1.png" width="50%"></image></sidebyside>
-  <p>Use the graph and the table to help you answer the questions.</p></task>
+        <image source="act-8-2-1.png"><description>Grid [0,2000]x[0,150]</description></image></sidebyside>
+  
+        <p>Use the graph and the table to help you answer the questions.</p></li>
 
-<task><p>Approximately how many filters should Envirogreen produce for the average cost to be $75?</p></task>
+<li><p>Approximately how many filters should Envirogreen produce for the average cost to be $75?</p></li>
 
-<task><p>What happens to the average cost per filter as <m>x</m> increases?</p>
+<li><p>What happens to the average cost per filter as <m>x</m> increases?</p>
 
-<p>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</p></task>
+    <p>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</p></li>
 
-<task><p>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? Use the formula:</p>  
-<p>Profit = Revenue - Cost.</p></task>
+<li><p>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? Use the formula:</p>  
+        <p>Profit = Revenue - Cost.</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Vertical Asymptote</title>
  
 <introduction><p> The fastest fish in the sea is the bluefin tuna, which has been clocked at 43 miles per hour in short sprints. A school of tuna is migrating a distance of 200 miles at an average speed of 36 miles per hour in still water, but they have run into a current flowing against their direction of travel.</p></introduction>
 
-<task><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></task>
+<p><ol marker="a.">
+<li><p>Express the tuna's travel time <m>t</m> as a function of the current speed, <m>t</m>.</p></li>
+            
+            <aside component="instructor"><p>Help students see that the mathematics reflects their common sense.</p></aside>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Help students see that the mathematics reflects their common sense.</p></commentary>
-
-<task><p> Complete the table showing the travel time for various current speeds.</p> 
-    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+<li><p> Complete the table showing the travel time for various current speeds.</p> 
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>v</m></cell>
                     <cell><m>0</m></cell>
@@ -161,38 +169,62 @@
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\hphantom{00000}</m></cell></row>
-    </tabular>                        
-  <p>What happens to the travel time as the current speed increases?</p></task>
+            </tabular>                        
+    <p>What happens to the travel time as the current speed increases?</p></li>
 
-<task><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Sketch the graph and label scales on the axes.</p></task>
+<li><p>Use the table to choose an appropriate window and graph your function <m>t(v)</m>. Sketch the graph and label scales on the axes.</p></li>
 
-<task><p>Use your graph to estimate the speed of the current if the tuna's travel time was 20 hours.  Show your method on the graph.</p></task>
+<li><p>Use your graph to estimate the speed of the current if the tuna's travel time was 20 hours. Show your method on the graph.</p></li>
 
-<task><p>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote mean in the context of the problem?</p></task>
+<li><p>Give the equations of any horizontal or vertical asymptotes. What does the vertical asymptote mean in the context of the problem?</p></li>
+</ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
-<li><p>What is the most important thing to remember about reducing fractions?</p></li>
-<li><p>Explain why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
-<li><p>In Activity 3, why does the average cost per filter never decrease below $50?</p></li>
-<li><p>What would negative values of <m>v</m> mean in Activity 4?</p></li>
+    <li><p>What is the most important thing to remember about reducing fractions?</p></li>
+    <li><p>Explain why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
+    <li><p>In Activity 3, why does the average cost per filter never decrease below $50?</p></li>
+    <li><p>What would negative values of <m>v</m> mean in Activity 4?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
-<p><ul>
-<li><p>Reduce fractions</p></li>    
-<li><p>Use rational functions as models</p></li>    
-<li><p>Interpret horizontal and vertical asymptotes</p></li>
-</ul></p>
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
 <li><p>Explain how to reduce an algebraic fraction, and describe some mistakes to avoid.</p></li>
 <li><p>Explain carefully why <m>\dfrac{x-t}{t-x} = -1</m>.</p></li>
 <li><p>Explain why dividing by <m>\frac{1}{3}</m> gives the same answer as multiplying by 3.</p></li>
 <li><p>Describe the shape of the graph of a rational function near a horizontal asymptote, and near a vertical asymptote.</p></li>
-</ol></p></commentary>
-</subsection>  
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which expression is equivalent to <m>-\dfrac{v-1}{v+1}</m></p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{v+1}{v-1}</m></li>
+        <li><m>\dfrac{1-v}{v+1}</m></li>
+        <li><m>\dfrac{-v-1}{v+1}</m></li>
+        <li><m>-1</m></li>
+    </ol></p></li>
+    <li><p>Why should we factor the numerator and denominator of a fraction when trying to reduce it?</p>
+    <p><ol marker="a.">
+        <li>To simplify the answer.</li>
+        <li>To find the <m>x</m>-intercepts.</li>
+        <li>We can only cancel factors, not terms.</li>
+        <li>To find out where it is undefined.</li>
+    </ol></p></li>
+    <li><p>The fraction <m>\dfrac{x^2-1}{x^2-4}</m>:</p>
+    <p><ol marker="a.">
+        <li>can be reduced to <m>\dfrac{1}{4}</m></li>
+        <li>is undefined at <m>x=1</m> and <m>x=-1</m></li>
+        <li>is equivalent to <m>\dfrac{(x-1)^2}{(x-2)^2}</m></li>
+        <li>is equal to 0 at <m>x=1</m> and <m>x=-1</m></li>
+    </ol></p></li>
+    <li><p>Which of the following is not a rational function?</p>
+    <p><ol marker="a.">
+        <li><m>y=\dfrac{1}{x+2}</m></li>
+        <li><m>y=3x+5</m></li>
+        <li><m>y=\dfrac{\sqrt{x^2-4}}{x^2+4}</m></li>
+        <li><m>y=\dfrac{x^3+3x-7}{x^4-x^2}</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
 </section>

@@ -3,34 +3,42 @@
 <section xml:id="sec-5-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs of Functions</title>
 
-<assemblage>
-<p>In this Lesson we use function notation with graphs, construct the graph of a function, use the vertical line test, and solve equations and inequalities graphically.</p></assemblage>
+<assemblage component="instructor">
+<p>In this Lesson we use function notation with graphs, construct the graph of a function, use the vertical line test, and solve equations and inequalities graphically.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Use function notation to label points on a graph</p></li>
+    <li><p>Interpret the coordinates of a point on the graph of a function</p></li> 
+    <li><p>Use the vertical line test</p></li>
+    <li><p>Solve an equation or inequality graphically</p></li>
+</ul></p></assemblage>
 
 <activity><title>The Graph of a Function</title>
 
-          <aside><p>A major goal of these Activities is to help students distinguish between input and output values on a graph, or between <m>x</m> and <m>f(x)</m>, as in "what is the maximum value of the function" versus "where did the maximum occur."</p></aside>
+          <aside component="instructor"><p>A major goal of these Activities is to help students distinguish between input and output values on a graph, or between <m>x</m> and <m>f(x)</m>, as in "what is the maximum value of the function" versus "where did the maximum occur."</p></aside>
 
 <introduction><p>The graph shows the U.S. unemployment rate as a function of time, <m>U=f(t)</m>, for the years 1985-2004.</p>
-    <image source="act-5-2-1.png" width="80%"></image></introduction>
+    <image source="act-5-2-1.png" width="80%"><description>graph of unemployment rate 1985 to 2004</description></image></introduction>
 
 <p><ol marker="a.">
-<li><p>Evaluate <m>f(1993)</m>, and explain its meaning for this problem.</p></li>
+<li><p>Evaluate <m>f(1993)</m>, and explain its meaning for unemployment.</p></li>
 
 <li><p>When did the unemployment rate reach its highest value, and what was its highest value?  Write your answer with function notation.</p></li>
 
 <li><p>When did the unemployment rate fall to its lowest value, and what was its lowest value?  Write your answer with function notation.</p></li>
 
-<li><p>Solve the equation <m>f(t)=4.5</m>, and explain its meaning for this problem.</p></li>
+<li><p>Solve the equation <m>f(t)=4.5</m>, and explain its meaning for unemployment.</p></li>
 
 <li><p>Over what intervals was the unemployment rate increasing?</p>
-            <aside><p>Students will probably be unfamiliar with the terminology "over what interval," so you will need to explain that this refers to input values.</p></aside></li>
+            <aside component="instructor"><p>1(e). Students will probably be unfamiliar with the terminology "over what interval," so you will need to explain that this refers to input values.</p></aside></li>
 </ol></p>
 </activity>
 
 <activity><title>Functions Defined by Graphs</title>
 
 <introduction><p>The figure shows the graph of the function <m>y=F(s)</m>. A solid dot means that the point is part of the graph, and an open circle means that the point is not part of the graph.</p>
-      <image source="act-5-2-2.png" width="50%"></image></introduction>
+      <image source="act-5-2-2.png" width="50%"><description>piecewise graph on [-5,5]x[-5,5]</description></image></introduction>
 
 <p><ol marker="a.">
 <li><p>Find <m>F(-3), F(-2)</m> and <m>F(2)</m>.</p></li>
@@ -46,23 +54,22 @@
 <activity><title>Solving Equations and Inequalities</title>
 
 <introduction><p>Each figure shows a graph of 
-      <me>B = f(p)= \dfrac{1}{3}p^3 - 3p + 2</me>     
+      <md><mrow>B = f(p)= \dfrac{1}{3}p^3 - 3p + 2</mrow></md>     
 Use the graph to solve the following equations and inequalities. Show your work on the graph. Write your answers in interval notation.</p></introduction>
-            <aside><p>Most students still find solving inequalities graphically quite difficult. It may be helpful to go over several of the homework problems on this topic.</p></aside>
-
+            <aside component="instructor"><p>Most students still find solving inequalities graphically quite difficult. It may be helpful to go over several of the homework problems on this topic.</p></aside>
 <p><ol marker="a.">
-<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 = 6</m></p> 
-    <image source="act-5-2-3.png"></image></sidebyside></li>
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 -3p +2 = 6</m></p> 
+    <image source="act-5-2-3.png"><description>graph of f(p)= \dfrac{1}{3}p^3-3p+2 on [-4,4]x[-3,6]</description></image></sidebyside></li>
 
-<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 = 2</m></p>
-    <image source="act-5-2-3.png"></image></sidebyside></li>
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3-3p+2 = 2</m></p>
+    <image source="act-5-2-3.png"><description>graph of f(p)= \dfrac{1}{3}p^3-3p+2 on [-4,4]x[-3,6]</description></image></sidebyside></li>
 
-<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3 - 3p + 2 \lt 2</m></p>
-    <image source="act-5-2-3.png"></image></sidebyside></li>
+<li><sidebyside widths="40% 50%" valigns="middle middle"><p><m>\dfrac{1}{3}p^3-3p+2 \lt 2</m></p>
+    <image source="act-5-2-3.png"><description>graph of f(p)= \dfrac{1}{3}p^3-3p+2 on [-4,4]x[-3,6]</description></image></sidebyside></li>
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>In Activity 1, what is the input variable, and what is the output variable?</p></li>     
     <li><p>In Activity 1d, how did you solve the equation?</p></li>
@@ -70,25 +77,15 @@ Use the graph to solve the following equations and inequalities. Show your work 
     <li><p>In Activity 3, how do you know that the graph represents a function?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to functions:</p>
-<p><ul>
-    <li><p>Use function notation to label points on a graph</p></li>
-    <li><p>Interpret the coordinates of a point on the graph of a function</p></li> 
-    <li><p>Use the vertical line test</p></li>
-    <li><p>Solve an equation or inequality graphically</p></li>
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Describe how to find the value of <m>f(3)</m> from a graph of <m>f(3)</m>.</p></li>
     <li><p>Explain how to construct the graph of a function from its equation.</p></li>
     <li><p>Explain how to use the vertical line test.</p></li>
     <li><p>Explain how to solve an inequality by using a graph.</p></li>
-</ol></p>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>If <m>f(8)=2</m>, what point lies on the graph of <m>f</m>?</p>
     <p><ol marker="a.">
@@ -119,7 +116,5 @@ Use the graph to solve the following equations and inequalities. Show your work 
         <li>If the graph lies below the <m>x</m>-axis.</li>
     </ol></p></li>
 </ol></p></assemblage>
-
-</subsection>
 
 </section>

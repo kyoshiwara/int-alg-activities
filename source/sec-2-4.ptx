@@ -3,8 +3,15 @@
 <section xml:id="sec-2-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Gaussian Reduction</title>
 
-<assemblage>
+<assemblage component="instructor">
 <p>This Lesson extends the elimination method to 3x3 linear systems. We concentrate on the process of Gaussian elimination, because this useful technique generalizes to higher order linear systems. Students usually have no trouble mastering back-substitution in a triangular system. Although there is a lot of grumbling initially at the number of steps in Gaussian reduction, if you show students how to keep their work organized, after the second example they feel more comfortable.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Use back-substitution to solve a triangular system</p></li>
+    <li><p>Use Gaussian elimination to solve a 3x3 linear system</p></li> 
+    <li><p>Model a problem with three linear equations in three unknowns</p></li>
+</ul></p>
 </assemblage>
 
 <activity><title>Triangular Systems</title>
@@ -21,7 +28,7 @@
 
 <activity><title>Gaussian Elimination</title>
 
-            <aside><p>You might want to work out an Example for students before asking them to try Activity 2. Model the process for them as shown in the Activity. Colored pens help.</p></aside>
+            <aside component="instructor"><p>You might want to work out an Example for students before asking them to try Activity 2. Model the process for them as shown in the Activity. Colored pens help.</p></aside>
 
 <p><ol marker="a.">
     <li><p>Follow the steps given in your textbook to solve the system.
@@ -38,7 +45,7 @@
             <p>Solution:</p></li>
     </ol></p></li>
 
-            <aside><p>Point out that clearly showing the steps is part of the task: if you can't follow their work, you can't grade it.</p></aside>
+            <aside component="instructor"><p>Point out that clearly showing the steps is part of the task: if you can't follow their work, you can't grade it.</p></aside>
 
     <li><p>Solve the system below. Begin by clearing the fractions from each equation.
       <md><mrow>\text{(1)}~~~~~~x + 2y + \frac{1}{2} z \amp = 0</mrow>
@@ -49,7 +56,7 @@
 
 <activity><title>Making the Smart Choice</title>
 
-            <aside>><p>Students can be flummoxed if one or more of the equations is "missing" a variable.  Show them how this actually shortens their work by eliminating Step 2 of the solution process, if they choose their equations carefully.</p></aside>
+            <aside component="instructor"><p>Students can be flummoxed if one or more of the equations is "missing" a variable.  Show them how this actually shortens their work by eliminating Step 2 of the solution process, if they choose their equations carefully.</p></aside>
 
 <p><ol marker="a.">
     <li><p>Sometimes a wise choice of steps can shorten the process. Consider the system below.
@@ -124,7 +131,7 @@
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>What is a triangular system?</p></li>
     <li><p>In Gaussian elimination, after you eliminate one of the variables from a pair of equations, what should you do next?</p></li>
@@ -133,17 +140,7 @@
 </ol></p>
 </subsection>
 
-<subsection><title>Wrap Up</title>
-
-<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
-<p><ul>
-    <li><p>Use back-substitution to solve a triangular system</p></li>
-    <li><p>Use Gaussian elimination to solve a 3x3 linear system</p></li> 
-    <li><p>Model a problem with three linear equations in three unknowns</p></li>
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>What is a solution to a 3x3 linear system?</p></li>
     <li><p>Why do we try to reduce a 3x3 linear system to triangular form?</p></li>
@@ -155,9 +152,9 @@
     <md><mrow>\text{(1)}~~~~~~ x + y + z = \amp 3</mrow>
           <mrow>\text{(2)}~~~~~~2x + 2y + 2z = \amp 6</mrow>
           <mrow>\text{(3)}~~~~~~-x - y - z = \amp -3</mrow></md></p></li>
-</ol></p>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>What sort of system can be solved by back-substitution?</p>
     <p><ol marker="a.">
@@ -188,6 +185,5 @@
         <li>Nothing: there is no solution</li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection> 
 
 </section>

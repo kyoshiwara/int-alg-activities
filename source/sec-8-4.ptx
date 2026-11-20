@@ -3,119 +3,147 @@
 <section xml:id="sec-8-4" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>More Operations on Fractions</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this lesson we simplify complex fractions and perform polynomial division.</p></commentary>
+<assemblage component="instructor">
+<p>In this Lesson we simplify complex fractions and perform polynomial division.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Simplify complex fractions</p></li>    
+    <li><p>Simplify expressions involving negative exponents</p></li>    
+    <li><p>Use polynomial division to simplify fractions</p></li>
+</ul></p></assemblage>
 
 <activity><title>Complex Fractions</title>
 
-<task><p>What is a complex fraction?</p>  
-<p>To simplify a complex fraction:</p>
-<p><ol>
-<li><p></p></li>
-<li><p></p></li>
-<li><p></p></li>
-</ol></p></task>
+<p><ol marker="a.">
+<li><p>What is a complex fraction?</p> 
+            <aside><p>1(a) Explain to the class that a complex fraction is actually a division problem in which we first have to simplify numerator and denominator -- a long process that can be made easier with the "short-cut" of multiplying top and bottom by the LCD. Demonstrate with an easy numerical example that we get the same answer with both methods.</p></aside> 
+<p>State three steps for simplifying a complex fraction:</p>
+    <p><ol marker="1.">
+      <li><p></p></li>
+      <li><p></p></li>
+      <li><p></p></li>
+    </ol></p></li>
 
-          <commentary audience="instructor"><title>Note</title>
-          <p>Explain to the class that a complex fraction is actually a division problem in which we first have to simplify numerator and denominator -- a long process that can be made easier with the "short-cut" of multiplying top and bottom by the LCD. Demonstrate with an easy numerical example that we get the same answer with both methods.</p></commentary>
-
-<task><p>Follow the steps to simplify <m>~~~\dfrac{\dfrac{2}{y}+\dfrac{1}{2y}}{y +\dfrac{y}{2}}</m></p>
-  <p><ol>
+<li><p>Follow the steps to simplify <m>~~~\dfrac{\dfrac{2}{y}+\dfrac{1}{2y}}{y +\dfrac{y}{2}}</m></p>
+             
+  <p><ol marker="1.">
     <li><p>Find the LCD for <m>\dfrac{2}{y},~ \dfrac{1}{2y},~\dfrac{y}{1}~</m> and <m>~\dfrac{y}{2}</m>.
-          <me>LCD = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</me></p></li>
+                <md>LCD = ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</md></p>
+            <aside><p>1(b) Emphasize that we must multiply each term of top and bottom by the same LCD. We are not using a building factor in this procedure.</p></aside> </li>
     <li><p>Multiply each term of the top and each term of the bottom by the LCD:
-        <me>\dfrac{\blert{\dfrac{2t}{1}} \cdot \dfrac{2}{y}+\dfrac{1}{2y} \cdot \blert{\dfrac{2t}{1}}}{\blert{\dfrac{2t}{1}} \cdot y +\dfrac{y}{2} \cdot \blert{\dfrac{2t}{1}}} </me></p></li> 
+            <md>\dfrac{\blert{\dfrac{2t}{1}} \cdot \dfrac{2}{y}+\dfrac{1}{2y} \cdot \blert{\dfrac{2t}{1}}}{\blert{\dfrac{2t}{1}} \cdot y +\dfrac{y}{2} \cdot \blert{\dfrac{2t}{1}}} </md></p> </li>                                       
+    <li><p>Reduce:</p></li>
+    </ol></p>
+          <aside component="instructor"><p>1(c) Of course, students will now confuse the rules for simplifying complex fractions with the rules for adding fractions. It is a good idea to compare the two procedures on similar examples, say, adding <m>\dfrac{2}{x} + \dfrac{1}{x-2}</m> and simplifying <m>\dfrac{1+\dfrac{1}{x-2}}{1-\dfrac{2}{x}}</m>.</p></aside></li>
 
-          <commentary audience="instructor"><title>Note</title>
-          <p>Emphasize that we must multiply each term of top and bottom by the same LCD. We are not using a building factor in this procedure.</p></commentary>
-                                           
-      <li><p>Reduce:</p></li>
-  </ol></p></task>
-
-          <commentary audience="instructor"><title>Note</title>
-          <p>Of course, students will now confuse the rules for simplifying complex fractions with the rules for adding fractions. It is a good idea to compare the two procedures on similar examples, say, adding <m>\dfrac{2}{x} + \dfrac{1}{x-2}</m>  and simplifying <m>\dfrac{1+\dfrac{1}{x-2}}{1-\dfrac{2}{x}}</m>.</p></commentary>
-
-<task><p>Sometimes complex fractions are written with negative exponents. For example,
-  <me>\dfrac{x^{-1}-y}{x^{-1}} = \dfrac{\dfrac{1}{x} - y}{\dfrac{1}{x}}~~~~~~~~~~~~~~~~~~~~~~~~~~~</me>
-Simplify this complex fraction.</p></task>
+<li><p>Sometimes complex fractions are written with negative exponents. For example,
+        <me>\dfrac{x^{-1}-y}{x^{-1}} = \dfrac{\dfrac{1}{x} - y}{\dfrac{1}{x}}~~~~~~~~~~~~~~~~~~~~~~~~~~~</me>
+Simplify this complex fraction.</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Application</title>
 
 <introduction><p>The owner of a print shop volunteers to produce flyers for his candidate's campaign. His large printing press can complete the job in 4 hours, and the smaller model can finish the flyers in 6 hours. How long will it take to print the flyers if he runs both presses simultaneously?</p></introduction>
 
-          <commentary audience="instructor"><title>Note</title>
-          <p>These rate problems are quite hard for students. Part 1 of the Activity illustrates the logic with a numerical example; refer to the steps of Part 1 as you work through the general version in Part 2.</p></commentary>
+          <aside component="instructor"><p>These rate problems are quite hard for students. Part 1 of the Activity illustrates the logic with a numerical example; refer to the steps of Part 1 as you work through the general version in Part 2.</p></aside>
 
-<task><p>Part (1):  Write fractions of the job can each press can complete in 1 hour.</p>
+<p><ol marker="a.">
+<li><p>Part (1):  Write fractions of the job can each press can complete in 1 hour.</p>
     <p>Large press:</p>
-    <p>Small press:</p></task>
+    <p>Small press:</p></li>
 
-<task><p> What fraction of the job can be completed in 1 hour with both presses running simultaneously?</p></task>
+<li><p> What fraction of the job can be completed in 1 hour with both presses running simultaneously?</p></li>
 
-<task><p>How long will it take to complete the job with both presses running?</p></task>
+<li><p>How long will it take to complete the job with both presses running?</p></li>
 
-<task><p>Part (2): Now we'll try the same problem with variables. Suppose that the large press can complete a job in <m>t_1</m> hours and the smaller press takes <m>t_1</m> hours.  (Use your answers above as a guide.)</p>
+<li><p>Part (2): Now we'll try the same problem with variables. Suppose that the large press can complete a job in <m>t_1</m> hours and the smaller press takes <m>t_1</m> hours.  (Use your answers above as a guide.)</p>
+
 <p>Write expressions for the fraction of a job that each press can complete in 1 hour.(Use your answers to Part (1) as a guide.)</p>
     <p>Large press:</p>
-    <p>Small press:</p></task>
+    <p>Small press:</p></li>
 
-<task><p>Write an expression for the fraction of a job that can be completed in 1 hour with both presses running simultaneously.</p></task>
+<li><p>Write an expression for the fraction of a job that can be completed in 1 hour with both presses running simultaneously.</p></li>
 
-<task><p>Write a complex fraction for the time needed to complete the job with both presses running.</p></task>
+<li><p>Write a complex fraction for the time needed to complete the job with both presses running.</p></li>
 
-<task><p>Write your complex fraction as a simple fraction.</p></task>
+<li><p>Write your complex fraction as a simple fraction.</p></li>
 
-<task><p>Use your formula to verify your answer to Part (1).</p></task>
+<li><p>Use your formula to verify your answer to Part (1).</p></li>
+</ol></p>
 </activity>
 
 <activity><title>Polynomial Division</title>
 
 <introduction><p>If an algebraic fraction cannot be reduced, we can simplify it by dividing the denominator into the numerator.</p></introduction>
 
-<task><p>Monomial divisor. Divide the monomial into each term of the numerator.</p>
-<p><m>~~~\dfrac{2m^6-15m^4+7}{-5m^3}</m></p></task>
+<p><ol marker="a.">
+<li><p>Monomial divisor. Divide the monomial into each term of the numerator.</p>
+<p><m>~~~\dfrac{2m^6-15m^4+7}{-5m^3}</m></p></li>
 
-<task><p>Binomial divisor. We follow the procedure for long division. First, prepare the fraction:</p>
+<li><p>Binomial divisor. We follow the procedure for long division. First, prepare the fraction:</p>
 
-  <p>Write the fraction  <m>\dfrac{\text{numerator}}{\text{denominator}}</m>  this way:    denominator )\overline{numerator}</p>
+        <aside component="instructor"><p>3(b) Students usually grumble at the length of polynomial division problems, but after the second or third example are comfortable with the process.</p></aside>
 
-  <p>So the denominator becomes the divisor. Write both polynomials in descending powers of the variable, and insert terms with  coefficient 0 if any powers are missing.</p></task>
+    <p>Write the fraction  <m>\dfrac{\text{numerator}}{\text{denominator}}</m>  this way:    
+            <me>\text{denominator} )\overline{\text{numerator}}</me></p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Students usually grumble at the length of polynomial division problems, but after the second or third example are comfortable with the process.</p></commentary>
+    <p>So the denominator becomes the divisor. Write both polynomials in descending powers of the variable, and insert terms with  coefficient 0 if any powers are missing.</p></li>
 
-<task><p>Divide  <m>~~~~\dfrac{2x^3 - 3x^2-2x+4}{x+1}</m></p></task>
+<li><p>Divide  <m>~~~~\dfrac{2x^3 - 3x^2-2x+4}{x+1}</m></p>
+        <aside component="instructor"><p>3(c) Point out that polynomial division is the algebraic analogue for converting an improper fraction to a mixed number.</p></aside></li>
 
-<task><p>Divide  <m>~~~~\dfrac{7-3t^3-23t^2+10t^4}{2t+3}</m></p></task>
-
-            <commentary audience="instructor"><title>Note</title>
-            <p>Point out that polynomial division is the algebraic analogue for converting an improper fraction to a mixed number.</p></commentary>
+<li><p>Divide  <m>~~~~\dfrac{7-3t^3-23t^2+10t^4}{2t+3}</m></p></li>
+</ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
-<li><p>In Activity 1, how do we use an LCD to simplify a complex fraction?</p></li>
-<li><p>Which of the five laws of exponents apply to sums and differences?</p></li>
-<li><p>In Part 1 of Activity 2, how did we obtain the answer to (c) from the answer to (b)?</p></li>
-<li><p>In part (d) of Activity 3, how did you rewrite the numerator before starting to divide?</p></li>
+    <li><p>In Activity 1, how do we use an LCD to simplify a complex fraction?</p></li>
+    <li><p>Which of the five laws of exponents apply to sums and differences?</p></li>
+    <li><p>In Part 1 of Activity 2, how did we obtain the answer to (c) from the answer to (b)?</p></li>
+    <li><p>In part (d) of Activity 3, how did you rewrite the numerator before starting to divide?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to algebraic fractions:</p>
-<p><ul>
-<li><p>Simplify complex fractions</p></li>    
-<li><p>Simplify expressions involving negative exponents</p></li>    
-<li><p>Use polynomial division to simplify fractions</p></li>
-</ul></p>
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
 <li><p>Compare the procedure for simplifying a complex fraction to the procedure for adding unlike fractions.</p></li>
 <li><p>How should you write the numerator of a fraction before starting polynomial division?</p></li>
 <li><p>Explain why it makes sense that <m>\dfrac{23}{5} = 4\dfrac{3}{5}</m>.</p></li>
 <li><p>Suppose you drive 60 miles at 40 mph, and then drive another 60 miles at 60 mph. How long did it take you? What was your average speed? Explain your reasoning at each step.</p></li>
-</ol></p></commentary>
-</subsection> 
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>A complex fraction is a quotient of polynomials.</li>
+        <li>A complex fraction involves a lot of exponents.</li>
+        <li>A complex fraction can always be simplified into a standard fraction.</li>
+        <li>A complex fraction is actually a product of fractions.</li>
+    </ol></p></li>
+    <li><p>To simplify a complex fraction, we can:</p>
+    <p><ol marker="a.">
+        <li>factor numerator and denominator.</li>
+        <li>multiply numerator and denominator by their LCD.</li>
+        <li>divide each term of the numerator by each term of the denominator.</li>
+        <li>take the reciprocal of each term.</li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li>An algebraic fraction is improper if the degree of the denominator is larger than the degree of the numerator.</li>
+        <li>We use polynomial division to simplify a complex fraction.</li>
+        <li>If the remainder in polynomial division is zero, the numerator (or dividend) can be factored.</li>
+        <li>When using polynomial division, we write the polynomials in ascending powers of the variable.</li>
+    </ol></p></li>
+    <li><p>Which statement is true?</p>
+    <p><ol marker="a.">
+        <li><m>x^{-1} + y^{-1} = (x+y)^{-1}</m></li>
+        <li><m>(x^2+y^2)^{-1} = \dfrac{1}{x^2} + \dfrac{1}{y^2}</m></li>
+        <li><m>\dfrac{1+x^{-1}}{1+y^{-1}} = \dfrac{1+y}{1+x}</m></li>
+        <li><m>\dfrac{x^{-1}+1}{x^{-1}} = 1+x</m></li>
+    </ol></p></li>
+</ol></p></assemblage>
 
 </section>

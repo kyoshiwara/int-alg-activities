@@ -3,17 +3,22 @@
 <section xml:id="sec-9-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Conic Sections: Ellipses</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this lesson we consider ellipses and their equations. Begin by giving a brief explanation of conic sections and the general quadratic equation in two variables. Also tell the class that there is a fair bit of new vocabluary in this Lesson and the next.</p></commentary>
+<assemblage component="instructor">
+<p>In this Lesson we consider ellipses and their equations. Begin by giving a brief explanation of conic sections and the general quadratic equation in two variables. Also tell the class that there is a fair bit of new vocabluary in this Lesson and the next.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Write the equation for an ellipse in standard form </p></li>   
+    <li><p>Graph an ellipse</p></li>
+    <li><p>Find the equation for an ellipse</p></li>
+</ul></p></assemblage>
 
 <activity><title>Central Ellipses</title>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Remind students of the standard form for a circle, <m>(x-h)^2 + (y-k)^2 = r^2</m> , and point out that it can also be written as <m>\dfrac{(x-h)^2}{r^2} + \dfrac{(y-k)^2}{r^2} = 1</m>.</p></commentary>  
-
-<task><p>Consider the equation  <m>~~\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1</m></p>
+<p><ol marker="a.">
+<li><p>Consider the equation  <m>~~\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1</m></p>
   <p>Complete the table of values and plot the points.</p>
-    <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell><m>x</m></cell>
                     <cell><m>0</m></cell>
@@ -25,127 +30,160 @@
                     <cell><m>0</m></cell>
                     <cell><m>\hphantom{00000}</m></cell>
                     <cell><m>\pm 1</m></cell></row>
-    </tabular>
+                </tabular>
 <p>Draw a smooth curve through the points to make an ellipse.</p>
-    <image source="act-9-3-1.png" width="35%"></image></task>
+        <image source="act-9-3-1.png" width="35%"><description>Grid [-5,5]x[-5,5]</description></image></li>
 
-<task><p>Complete the statement:</p>
+<li><p>Complete the statement:</p>
   <p>The standard form for the equation of an ellipse centered at the origin is
-      <me><fillin characters="16"/></me></p></task>
+        <md><fillin characters="16"/></md></p>
 
-<task><p>Sketch a central ellipse. Label the major axis, minor axis, vertices, and covertices.</p></task>
+    <p>Sketch a central ellipse. Label the major axis, minor axis, vertices, and covertices.</p></li>
 
-<task><p>Follow the steps to graph the ellipse   <m>~~3x^2 + 4y^2 = 36</m></p> 
-  <p>Divide both sides of the equation by  36 and simplify to get the standard form.</p>
-  <p>Identify the values of <m>a</m> and <m>b</m>. (Use your calculator to approximate if necessary.)</p>
-      <p><m>~~~~~~a=</m></p>
-      <p><m>~~~~~~b=</m></p>  
-  <p>Plot the vertices and covertices.</p>  
-  <p>Sketch the ellipse through those points.</p>
-      <image source="act-9-3-1.png" width="35%"></image></task>
-
-            <commentary audience="instructor"><title>Note</title>
-            <p>Students usually find graphing ellipses to be fairly easy. However, they have more trouble with questions such as "Find a point on the ellipse with <m>x</m>-coordinate 2," indicating that they still don't really understand the connection between an equation and its graph.</p></commentary>
-   </activity>
+<li><p>Follow the steps to graph the ellipse   <m>~~3x^2 + 4y^2 = 36</m></p> 
+    <p><ol marker="1.">
+        <li><p>Divide both sides of the equation by 36 and simplify to get the standard form.</p></li>
+        <li><p>Identify the values of <m>a</m> and <m>b</m>. (Use your calculator to approximate if necessary.)</p>
+                <p><m>~~~~~~a=</m></p>
+                <p><m>~~~~~~b=</m></p></li>  
+        <li><p>Plot the vertices and covertices.</p>  
+            <p>Sketch the ellipse through those points.</p>
+                    <image source="act-9-3-1.png" width="35%"><description>Grid [-5,5]x[-5,5]</description></image></li>
+    </ol></p>
+            <aside component="instructor"><p>Students usually find graphing ellipses to be fairly easy. However, they have more trouble with questions such as "Find a point on the ellipse with <m>x</m>-coordinate 2," indicating that they still don't really understand the connection between an equation and its graph.</p></aside></li>
+</ol></p>
+</activity>
 
 <activity><title>Translated Ellipses</title>
 
-<task><p>Complete the statement:</p>
+<p><ol marker="a.">
+<li><p>Complete the statement:</p>
+        <aside component="instructor"><p>2(a) Remind students of the standard form for a circle, <m>(x-h)^2 + (y-k)^2 = r^2</m> , and point out that it can also be written as <m>\dfrac{(x-h)^2}{r^2} + \dfrac{(y-k)^2}{r^2} = 1</m>.</p></aside>
 <p>The standard form for an ellipse centered at <m>(h,k)</m> is
-      <me><fillin characters="16"/></me></p></task>
+      <md><fillin characters="16"/></md></p></li>
 
-<task><p>Follow the steps to graph  <m>~~\dfrac{(x-2)^2}{4} + \dfrac{(y-5)^2}{25} = 1</m></p>
-<p>Identify the center and the values of <m>a</m> and <m>b</m>.</p>
-      <p><m>~~~~~~(h,k) = </m></p>
-      <p><m>~~~~~~a=</m></p>
-      <p><m>~~~~~~b=</m></p>        
-<p>Plot the center.  Use the values of <m>a</m> and <m>b</m> to locate the vertices and covertices.</p>
-<p>Sketch an ellipse through the vertices and covertices.</p>
-    <image source="act-2-2-2.png" width="50%"></image></task>
+<li><p>Follow the steps to graph  <m>~~\dfrac{(x-2)^2}{4} + \dfrac{(y-5)^2}{25} = 1</m></p>
+    <p><ol marker="1.">
+        <li><p>Identify the center and the values of <m>a</m> and <m>b</m>.</p>
+                <p><m>~~~~~~(h,k) = </m></p>
+                <p><m>~~~~~~a=</m></p>
+                <p><m>~~~~~~b=</m></p> </li>       
+        <li><p>Plot the center.  Use the values of <m>a</m> and <m>b</m> to locate the vertices and covertices.</p></li>
+        <li><p>Sketch an ellipse through the vertices and covertices.</p>
+                <image source="act-2-2-2.png" width="50%"><description>10x10 Grid</description></image></li>
+    </ol></p></li>
+</ol></p>
 </activity>
 
 <activity><title>Writing the Equation for an Ellipse</title>
 
 <introduction><p>To write the equation of an ellipse, we need to know its center <m>(h,k)</m> and the values of <m>a</m> and <m>b</m>.</p></introduction>
+<p><ol marker="a.">
+<li><p>Here is an ellipse.</p>
+            <image source="act-9-3-2.png" width="35%"><description>Ellipse with dashed lines through center</description></image>
+        <p>The center of the ellipse is <fillin/>.</p>
+        <p>The length of the horizontal axis is <m>2a= <fillin/></m>,  so <m>a=<fillin/></m>.</p>                      
+        <p>The length of the vertical axis is <m>2b= <fillin/></m>,  so <m>b=<fillin/></m>.</p>
+        <p>The equation of the ellipse is <fillin characters="16"/> </p></li>
 
-<task><p>Here is an ellipse.</p>
-      <image source="act-9-3-2.png" width="35%"></image>
-<p>The center of the ellipse is <fillin/>.</p>
-<p>The length of the horizontal axis is <m>2a= <fillin/></m>,  so <m>a=<fillin/></m>.</p>                      
-<p>The length of the vertical axis is <m>2b= <fillin/></m>,  so <m>b=<fillin/></m>.</p>
-<p>The equation of the ellipse is <fillin characters="16"/> </p></task>
-
-<task><p>Follow the steps to find the equation of the ellipse with vertices at <m>(-3,-5)</m> and <m>(9,-5)</m>, and covertices at 
+<li><p>Follow the steps to find the equation of the ellipse with vertices at <m>(-3,-5)</m> and <m>(9,-5)</m>, and covertices at 
 <m>(3,0)</m> and <m>(3,-10)</m>.</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Encourage students to sketch the ellipse described. This will usually enable them to come up with its equation.</p></commentary>
-
-<p>Plot the given points and sketch the ellipse.</p>
-    <image source="act-2-2-2.png" width="40%"></image>
-<p>Locate the center of the ellipse.</p>
-      <p><m>~~~~~~(h,k) =</m></p>                                   
-<p>Find the values of <m>a</m> and <m>b</m>.</p>
-      <p><m>~~~~~~a=</m></p>
-      <p><m>~~~~~~b=</m></p>                                 
-<p>Write the equation of the ellipse: <fillin characters="16"/> </p></task>
+            <aside component="instructor"><p>3(b) Encourage students to sketch the ellipse described. This will usually enable them to come up with its equation.</p></aside>
+    <p><ol marker="1.">
+        <li><p>Plot the given points and sketch the ellipse.</p>
+            <image source="act-2-2-2.png" width="40%"><description>10x10 Grid</description></image></li>
+        <li><p>Locate the center of the ellipse.</p>
+            <p><m>~~~~~~(h,k) =</m></p> </li>                                  
+        <li><p>Find the values of <m>a</m> and <m>b</m>.</p>
+            <p><m>~~~~~~a=</m></p>
+            <p><m>~~~~~~b=</m></p> </li>                                
+        <li><p>Write the equation of the ellipse: <fillin characters="16"/> </p></li>
+    </ol></p></li>
+</ol></p>
 </activity> 
 
 <activity><title>The General Quadratic Equation</title>
 
 <introduction><p>The general quadratic equation in two variables is 
-    <me>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</me></p>
+        <md>Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0</md></p>
 <p>We will only consider quadratic equations in which <m>B=0</m>. The graphs of these equations are conic sections.</p></introduction>
 
-<task><p>Name the four conic sections:</p>
-  <p><ol>
+<p><ol marker="a.">
+<li><p>Name the four conic sections:</p>
+  <p><ol marker="1.">
     <li><p></p></li>
     <li><p></p></li>
     <li><p></p></li>
     <li><p></p></li>
   </ol></p>
-<p>If <m>A=C</m>,  the graph is <fillin/>. If <m>A</m> and <m>C</m> have the same sign (either both positive or both negative), the graph is <fillin/> . </p> </task>
+<p>If <m>A=C</m>, the graph is <fillin/>. If <m>A</m> and <m>C</m> have the same sign (either both positive or both negative), the graph is <fillin/>.</p> </li>
 
-<task><p>We convert an equation in general form to standard form by completing the square. Follow the steps to write the equation below in standard form.
-  <me>6x^2 + 5y^2 -12x + 20y - 4 = 0</me></p>
-  <p>Collect the <m>x</m>-terms together and the <m>y</m>-terms together:
-    <me><fillin characters="16"/> = 4</me></p>                                               
-<p>Factor out the coefficients of <m>x^2</m> and <m>y^2</m>:                
-    <me><fillin characters="16"/> = 4</me></p>
-<p>Complete the square in <m>x</m> and in <m>y</m>. (Be careful! Notice that you have really added <m>6(1) = 6</m> to the <m>x</m>-terms and <m>5(4) = 20</m> to the <m>y</m>-terms on the left side of the equation, so you must add <m>6+20</m> to the right side of the equation as well.)</p>
-<p>Simplify each side.</p>
-<p>Divide both sides by the constant, and simplify.</p></task>
+<li><p>We convert an equation in general form to standard form by completing the square. Follow the steps to write the equation below in standard form.
+        <md>6x^2 + 5y^2 -12x + 20y - 4 = 0</md></p>
+    <p><ol marker="1.">
+        <li><p>Collect the <m>x</m>-terms together and the <m>y</m>-terms together:
+                <me><fillin characters="16"/> = 4</me></p></li>                                               
+        <li><p>Factor out the coefficients of <m>x^2</m> and <m>y^2</m>:                
+                <me><fillin characters="16"/> = 4</me></p></li>
+        <li><p>Complete the square in <m>x</m> and in <m>y</m>.</p>
+            <p>(Be careful! Notice that you have really added <m>6(1) = 6</m> to the <m>x</m>-terms and <m>5(4) = 20</m> to the <m>y</m>-terms on the left side of the equation, so you must add <m>6+20</m> to the right side of the equation as well.)</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            Working through a couple of examples of completing the square is usually enough to make students feel comfortable with the steps. They will have trouble converting an expression such as <m>\dfrac{4(x-2)^2}{9}</m> to <m>\dfrac{(x-2)^2}{(\frac{3}{2})^2}</m>.</commentary>
-
-<task><p>Graph the ellipse on the grid.</p>
-  <image source="act-2-2-2.png" width="40%"></image></task>
+                <aside component="instructor"><p>4(b) Working through a couple of examples of completing the square is usually enough to make students feel comfortable with the steps. They will have trouble converting an expression such as <m>\dfrac{4(x-2)^2}{9}</m> to <m>\dfrac{(x-2)^2}{(\frac{3}{2})^2}</m>.</p></aside></li>
+        <li><p>Simplify each side.</p></li>
+        <li><p>Divide both sides by the constant, and simplify.</p></li>
+        <li><p>Graph the ellipse on the grid.</p>
+            <image source="act-2-2-2.png" width="40%"><description>10x10 Grid</description></image></li>
+        </ol></p></li>
+</ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
-<li><p>In Activity 1, how did you use <m>a</m> and <m>b</m> to graph an ellipse?</p></li>
-<li><p>What does it mean for an ellipse to be translated?</p></li>
-<li><p>In Activity 3, how did you find <m>a</m> and <m>b</m>?</p></li>
-<li><p>What was the Caution in Activity 4?</p></li>
+    <li><p>In Activity 1, how did you use <m>a</m> and <m>b</m> to graph an ellipse?</p></li>
+    <li><p>What does it mean for an ellipse to be translated?</p></li>
+    <li><p>In Activity 3, how did you find <m>a</m> and <m>b</m>?</p></li>
+    <li><p>What was the Caution in Activity 4?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to conic sections:</p>
-<p><ul>
-<li><p>Write the equation for an ellipse in standard form </p></li>   
-<li><p>Graph an ellipse</p></li>
-<li><p>Find the equation for an ellipse</p></li>
-</ul></p>
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Explain why the graph of <m>\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1</m>  has no points with <m>x</m>-coordinate greater than 2.</p></li>
-<li><p>What does it mean for an ellipse to be translated?</p></li>
-<li><p>What do you need to know about an ellipse in order to write its equation?</p></li>
-<li><p>How can you find the length of the major axis of an ellipse?</p></li>
-</ol></p></commentary>
-</subsection>
+    <li><p>Explain why the graph of <m>\dfrac{x^2}{4} + \dfrac{y^2}{9} = 1</m> has no points with <m>x</m>-coordinate greater than 2.</p></li>
+    <li><p>What does it mean for an ellipse to be translated?</p></li>
+    <li><p>What do you need to know about an ellipse in order to write its equation?</p></li>
+    <li><p>How can you find the length of the major axis of an ellipse?</p></li>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>The major axis of an ellipse always joins the</p>
+    <p><ol marker="a.">
+        <li>vertices.</li>
+        <li>covertices.</li>
+        <li>foci.</li>
+        <li>intercepts.</li>
+    </ol></p></li>
+    <li><p>Circles, ellipses and parabolas can all be formed as the intersection of a plane and</p>
+    <p><ol marker="a.">
+        <li>a sphere.</li>
+        <li>a cone.</li>
+        <li>a cylinder.</li>
+        <li>a line.</li>
+    </ol></p></li>
+    <li><p>To find the center of an ellipse in general form, we</p>
+    <p><ol marker="a.">
+        <li>find the LCD.</li>
+        <li>use the quadratic formula.</li>
+        <li>complete the square.</li>
+        <li>solce the equation.</li>
+    </ol></p></li>
+    <li><p>If <m>~a^2 \gt b^2~</m> in the equation  <m>~~\dfrac{(x-h)^2}{a^2} + \dfrac{(y-k)^2}{b^2} = 1~</m> the ellipse</p>
+    <p><ol marker="a.">
+        <li>is wider than it is tall.</li>
+        <li>is taller than it is wide.</li>
+        <li>has center <m>(a,b)</m>.</li>
+        <li>passes through the point <m>(a,b)</m>.</li>
+    </ol></p></li>
+</ol></p></assemblage>
 
 </section>

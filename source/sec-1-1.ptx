@@ -3,14 +3,31 @@
 <section xml:id="sec-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Creating a Linear Model</title>
 
-<assemblage>
+<assemblage component="instructor">
 <p>Lesson 1.1 reviews some skills from elementary algebra in the context of applications: solving simple equations and inequalities, evaluating expressions, and graphing an equation by plotting points. We consider linear models of the form <m>~y=</m> (starting value)<m>~+~</m>(rate of change)<m>\cdot x</m>.</p>
 
-<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work. You might use a tablet computer, a document camera, or overhead transparencies to show them exactly how to write their work on the page. </p> </assemblage>
+<p>It's a good idea to work through Lesson 1.1 for the class, so that they have a model to follow for future Lessons. Show students how you want them to record their work. You might use a tablet computer, a document camera, or overhead transparencies to show them exactly how to write their work on the page.</p>
+
+<p>There are only two Activities in the Lesson, so if you allow 20 minutes for each, you should have 10 minutes for students to look at the Check Your Understanding questions. You could ask for volunteers to supply the answers.</p> 
+
+<p>GOALs</p>
+<p><ul>
+    <li><p>Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li> 
+    <li><p>Write an equation for a linear model described in words, in the form:
+            <md><mrow>y=\text{(starting value)} + \text{(rate)} \times t</mrow></md></p></li>
+    <li><p>Interpret an ordered pair of values for a linear model.</p></li> 
+    <li><p>Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
+    <li><p>Evaluate an algebraic expression.</p></li>
+    <li><p>Solve linear equations and inequalities.</p></li>
+    <li><p>Use a graph to evaluate an expression or solve an equation.</p></li>
+</ul></p>
+</assemblage>
 
 <activity xml:id="act-1-1-1"><title>Making and Reading a Graph</title>
+
 <p>In 2000, the average sea level, <m>L</m>, was 24 millimeters above normal, and it has been rising at a rate of 3 mm per year.</p> 
-    <sidebyside widths="55% 38%" valigns="middle middle">
+    <sidebyside widths="40% 55%" valigns="top top">
+        <image source="act-1-1-1.png"><description>Grid [0,40]x[0,100]</description></image>
     <p><ol marker="a.">
     <li><p>Complete the table of values for the sea level <m>t</m> years after 2000.</p>
               <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -28,32 +45,30 @@
                     <cell><m>\hphantom{0000}</m></cell>
                     <cell><m>\hphantom{0000}</m></cell></row>
             </tabular>
-        <aside><p>1b. Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></aside></li>
+        <aside component="instructor"><p>1b. Point out that the terminology "<m>L</m> in terms of <m>t</m>" tells us which variable goes on which axis.</p></aside></li>
 
     <li><p>Write an equation for the sea level, <m>L</m>, in terms of <m>t</m>, the number of years since 2000.</p></li>
 
     <li><p>Graph the equation on the grid. Label the axes with the correct variables.</p>
-
-        <aside><p>1c. Graphs should extend across the entire grid, including any intercepts.</p></aside>
+        <aside component="instructor"><p>1c. Graphs should extend across the entire grid, including any intercepts.</p></aside>
 
       <p>To answer the questions (d) and (e), read the graph. Show your work on the graph:</p>
-
-        <aside><p>1d and e. Have students draw dashed lines on the graph, as in Example 1.1.8 in the text.</p></aside></li>
+        <aside component="instructor"><p>1d and e. Have students draw dashed lines on the graph, as in Example 1.1.8 in the text.</p></aside></li>
 
     <li><p>According to this model, what will the sea level be in 2020?</p></li> 
 
-    <li><p>How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</p></li>
-</ol></p>
-    <image source="act-1-1-1.png"></image></sidebyside>
+</ol></p></sidebyside>
+
+<p>e. How long will it be before the sea level is 6 centimeters above average? (How many millimeters are there in 1 centimeter?)</p>
   
 <p>f. Now use algebra to find the answers for parts (d) and (e) above. Compare your answers to the values you read from the graph.</p>
 
     <p>(d)<m>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</m>(e)</p>
 
-        <aside><p> Emphasize the difference between evaluating an expression and solving an equation.</p></aside>
+        <aside component="instructor"><p>1f. Emphasize the difference between evaluating an expression and solving an equation.</p></aside>
 
 <p>g.  Another global warming concern is rising temperature. Since 1950, the global mean temperature in degrees Celsius can be modeled by the equation
-      <me>T = 13.9 + 0.13t</me> 
+      <md><mrow>T = 13.9 + 0.13t</mrow></md> 
 where <m>t</m> is the number of years since 1950. What do the constants in this equation tell us about global temperature?</p>
 
     <p><m>13.9</m> tells us:</p>
@@ -62,6 +77,7 @@ where <m>t</m> is the number of years since 1950. What do the constants in this 
 </activity>
 
 <activity xml:id="act-1-1-2"><title>A Decreasing Graph</title>
+
 <p>Silver Lake has been polluted by industrial waste products. In 2000 the concentration of toxic chemicals in the water was 285 parts per million (ppm). Local environmental officials started a program to reduce the concentration by 15 ppm each year.</p>
     <p><ol marker="a.">
         <li><p>Complete the table of values showing the concentration, <m>C</m>, of toxic chemicals <m>t</m> years after 2000.  Then write your answers as ordered pairs.</p>
@@ -91,9 +107,9 @@ where <m>t</m> is the number of years since 1950. What do the constants in this 
             </tabular></li>
     
     <li><p>Label the axes, plot the ordered pairs on the grid, and connect them with a straight line.</p>
-          <image source="act-1-1-2.png" width="50%"></image></li> 
+          <image source="act-1-1-2.png" width="50%"><description>Grid [0,20]x[0,300]</description></image></li> 
     <li><p>In one or two complete sentences, explain why you should stop the graph at the horizontal axis.</p>
-        <aside><p>1d. Teach students to start with <m>t=16,~C=45</m>, then replace the variables with words, and finally write a sentence.</p></aside></li>
+        <aside component="instructor"><p>1d. Teach students to start with <m>t=16,~C=45</m>, then replace the variables with words, and finally write a sentence.</p></aside></li>
 
     <li><p>What does the point <m>(16,45)</m> tell us about this situation? (Use complete sentences!)</p></li>
 
@@ -103,11 +119,11 @@ where <m>t</m> is the number of years since 1950. What do the constants in this 
 
     <li><p>Write and solve an inequality to verify your answer to part (e).</p>
 
-        <aside><p>1g. Remind students how to write and solve a compound inequality.</p></aside></li>
+        <aside component="instructor"><p>1g. Remind students how to write and solve a compound inequality.</p></aside></li>
     </ol></p>
 </activity>
 
-<subsection><title> Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>In Activity 1b, you wrote an equation for sea level, <m>L</m>.  What was the starting value, and what was the rate?</p></li>
     <li><p>In part (d) of Activity 1, did you evaluate an expression or solve an equation? </p></li> 
@@ -116,28 +132,16 @@ where <m>t</m> is the number of years since 1950. What do the constants in this 
     <li><p>In part (e) of Activity 2, you solved an inequality. On which axis did your answers appear?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
-<p><ul>
-    <li><p>Analyze linear models given by a description in words, by a graph, by a table of values, or by an equation.</p></li> 
-    <li><p>Write an equation for a linear model described in words, in the form:
-     <me>y=\text{(starting value)} + \text{(rate)} \times t</me></p></li>
-    <li><p>Interpret an ordered pair of values for a linear model.</p></li> 
-    <li><p>Make a graph from a table of values by choosing appropriate scales for the axes and plotting points.</p></li>
-    <li><p>Evaluate an algebraic expression.</p></li>
-    <li><p>Solve linear equations and inequalities.</p></li>
-    <li><p>Use a graph to evaluate an expression or solve an equation.</p></li>
-</ul></p></subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Describe some ways to display the relationship between two variables.</p></li>
     <li><p>What is the difference between an expression and an equation?</p></li>
     <li><p>What is the difference between evaluating an expression and solving an equation?</p></li>
     <li><p>Explain how to find the <m>x</m>-value that corresponds to a given <m>y</m>-value on a graph.</p></li>
 </ol></p>
+</assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>How many points do you need to graph a linear equation?</p>
     <p><ol marker="a.">
@@ -168,7 +172,6 @@ where <m>t</m> is the number of years since 1950. What do the constants in this 
         <li>It is less than <m>-10</m></li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection>
   
 </section>
 

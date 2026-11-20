@@ -1,0 +1,101 @@
+WARNING : Using CLI version 2.56.2 but project's `requirements.txt`
+WARNING : is configured to use 0.7.3. Consider either installing
+WARNING : CLI version 0.7.3 or running `pretext update-project`
+WARNING : to update `requirements.txt` and other managed files to match 2.56.2.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : Generating any needed assets.
+WARNING : Now generating latex images
+INFO    : converting latex-image pictures from C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx to svg graphics for placement in C:\Users\kyosh\pretext\int-alg-activities\generated-assets\latex-image
+INFO    : extracting latex-image pictures from C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.56', 'publisher': 'C:/Users/kyosh/pretext/int-alg-activities/publication/publication.ptx'}
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : converting fig-dogpens.tex to fig-dogpens.pdf
+INFO    : cropping fig-dogpens.pdf to cropped-fig-dogpens.pdf
+INFO    : renaming cropped-fig-dogpens.pdf to fig-dogpens.pdf
+INFO    : converting fig-dogpens.pdf to fig-dogpens.svg
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-61tath5y
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into C:\Users\kyosh\pretext\int-alg-activities\output\web.
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+WARNING : (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo". The publisher file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.4.0
+INFO    : Downloading Runestone Services, version 8.4.0
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx to HTML in C:\Users\kyosh\AppData\Local\Temp\ptx-d05zo2no
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+WARNING : * PTX:DEPRECATE: (2026-07-30) the external directory is a property of your source, and is now declared with a "directories/@external" attribute within "docinfo".  The publication file entry "source/directories/@external" is honored meanwhile, but please relocate it.
+ERROR   : * PTX:ERROR:      The @label "A." is invalid.  Use only the 26 Latin letters (7-bit ASCII, no accents), numbers, hyphens and underscores.
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2022-04-25) a "@label" attribute (on a "ul" or "ol" element) has been deprecated and should be replaced by the functionally equivalent "@marker".  We will attempt to honor your request (1 time)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/@label
+INFO    : *              located within: "act-1-2-3" (xml:id), "Solving Inequalities Graphically" (title)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "colophon" element inside the "frontmatter" (credit, copyright, edition, and website) should now be placed in "frontmatter/bibinfo". To produce a "colophon", include only the empty element "colophon-items" inside "colophon" Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located at: pretext/book/frontmatter/colophon
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2026-05-11) the "me" and "men" elements have been deprecated.  The replacement is an "md" with no "mrow" children, and numbering is controlled by the "@number" attribute, or a global setting in "docinfo". (9 times)
+INFO    : *              located at: pretext/book/chapter/section/assemblage/p/ul/li/p/me
+INFO    : *              located within: "sec-1-1" (xml:id), "Creating a Linear Model" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/me
+INFO    : *              located within: "act-1-1-1" (xml:id), "Making and Reading a Graph" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/me
+INFO    : *              located within: "act-1-4-1" (xml:id), "Calculating Rate of Change" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/introduction/p/me
+INFO    : *              located within: " Graphing a Linear Inequality" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/me
+INFO    : *              located within: "A Typical Quadratic Graph" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/introduction/p/me
+INFO    : *              located within: "A Quadratic Model:  Free-Fall" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/introduction/p/me
+INFO    : *              located within: "Solving Equations and Inequalities" (title)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/me
+INFO    : *              located within: "Some Powers and Roots" (title)
+INFO    : * --------------
+ERROR   : * PTX:ERROR:   Unstructured content within a list item is being ignored (".")
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/p/ol/li
+INFO    : *              located within: "Solving Quadratic Equations by Completing the Square" (title)
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-d05zo2no
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-8ci2sjga
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+FATAL   : There were errors during the build.  See above.
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

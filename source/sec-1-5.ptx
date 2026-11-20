@@ -3,7 +3,7 @@
 <section xml:id="sec-1-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Equations of Lines</title>
 
-<assemblage>
+<assemblage component="instructor">
 <p>In this Lesson, the slope-intercept formula is treated very briefly. Students should have mastered the slope-intercept form in elementary algebra, and it has already appeared in this course as the form for a linear model. We also review the coordinate formula for slope, <m>~m=\dfrac{y_2-y_1}{x_2-x_1}</m>, and the notion of net change.</p>  
 
 <p>The chief objective of this Lesson in the point-slope formula. Besides being able to use the formula, we want students to understand two ideas:
@@ -14,7 +14,17 @@
 
 <p>Students may have been taught to find a linear equation by substituting a point into the slope-intercept formula to find <m>b</m>, but at this stage it is important that they master the point-slope formula. Finding a linear equation to fit two points is one of the most useful skills they will learn in this course. Note that we give two alternate forms for the formula:  the fractional form, <m>~\dfrac{y-y_1}{x-x_1} = m</m>, is easier for students if the slope is a common fraction. The form <m>~y=y_1+m(x-x_1)~</m>  captures the mechanics of the formula, and will occur in calculus.</p> 
 
-<p>For students, the hardest part of using the formula in an application is identifying the two points to use. Encourage them to make a short table, starting by deciding which is the input variable and which is the output.</p></assemblage>
+<p>For students, the hardest part of using the formula in an application is identifying the two points to use. Encourage them to make a short table, starting by deciding which is the input variable and which is the output.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Identify the slope and <m>y</m>-intercept from the equation for a line.</p></li>
+    <li><p>Interpret the slope and <m>y</m>-intercept in context.</p></li>
+    <li><p>Use the coordinate formula to calculate slope.</p></li>
+    <li><p>Use the point-slope formula to find an equation for a line.</p></li>
+    <li><p>Find a linear model from two data points.</p></li>
+</ul></p>
+</assemblage>
 
 <activity xml:id="act-1-5-1"><title>Slope-Intercept Form</title>
 
@@ -33,21 +43,20 @@
                     <cell>475</cell></row>
     </tabular></introduction>
 
+<aside component="instructor"><p>Students should be able to work through Activity 1 in their groups with only minimal help.</p></aside>
 <p><ol marker="a.">
     <li><p>Plot the data and draw a line through the data points.</p></li>
-
     <li><sidebyside widths="50% 40%">
         <stack><p>Calculate the slope of your line.</p>  
             <p>Estimate the <m>y</m>-intercept from the graph.</p></stack>
-        <image source="act-1-5-1.png" ></image></sidebyside></li>
-
+        <image source="act-1-5-1.png"><description>Grid [0,10]x[0,500]</description></image></sidebyside></li>
     <li><p>Write an equation that gives the temperature, <m>T</m>, in degrees Fahrenheit, in terms of the Gas Mark, <m>G</m>.</p></li>
 </ol></p>
 </activity>
 
 <activity xml:id="act-1-5-2"><title>Working with Formulas</title>
 
-            <aside><p>Part (a) is intended to help students learn to work with <m>\Delta x</m>, <m>\Delta y</m>, and subscripted letters as ordinary variables.</p></aside>
+            <aside component="instructor"><p>This exercise is intended to help students learn to work with <m>\Delta x</m>, <m>\Delta y</m>, and subscripted letters as ordinary variables. You might ask for volunteers to write their answers on the board.</p></aside>
 
 <p><ol marker="a.">
     <li><p>We now have several new formulas to work with. Solve each formula for the indicated variable:</p>
@@ -61,13 +70,16 @@
         <p><m>m = \dfrac{y_2-y_1}{x_2-x_1}  \hphantom{00000000000}  y_2-y_1 = </m></p></li>
 
     <li><p>Suppose you are studying the graph of a line, <m>y=mx+b</m>. Explain the difference between what the statements <m>x=2</m> and <m>\Delta x = 2</m> mean.</p>
-            <aside><p>Part (b):  many students have trouble understanding the difference between <m>x</m> and <m>\Delta x</m>.</p></aside></li>
+            <aside component="instructor"><p>2b. Many students have trouble understanding the difference between <m>x</m> and <m>\Delta x</m>.</p></aside></li>
 </ol></p>
 </activity>
 
 <activity xml:id="act-1-5-3"><title>Finding a Linear Model</title>
 
 <introduction><p>The temperature at which water freezes depends on its dissolved mineral content. So sea water does not freeze at exactly 32 <m>\degree</m> F because of its salinity. A common unit for measuring salinity is parts per thousand, or ppt. For example, salinity of 8 ppt means 8 grams of dissolved salts in each kilogram of water. Here are some data for the freezing temperature of water.</p>
+
+    <aside component="instructor"><p>Check that students understand salinity and ppt.</p></aside>
+
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell>Salinity, ppt <m>S</m></cell>
@@ -80,15 +92,15 @@
                     <cell>30.88</cell></row>
     </tabular></introduction>
 
-           <aside><p>Using different variables can be confusing for students. Write the formula <m>T-T_1 = m(S-S_1)</m> directly below <m>y-y_1 = m(x-x_1)</m>, and sketch a set of axes labeled <m>S</m> and <m>T</m> next to axes labeled <m>x</m> and <m>y</m>.</p></aside>
+           <aside component="instructor"><p>3b. Using different variables can be confusing for students. Write the formula <m>T-T_1 = m(S-S_1)</m> directly below <m>y-y_1 = m(x-x_1)</m>, and sketch a set of axes labeled <m>S</m> and <m>T</m> next to axes labeled <m>x</m> and <m>y</m>.</p></aside>
  
 <p><ol marker="a.">
     <li><p>Do these data points describe a linear model? Why or why not?</p></li>
     <li><p>Use the point-slope formula to find a linear equation for freezing temperature, <m>T</m>, in terms of salinity, <m>S</m>.</p>
       <p><ul>
-    <li><p>Step 1:  Find the slope</p></li> 
-    <li><p>Step 2:  Use the point-slope formula</p></li>
-        </ul></p></li>
+        <li><p>Step 1:  Find the slope</p></li> 
+        <li><p>Step 2:  Use the point-slope formula</p></li>
+    </ul></p></li>
 
     <li><p>What is the salinity of water that freezes at 32<m>\degree</m> F?</p></li>
     <li><p>Sea water has an average salinity of 35 ppt.  What is the freezing point of sea water?</p></li>
@@ -96,7 +108,7 @@
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>Which formula did you use to find the equation of the line in Activity 1?</p></li>
     <li><p>If you graph the data in Activity 3, which variable goes on the vertical axis?</p></li>
@@ -104,26 +116,16 @@
     <li><p>Which two formulas do you need to find the equation of a line that goes through two given points?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-
-<p>In this Lesson, we worked on the following skills and goals related to linear models:</p>
-<p><ul>
-    <li><p>Identify the slope and <m>y</m>-intercept from the equation for a line</p></li>
-    <li><p>Interpret the slope and <m>y</m>-intercept in context</p></li>
-    <li><p>Use the coordinate formula to calculate slope</p></li>
-    <li><p>Use the point-slope formula to find an equation for a line</p></li>
-    <li><p>Find a linear model from two data points</p></li>
-</ul></p></subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Explain the difference between the slope-intercept form and the point-slope form for a linear equation.</p></li>
     <li><p>How can you find the equation of a line from its graph?</p></li>
     <li><p>How is the coordinate formula for slope related to net change?</p></li>
     <li><p>Explain how to find an equation for a line through two points using two steps.</p></li>
 </ol></p>
+</assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>What do the coefficients in the slope-intercept form tell you about a line?</p>
         <p><ol marker="a.">
@@ -154,6 +156,5 @@
         <li>Find values of <m>x</m> and <m>y</m> that make the equation true.</li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection>
 
 </section>

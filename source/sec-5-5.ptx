@@ -3,8 +3,15 @@
 <section xml:id="sec-5-5" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Inverse Variation</title>
 
-<assemblage>
-<p>This Lesson continues the study of variation, this time addressing inverse variation. If you did not complete all four Activities in Lesson 5.4, you could begin with an example of direct variation for review and contrast.</p></assemblage>
+<assemblage component="instructor">
+<p>This Lesson continues the study of variation, this time addressing inverse variation. If you did not complete all four Activities in Lesson 5.4, you could begin with an example of direct variation for review and contrast.</p>
+
+<p>GOALS:</p>
+<p><ul>
+    <li><p>Recognize inverse variation from a table of values</p></li>
+    <li><p>Find the constant of variation and write an equation for the function</p></li> 
+    <li><p>Sketch the graph of an inverse variation</p></li> 
+</ul></p></assemblage>
 
 <activity><title>Wrapping Paper</title>
 
@@ -24,7 +31,7 @@
                     <cell><m>\hphantom{0000000}</m></cell>
                     <cell><m>\hphantom{0000000}</m></cell></row>
     </tabular></introduction>
-            <aside><p>Point out that not every decreasing function represents inverse variation; we must test for <m>xy=k</m>.</p></aside>
+            <aside><p>1(a) Point out that not every decreasing function represents inverse variation; we must test for <m>xy=k</m>.</p></aside>
 
 <p><ol marker="a.">
     <li><p>Compute the product of the length and width for each roll of wrapping paper. What is the constant of inverse proportionality?</p></li>
@@ -32,8 +39,8 @@
     <li><p>Express the length, <m>L</m> of the paper as a function of the width, <m>w</m> of the roll.</p></li>
 
     <li><p>Sketch a graph of the function. Which basic graph does your answer resemble?</p>
-      <image source="act-5-5-1.png" width="35%"></image>
-            <aside><p>Point out that in direct variation, the graph passes through the origin, but in inverse variation the function is undefined at <m>x=0</m>. The graph has both a vertical and a horizontal asymptote.</p></aside></li>
+      <image source="act-5-5-1.png" width="35%"><description>grid [0,8]x[0,20]</description></image>
+            <aside component="instructor"><p>1(c) Point out that in direct variation, the graph passes through the origin, but in inverse variation the function is undefined at <m>x=0</m>. The graph has both a vertical and a horizontal asymptote.</p></aside></li>
 </ol></p>
 </activity>
 
@@ -68,37 +75,27 @@
 
     <li><p>The distance from the Sun to Earth is about three times the distance from the Sun to Mercury. What level of radiation intensity does Earth receive?</p></li>
 
-
     <li><p>What happens to the radiation intensity if the distance from the Sun is quadrupled?</p></li>
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>How can you recognize inverse variation from a graph?</p></li>     
     <li><p>What should you compute to see if <m>w</m> varies inversely with <m>p</m>?</p></li>
     <li><p>Is every decreasing function an inverse variation? Explain.</p></li>
-    <li><p>In Activity 3, what happens to <m>T</m> when you double <m>D</m>?</p></li>
+    <li><p>In Activity 2, what happens to <m>T</m> when you double <m>D</m>?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to functions:</p>
-<p><ul>
-    <li><p>Recognize inverse variation from a table of values</p></li>
-    <li><p>Find the constant of variation and write an equation for the function</p></li> 
-    <li><p>Sketch the graph of an inverse variation</p></li> 
-</ul></p>
-</subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>Describe the graph of an inverse variation.</p></li>
     <li><p>What should you check to see if a decreasing function describes inverse variation?</p></li>
     <li><p>Where is the vertical asymptote in the graph of an inverse variation?</p></li>
     <li><p>Give an example of inverse variation with a power.</p></li>
-</ol></p>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>How can you test whether a table for <m>y=f(x)</m> represents inverse variation?</p>
         <p><ol marker="a.">
@@ -129,6 +126,5 @@
             <li>No, because it is not true that <m>yx=k</m>.</li>
         </ol></p></li>
 </ol></p></assemblage>
-</subsection>
 
 </section>

@@ -3,20 +3,28 @@
 <section xml:id="sec-2-3" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Algebraic Solution of Systems</title>
 
-<assemblage>
-<p>This Lesson is a review of material from elementary algebra: solving systems by substitution and elimination. We try to avoid artificial applications such as coin and age problems, considering instead weighted averages, which include mixture and interest problems. Finding the equilibrium price for supply and demand equations, and the break-even point from cost and revenue are also included.</p></assemblage>
+<assemblage component="instructor">
+<p>This Lesson is a review of material from elementary algebra: solving systems by substitution and elimination. For applications we consider some common forms of weighted averages, such as mixture and interest problems. Finding the equilibrium price for supply and demand equations, and the break-even point from cost and revenue are also included in the Homework Problems, so you can choose which types of applications will best suit your class.</p>
+
+<p>If your students need a slower review of solving systems, you could use some of the Warm Up or Skills Practice problems form the Homework.</p>
+
+<p>GOALS <ul>
+    <li><p>Solve systems using substitution.</p></li>
+    <li><p>Solve systems using elimination.</p></li>
+    <li><p>Model and solve applied problems with a system of equations.</p></li>
+</ul></p></assemblage>
 
 <activity><title>Interest Problems</title>
 
 <introduction><p>Carmella has $1200 invested in two stocks; one earns 8% per year and the other earns 12% per year. The income from the 8% stock is $3 more than the income from the 12% stock. How much did she invest in each stock?</p></introduction>
 
-            <aside><p>Emphasize that there are two types of money in this problem: the amount invested (principal) and the amount earned (interest).</p></aside>
+        <aside component="instructor"><p>1a. Emphasize that there are two types of money in this problem: the amount invested (principal) and the amount earned (interest).</p></aside>
 
 <p><ol marker="a.">
     <li><p>Choose variables for the two unknown quantities, and fill in the table.</p>
         <p><m>\hphantom{0000} x</m>:</p>
         <p><m>\hphantom{0000} y</m>:</p>
-        <aside><p>1c. Students typically have trouble with the interest equation: which side of the equation do we add $3 to? Write out the English sentence and translate phrase by phrase. Point out that if we add $3 to the larger side, the two sides cannot be equal!</p></aside>
+        
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
                 <row bottom="minor">
                     <cell></cell>
@@ -35,10 +43,12 @@
                     <cell></cell>
                     <cell></cell>
                     <cell></cell></row>
-    </tabular></li>
+    </tabular>
+        <aside><p>1c. Students typically have trouble with the interest equation: which side of the equation do we add $3 to? Write out the English sentence and translate phrase by phrase. Point out that if we add $3 to the larger side, the two sides cannot be equal!</p></aside></li>
 
     <li><p>Write one equation about the amount Carmella invested.</p></li>
-    <li><p>Write a second equation about Carmella's annual interest.</p></li>
+    <li><p>Write a second equation about Carmella's annual interest.</p>
+            </li>
     <li><p>Solve the system and answer the question in the problem.</p></li>
 </ol></p>
 </activity>
@@ -47,7 +57,7 @@
 
 <introduction><p>Amal plans to make 10 liters of a 17% acid solution by mixing a 20% acid solution with a 15% acid solution. How much of each should she use?</p>
 
-            <aside><p>Many students still believe that we can add percents, even of different amounts. Try this example: If you have two jars of red and blue marbles, each of which is 50% red marbles, and you pour both jars into a larger jar, will the result be 100% red marbles?</p></aside></introduction>
+            <aside component="instructor"><p>2a. Many students still believe that we can add percents, even of different amounts. Try this example: If you have two jars of red and blue marbles, each of which is 50% red marbles, and you pour both jars into a larger jar, will the result be 100% red marbles?</p></aside></introduction>
 
 <p><ol marker="a.">
     <li><p>Choose variables for the two unknown quantities, and fill in the table.</p>
@@ -72,7 +82,7 @@
                     <cell></cell>
                     <cell></cell></row>
         </tabular>
-                <aside>2a. <p>Point out that mixture problems are actually easy: after we fill in the first two columns of the table with information from the problem, we multiply across to get the third column and add down columns 1 and 3 to get the equations.</p></aside></li> 
+                <aside component="instructor">2b. <p>Point out that mixture problems are actually easy: after we fill in the first two columns of the table with information from the problem, we multiply across to get the third column and add down columns 1 and 3 to get the equations.</p></aside></li> 
 
     <li><p>Write one equation about the amount of solution Amal needs.</p></li>
     <li><p>Write a second equation about the amount of acid in the solutions.</p></li>
@@ -81,6 +91,7 @@
 </activity>
 
 <activity><title>Motion Problems</title>
+
 <introduction><p>Because of prevailing winds a flight from Detroit to Denver, a distance of 1120 miles, takes 4 hours on Econoflite, while the return trip takes 3.5 hours.  What were the speed of the airplane and the speed of the wind?</p></introduction>
 
 <p><ol marker="a.">
@@ -88,7 +99,7 @@
         <p><m>\hphantom{0000} x</m>:</p>
         <p><m>\hphantom{0000} y</m>:</p>
 
-                <aside><p>3a. Explain how to add or subtract the speed of the wind (or the current in a river) to the speed of the airplane.</p>
+                <aside component="instructor"><p>3a. Explain how to add or subtract the speed of the wind (or the current in a river) to the speed of the airplane.</p>
                 <p> Point out explicitly that <m>x</m> and <m>y</m> are NOT the entries in the Rate column.</p></aside>
 
       <tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
@@ -113,30 +124,37 @@
 </ol></p>
 </activity>
 
-<subsection><title>Check Your Understanding</title>
+<activity><title>Using Elimination</title>
+
+<p><ol marker="a.">
+    <li><p>Use elimination to solve the system
+        <md><mrow>3x - 2y = 9</mrow>
+            <mrow>x = \frac{2}{3} y + 3</mrow></md></p>
+        <p>What does your calculation tell you about the system? Why?</p></li>
+    <li><p>Use elimination to solve the system
+        <md><mrow>y = -3x + 6</mrow>
+            <mrow>6x + 2y = 15</mrow></md></p>
+        <p>What does your calculation tell you about the system? Why?</p></li>
+</ol></p>
+</activity>
+
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>For the interest problem in Activity 1, we wrote one equation about <fillin/> and a second equation about <fillin/>.</p></li>
     <li><p>For the mixture problem in Activity 2, we wrote one equation about <fillin/> and a second equation about <fillin/>.</p></li>
     <li><p>If you are traveling upstream in a river, how does the current affect your speed?</p></li>
-    <li><p>Which of the three types of problems, interest, mixture, or motion, is the easiest?</p></li></ol>
+    <li><p>How does elimination identify an inconsistent system?</p></li></ol>
 </p></subsection>
 
-<subsection><title>Wrap Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to linear models: <ul>
-    <li><p>Solve systems using substitution.</p></li>
-    <li><p>Solve systems using elimination.</p></li>
-    <li><p>Model and solve applied problems with a system of equations.</p></li>
-</ul></p></subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>When is the substitution method easier to use than the elimination method. Why?</p></li>
     <li><p>Explain how to use linear combinations to identify inconsistent and dependent systems.</p></li>
     <li><p>What is a weighted average?</p></li>
     <li><p>Explain why the solution of a system is also a solution of any linear combination of the two equations in the system.</p></li>
-</ol></p>
-   
-<assemblage><title>Concept Questions</title>
+</ol></p></assemblage>
+
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>If you mix equal amounts of a 30% solution of insecticide and a 60% solution, what will be the strength of the mixture?</p>
     <p><ol marker="a.">
@@ -167,6 +185,5 @@
         <li>55%</li>
     </ol></p></li>
 </ol></p></assemblage>
-</subsection>  
 
 </section>

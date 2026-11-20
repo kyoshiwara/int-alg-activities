@@ -3,52 +3,57 @@
 <section xml:id="sec-9-1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Properties of Lines</title>
 
-<commentary audience="instructor"><title>Overview</title>
-<p>In this lesson we review the properties of horizontal and vertical lines, and parallel and perpendicular lines.</p></commentary> 
+<assemblage component="instructor">
+<p>In this Lesson we review the properties of horizontal and vertical lines, and parallel and perpendicular lines.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Find equations for horizontal and vertical lines </p></li>   
+    <li><p>Decide whether two lines are parallel, perpendicular, or neither</p></li>
+    <li><p>Find equations for parallel or perpendicular lines </p></li>
+</ul></p></assemblage> 
 
 <activity><title>Horizontal and Vertical Lines</title>
 
-          <commentary audience="instructor"><title>Note</title>
-          <p>Some students will confuse the equation of a horizontal or vertical line with its slope.</p></commentary>
+          <aside component="instructor"><p>1(a) Some students will confuse the equation of a horizontal or vertical line with its slope.</p></aside>
+<p><ol marker="a.">
+  <li><p>Graph <m>3y=15</m>.</p> 
+        <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image>
+    <p>Compute its slope.  <m>~~m=</m></p>
+    <p>Illustrate <m>\Delta x</m> and <m>\Delta y</m> on your graph.</p></li>   
 
-<task><p>Graph <m>3y=15</m>.</p> 
-    <image source="act-9-1-1.png" width="35%"></image>
-<p>Compute its slope.  <m>~~m=</m></p>
-<p>Illustrate <m>\Delta x</m> and <m>\Delta y</m> on your graph.</p></task>   
+  <li><p>Graph <m>2x=-4</m>.</p>
+        <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image>
+    <p>Compute its slope. <m>~~m=</m></p>     
+    <p>Illustrate <m>\Delta x</m> and <m>\Delta y</m> on your graph.</p></li>
 
- <task><p>Graph <m>2x=4</m>.</p>
-    <image source="act-9-1-1.png" width="35%"></image>
-<p>Compute its slope. <m>~~m=</m></p>     
-<p>Illustrate <m>\Delta x</m> and <m>\Delta y</m> on your graph.</p></task>
+  <li><p>The slope of a horizontal line is  <fillin/>.</p>                                     .
+      <p>The slope of a vertical line is  <fillin/>.</p></li>
 
-<task><p>The slope of a horizontal line is  <fillin/>.</p>                                     .
-    <p>The slope of a vertical line is  <fillin/>.</p></task>
-
-<task><p>Make a sketch of each line, then find its equation. </p>
-<p><ol>
-
-              <commentary audience="instructor"><title>Note</title>
-              <p>Students may have difficulty with this task. Sketching the line described will help them visualize it, and hence find its equation.</p></commentary>
-
-  <li><p>A horizontal line through  <m>(2,-4)</m></p>
-      <image source="act-9-1-1.png" width="35%"></image></li>
-  <li><p>The <m>y</m>-axis</p>
-      <image source="act-9-1-1.png" width="35%"></image></li>
-  <li><p>Parallel to the <m>y</m>-axis and including <m>(-1,-2)</m></p>
-      <image source="act-9-1-1.png" width="35%"></image></li>
-  <li><p>Perpendicular to <m>x=3</m>, intersecting it at <m>(3,5)</m></p>
-      <image source="act-9-1-1.png" width="35%"></image></li>
-  </ol></p></task>
+  <li><p>Make a sketch of each line, then find its equation. </p>
+  
+              <aside component="instructor"><p>1(d) Students may have difficulty with this task. Sketching the line described will help them visualize it, and hence find its equation.</p></aside>
+    <p><ol marker="1.">
+      <li><p>A horizontal line through  <m>(2,-4)</m></p>
+          <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image></li>
+      <li><p>The <m>y</m>-axis</p>
+          <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image></li>
+      <li><p>Parallel to the <m>y</m>-axis and including <m>(-1,-2)</m></p>
+          <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image></li>
+      <li><p>Perpendicular to <m>x=3</m>, intersecting it at <m>(3,5)</m></p>
+          <image source="act-9-1-1.png" width="35%"><description>Grid [-6,6]x[-6,6]</description></image></li>
+      </ol></p></li>
+  </ol></p>
 </activity>
 
 <activity><title>Parallel and Perpendicular Lines</title>
 
-<task><p>The slopes of several lines are given below. Which of the lines are parallel to the graph of <m>y=2.5x-3</m>, and which are perpendicular to it? Which are neither? Support each answer with a calculation.</p>
+<p><ol marker="1.">
+<li><p>The slopes of several lines are given below. Which of the lines are parallel to the graph of <m>y=2.5x-3</m>, and which are perpendicular to it? Which are neither? Support each answer with a calculation.</p>
 
-              <commentary audience="instructor"><title>Note</title>
-              <p>This task is just an exercise in fractions, but worth going over.</p></commentary>
+              <aside component="instructor"><p>2(1) This task is just an exercise in fractions, but worth going over.</p></aside>
 
-<p><ol cols="2">
+<p><ol cols="2" marker="a.">
   <li><p><m>m=\dfrac{2}{5}</m></p></li>
   <li><p><m>m=\dfrac{25}{10}</m></p></li>
   <li><p><m>m=\dfrac{-8}{20}</m></p></li>
@@ -57,84 +62,110 @@
   <li><p><m>m=25</m></p></li>
   <li><p><m>m=\dfrac{-1}{25}</m></p></li>
   <li><p><m>m=\dfrac{-5}{10}</m></p></li>
-</ol></p></task>
+</ol></p></li>
 
-<task><p>In each part, determine whether the two lines are parallel, perpendicular, or neither.</p>
+<li><p>In each part, determine whether the two lines are parallel, perpendicular, or neither.</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>Students may confuse the equation of a line and its slope.</p></commentary>
+            <aside component="instructor"><p>2(2) Students may confuse the equation of a line and its slope.</p></aside>
 
-<p><ol>
+<p><ol marker="a.">
   <li><p><m>2x-7y = 14;~~~7x-2y = 14</m></p></li>
   <li><p><m>x+y = 6;~~~ x-y = 6</m></p></li>
   <li><p><m>x=-3;~~~ 3y=5</m></p></li>
   <li><p><m>2y=5;~~~ 5y=-2</m></p></li>
-</ol></p></task>
+</ol></p></li>
+</ol></p>
 </activity>
 
-<activity><title>Altitude of a Triangle</title>  
+<activity><title>Applications</title>  
 
-<task><p>Sketch the triangle with vertices <m>A(-6,-3),~B(-6,3),~</m> and <m>~C(4,5)</m>.</p>
-    <image source="act-2-2-2.png" width="50%"></image></task> 
+<p><ol marker="1.">
+<li><p>Altitude of a Triangle</p>
+    <p><ol marker="a.">
+      <li><p>Sketch the triangle with vertices <m>A(-6,-3),~B(-6,3),~</m> and <m>~C(4,5)</m>.</p>
+            <image source="act-2-2-2.png" width="50%"><description>10x10 Grid</description></image></li>
 
-<task><p>Find the slope of the side <m>\overline{AC}</m>.</p></task>
+      <li><p>Find the slope of the side <m>\overline{AC}</m>.</p>
 
-            <commentary audience="instructor"><title>Note</title>
-            <p>You may need to remind students what the altitude of a triangle is.</p></commentary>
+            <aside component="instructor"><p>3(1c) You may need to remind students what the altitude of a triangle is.</p></aside></li>
 
-<task><p>Sketch the altitude from point <m>B</m> to side <m>\overline{AC}</m>. Find the slope of the altitude.</p></task>
+      <li><p>Sketch the altitude from point <m>B</m> to side <m>\overline{AC}</m>. Find the slope of the altitude.</p></li>
 
-<task><p>Find an equation for the line that includes the altitude from point <m>B</m> to side <m>\overline{AC}</m>. (Hint:  You know a point <m>(x,y)</m> that lies on the line.)</p></task>
+      <li><p>Find an equation for the line that includes the altitude from point <m>B</m> to side <m>\overline{AC}</m>. (Hint:  You know a point <m>(x,y)</m> that lies on the line.)</p></li>
+    </ol></p></li>
+
+<li><p>Finding a Parallel Line</p>
+    <p><ol marker="a.">
+      <li><p>Write the equation <m>2y-3x=5</m> in slope-intercept form, and graph the equation.</p>
+          <image source="act-2-2-2.png" width="50%"><description>10x10 Grid</description></image></li>
+
+      <li><p>What is the slope of any line that is parallel to <m>2y-3x=5~</m>?</p></li>
+
+      <li><p>On your graph for part (a), sketch by hand a line that is parallel to <m>2y-3x=5~</m> and passes through the point <m>(-3,2)</m>.</p></li>
+
+      <li><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y-3x=5~</m> and passes through the point <m>(-3,2)</m>.</p></li>
+    </ol></p></li>
+
+  <li><p>Finding a Perpendicular Line</p>
+      <p><ol marker="a.">
+        <li><p>Write the equation <m>x-2y=5</m> in slope-intercept form, and graph the equation.</p>
+              <image source="act-2-2-2.png" width="50%"><description>10x10 Grid</description></image></li>
+
+      <li><p>What is the slope of any line that is parallel to <m>x-2y=5~</m>?</p></li>
+
+      <li><p>On your graph for part (a), sketch by hand a line that is parallel to <m>x-2y=5~</m> and passes through the point <m>(4,-3)</m>.</p></li>
+
+      <li><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>x-2y=5~</m> and passes through the point <m>(4,-3)</m>.</p></li>
+    </ol></p></li>
+  </ol></p>
 </activity>
 
-<activity><title>Finding a Parallel Line</title>
-
-<task><p>Write the equation <m>2y-3x=5</m> in slope-intercept form, and graph the equation.</p>
-     <image source="act-2-2-2.png" width="50%"></image></task>
-
-<task><p>What is the slope of any line that is parallel to <m>2y-3x=5~</m>?</p></task>
-
-<task><p>On your graph for part (a), sketch by hand a line that is parallel to <m>2y-3x=5~</m> and passes through the point <m>(-3,2)</m>.</p></task>
-
-<task><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y-3x=5~</m> and passes through the point <m>(-3,2)</m>.</p></task>
-</activity>
-
-<activity><title>Finding a Perpendicular Line</title>
-
-<task><p>Write the equation <m>x-2y=5</m> in slope-intercept form, and graph the equation.</p>
-     <image source="act-2-2-2.png" width="50%"></image></task>
-
-<task><p>What is the slope of any line that is parallel to <m>x-2y=5~</m>?</p></task>
-
-<task><p>On your graph for part (a), sketch by hand a line that is parallel to <m>x-2y=5~</m> and passes through the point <m>(4,-3)</m>.</p></task>
-
-<task><p>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>x-2y=5~</m> and passes through the point <m>(4,-3)</m>.</p></task>
-</activity>
-
-<subsection><title>Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
-<li><p>How can you calculate the reciprocal of a decimal number?</p></li>
-<li><p>Compare the graphs of the lines <m>y=\frac{2}{5}</m> and <m>y=\frac{2}{5}x</m>.</p></li>
-<li><p>What two things do you need to know about a line in order to write its equation?</p></li>
-<li><p>If you know the slope of the base of a triangle, how do you find the slope of its altitude?</p></li>
+    <li><p>How can you calculate the reciprocal of a decimal number?</p></li>
+    <li><p>Compare the graphs of the lines <m>y=\frac{2}{5}</m> and <m>y=\frac{2}{5}x</m>.</p></li>
+    <li><p>What two things do you need to know about a line in order to write its equation?</p></li>
+    <li><p>If you know the slope of the base of a triangle, how do you find the slope of its altitude?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-<p>In this Lesson, we worked on the following skills and goals related to equations and graphs:</p>
-<p><ul>
-<li><p>Find equations for horizontal and vertical lines </p></li>   
-<li><p>Decide whether two lines are parallel, perpendicular, or neither</p></li>
-<li><p>Find equations for parallel or perpendicular lines </p></li>
-</ul></p>
-
-<commentary audience="instructor"><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
-<li><p>Explain why the equation of a vertical line is <m>x=k</m>, where <m>k</m> is a constant.</p></li>
-<li><p>Compare the graphs of the lines <m>y=-\frac{3}{4}</m>  and <m>y=-\frac{3}{4}x</m>.</p></li>
-<li><p>Explain how to test whether the graphs of two linear equations are perpendicular.</p></li>
-<li><p>Are all lines the graphs of functions? Explain.</p></li>
-</ol></p></commentary>
+    <li><p>Explain why the equation of a vertical line is <m>x=k</m>, where <m>k</m> is a constant.</p></li>
+    <li><p>Compare the graphs of the lines <m>y=-\frac{3}{4}</m>  and <m>y=-\frac{3}{4}x</m>.</p></li>
+    <li><p>Explain how to test whether the graphs of two linear equations are perpendicular.</p></li>
+    <li><p>Are all lines the graphs of functions? Explain.</p></li>
+</ol></p></assemblage>
 
-</subsection>   
+<assemblage component="instructor"><title>Concept Questions</title>
+<p><ol>
+    <li><p>When is the graph of <m>Ax+By=C</m> a vertical line?</p>
+    <p><ol marker="a.">
+        <li>If <m>A=0</m></li>
+        <li>If <m>B=0</m></li>
+        <li>If <m>C=0</m></li>
+        <li>Never</li>
+    </ol></p></li>
+    <li><p>The equation of the <m>x</m>-axis is</p>
+    <p><ol marker="a.">
+        <li><m>x=0</m></li>
+        <li><m>y=0</m></li>
+        <li><m>m=0</m></li>
+        <li>undefined</li>
+    </ol></p></li>
+    <li><p>The base of a triangle has slope <m>\dfrac{2}{3}</m>.  Its altitude has slope</p>
+    <p><ol marker="a.">
+        <li><m>\dfrac{2}{3}</m></li>
+        <li><m>\dfrac{-2}{3}</m></li>
+        <li><m>\dfrac{3}{2}</m></li>
+        <li><m>\dfrac{-3}{2}</m></li>
+    </ol></p></li>
+    <li><p>If <m>p</m> and <m>q</m> are negative reciprocals, then their product is</p>
+    <p><ol marker="a.">
+        <li><m>0</m></li>
+        <li><m>1</m></li>
+        <li><m>-1</m></li>
+        <li>undefined</li>
+    </ol></p></li>
+</ol></p></assemblage>
 
 </section>

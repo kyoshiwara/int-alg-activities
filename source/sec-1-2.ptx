@@ -3,17 +3,26 @@
 <section xml:id="sec-1-2" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Graphs and Equations</title>
 
-<assemblage>
-<p>This Lesson emphasizes the relationship between a graph and an equation or inequality. This is a difficult concept for students, and it is worth pointing out to the class that understanding this connection is the goal of the Lesson. Stress that they must show their work on the graph. They will want to solve all the problems algebraically, but you could mention that they will soon encounter equations that they cannot solve with algebra.</p>
+<assemblage component="instructor">
+<p>This Lesson emphasizes the relationship between a graph and an equation or inequality. This is a difficult concept for students, and it is worth pointing out to the class that understanding this connection is the goal of the Lesson. You may want to demonstrate Activity 1 for the class. Stress that they must show their work on the graph. They will want to solve all the problems algebraically, but you could mention that they will soon encounter equations that they cannot solve with algebra.</p>
 
-<p>Try to make students understand that, for a <em>linear</em> inequality, all the solutions lie on one side of the boundary value.  This is why using a single test value works. The technique will have to be modified slightly when we solve nonlinear inequalities.</p>
+<p>While they work on Activity 2, walk around to check each student's graphs, to see if they are getting it. If one person in the group is marking the graphs correctly, ask him or her to demonstrate the graphical technique to the others in the group.</p>
 
-<p>While they work on the Activities, walk around to check each student's graphs, to see if they are getting it. If one person in the group is marking the graphs correctly, ask him or her to demonstrate the graphical technique to the others in the group.</p>
+<p>When you get to Activity 3, try to make students understand that, for a <em>linear</em> inequality, all the solutions lie on one side of the boundary value. This is why using a single test value works. The technique will have to be modified slightly later on when we solve nonlinear inequalities.</p>
+
+<p>GOALS</p>
+<p><ul>
+    <li><p>Recognize a solution of an equation or an inequality.</p></li>
+    <li><p>Solve a linear inequality, and graph the solutions on a number line.</p></li>
+    <li><p>Recognize a solution of an equation in two variables.</p></li>
+    <li><p>Use the connection between the graph of an equation and its solutions.</p></li>
+    <li><p>Use a graph to solve an equation or inequality in one variable.</p></li>
+</ul></p>
 </assemblage>
 
 <activity xml:id="act-1-2-1"><title>Evaluating and Solving</title>
 <p>Use the graph of <m>y=2x-6</m> to complete the tasks.</p>
-    <sidebyside widths="40% 60%"><image source="act-1-2-1.png"></image>
+    <sidebyside widths="40% 60%"><image source="act-1-2-1.png"><description>Graph of y=2x-6 on [-6,6]x[-10,6]</description></image>
     <ol marker="a.">
         <li><p>Evaluate <m>y=2x-6</m> when <m>x=-1</m>.</p>
         <p><m>\blert{\text{Circle the point on the graph with x=-1.}}~~~\blert{\text{What is its y-coordinate?}}</m></p></li>
@@ -26,7 +35,7 @@
 <activity xml:id="act-1-2-2"><title>Solving Equations Graphically</title>
 
 <introduction><p>Use the graph of <m>y=4-3x</m> to solve the equations. (Show your work by making a dot at the correct point on the graph for each equation.)</p>
-    <sidebyside widths="40% 50%"><image source="act-1-2-2.png"></image>
+    <sidebyside widths="40% 50%"><image source="act-1-2-2.png"><description>Graph of y=4-3x on [-5,5]x[-8,12]</description></image>
     <p><ol marker="a.">
         
     <li><p>Solve <m>4-3x=10</m>.</p>
@@ -42,65 +51,68 @@
     <p>Solution:</p></li>
 </ol></p></sidebyside></introduction>
     
-    <p>d. Look back at your work in Activity 2. Use the graph to show that the following three statements are different ways of saying the same thing: <ol>
+    <p>d. Look back at your work in Activity 2. Use the graph to show that the following three statements are different ways of saying the same thing: <aside component="instructor"><p>2d. You might want to go over this idea with the class.</p></aside>
+    <ol>
         <li><p>The point <m>(-1,7)</m> lies on the graph of <m>y=4-3x</m>.</p></li>                     
         <li><p> <m>x=-1,~y=7</m>  is a solution of the equation <m>y=4-3x</m>.</p></li>      
         <li><p> <m>x=-1</m> is a solution of the equation <m>7=4-3x</m>.</p></li>
     </ol></p>
+        
 </activity> 
 
 <activity xml:id="act-1-2-3"><title>Solving Inequalities Graphically</title>
 
-<p><ol label="A.">
+<p><ol marker="1.">
 <li><p>Solve <m>~2x+1 \lt 7</m>.</p>
 
-    <aside><p> Point out that <m>2x+1 \lt 7</m> is the same as <m>y \lt 7</m>, so we are looking for <m>x</m>-values that produce points on the graph with <m>y</m>-coordinate less than 7.</p></aside>
+    <aside component="instructor"><p>3A. Point out that <m>2x+1 \lt 7</m> is the same as <m>y \lt 7</m>, so we are looking for <m>x</m>-values that produce points on the graph with <m>y</m>-coordinate less than 7. It is a good idea to demonstrate part (a) for the class.</p></aside>
 
     <sidebyside widths="60% 40%">
     <p><ol marker="a.">   
-    <li><p><m>\blert{\text{Find the point on the graph with y = 7.}}</m></p></li>
-    <li><p><m>\blert{\text{Which points on the graph have}}</m></p>
-         <p><m>\blert{\text{y-coordinates less than 7?}}</m></p></li> 
-    <li><p><m>\blert{\text{Shade those points.}}</m></p></li>
-    <li><p><m>\blert{\text{Drop straight down from the marked}}</m></p> 
-        <p><m>\blert{\text{points to the x-axis.}}</m></p>
-        <aside><p>Instead of using test points, students find it easier if you ask which half of the line shows points with <m>y \lt 7</m>. Shade that half of the line, then ask which half of the <m>x</m>-axis produces that portion of the line. (You can demonstrate with specific <m>x</m>-values.)</p></aside></li>
-    <li><p><m>\blert{\text{Shade that portion of the x-axis.}}</m></p></li>
-    <li><p><m>\blert{\text{Write your solution as an inequality.}}</m></p></li>
-</ol></p>
-<image source="act-1-2-3.png"></image></sidebyside></li>
+        <li><p><m>\blert{\text{Find the point on the graph with y = 7.}}</m></p></li>
+        <li><p><m>\blert{\text{Which points on the graph have}}</m></p>
+            <p><m>\blert{\text{y-coordinates less than 7?}}</m></p></li> 
+        <li><p><m>\blert{\text{Shade those points.}}</m></p></li>
+        <li><p><m>\blert{\text{Drop straight down from the marked}}</m></p> 
+            <p><m>\blert{\text{points to the x-axis.}}</m></p></li>
+        <li><p><m>\blert{\text{Shade that portion of the x-axis.}}</m></p></li>
+        <li><p><m>\blert{\text{Write your solution as an inequality.}}</m></p></li>
+    </ol></p>
+        <image source="act-1-2-3.png"><description>Graph of y=2x+1 on [-10,10]x[-5,5]</description></image></sidebyside>
+
+            <aside component="instructor"><p>3(1). Instead of using test points as is often done, students find it easier if you ask which half of the line shows points with <m>y \lt 7</m>. Shade that half of the line, then ask which half of the <m>x</m>-axis produces that portion of the line. (You can demonstrate with specific <m>x</m>-values.)</p></aside></li>
 
 <li><p>Solve <m>2x+1 \ge 5</m>.</p>
     <sidebyside widths="60% 40%">
     <p><ol marker="a.">   
-    <li><p><m>\blert{\text{Find the point on the graph with y = 5.}}</m></p></li>
-    <li><p><m>\blert{\text{Which points on the graph have}}</m></p>
-         <p><m>\blert{\text{y-coordinates greater than or equal to 5?}}</m></p></li> 
-    <li><p><m>\blert{\text{Shade those points.}}</m></p></li>
-    <li><p><m>\blert{\text{Drop straight down from the marked}}</m></p> 
-        <p><m>\blert{\text{points to the x-axis.}}</m></p></li>
-    <li><p><m>\blert{\text{Shade that portion of the x-axis.}}</m></p></li>
-    <li><p><m>\blert{\text{Write your solution as an inequality.}}</m></p></li>
+        <li><p><m>\blert{\text{Find the point on the graph with y = 5.}}</m></p></li>
+        <li><p><m>\blert{\text{Which points on the graph have}}</m></p>
+            <p><m>\blert{\text{y-coordinates greater than or equal to 5?}}</m></p></li> 
+        <li><p><m>\blert{\text{Shade those points.}}</m></p></li>
+        <li><p><m>\blert{\text{Drop straight down from the marked}}</m></p> 
+            <p><m>\blert{\text{points to the x-axis.}}</m></p></li>
+        <li><p><m>\blert{\text{Shade that portion of the x-axis.}}</m></p></li>
+        <li><p><m>\blert{\text{Write your solution as an inequality.}}</m></p></li>
 </ol></p>
-<image source="act-1-2-3.png"></image></sidebyside></li>
+<image source="act-1-2-3.png"><description>Graph of y=2x+1 on [-10,10]x[-5,5]</description></image></sidebyside></li>
 
 <li><p>Use the graphs of <m>~y=15-3x~</m> to solve the inequalities:</p>
-    <aside><p>Ask students to do these two problems on their own, showing their work on the graphs.</p></aside>
+    <aside component="instructor"><p>3(3). Ask students to do these two problems on their own, showing their work on the graphs.</p></aside>
    <p><ol cols="2"> 
       <li><p><m>15-3x \ge 9</m></p>
-            <image source="act-1-2-4.png" width="85%"></image>
+            <image source="act-1-2-4.png" width="85%"><description>Graph of y=15-3x on [-2,7]x[-6,20]</description></image>
             <p>Solution:</p></li>
       <li><p><m>6 \gt 15-3x</m></p>
-            <image source="act-1-2-4.png" width="85%"></image>
+            <image source="act-1-2-4.png" width="85%"><description>Graph of y=15-3x on [-2,7]x[-6,20]</description></image>
             <p>Solution:</p></li>
     </ol></p>
     <p>Graph each solution on a number line:
-        <image source="act-1-2-5.png"></image></p>
+        <image source="act-1-2-5.png"><description>two number lines -2 to 7</description></image></p>
     <p>How does the graph on the number line compare to your solution on the <m>x</m>-axis in each problem?</p></li>
 </ol></p> 
 </activity>    
 
-<subsection><title> Check Your Understanding</title>
+<subsection><title>Checkpoint</title>
 <p><ol>
     <li><p>What are the two skills compared in Activity 1?  What is the difference in the methods for performing the two skills?</p></li>
     <li><p>What was different about the problems in Activity 3, compared to those in Activity 2?</p></li>
@@ -108,26 +120,15 @@
     <li><p>In Activity 3, how do you decide which side of the boundary point to shade?</p></li>
 </ol></p></subsection>
 
-<subsection><title>Wrap-Up</title>
-
-<p>In this Lesson, we worked on the following skills related to linear models:</p>
-<p><ul>
-    <li><p>Recognize a solution of an equation or an inequality</p></li>
-    <li><p>Solve a linear inequality, and graph the solutions on a number line</p></li>
-    <li><p>Recognize a solution of an equation in two variables</p></li>
-    <li><p>Use the connection between the graph of an equation and its solutions</p></li>
-    <li><p>Use a graph to solve an equation or inequality in one variable</p></li>
-</ul></p></subsection>
-
-<subsection><title>Questions for Writing or Discussion</title>
+<assemblage component="instructor"><title>Questions for Writing or Discussion</title>
 <p><ol>
     <li><p>In Activity 2 we used a graph of <m>~y=4-3x~</m> to solve the equation <m>~4-3x=10</m>. Why can we do this? (How are the two equations related?)</p></li>
     <li><p>In Activity 3a we shaded one side of the boundary value, <m>x=3</m>, on the <m>x</m>-axis, and said that the solutions of the inequality are any <m>x</m>-values with <m>x \lt 3</m>. Verify the solution by checking two <m>x</m>-values less than 3, and two <m>x</m>-values greater than 3.</p></li>
     <li><p>Suppose you have an increasing graph, for example, <m>y=2x-8</m>. If you know that <m>y \gt 5</m> for a particular <m>x</m>-value, say, <m>x=9</m>, how do you know that <m>y \gt 5</m> for all <m>x \gt 9</m>?</p></li>
     <li><p>In Activity 2 we solved the equation <m>4-3x=10</m> by using the graph of <m>y=4-3x</m>.  Explain why the following statement is incorrect: "The solution of <m>4-3x=10</m> is <m>(-2,10)</m>."</p></li>
-</ol></p></subsection>
+</ol></p></assemblage>
 
-<assemblage><title>Concept Questions</title>
+<assemblage component="instructor"><title>Concept Questions</title>
 <p><ol>
     <li><p>Suppose we use the graph of <m>~y=3-4x~</m> to solve the equation  <m>~0=3-4x~</m>. What do we call the point on the graph that supplies the solution of this equation?</p>
     <p><ol marker="a.">

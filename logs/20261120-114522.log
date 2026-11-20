@@ -1,0 +1,51 @@
+INFO    : Building target instructor
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : Generating any needed assets.
+WARNING : Now generating latex images
+INFO    : converting latex-image pictures from C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx to svg graphics for placement in C:\Users\kyosh\pretext\int-alg-activities\source\generated\latex-image
+INFO    : extracting latex-image pictures from C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx
+INFO    : string parameters passed to extraction stylesheet: {'cli.version': '2.56', 'publisher': 'C:/Users/kyosh/pretext/int-alg-activities/publication/publication-instructor.ptx'}
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\extract-latex-image.xsl
+INFO    : Removing temporary directory C:\Users\kyosh\AppData\Local\Temp\ptx-mf0wzdpg
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into C:\Users\kyosh\pretext\int-alg-activities\output\instructor.
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : verifying and expanding input directory: C:\Users\kyosh\pretext\int-alg-activities\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\kyosh\pretext\int-alg-activities\assets
+INFO    : discovering source file's directory name: C:\Users\kyosh\pretext\int-alg-activities\source
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : successful application of C:\Users\kyosh\.ptx\2.56.2\core\xsl\utilities\report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.4.1
+INFO    : Downloading Runestone Services, version 8.4.1
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx to HTML in C:\Users\kyosh\AppData\Local\Temp\ptx-edcix7il
+INFO    : XSL conversion of C:\Users\kyosh\pretext\int-alg-activities\source\int-alg-activities.ptx by C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+INFO    : * PTX:INFO:   checking all deprecated elements.
+FATAL   : * PTX:FATAL:   a <sidebyside> or <sbsgroup> does not have enough "@widths" (maybe you did not specify enough?)
+INFO    : *              located at: pretext/book/chapter/section/activity/p/ol/li/sidebyside
+INFO    : *              located within: "Solving Inequalities Algebraically" (title)
+FATAL   : * PTX:FATAL:   Quitting...
+ERROR   : processing with C:\Users\kyosh\.ptx\2.56.2\core\xsl\pretext-html.xsl has failed
+
+FATAL   : PTX:FATAL:   Quitting...
+INFO    : ------------------------
+exit    : Failed to build without errors.  Exiting...
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
